@@ -246,7 +246,7 @@ class Dialogue extends FlxSpriteGroup implements IDialogueScriptedClass implemen
 function buildText():Void
 {
     // Container with zIndex support
-    var textHolder = new FlxZSprite();
+    textHolder = new FlxZSprite();
     textHolder.zIndex = 30;
     add(textHolder);
 
