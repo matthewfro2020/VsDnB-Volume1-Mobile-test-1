@@ -1,0 +1,11 @@
+--macro polymod.PolymodMacro.run()
+--remap thx.Nil=thx.ThxNil
+--remap thx.Tuple0=thx.T0
+--remap thx.Tuple1=thx.T1
+--remap thx.Tuple2=thx.T2
+--remap thx.Tuple3=thx.T3
+--remap thx.Tuple4=thx.T4
+--remap thx.Tuple5=thx.T5
+--remap thx.Tuple6=thx.T6
+
+-D polymod_no_thx_nil
