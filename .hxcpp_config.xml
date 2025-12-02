@@ -1,8 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
-<xml>
-  <section id="vars">
+<config>
+    <!-- Enable modern C++ on all HXCPP builds -->
     <set name="HXCPP_CPP11" value="1"/>
-    <set name="HXCPP_NO_RTTI" value="1"/>
+
+    <!-- Make hxcpp use libstdc++-like behavior (iOS fixes) -->
     <set name="HXCPP_CLANG" value="1"/>
-  </section>
-</xml>
+
+    <!-- Disable RTTI to prevent missing symbols on iOS -->
+    <set name="HXCPP_NO_RTTI" value="1"/>
+
+    <!-- (Optional) Speed up compile -->
+    <set name="HXCPP_OPTIMIZE_LINK" value="1"/>
+
+    <!-- (Optional) Reduce iOS nil issues -->
+    <set name="HXCPP_NO_NIL" value="1"/>
+</config>
