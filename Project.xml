@@ -59,6 +59,8 @@
 	<haxedef name="HXCPP_GC_BIG_BLOCKS"/>
 	<haxeflag name="-dce no"/>
 
+	<haxeflag name="replace_nil" />
+
 	<!-- Macros -->
 	<haxeflag name="--macro" value="include('api')"/>
 	<haxeflag name="--macro" value="include('backend')"/>
