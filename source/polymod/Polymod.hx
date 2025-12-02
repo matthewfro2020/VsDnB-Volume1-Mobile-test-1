@@ -35,6 +35,51 @@ private typedef SafeDynamic = Null<Dynamic>;
 private typedef SafeDynamic = Dynamic;
 #end
 
+/**
+ * Any framework-specific settings
+ * Right now this is only used to specify asset library paths for the Lime/OpenFL framework but we'll add more framework-specific settings here as neeeded
+ */
+typedef FrameworkParams =
+{
+	/**
+	 * (optional) if you're using Lime/OpenFL AND you're using custom or non-default asset libraries, then you must provide a key=>value store mapping the name of each asset library to a path prefix in your mod structure
+	 */
+	?assetLibraryPaths:Map<String, String>,
+
+	/**
+	 * (optional) specify this path to redirect core asset loading to a different path
+	 * you can set this up to load core assets from a parent directory!
+	 * Not applicable for file systems which don't use a directory obvs.
+	 */
+	 ?coreAssetRedirect:String
+}
+
+typedef ScanParams =
+{
+	?modRoot:String,
+	?apiVersionRule:VersionRule,
+	?errorCallback:PolymodError->Void,
+	?fileSystem:IFileSystem
+}
+
+/**
+ * The framework which your Haxe project is using to manage assets
+ */
+enum Framework
+{
+	CASTLE;
+	NME;
+	LIME;
+	OPENFL;
+	OPENFL_WITH_NODE;
+	FLIXEL;
+	HEAPS;
+	KHA;
+	CERAMIC;
+	CUSTOM;
+	UNKNOWN;
+}
+
 class Polymod
 {
     public static var onError:PolymodError->Void = null;
