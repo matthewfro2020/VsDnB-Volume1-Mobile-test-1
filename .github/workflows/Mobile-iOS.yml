@@ -73,7 +73,6 @@ jobs:
       # ==========================================
       - name: Patch HXCPP for iOS
         run: |
-          mkdir -p ~/.hxcpp_config.xml
           cat <<EOF > ~/.hxcpp_config.xml
 
       # ==========================================
