@@ -39,7 +39,7 @@ jobs:
           haxelib install flxanimate
           haxelib install json2object
           haxelib git polymod https://github.com/T5mpler/polymod-dnb
-          haxelib git hscript https://github.com/HaxeFoundation/hscript.git
+          haxelib git hscript https://github.com/T5mpler/hscript-dnb
           haxelib install hxvlc
           haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
           haxelib install hmm
