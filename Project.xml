@@ -84,7 +84,12 @@
     <haxedef name="HXCPP_GC_BIG_BLOCKS"/>
     <haxeflag name="-dce no"/>
 
-    <haxeflag name="replace_nil"/>
+    <haxedef name="HXCPP_NAMESPACES" />
+    <haxedef name="HXCPP_API_LEVEL" value="400" />
+    <haxedef name="HXCPP_EXTERN_CLASS" />
+    <haxedef name="HXCPP_M32" if="ios" />
+
+    <haxedef name="HXCPP_NO_NIL" if="ios"/>
 
     <!-- ============================= -->
     <!--           MACROS              -->
