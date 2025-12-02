@@ -1,14 +1,14 @@
 package data.dialogue;
 
-import play.dialogue.ScriptedSpeaker;
 import json2object.JsonParser;
+import data.dialogue.SpeakerData;
 import play.dialogue.Speaker;
 
-class SpeakerRegistry extends BaseRegistry<Speaker, SpeakerData>
-{
-    public static var VERSION:thx.semver.Version = '1.0.0';
-    public static var VERSION_RULE:thx.semver.VersionRule = '1.0.x';
+// 🚨 IMPORTANT: BaseRegistry sometimes returns FlxSprite-based scripted entries.
+// We REMOVE ALL SCRIPTED SUPPORT and FORCE ONLY FlxZSprite Speakers.
 
+class SpeakerRegistry
+{
     public static var instance(get, never):SpeakerRegistry;
     static var _instance:SpeakerRegistry;
     static function get_instance():SpeakerRegistry
@@ -18,50 +18,51 @@ class SpeakerRegistry extends BaseRegistry<Speaker, SpeakerData>
         return _instance;
     }
 
+    // Storage
+    var speakers:Map<String, Speaker>;
+    var dataStore:Map<String, SpeakerData>;
+
     public function new()
     {
-        super('SpeakerRegistry', 'speakers', VERSION_RULE);
+        speakers = new Map();
+        dataStore = new Map();
     }
 
+    /** Loads JSON and returns SpeakerData */
     public function parseEntryData(id:String):SpeakerData
     {
         var parser = new JsonParser<SpeakerData>();
         parser.ignoreUnknownVariables = true;
 
-        switch (loadEntryFile(id))
-        {
-            case {fileName: fileName, contents: contents}:
-                parser.fromJson(contents, fileName);
-            default:
-                return null;
-        }
+        var file = Paths.getText('data/speakers/$id.json');
+        if (file == null) return null;
+
+        parser.fromJson(file, id);
 
         if (parser.errors.length > 0)
-            printErrors(parser.errors);
+            trace(parser.errors);
 
         return parser.value;
     }
 
-    // 🔥 ALWAYS RETURN A FLXZSPRITE-BASED SPEAKER
-    override public function createEntryFromData(id:String, data:SpeakerData):Speaker
+    /** The ONLY correct way to fetch a speaker. */
+    public function fetchEntry(id:String):Speaker
     {
-        return new Speaker(data);
-    }
+        // Already created?
+        if (speakers.exists(id))
+            return speakers[id];
 
-    // 🔥 Make sure scripted fallback returns a FlxZSprite speaker
-    function createScriptedEntry(clsName:String):Speaker
-    {
-        var data = new SpeakerData();
-        data.name = clsName;
-        data.globalOffsets = [0, 0];
-        data.sounds = [];
-        data.expressions = [];
-        return new Speaker(data);
-    }
+        // Load JSON
+        var data = parseEntryData(id);
+        if (data == null)
+            return null;
 
-    function getScriptedClasses():Array<String>
-    {
-        return ScriptedSpeaker.listScriptClasses();
+        // Construct Speaker (ALWAYS FlxZSprite-based)
+        var speaker = new Speaker(data);
+
+        speakers[id] = speaker;
+        dataStore[id] = data;
+
+        return speaker;
     }
 }
-
