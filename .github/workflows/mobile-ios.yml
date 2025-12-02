@@ -49,19 +49,15 @@ jobs:
           haxelib install hmm
           haxelib run hmm install
 
-      # ---------- REMOVE THX (DO NOT USE IT) ----------
-      - name: Remove thx (fix iOS Nil conflict)
-        run: |
-          haxelib remove thx.core || true
-          haxelib remove thx.error || true
-          haxelib remove thx.languages || true
-
       # ---------- INSTALL PATCHED POLYMOD ----------
       # Removes all thx.* dependencies + Nil type
       - name: Install patched polymod
         run: |
           haxelib remove polymod || true
-          haxelib git polymod https://github.com/growtopiaguru/polymod-ios-patch
+          haxelib git polymod https://github.com/larsiusprime/polymod
+          haxelib install thx.core
+          haxelib remove thx.error || true
+          haxelib remove thx.languages || true
 
       # ---------- BUILD ----------
       - name: Build iOS (nosign)
