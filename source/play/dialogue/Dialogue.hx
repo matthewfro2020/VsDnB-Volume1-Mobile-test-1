@@ -387,7 +387,7 @@ class Dialogue extends FlxSpriteGroup implements IDialogueScriptedClass implemen
 
         killSpeaker();
 
-        speaker = cast SpeakerRegistry.instance.fetchEntry(speakerId), FlxZSprite;
+        speaker = cast (SpeakerRegistry.instance.fetchEntry(speakerId), FlxZSprite);
 
         if (speaker == null || speakerId == "generic")
             return;
