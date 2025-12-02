@@ -3,6 +3,7 @@ package play.dialogue;
 import util.FlxZSprite;
 import data.dialogue.SpeakerData;
 import flixel.FlxG;
+import flixel.sound.FlxSound;
 import flixel.graphics.frames.FlxAtlasFrames;
 import openfl.display.BitmapData;
 
