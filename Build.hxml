@@ -1,0 +1,44 @@
+# ============================================
+# CLEAN BUILD.HXML — UNIVERSAL (SAFE)
+# ============================================
+
+-cp source
+-main Main
+
+# Libraries
+-lib flixel
+-lib flixel-ui
+-lib flixel-addons
+-lib openfl
+-lib lime
+-lib hxvlc
+-lib hscript
+-lib polymod
+-lib json2object
+-lib flxanimate
+-lib grig.audio
+-lib funkin.vis
+-lib hxdiscord_rpc
+
+# Safety flags
+-D openfl-enable-handle-error
+-D HXCPP_NO_NIL
+-D HXCPP_NO_PCH
+-D HXCPP_STACK_TRACE
+-D HXCPP_STACK_LINE
+-D HXCPP_CHECK_POINTER
+-dce no
+
+# Required macros
+--macro addMetadata('@:build(util.macro.FlxMacro.buildFlxBasic())', 'flixel.FlxBasic')
+--macro include('api')
+--macro include('audio')
+--macro include('backend')
+--macro include('controls')
+--macro include('data')
+--macro include('graphics')
+--macro include('modding')
+--macro include('play')
+--macro include('scripting')
+--macro include('ui')
+--macro include('util')

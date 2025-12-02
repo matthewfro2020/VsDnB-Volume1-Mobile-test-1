@@ -1,0 +1,16 @@
+{
+   "bracketSpacing": true,
+   "printWidth": 250,
+
+   "tabs": false,
+   "useTabs": false,
+   "tabWidth": 3,
+
+   "endOfLine": "lf",
+   "proseWrap": "preserve",
+   "quoteProps": "as-needed",
+   "semi": true,
+
+   "singleAttributePerLine": false,
+   "trailingComma": "es5"
+}

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="dave_mealie.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="surprised0000" x="5" y="5" width="361" height="597" frameX="-61" frameY="0" frameWidth="444" frameHeight="598"/>
+	<SubTexture name="surprised0001" x="5" y="5" width="361" height="597" frameX="-61" frameY="0" frameWidth="444" frameHeight="598"/>
+	<SubTexture name="surprised0002" x="371" y="5" width="373" height="598" frameX="-44" frameY="0" frameWidth="444" frameHeight="598"/>
+	<SubTexture name="surprised0003" x="749" y="5" width="444" height="593" frameX="0" frameY="-4" frameWidth="444" frameHeight="598"/>
+	<SubTexture name="surprised0004" x="749" y="5" width="444" height="593" frameX="0" frameY="-4" frameWidth="444" frameHeight="598"/>
+	<SubTexture name="surprised0005" x="1198" y="5" width="431" height="596" frameX="-2" frameY="-1" frameWidth="444" frameHeight="598"/>
+	<SubTexture name="surprised0006" x="1198" y="5" width="431" height="596" frameX="-2" frameY="-1" frameWidth="444" frameHeight="598"/>
+	<SubTexture name="surprised0007" x="1634" y="5" width="429" height="595" frameX="-4" frameY="-2" frameWidth="444" frameHeight="598"/>
+	<SubTexture name="surprised0008" x="1634" y="5" width="429" height="595" frameX="-4" frameY="-2" frameWidth="444" frameHeight="598"/>
+	<SubTexture name="surprised0009" x="5" y="608" width="430" height="595" frameX="-3" frameY="-2" frameWidth="444" frameHeight="598"/>
+	<SubTexture name="surprised0010" x="5" y="608" width="430" height="595" frameX="-3" frameY="-2" frameWidth="444" frameHeight="598"/>
+	<SubTexture name="surprised0011" x="440" y="608" width="430" height="595" frameX="-3" frameY="-2" frameWidth="444" frameHeight="598"/>
+	<SubTexture name="surprised0012" x="440" y="608" width="430" height="595" frameX="-3" frameY="-2" frameWidth="444" frameHeight="598"/>
+	<SubTexture name="surprised0013" x="5" y="608" width="430" height="595" frameX="-3" frameY="-2" frameWidth="444" frameHeight="598"/>
+	<SubTexture name="surprised0014" x="5" y="608" width="430" height="595" frameX="-3" frameY="-2" frameWidth="444" frameHeight="598"/>
+	<SubTexture name="surprised0015" x="440" y="608" width="430" height="595" frameX="-3" frameY="-2" frameWidth="444" frameHeight="598"/>
+	<SubTexture name="surprised0016" x="440" y="608" width="430" height="595" frameX="-3" frameY="-2" frameWidth="444" frameHeight="598"/>
+	<SubTexture name="surprised0017" x="5" y="608" width="430" height="595" frameX="-3" frameY="-2" frameWidth="444" frameHeight="598"/>
+	<SubTexture name="surprised0018" x="5" y="608" width="430" height="595" frameX="-3" frameY="-2" frameWidth="444" frameHeight="598"/>
+	<SubTexture name="surprised0019" x="440" y="608" width="430" height="595" frameX="-3" frameY="-2" frameWidth="444" frameHeight="598"/>
+	<SubTexture name="surprised0020" x="440" y="608" width="430" height="595" frameX="-3" frameY="-2" frameWidth="444" frameHeight="598"/>
+	<SubTexture name="surprised0021" x="5" y="608" width="430" height="595" frameX="-3" frameY="-2" frameWidth="444" frameHeight="598"/>
+	<SubTexture name="surprised0022" x="5" y="608" width="430" height="595" frameX="-3" frameY="-2" frameWidth="444" frameHeight="598"/>
+	<SubTexture name="surprised0023" x="440" y="608" width="430" height="595" frameX="-3" frameY="-2" frameWidth="444" frameHeight="598"/>
+	<SubTexture name="surprised0024" x="440" y="608" width="430" height="595" frameX="-3" frameY="-2" frameWidth="444" frameHeight="598"/>
+	<SubTexture name="surprised0025" x="5" y="608" width="430" height="595" frameX="-3" frameY="-2" frameWidth="444" frameHeight="598"/>
+	<SubTexture name="surprised0026" x="5" y="608" width="430" height="595" frameX="-3" frameY="-2" frameWidth="444" frameHeight="598"/>
+	<SubTexture name="surprised0027" x="440" y="608" width="430" height="595" frameX="-3" frameY="-2" frameWidth="444" frameHeight="598"/>
+	<SubTexture name="surprised0028" x="440" y="608" width="430" height="595" frameX="-3" frameY="-2" frameWidth="444" frameHeight="598"/>
+	<SubTexture name="surprised0029" x="5" y="608" width="430" height="595" frameX="-3" frameY="-2" frameWidth="444" frameHeight="598"/>
+	<SubTexture name="surprised0030" x="5" y="608" width="430" height="595" frameX="-3" frameY="-2" frameWidth="444" frameHeight="598"/>
+	<SubTexture name="surprised0031" x="440" y="608" width="430" height="595" frameX="-3" frameY="-2" frameWidth="444" frameHeight="598"/>
+	<SubTexture name="surprised0032" x="440" y="608" width="430" height="595" frameX="-3" frameY="-2" frameWidth="444" frameHeight="598"/>
+	<SubTexture name="surprised0033" x="5" y="608" width="430" height="595" frameX="-3" frameY="-2" frameWidth="444" frameHeight="598"/>
+	<SubTexture name="surprised0034" x="5" y="608" width="430" height="595" frameX="-3" frameY="-2" frameWidth="444" frameHeight="598"/>
+	<SubTexture name="surprised0035" x="440" y="608" width="430" height="595" frameX="-3" frameY="-2" frameWidth="444" frameHeight="598"/>
+	<SubTexture name="surprised0036" x="440" y="608" width="430" height="595" frameX="-3" frameY="-2" frameWidth="444" frameHeight="598"/>
+	<SubTexture name="surprised0037" x="5" y="608" width="430" height="595" frameX="-3" frameY="-2" frameWidth="444" frameHeight="598"/>
+	<SubTexture name="surprised0038" x="5" y="608" width="430" height="595" frameX="-3" frameY="-2" frameWidth="444" frameHeight="598"/>
+	<SubTexture name="surprised0039" x="440" y="608" width="430" height="595" frameX="-3" frameY="-2" frameWidth="444" frameHeight="598"/>
+	<SubTexture name="surprised0040" x="440" y="608" width="430" height="595" frameX="-3" frameY="-2" frameWidth="444" frameHeight="598"/>
+	<SubTexture name="surprised0041" x="5" y="608" width="430" height="595" frameX="-3" frameY="-2" frameWidth="444" frameHeight="598"/>
+	<SubTexture name="surprised0042" x="5" y="608" width="430" height="595" frameX="-3" frameY="-2" frameWidth="444" frameHeight="598"/>
+	<SubTexture name="surprised0043" x="440" y="608" width="430" height="595" frameX="-3" frameY="-2" frameWidth="444" frameHeight="598"/>
+	<SubTexture name="surprised0044" x="440" y="608" width="430" height="595" frameX="-3" frameY="-2" frameWidth="444" frameHeight="598"/>
+	<SubTexture name="surprised0045" x="5" y="608" width="430" height="595" frameX="-3" frameY="-2" frameWidth="444" frameHeight="598"/>
+	<SubTexture name="surprised0046" x="5" y="608" width="430" height="595" frameX="-3" frameY="-2" frameWidth="444" frameHeight="598"/>
+	<SubTexture name="surprised0047" x="875" y="608" width="430" height="596" frameX="-3" frameY="-1" frameWidth="444" frameHeight="598"/>
+	<SubTexture name="surprised0048" x="875" y="608" width="430" height="596" frameX="-3" frameY="-1" frameWidth="444" frameHeight="598"/>
+	<SubTexture name="surprised0049" x="1310" y="608" width="430" height="597" frameX="-3" frameY="0" frameWidth="444" frameHeight="598"/>
+	<SubTexture name="surprised0050" x="1310" y="608" width="430" height="597" frameX="-3" frameY="0" frameWidth="444" frameHeight="598"/>
+	<SubTexture name="surprised0051" x="1745" y="608" width="430" height="597" frameX="-3" frameY="0" frameWidth="444" frameHeight="598"/>
+	<SubTexture name="surprised0052" x="1745" y="608" width="430" height="597" frameX="-3" frameY="0" frameWidth="444" frameHeight="598"/>
+	<SubTexture name="surprised0053" x="5" y="1210" width="430" height="597" frameX="-3" frameY="0" frameWidth="444" frameHeight="598"/>
+	<SubTexture name="surprised0054" x="5" y="1210" width="430" height="597" frameX="-3" frameY="0" frameWidth="444" frameHeight="598"/>
+	<SubTexture name="surprised0055" x="440" y="1210" width="430" height="597" frameX="-3" frameY="0" frameWidth="444" frameHeight="598"/>
+	<SubTexture name="surprised0056" x="440" y="1210" width="430" height="597" frameX="-3" frameY="0" frameWidth="444" frameHeight="598"/>
+	<SubTexture name="surprisedloop0000" x="875" y="1210" width="430" height="597"/>
+	<SubTexture name="surprisedloop0001" x="875" y="1210" width="430" height="597"/>
+	<SubTexture name="surprisedloop0002" x="1310" y="1210" width="430" height="597"/>
+	<SubTexture name="surprisedloop0003" x="1310" y="1210" width="430" height="597"/>
+</TextureAtlas>

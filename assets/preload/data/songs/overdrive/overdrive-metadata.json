@@ -1,0 +1,21 @@
+{
+   "version": "2.0.0",
+   "songName": "Overdrive",
+   "composers": ["Top 10 Awesome"],
+   "artists": ["Top 10 Awesome"],
+   "charters": ["MoldyGangstaHero"],
+   "coders": ["T5mpler"],
+   "variations": [],
+   "stage": "overdrive",
+   "player": "bf",
+   "opponent": "dave-awesome",
+   "gf": "gf",
+   "timeChanges": [
+      {
+         "time": 0,
+         "bpm": 130,
+         "numerator": 4,
+         "denominator": 4
+      }
+   ]
+}

@@ -1,0 +1,82 @@
+﻿// BLOCKED // 
+ 
+subtitles_blocked_1==Voy a bloquearte... 
+subtitles_blocked_2==¡Eres un monstruo!... 
+subtitles_blocked_3==¡Arruinas mi vida! 
+subtitles_blocked_4==Moldy lo juro te bloqueare  
+subtitles_blocked_5==POR SIEMPRE. 
+subtitles_blocked_6==Solo intento... 
+subtitles_blocked_7==No no estoy intentando ayudarte... 
+subtitles_blocked_8==Porque tú vas a verme... 
+subtitles_blocked_9==Porque... 
+subtitles_blocked_10==Ve a verme y suscríbete  
+subtitles_blocked_11==Como sea. 
+ 
+// CORN THEFT // 
+ 
+sub_ctheft_1==Porque el me agrego... 
+sub_ctheft_2==Porque me agregaste... 
+sub_ctheft_3==Yo- 
+sub_ctheft_4==No me importa... 
+sub_ctheft_5==Tu quieres que 
+sub_ctheft_6==Te voy a bloquear 
+sub_ctheft_7==Nunca voy a regresar. 
+sub_ctheft_8==¡Bye Baa! 
+ 
+// MAZE // 
+
+sub_maze_1==Digo... 
+sub_maze_2==Tu puedes  
+sub_maze_3==jugar me... 
+sub_maze_4==No quieres? 
+sub_maze_5==Nunca regreses de nuevo. 
+sub_maze_6==¡Bien! 
+sub_maze_7==Lo que quieras 
+sub_maze_8==¿Tu juegas conmigo? 
+sub_maze_9==Claro. 
+sub_maze_10==¿Qué quieres jugar? 
+sub_maze_11==¿Me estas acosando? 
+sub_maze_12==Nunca regreses de nuevo. 
+ 
+// MEALIE // 
+ 
+sub_mealie_1==¡Yo te voy bloquear!
+sub_mealie_2==¿Es lo que quieres el puto teléfono? 
+sub_mealie_3==¡Mierda! 
+sub_mealie_4==¡Eres un puto mentiroso Moldy! 
+ 
+// BOT TROT // 
+ 
+sub_botTrot_1==¡Hey eres tu, Juguemos un juego! 
+sub_botTrot_2==Parece que has fallado... ¡Intentemos de nuevo! 
+ 
+// VS DAVE RAP 1 & 2 // 
+ 
+sub_rap1_1==VS Dave, es algo popooo 
+sub_rap1_2==Me recuerda a un dodooo 
+sub_rap1_3==¡Oooooh! 
+sub_rap1_4==Pienso en Obama 
+sub_rap1_5==Fortnite 
+sub_rap1_6==Traducción de mierda arruina el chiste  
+sub_rap1_7==¡Yeah! 
+sub_rap1_8==Me resbale con una cáscara  
+sub_rap1_9==¡Ow! 
+sub_rap1_10==Sáquenme de Mexico 
+sub_rap1_11==¡Demonios Viejo (xd)! 
+sub_rap1_12==Gordon Freeman is verde (?) 
+sub_rap1_13==Sub a Stats45 
+sub_rap1_14==¡Yeah! 
+sub_rap1_15==Me pica el pene, eh inserte chiste de Baldi no sé me rindo.
+
+sub_rap2_1==Dave es el juego 
+sub_rap2_2==Juega mi juego 
+sub_rap2_3==Soy Dave y tengo un mod 
+sub_rap2_4==Soy Dave y Soy bien god 
+sub_rap2_5==Me pica mi pilin  (yum) 
+sub_rap2_6==3.0 
+sub_rap2_7==Vs Dave, Soy gay 
+sub_rap2_8==Sr Bambi adora romper su celular (xd) 
+sub_rap2_9==Manejando hacia la gamestop para comprar una xBox (matenm2) 
+sub_rap2_10==Ve a jugar el mod Vs Dave and Bambi 3.0 
+sub_rap2_11==¡Disponible ahora en GameBanana! 
+sub_rap2_12==Yum.

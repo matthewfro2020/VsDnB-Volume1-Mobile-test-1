@@ -1,0 +1,203 @@
+{
+   "version": "1.0.0",
+   "music": "DaveDialogue",
+   "fadeInTime": 1,
+   "fadeOutTime": 1,
+   "dialogue": [
+      {
+         "expression": "sad",
+         "side": "left",
+         "speaker": "bambi",
+         "text": "maze_end_1",
+         "typeSpeed": 0.05
+      },
+      {
+         "expression": "ready",
+         "side": "right",
+         "speaker": "bf",
+         "text": "maze_end_2",
+         "typeSpeed": 0.03
+      },
+      {
+         "expression": "sad",
+         "side": "left",
+         "speaker": "bambi",
+         "text": "maze_end_3",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "normal",
+         "side": "right",
+         "speaker": "generic",
+         "text": "maze_end_4",
+         "typeSpeed": 0.02
+      },
+      {
+         "expression": "surprised",
+         "side": "left",
+         "speaker": "bambi",
+         "text": "maze_end_5",
+         "typeSpeed": 0.02
+      },
+      {
+         "expression": "normal",
+         "side": "left",
+         "speaker": "dave",
+         "text": "maze_end_6",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "post-maze",
+         "side": "left",
+         "speaker": "dave",
+         "text": "maze_end_7",
+         "typeSpeed": 0.03
+      },
+      {
+         "expression": "irritated",
+         "side": "left",
+         "speaker": "tristan",
+         "text": "maze_end_8",
+         "typeSpeed": 0.03
+      },
+      {
+         "expression": "cheer",
+         "side": "right",
+         "speaker": "gf",
+         "text": "maze_end_9",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "happyarms",
+         "side": "left",
+         "speaker": "dave",
+         "text": "maze_end_10",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "sad",
+         "side": "left",
+         "speaker": "tristan",
+         "text": "maze_end_11",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "angry",
+         "side": "left",
+         "speaker": "bambi",
+         "text": "maze_end_12",
+         "typeSpeed": 0.03
+      },
+      {
+         "expression": "post-maze",
+         "side": "left",
+         "speaker": "dave",
+         "text": "maze_end_13",
+         "typeSpeed": 0.03
+      },
+      {
+         "expression": "confused",
+         "side": "left",
+         "speaker": "bambi",
+         "text": "maze_end_14",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "think",
+         "side": "left",
+         "speaker": "bambi",
+         "text": "maze_end_15",
+         "typeSpeed": 0.08
+      },
+      {
+         "expression": "thought",
+         "side": "left",
+         "speaker": "dave",
+         "text": "maze_end_16",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "what",
+         "side": "right",
+         "speaker": "gf",
+         "text": "maze_end_17",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "confused",
+         "side": "right",
+         "speaker": "bf",
+         "text": "maze_end_18",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "surprised",
+         "side": "left",
+         "speaker": "bambi",
+         "text": "maze_end_19",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "angry",
+         "side": "left",
+         "speaker": "bambi",
+         "text": "maze_end_20",
+         "typeSpeed": 0.03
+      },
+      {
+         "expression": "sad",
+         "side": "left",
+         "speaker": "bambi",
+         "text": "maze_end_21",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "confident",
+         "side": "left",
+         "speaker": "dave",
+         "text": "maze_end_22",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "post-maze",
+         "side": "left",
+         "speaker": "dave",
+         "text": "maze_end_23",
+         "typeSpeed": 0.03
+      },
+      {
+         "expression": "annoyed",
+         "side": "left",
+         "speaker": "bambi",
+         "text": "maze_end_24",
+         "typeSpeed": 0.03
+      },
+      {
+         "expression": "cheer",
+         "side": "right",
+         "speaker": "gf",
+         "text": "maze_end_25",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "normal",
+         "side": "left",
+         "speaker": "tristan",
+         "text": "maze_end_26",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "ready",
+         "side": "right",
+         "speaker": "bf",
+         "text": "maze_end_27",
+         "typeSpeed": 0.04
+      },
+      {
+         "side": "right",
+         "speaker": "generic",
+         "text": "maze_end_28",
+         "typeSpeed": 0.02
+      }
+   ]
+}

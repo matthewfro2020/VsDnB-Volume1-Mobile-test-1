@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="settings_button.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="settings_button0000" x="5" y="5" width="65" height="66"/>
+	<SubTexture name="settings_button0001" x="5" y="5" width="65" height="66"/>
+	<SubTexture name="settings_button0002" x="75" y="5" width="65" height="66"/>
+	<SubTexture name="settings_button0003" x="75" y="5" width="65" height="66"/>
+</TextureAtlas>

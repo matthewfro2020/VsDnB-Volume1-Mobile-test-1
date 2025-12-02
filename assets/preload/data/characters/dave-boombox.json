@@ -1,0 +1,19 @@
+{
+   "version": "1.0.0",
+   "name": "Dave Boombox",
+   "scale": 1,
+   "danceSnap": 2,
+   "globalOffset": [160, 388],
+   "cameraOffsets": [0, 0],
+   "offsetFilePlayer": "dave-boombox",
+   "offsetFileOpponent": "dave-boombox",
+   "icon": "dave-boombox",
+   "singDuration": 4,
+   "color": "0x000000",
+   "flipX": false,
+   "antialiasing": true,
+   "countdownData": {
+      "graphicPath": "normal",
+      "soundPath": "default"
+   }
+}

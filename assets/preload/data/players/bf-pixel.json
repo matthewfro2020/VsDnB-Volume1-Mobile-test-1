@@ -1,0 +1,31 @@
+{
+   "version": "1.0.0",
+   "name": "Pixel Boyfriend",
+   "charId": "bf-pixel",
+   "variationId": "bf-pixel",
+   "charSelect": {
+      "gf": "gf-pixel",
+      "page": 0,
+      "portraitFile": "bf_pixel_portrait",
+      "position": 1,
+      "selected": {
+         "loop": true,
+         "name": "idle_select",
+         "prefix": "selected_pixel"
+      },
+      "selectedTransition": {
+         "name": "selected",
+         "prefix": "transitions_pixel"
+      },
+      "unselected": {
+         "loop": true,
+         "name": "idle_unselect",
+         "prefix": "unselected_pixel"
+      },
+      "unselectedTransition": {
+         "name": "idle",
+         "prefix": "transitionu_pixel"
+      }
+   },
+   "unlocked": true
+}

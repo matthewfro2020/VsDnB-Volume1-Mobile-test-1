@@ -1,0 +1,104 @@
+// BLOCKED //
+
+subtitles_blocked_1==Eu te dou block...
+subtitles_blocked_2==Você é um monstro...
+subtitles_blocked_3==Você estragou minha vida!
+subtitles_blocked_4==Moldy eu juro por deus eu te dou block
+subtitles_blocked_5==PRA SEMPRE.
+subtitles_blocked_6==Eu tô tentando...
+subtitles_blocked_7==Não eu não tô tentando te ajudar...
+subtitles_blocked_8==Porque você vai me assistir...
+subtitles_blocked_9==Porque...
+subtitles_blocked_10==vai me assistir me inscreber
+subtitles_blocked_11==Que seja.
+
+// CORN THEFT //
+
+sub_ctheft_1==Porque ele me adiciona...
+sub_ctheft_2==Por que você me adiciona...
+sub_ctheft_3==Eu-
+sub_ctheft_4==Eu não ligo...
+sub_ctheft_5==Você quer
+sub_ctheft_6==Eu vou te dar block
+sub_ctheft_7==E nunca voltarei.
+sub_ctheft_8==Tchau Tchaa!
+
+// MAZE //
+
+sub_maze_1==Quer dizer...
+sub_maze_2==Você pode
+sub_maze_3==Me jogar...
+sub_maze_4==Você não?
+sub_maze_5==Nunca mais volte.
+sub_maze_6==Tá bom!
+sub_maze_7==Qualquer coisa que você quiser
+sub_maze_8==Você tá me jogando?
+sub_maze_9==Beleza.
+sub_maze_10==O que você quer jogar?
+sub_maze_11==Você tá é me bully?
+sub_maze_12==Nunca mais volte.
+
+// MEALIE //
+
+sub_mealie_1==Eu vou te dar block!
+sub_mealie_2==Você é quer a porra do celular?
+sub_mealie_3==Mas que merda!
+sub_mealie_4==Seu mentiroso do caralho Moldy!
+
+// BOT TROT //
+
+sub_botTrot_1==Ei você! Vamos jogar um jogo!
+sub_botTrot_2==Parece que você errou... Vamos tentar de novo!
+
+// INDIGNANCY //
+
+sub_indignancy_1==Me mata, eu quero morrer
+sub_indignancy_2==Me kicka, por favor senpai
+sub_indignancy_3==Me kickouuuuuuuuu
+sub_indignancy_4==Eu vou sair.
+sub_indignancy_5==AuuuuuuAAAAAAAAAAAAAAA
+
+// MEMORY //
+
+sub_memory_1==Bem...
+sub_memory_2==Até agora isso tem sido uma jornada e tanto,
+sub_memory_3==Mas eu quero dizer isso.
+sub_memory_4==Mesmo se você ir para lutar contra novos oponentes,
+sub_memory_5==Se lembre que eu sempre estarei com você no seu coração,
+sub_memory_6==E que eu vou te apoiar durante o caminho
+sub_memory_7==o quanto eu puder. Mas...
+sub_memory_8==Antes que as coisas cheguem a um fim,
+sub_memory_9==Quer resolver esse rap comigo?
+sub_memory_10==Yeah!
+sub_memory_11==Beleza! Vamos lá!
+
+// VS DAVE RAP 1 & 2 //
+
+sub_rap1_1==VS Dave, é meio bosta
+sub_rap1_2==Me lembra de um cocô
+sub_rap1_3==Oooooh!
+sub_rap1_4==Quando eu penso do Obama
+sub_rap1_5==Fortnite
+sub_rap1_6==Me deixa peidinho de cagado
+sub_rap1_7==Yeah!
+sub_rap1_8==Escorreguei numa banana
+sub_rap1_9==Ow!
+sub_rap1_10==Tamo dirigindo o Calhambeque
+sub_rap1_11==Hell yeah!
+sub_rap1_12==Gordon Freeman é verdinho
+sub_rap1_13== Inscreva-se no Stats45
+sub_rap1_14==Yeah!
+sub_rap1_15==Meu pau coça, queima igual a reguinha do Baldi
+
+sub_rap2_1==Dave é o meu nome
+sub_rap2_2==Vem cá jogar meu game
+sub_rap2_3==Sou Dave eu tenho um mod
+sub_rap2_4==Sou Dave e eu sou deus
+sub_rap2_5==Meu pipi coça (yum)
+sub_rap2_6==3.0
+sub_rap2_7==Vs Dave, eu sou gay
+sub_rap2_8==Sr. Bambi curte quebrar o celular (ha)
+sub_rap2_9==Dive vai gamestop comprar jogo Xbox
+sub_rap2_10==Vá jogar o mod Vs Dave and Bambi 3.0
+sub_rap2_11==Já agora no GameBanana!
+sub_rap2_12==Yum.

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="tristan_portrait.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="selected_tristan0000" x="5" y="5" width="231" height="215"/>
+	<SubTexture name="selected_tristan0001" x="5" y="5" width="231" height="215"/>
+	<SubTexture name="transitions_tristan0000" x="241" y="5" width="231" height="215"/>
+	<SubTexture name="transitions_tristan0001" x="241" y="5" width="231" height="215"/>
+	<SubTexture name="transitions_tristan0002" x="477" y="5" width="231" height="215"/>
+	<SubTexture name="transitions_tristan0003" x="477" y="5" width="231" height="215"/>
+	<SubTexture name="transitions_tristan0004" x="713" y="5" width="231" height="215"/>
+	<SubTexture name="transitions_tristan0005" x="713" y="5" width="231" height="215"/>
+	<SubTexture name="transitionu_tristan0000" x="713" y="5" width="231" height="215"/>
+	<SubTexture name="transitionu_tristan0001" x="713" y="5" width="231" height="215"/>
+	<SubTexture name="transitionu_tristan0002" x="477" y="5" width="231" height="215"/>
+	<SubTexture name="transitionu_tristan0003" x="477" y="5" width="231" height="215"/>
+	<SubTexture name="transitionu_tristan0004" x="241" y="5" width="231" height="215"/>
+	<SubTexture name="transitionu_tristan0005" x="241" y="5" width="231" height="215"/>
+	<SubTexture name="unselected_tristan0000" x="949" y="5" width="231" height="215"/>
+	<SubTexture name="unselected_tristan0001" x="949" y="5" width="231" height="215"/>
+</TextureAtlas>

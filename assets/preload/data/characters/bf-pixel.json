@@ -1,0 +1,20 @@
+{
+   "version": "1.0.0",
+   "name": "Boyfriend (Pixel)",
+   "scale": 6,
+   "danceSnap": 2,
+   "globalOffset": [20, -20],
+   "cameraOffsets": [0, -100],
+   "offsetFilePlayer": "bf-pixel",
+   "offsetFileOpponent": "bf-pixel",
+   "icon": "bf-pixel",
+   "singDuration": 4,
+   "color": "0x7BD6F8",
+   "nativelyPlayable": true,
+   "flipX": true,
+   "antialiasing": false,
+   "countdownData": {
+      "graphicPath": "normal",
+      "soundPath": "pixel"
+   }
+}

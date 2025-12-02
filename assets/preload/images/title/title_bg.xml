@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="title_bg.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="title_bg0000" x="5" y="5" width="1307" height="725"/>
+	<SubTexture name="title_bg0001" x="5" y="5" width="1307" height="725"/>
+	<SubTexture name="title_bg0002" x="5" y="735" width="1307" height="725"/>
+	<SubTexture name="title_bg0003" x="5" y="735" width="1307" height="725"/>
+</TextureAtlas>

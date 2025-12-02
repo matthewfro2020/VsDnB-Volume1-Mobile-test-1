@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="button_reverse.png">
+	<!-- Created with Adobe Animate version 23.0.0.407 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="buttonreverse_click0000" x="0" y="0" width="84" height="53" frameX="-2" frameY="-1" frameWidth="89" frameHeight="55"/>
+	<SubTexture name="buttonreverse_click0001" x="0" y="0" width="84" height="53" frameX="-2" frameY="-1" frameWidth="89" frameHeight="55"/>
+	<SubTexture name="buttonreverse_click0002" x="89" y="0" width="89" height="55"/>
+	<SubTexture name="buttonreverse_click0003" x="89" y="0" width="89" height="55"/>
+	<SubTexture name="buttonreverse_norm0000" x="0" y="60" width="89" height="52"/>
+</TextureAtlas>

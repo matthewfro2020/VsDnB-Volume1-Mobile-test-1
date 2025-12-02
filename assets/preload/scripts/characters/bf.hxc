@@ -1,0 +1,29 @@
+class BoyfriendCharacter extends Character
+{
+    public function new()
+    {
+        super('bf');
+    }
+    
+    public override function load():Void
+    {
+        frames = Paths.getSparrowAtlas('characters/shared/BOYFRIEND', 'shared');
+
+        animation.addByPrefix('idle', 'BF idle dance', 24, false);
+        for (anim in ['left', 'down', 'up', 'right'])
+        {
+            animation.addByPrefix('sing' + anim.toUpperCase(), 'BF NOTE ' + anim.toUpperCase() + '0', 24, false);
+            animation.addByPrefix('sing' + anim.toUpperCase() + 'miss', 'BF NOTE ' + anim.toUpperCase() + ' MISS', 24, false);
+        }
+        animation.addByPrefix('hey', 'BF HEY', 24, false);
+        animation.addByPrefix('dodge', "boyfriend dodge", 24, false);
+        animation.addByPrefix('scared', 'BF idle shaking', 24);
+        animation.addByPrefix('hit', 'BF hit', 24, false);
+
+        this.skins.set('gfSkin', 'gf');
+        this.skins.set('3d', 'bf-3d');
+        this.skins.set('deathSkin', 'bf-dead');
+        
+        playAnim('idle');
+    }
+}

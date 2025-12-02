@@ -1,0 +1,72 @@
+class PlayrobotBackseatCharacter extends Character 
+{
+	var danceQueued:String = '';
+	var transitionFrames = [15, 16];
+	
+	public function new()
+	{
+    	super('playrobot-backseat');
+	}
+
+	override function load()
+	{
+		frames = Paths.getSparrowAtlas('characters/backseat/playrobot_backseat', 'shared');
+	
+		addCharAtlas('characters/backseat/playrobot_backseat_miss', 
+		[
+			{name: 'singLEFTmiss', prefix: 'playrobotleftmiss'},
+			{name: 'singDOWNmiss', prefix: 'playrobotdownmiss'},
+			{name: 'singUPmiss', prefix: 'upplayrobotmiss'},
+			{name: 'singRIGHTmiss', prefix: 'rightplayrobotmiss'},
+		]);
+		
+		animation.addByIndices('danceLeft', 'idleplayrobot1', [for (i in 0...14) i], '', 24, false);
+		animation.addByIndices('danceLeft-transition', 'idleplayrobot2', transitionFrames, '', 24, false);
+	
+		animation.addByIndices('danceRight', 'idleplayrobot2', [for (i in 0...14) i], '', 24, false);
+		animation.addByIndices('danceRight-transition', 'idleplayrobot1', transitionFrames, '', 24, false);
+		
+		for (i in ['left', 'down']) {
+			animation.addByPrefix('sing' + i.toUpperCase(), 'playrobot' + i + '0', 24, false);
+		}
+		for (i in ['right', 'up']) {
+			animation.addByPrefix('sing' + i.toUpperCase(), i + 'playrobot' + '0', 24, false);
+		}
+		
+		animation.addByPrefix('scared', 'playrobotscared1', 24, false);
+		animation.addByPrefix('scared2', 'playrobotscared2', 24, false);
+		animation.addByPrefix('hey', 'heyplayrobot', 24, false);
+
+		danceTypes = ['alternate'];
+		
+		playAnim('danceLeft');
+	
+		animation.onFinish.add((anim:String) -> 
+		{
+			if (anim == (this.danceQueued + '-transition'))
+			{
+				this.playAnim(this.danceQueued, true);
+			}
+		});
+	}
+	
+	override function dance(force:Bool)
+	{
+		if (!canDance || (!force && hasEase() && !animation.finished))
+			return;
+		
+		if (!force && isSinging())
+		{
+			return;
+		}
+
+		danced = !danced;
+	
+		if (danced)
+			danceQueued = 'danceRight';
+		else
+			danceQueued = 'danceLeft';
+		
+		playAnim(danceQueued + '-transition', force);
+	}
+}

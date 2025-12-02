@@ -1,0 +1,57 @@
+import ui.secret.MathGameState;
+
+class SecretBaldiModule extends Module
+{
+    public function new()
+    {
+        super('baldiModule');
+    }
+    
+    var baldi:BGSprite;
+
+    override function onCreatePost()
+    {
+        if (['blocked', 'corn-theft', 'maze'].contains(PlayState.instance.currentSong.id.toLowerCase()) && !MathGameState.failedGame && FlxG.random.int(0, 4) == 0)
+        {
+            Cursor.visible = true;
+            
+            baldi = new BGSprite('baldi', 595, 70, Paths.image('backgrounds/farm/baldo', 'shared'), null, 0.55, 0.55);
+            baldi.setGraphicSize(Std.int(baldi.width * 0.31));
+            baldi.updateHitbox();
+            
+            var hills:BGSprite = PlayState.instance.currentStage.getProp('hills');
+            baldi.zIndex = hills.zIndex + 1;
+
+            PlayState.instance.currentStage.add(baldi);
+        }
+    }
+
+    override function onUpdate(event:UpdateScriptEvent)
+    {
+        if (baldi != null)
+        {
+            Cursor.visible = true;
+            
+            if (FlxG.mouse.overlaps(baldi) && FlxG.mouse.justPressed)
+            {
+                PlayStatePlaylist.isStoryMode = false;
+                PlayStatePlaylist.songList = [];
+                FlxG.switchState(new MathGameState());
+            }
+        }
+    }
+
+    override function onStateChange(e:StateChangeScriptEvent)
+    {
+        if (baldi != null)
+        {
+            PlayState.instance.canPause = false;
+            
+            Cursor.visible = false;
+
+            PlayState.instance.currentStage.remove(baldi);
+            baldi.destroy();
+            baldi = null;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+class GirlfriendNone extends Character
+{
+    public function new()
+    {
+        super('gf-none');
+    }
+
+    override function load():Void
+    {
+        frames = Paths.getSparrowAtlas('characters/shared/noGF', 'shared');
+
+        animation.addByIndices('danceLeft', 'GF Dancing Beat', [0], "", 24, false);
+        animation.addByIndices('danceRight', 'GF Dancing Beat', [0], "", 24, false);
+        animation.addByPrefix('cheer', 'GF Cheer', 24, false);
+        animation.addByPrefix('singLEFT', 'GF left note', 24, false);
+        animation.addByPrefix('singRIGHT', 'GF Right Note', 24, false);
+        animation.addByPrefix('singUP', 'GF Up Note', 24, false);
+        animation.addByPrefix('singDOWN', 'GF Down Note', 24, false);
+        animation.addByIndices('sad', 'gf sad', [0], "", 24, false);
+        animation.addByPrefix('scared', 'GF FEAR', 24);
+
+        visible = false;
+        
+        playAnim('danceRight');
+    }
+}

@@ -1,0 +1,23 @@
+{
+   "version": "1.0.0",
+   "name": "Rap Battle",
+   "zoom": 1,
+   "player": {
+      "cameraOffsets": [0, 0],
+      "position": [1039, 263],
+      "scroll": [1, 1],
+      "zIndex": 102
+   },
+   "opponent": {
+      "cameraOffsets": [0, 0],
+      "position": [430, 240],
+      "scroll": [1, 1],
+      "zIndex": 101
+   },
+   "gf": {
+      "cameraOffsets": [0, 0],
+      "position": [756, 194],
+      "scroll": [1, 1],
+      "zIndex": 100
+   }
+}

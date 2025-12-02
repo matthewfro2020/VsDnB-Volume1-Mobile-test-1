@@ -1,0 +1,23 @@
+{
+   "version": "1.0.0",
+   "name": "Dave's House",
+   "zoom": 0.8,
+   "player": {
+      "cameraOffsets": [-100, 0],
+      "position": [843, 270],
+      "scroll": [1, 1],
+      "zIndex": 102
+   },
+   "opponent": {
+      "cameraOffsets": [150, 0],
+      "position": [50, 270],
+      "scroll": [1, 1],
+      "zIndex": 101
+   },
+   "gf": {
+      "cameraOffsets": [0, 0],
+      "position": [300, -60],
+      "scroll": [1, 1],
+      "zIndex": 100
+   }
+}

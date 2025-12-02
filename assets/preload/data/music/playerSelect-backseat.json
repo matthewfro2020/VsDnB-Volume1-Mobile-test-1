@@ -1,0 +1,15 @@
+{
+   "version": "1.0.0",
+   "name": "Player Select (Backseat)",
+   "musicPath": "playerSelect/playerSelect-backseat",
+   "composers": ["magical"],
+   "variations": [],
+   "timeChanges": [
+      {
+         "time": 0,
+         "bpm": 164,
+         "numerator": 4,
+         "denominator": 4
+      }
+   ]
+}

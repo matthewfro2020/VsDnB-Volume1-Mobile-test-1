@@ -1,0 +1,21 @@
+class TristanGfCharacter extends Character 
+{
+	public function new()
+	{
+    	super('tristan-gf');
+	}
+
+	override function load()
+	{
+	    frames = Paths.getSparrowAtlas('characters/tristan/tristangf', 'shared');
+	
+	    animation.addByPrefix('danceLeft', 'tristanleft', 24, false);
+	    animation.addByPrefix('danceRight', 'tristanright', 24, false);
+	    animation.addByPrefix('cheer', 'tristancheer', 24, false);
+	    animation.addByPrefix('sad', 'tristanmiss', 24, false);
+
+		danceTypes = ['alternate'];
+	
+	    playAnim('idle');
+	}
+}

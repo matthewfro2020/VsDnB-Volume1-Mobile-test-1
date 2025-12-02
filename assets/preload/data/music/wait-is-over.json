@@ -1,0 +1,15 @@
+{
+   "version": "1.0.0",
+   "name": "The Wait Is Over",
+   "musicPath": "wait-is-over",
+   "composers": ["MoldyGangstaHero"],
+   "variations": [],
+   "timeChanges": [
+      {
+         "time": 0,
+         "bpm": 160,
+         "numerator": 4,
+         "denominator": 4
+      }
+   ]
+}

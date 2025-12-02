@@ -1,0 +1,23 @@
+{
+   "version": "1.0.0",
+   "name": "Bambi's Barn",
+   "zoom": 0.65,
+   "player": {
+      "cameraOffsets": [-50, 0],
+      "position": [860, 450],
+      "scroll": [1, 1],
+      "zIndex": 30
+   },
+   "opponent": {
+      "cameraOffsets": [0, 0],
+      "position": [200, 425],
+      "scroll": [1, 1],
+      "zIndex": 20
+   },
+   "gf": {
+      "cameraOffsets": [0, 0],
+      "position": [440, 90],
+      "scroll": [1, 1],
+      "zIndex": 10
+   }
+}

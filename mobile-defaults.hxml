@@ -1,0 +1,4 @@
+-D mobile
+-D HXCPP_NO_NIL
+-D HXCPP_NO_PCH
+-D officialBuild

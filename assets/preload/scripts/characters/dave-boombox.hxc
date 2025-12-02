@@ -1,0 +1,20 @@
+class DaveBoomboxCharacter extends Character 
+{
+	public function new()
+	{
+    	super('dave-boombox');
+	}
+
+	override function load()
+	{
+	    frames = Paths.getSparrowAtlas('characters/shared/dave_boombox', 'shared');
+		
+	    animation.addByPrefix('cheer', 'boomboxcheer', 24, false);
+		animation.addByPrefix('sad', 'boomboxmiss', 24, false);
+		animation.addByPrefix('idle', 'boomboxidle', 24, false);
+		
+	    skins.set('3d', 'dave-boombox');
+	
+	    playAnim('idle');
+	}
+}

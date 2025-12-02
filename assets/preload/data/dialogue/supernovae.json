@@ -1,0 +1,71 @@
+{
+   "version": "1.0.0",
+   "music": "dooDooFeces",
+   "fadeInTime": 1,
+   "fadeOutTime": 1,
+   "dialogue": [
+      {
+         "expression": "bevel",
+         "side": "left",
+         "speaker": "bambi",
+         "text": "supernovae_1",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "confused",
+         "side": "right",
+         "speaker": "bf",
+         "text": "supernovae_2",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "bevel",
+         "side": "left",
+         "speaker": "bambi",
+         "text": "supernovae_3",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "bevel",
+         "side": "left",
+         "speaker": "bambi",
+         "text": "supernovae_4",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "confused",
+         "side": "right",
+         "speaker": "bf",
+         "text": "supernovae_5",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "bevel",
+         "side": "left",
+         "speaker": "bambi",
+         "text": "supernovae_6",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "bevel",
+         "side": "left",
+         "speaker": "bambi",
+         "text": "supernovae_7",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "bevel",
+         "side": "left",
+         "speaker": "bambi",
+         "text": "supernovae_8",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "bevel",
+         "side": "left",
+         "speaker": "bambi",
+         "text": "supernovae_9",
+         "typeSpeed": 0.04
+      }
+   ]
+}

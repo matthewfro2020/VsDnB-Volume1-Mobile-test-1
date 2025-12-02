@@ -1,0 +1,218 @@
+﻿// HOUSE // 
+ 
+house_1==¡Bop Boop Bep! 
+house_2==¿Hm? Oh, ¡hey! ¡Te conozco! ¿No eres el chico que derrotó a los Dearest en televisión hace algunos meses atrás? 
+house_3==¡Yeah! 
+house_4==¡Bapity boop bep! 
+house_5==Oh, ¿Y me estás retando a una batalla de rap?  
+house_6==Bueno… Te advierto, ¡Eh ganado bastantes años atrás!  
+house_7==¡Beeeep! 
+house_8==¡Empecemos con algo sencillo! 
+
+// INSANITY // 
+ 
+insanity_1==... 
+insanity_2==¿Bap bep? 
+insanity_3==¡Ah! Lo siento, me perdí en mis pensamientos... 
+insanity_4==Como sea ¿Listo para la segunda ronda? 
+insanity_5==¡Beep Baaaaaap! 
+insanity_6==¡Excelente! 
+
+// INSANITY END // 
+ 
+insanity_end_1==Oh... oh no... 
+insanity_end_2==¿Bep? 
+
+// POLYGONIZED // 
+
+polygonized_1==QUE 
+polygonized_2==NO NO NO, PENSE– 
+polygonized_3==YO PENSABA 
+polygonized_4==PORQUE ESTO SOLO ESTÁ EMPEORANDO 
+polygonized_5==MIS HIJOS, SIGUEN EN LA CASA 
+polygonized_6==¿B-beep..? 
+ 
+// BLOCKED // 
+
+blocked_1==Bueno, este es el lugar donde Dave nos invitó. 
+blocked_2==¡Me gusta el pasto! 
+blocked_3==¡Yeah! 
+blocked_4==Aunque me pregunto por qué escogió específicamente esta zona, ¿Acaso quería qué viéramos a alguien? 
+blocked_5==¿¿Quien esta ahi?? 
+blocked_6==¿Beep? 
+blocked_7==Esperen un segundo... ¿Ustedes dos están intentando robar mi maíz? 
+blocked_8==Bo. Beep Skidee Bop- 
+blocked_9==¡LOS VOY A BLOQUEAR FUERA DE MI GRANJA! Jamás volverán a entrar a mi granja rateros sucios mañosos sin vergüenza. 
+blocked_10==¿Bop? 
+blocked_11==Debiste dejarme explicar, Boyfriend. 
+
+// CORN THEFT // 
+ 
+corn_theft_1==[Bambi recibe una llamada de Dave.] 
+corn_theft_2==¿¡¿¡QUIEN ES?!?! 
+corn_theft_3==Hey Bambi, Soy Dave. ¿Estás listo para el picnic? 
+corn_theft_4==¡QUE, NO! ¡Estoy ocupado con algo!  ¡Hay dos intrusos intentando robar MI maíz!  
+corn_theft_5==De pura casualidad, estos  "Intrusos" que estás hostigando son una pareja de dos individuos pequeños? 
+corn_theft_6==Si... ¡Justamente! 
+corn_theft_7==(No pensé que llegaría tan temprano...) 
+corn_theft_8==Bambi. No son intrusos. Son conocidos míos. 
+corn_theft_9==¿Qué Cosa?
+corn_theft_10==Te lo dije esta mañana, tenía planeado invitar a algunas personas al picnic. ¡Ellos son los “invitados” que te dije! 
+¡Ellos son los “invitados” que te dije!
+corn_theft_11==Eso no tiene sentido... 
+corn_theft_12==¿Huh? Acaso tu...  ¿Creíste que iba a tener un picnic solo contigo? Eso es raro 
+corn_theft_13==Momento... ¡AHA! ¡Creo que ya se que ocurre aquí! 
+corn_theft_14==¡Estos no son tus amigos cómo creíste que eran, Dave! 
+corn_theft_15==Déjate de juegos Bambi- 
+corn_theft_16==[Bambi corta de golpe la llamada con Dave.] 
+corn_theft_17==Ya se que está ocurriendo aquí... 
+corn_theft_18==¡Ustedes dos están usando la “invitación” de Dave como excusa para ROBAR mi maíz!  
+corn_theft_19==¿Estas denso? 
+corn_theft_20==¿Que? 
+corn_theft_21==So, Ya me escuchaste, ¿Estas denso? 
+corn_theft_22==¿Por qué lo estaría? 
+corn_theft_23==¿Cómo puedes asumir que estamos aquí para robar tu maíz? 
+corn_theft_24==¿Dónde está el sentido en eso? 
+corn_theft_25==¡La gente intenta robar mi maíz todo el tiempo! 
+corn_theft_26==Digo, Está bien, ¿Nos podrías compartir algún caso en el que ocurrió ese evento? 
+corn_theft_27==¡Ninguno de esos casos les incumbe! 
+corn_theft_28==Tienes un caso o no, enano. 
+corn_theft_29==¿Enano? Qué quieres decir con enano- 
+corn_theft_30==Ok, Suficiente. Ciérrale el orto, amor. 
+corn_theft_31==Beep. 
+
+// MAZE // 
+ 
+maze_1==Mi celular... 
+maze_2==¡Miren lo que hicieron! 
+maze_3==¡No tienen ni idea del problema en el que me acaban de meter! 
+maze_4==Que.  
+maze_5==¡Ustedes dos están muertos! 
+maze_6==¡Boop! 
+maze_7==Suficiente.. ¡Basta de juegos! 
+maze_8==Una canción más... Si ganan, y-yo , uhh.. 
+maze_9==Creo que me iré a la cama después de esto..  
+maze_10==Aww, te cansaste haciendo tu pequeño berrinche, ¿huh? ¿Quieres una cobijita? 
+maze_11==OH DIOS MÍO YA CALLATE. 
+
+// MAZE END // 
+ 
+maze_end_1==Esta bien... Ustedes ganan... 
+maze_end_2==¡Yeah! 
+maze_end_3==Solo, ¡Váyanse de aquí! Por favor.  
+maze_end_4==Finalmente, Dave llegó a la granja de Bambi  
+maze_end_5==¡Oh mierda¡ 
+maze_end_6==Hey, Estoy aquí. Perdón, se me hizo tarde. 
+maze_end_7==Fue un dolor de cabeza despertar a Tristan. Quejándose una y otra vez "Pero papá.." esto , "Pero papá.." aquello.  
+maze_end_8==¡No hables asi de mi cuando estoy aquí! 
+maze_end_9==¿Tienes un hijo? ¡Que adorable! 
+maze_end_10==Oh !Si, y es un chico muy bueno! ¿Verdad, amiguito? 
+maze_end_11==
+maze_end_12==Dave, ¡Estos intrusos arruinaron mi dignidad y mi día! !Podrías por favor 
+sacarlos de aquí! 
+maze_end_13==¿Es enserio, Bambi? ¡Ellos son mis amigos! Picnic, ¿Recuerdas? 
+maze_end_14==Espera... 
+maze_end_15==... 
+maze_end_16==Exacto, Lamento el temperamento de Bambi chicos. Suele ponerse algo histérico cuando alguien entra a su propiedad... 
+maze_end_17==Nooo ¿enserió? 
+maze_end_18==Skedoo bop. 
+maze_end_19==¡Oh. Ohhh, ohhhhhh! 
+maze_end_20==ENTONCES ME ENOJE ¿Y ROMPÍ MI CELULAR SIN RAZÓN? 
+maze_end_21==!SOY UN IDIOTA! ...Y algo culpable. 
+maze_end_22==¡No te preocupes Bambi! ¡Todos cometemos errores de vez en cuando! 
+maze_end_23==Incluso si son ridículamente insignificantes qué fácilmente pudieron haberse evitado. 
+maze_end_24==¡Que no se note el sarcasmo! 
+maze_end_25==Muy bien todo el mundo, ¿Qué les parece si empezamos de una vez esté picnic? 
+maze_end_26== finalmente ¡Comida! 
+maze_end_27==¡Beep! 
+maze_end_28==[Eventualmente, Todos se sentaron alrededor y disfrutaron de un lindo picnic juntos.] 
+
+// SPLITATHON // 
+ 
+splitathon_1==[Continuamos con el grupo charlando y pasando un buen rato.] 
+splitathon_2==Hey, uhh, ¿Boyfriend verdad? 
+splitathon_3==¿Bo? 
+splitathon_4==Siento que jamás llegamos a una conclusión la última vez que peleamos ... 
+splitathon_5==¿Bop? 
+splitathon_6==...En quién es el mejor contando ¡Exactamente! 
+splitathon_7==Boh. 
+splitathon_8==Oh, ¿Quieren volver a pelear? En ese caso, ¡Déjenme preparar todo para esto! 
+splitathon_9==¡Perfecto! Oh, mientras estás en eso... 
+splitathon_10==¡Quiero que pongas el instrumental más largo que tengas! 
+splitathon_11==Damn, ¿Enserio?... Bueno, ¡Lo mejor que tengo son diez minutos! 
+splitathon_12==¡Vaya, vaya! ¿Qué te parece un concierto de diez minutos BF?  
+splitathon_13==¡Yeah! 
+splitathon_14==El que más resalte y quede en pie, probará ser el mejor rapero . 
+splitathon_15==Oigan… ¿Qué hay de mi? Yo también hice esa cosa de cantar. 
+splitathon_16==Oh, Gracias pero no, Bambi. ¡Esto es entre él y yo! 
+splitathon_17==... ¡Bien! 
+splitathon_18==[Bambi gruñe, pero toma asiento viendo el espectáculo.] 
+splitathon_19==Muy bien, Espero que estés listo, ¡Porque no me iré sin una pelea¡ 
+splitathon_20==¡Beep bo bop! 
+
+// SPLITATHON END // 
+ 
+splitathon_end_1==Wow, ¡Eso estuvo genial! ¡Bien hecho, BF! 
+splitathon_end_2==¡Beep! 
+splitathon_end_3==¡También para ti Bambi! 
+splitathon_end_4==Huh, ¿Quien? 
+splitathon_end_5==Fue algo molesto que intervinieran de la nada, ¡Pero lo hiciste bien! 
+splitathon_end_6==Oh… bueno JAMAS me subestimes ! 
+splitathon_end_7==Je, Creo que eso lo deja en claro , Aunque. Ya es bastante tarde, lo mejor es que cada uno regresemos a casa. 
+splitathon_end_8==Oh si, también deberíamos ir yéndonos. 
+splitathon_end_9==Beep. 
+splitathon_end_10==Fue un gusto verlos a ambos. ¡Llámenme si quieren volver a salir algún día!  
+splitathon_end_11==¡Yeah! 
+splitathon_end_12==¡Hasta luego, Dave! 
+splitathon_end_13==[BF y GF caminaron de regreso a casa.] 
+splitathon_end_14==Ah.. Eso fue divertido. 
+splitathon_end_15==Tu hijo está muerto, Dave. 
+splitathon_end_16==¡Solo tiene sueño, no digas eso! 
+splitathon_end_17==Eh. ¿Por qué trajiste al chico de todos modos? 
+splitathon_end_18==Solo quería que respirara aire fresco, pero parece que tanto aire lo terminó arrullando.
+splitathon_end_19==Yo digo que está muerto. 
+splitathon_end_20==No lo esta. 
+
+// SUPERNOVAE // 
+ 
+supernovae_1==¿Por qué me llamas? 
+supernovae_2==Beep 
+supernovae_3==Yo no entender  
+supernovae_4==Habla Brasil 
+supernovae_5==Boop beep skdoop 
+supernovae_6==Voy a bloquearte por llamarme 
+supernovae_7==Tengamos una batalla de rap 
+supernovae_8==Tu pierdes = Bloqueo 
+supernovae_9==TB ella te pierde, vas a perder 
+ 
+// GLITCH // 
+ 
+glitch_1==Basta deja de trolearme  
+glitch_2==skdoo bep 
+glitch_3==Oh mi Dios Estás tratar de grabarme 
+glitch_4==Tu cambia tu teclado 
+glitch_5==boop bop skippidy 
+glitch_6==Mentiroso 
+glitch_7==bep 
+glitch_8==Sufisciente  
+glitch_9==Me estas troleando  
+glitch_10==Tu ganas = Rompo mi Teléfono 
+ 
+// MASTER // 
+ 
+master_1==VIEJO PORQUE HACES ESO 
+master_2==VOY A BLOCKearte ... 
+master_3==..... 
+master_4==Porque me estás haciendo esto. 
+master_5==Mano. 
+master_6==Para. 
+master_7==No lo entiendo. 
+master_8==Estás causando un severo daño mental 
+master_9==¡Se supondría que debería ser imposible! 
+master_10==Y tú solo... 
+master_11==¡Pasaste todas las canciones como si nada! 
+master_12==Beep 
+master_13==Esto ya no es divertido. 
+master_14==Mi cabeza va explotar. 
+master_15==Boop beep skdoop 
+master_16==Solo una canción mas… Jamás ganaras esto...

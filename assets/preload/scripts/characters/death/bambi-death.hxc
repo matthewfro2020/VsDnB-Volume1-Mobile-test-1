@@ -1,0 +1,25 @@
+class BambiDeathCharacter extends Character 
+{
+	public function new()
+	{
+    	super('bambi-death');
+	}
+
+	override function onCreate(e:ScriptEvent)
+	{
+		super.onCreate(e);
+		
+		GameOverSubstate.deathSuffix = '-bambi';
+	}
+
+	override function load():Void
+	{
+	    frames = Paths.getSparrowAtlas('characters/bambi/Bambi_Death', 'shared');
+	
+	    animation.addByPrefix('firstDeath', 'bambi die', 24, false);
+	    animation.addByPrefix('deathLoop', 'die loop', 24, true);
+	    animation.addByPrefix('deathConfirm', 'die end', 24, false);
+		
+	    playAnim('firstDeath');
+	}
+}

@@ -1,0 +1,15 @@
+{
+   "version": "1.0.0",
+   "name": "Good Ending",
+   "musicPath": "goodEnding",
+   "composers": ["MoldyGangstaHero"],
+   "variations": [],
+   "timeChanges": [
+      {
+         "time": 0,
+         "bpm": 110,
+         "numerator": 4,
+         "denominator": 4
+      }
+   ]
+}

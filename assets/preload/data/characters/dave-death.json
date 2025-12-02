@@ -1,0 +1,19 @@
+{
+   "version": "1.0.0",
+   "name": "Dave Death",
+   "scale": 1,
+   "danceSnap": 2,
+   "globalOffset": [],
+   "cameraOffsets": [0, 0],
+   "offsetFilePlayer": "dave-death",
+   "offsetFileOpponent": "dave-death",
+   "icon": "dave-death",
+   "singDuration": 4,
+   "color": "0x000000",
+   "flipX": false,
+   "antialiasing": true,
+   "countdownData": {
+      "graphicPath": "normal",
+      "soundPath": "default"
+   }
+}

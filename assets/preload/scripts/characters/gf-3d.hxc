@@ -1,0 +1,20 @@
+class Girlfriend3D extends Character
+{
+    public function new()
+    {
+        super('gf-3d');
+    }
+
+    override function load():Void
+    {
+        frames = Paths.getSparrowAtlas('characters/shared/3d_gf', 'shared');
+        animation.addByPrefix('danceLeft', 'BLeft', 24, true);
+        animation.addByPrefix('danceRight', 'Bright', 24, true);
+        animation.addByPrefix('cheer', 'Cheer', 24, false);
+        animation.addByPrefix('sad', 'ComboBreak', 24, false);
+
+        danceTypes = ['alternate'];
+
+        playAnim('danceRight');
+    }
+}

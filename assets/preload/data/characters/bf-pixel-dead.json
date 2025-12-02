@@ -1,0 +1,19 @@
+{
+   "version": "1.0.0",
+   "name": "Pixel Boyfriend (Death)",
+   "scale": 6,
+   "danceSnap": 2,
+   "globalOffset": [],
+   "cameraOffsets": [0, 0],
+   "offsetFilePlayer": "bf-pixel-dead",
+   "offsetFileOpponent": "bf-pixel-dead",
+   "icon": "bf-pixel-dead",
+   "singDuration": 4,
+   "color": "0x000000",
+   "flipX": true,
+   "antialiasing": false,
+   "countdownData": {
+      "graphicPath": "normal",
+      "soundPath": "default"
+   }
+}

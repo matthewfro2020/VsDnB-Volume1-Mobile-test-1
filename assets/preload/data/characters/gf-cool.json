@@ -1,0 +1,19 @@
+{
+   "version": "1.0.0",
+   "name": "Girlfriend (Cool)",
+   "scale": 1,
+   "danceSnap": 1,
+   "globalOffset": [],
+   "cameraOffsets": [0, 0],
+   "offsetFilePlayer": "gf-cool",
+   "offsetFileOpponent": "gf-cool",
+   "icon": "gf-cool",
+   "singDuration": 4,
+   "color": "0x33DE39",
+   "flipX": false,
+   "antialiasing": true,
+   "countdownData": {
+      "graphicPath": "normal",
+      "soundPath": "default"
+   }
+}

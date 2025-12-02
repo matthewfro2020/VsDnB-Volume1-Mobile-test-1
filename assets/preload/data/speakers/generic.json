@@ -1,0 +1,7 @@
+{
+   "version": "1.0.0",
+   "name": "Generic",
+   "globalOffsets": [0, 0],
+   "sounds": ["dialogue/pixelText"],
+   "expressions": []
+}

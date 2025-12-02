@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="character_dane.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="character_dane0000" x="5" y="5" width="477" height="672"/>
+	<SubTexture name="character_dane0001" x="5" y="5" width="477" height="672"/>
+	<SubTexture name="character_dane0002" x="487" y="5" width="477" height="672"/>
+	<SubTexture name="character_dane0003" x="487" y="5" width="477" height="672"/>
+	<SubTexture name="character_dane0004" x="5" y="5" width="477" height="672"/>
+	<SubTexture name="character_dane0005" x="5" y="5" width="477" height="672"/>
+	<SubTexture name="character_dane0006" x="487" y="5" width="477" height="672"/>
+	<SubTexture name="character_dane0007" x="487" y="5" width="477" height="672"/>
+</TextureAtlas>

@@ -1,0 +1,27 @@
+class PixelBoyfriendDeathCharacter extends Character 
+{
+	public function new()
+	{
+    	super('bf-pixel-dead');
+	}
+
+	override function onCreate(e:ScriptEvent)
+	{
+		super.onCreate(e);
+		
+		GameOverSubstate.musicSuffix = 'pixel';
+		GameOverSubstate.deathSuffix = '-pixel';
+	}
+
+	override function load()
+	{
+	    frames = Paths.getSparrowAtlas('characters/shared/bfPixelsDEAD', 'shared');
+
+	    animation.addByPrefix('singUP', "BF Dies pixel", 24, false);
+	    animation.addByPrefix('firstDeath', "BF Dies pixel", 24, false);
+	    animation.addByPrefix('deathLoop', "Retry Loop", 24, true);
+	    animation.addByPrefix('deathConfirm', "RETRY CONFIRM", 24, false);
+		
+	    playAnim('firstDeath');
+	}
+}

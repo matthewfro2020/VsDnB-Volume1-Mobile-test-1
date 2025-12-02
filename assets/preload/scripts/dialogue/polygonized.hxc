@@ -1,0 +1,19 @@
+class PolygonizedDialogue extends Dialogue
+{
+    public function new()
+    {
+        super('polygonized');
+    }
+
+    override function applyModifier(modifier:String)
+    {
+        switch (modifier)
+        {
+            case 'setfont_code':
+                dialogueText.font = Paths.font("barcode.ttf");
+            case 'setfont_normal':
+                dialogueText.font = Paths.font('comic.ttf');
+        }
+        super.applyModifier(modifier);
+    }
+}

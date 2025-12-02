@@ -1,0 +1,8 @@
+scaredLoop 25 -20
+scared 46 27
+um 11 5
+idle 0 0
+singDOWN -10 -7
+singRIGHT -18 -5
+singUP 9 13
+singLEFT 36 -3

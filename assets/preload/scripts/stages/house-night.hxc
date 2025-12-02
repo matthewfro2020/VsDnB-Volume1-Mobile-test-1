@@ -1,0 +1,39 @@
+class DaveHouseNightStage extends Stage
+{
+    public function new()
+    {
+        super('house-night');
+    }
+
+    override function load():Void
+    {
+        var bg:BGSprite = new BGSprite('bg', -600, -300, Paths.image('backgrounds/shared/sky_night'), null, 0.2, 0);
+        bg.zIndex = 0;
+        add(bg);
+        
+        var stageHills:BGSprite = new BGSprite('stageHills', -834, -159, Paths.image('backgrounds/daveHouse/normal/hills'), null, 0.35, 0.3);
+        stageHills.color = Stage.nightColor;
+        stageHills.zIndex = 10;
+        add(stageHills);
+
+        var grassbg:BGSprite = new BGSprite('grassbg', -1205, 580, Paths.image('backgrounds/daveHouse/normal/grass bg'), null, 0.65, 0.5);
+        grassbg.color = Stage.nightColor;
+        grassbg.zIndex = 20;
+        add(grassbg);
+
+        var gate:BGSprite = new BGSprite('gate', -755, 250, Paths.image('backgrounds/daveHouse/normal/gate'), null, 0.65, 0.75);
+        gate.color = Stage.nightColor;
+        gate.zIndex = 30;
+        add(gate);
+
+        var stageFront:BGSprite = new BGSprite('stageFront', -832, 505, Paths.image('backgrounds/daveHouse/normal/grass'), null);
+        stageFront.color = Stage.nightColor;
+        stageFront.zIndex = 40;
+        add(stageFront);
+    }
+    
+    override function onCharacterAdd(e:AddCharacterScriptEvent)
+    {
+        e.character.color = Stage.nightColor;
+    }
+}

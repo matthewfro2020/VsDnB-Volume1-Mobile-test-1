@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="daverender_warmup.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="warmup0000" x="5" y="5" width="555" height="370"/>
+	<SubTexture name="warmup0001" x="5" y="5" width="555" height="370"/>
+	<SubTexture name="warmup0002" x="5" y="5" width="555" height="370"/>
+	<SubTexture name="warmup0003" x="5" y="5" width="555" height="370"/>
+	<SubTexture name="warmup0004" x="565" y="5" width="555" height="370"/>
+	<SubTexture name="warmup0005" x="565" y="5" width="555" height="370"/>
+	<SubTexture name="warmup0006" x="565" y="5" width="555" height="370"/>
+	<SubTexture name="warmup0007" x="565" y="5" width="555" height="370"/>
+</TextureAtlas>

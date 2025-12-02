@@ -1,0 +1,53 @@
+﻿
+credits_version==(Volumen 1) 
+credits_createdBy==Creado por 
+ 
+// DEVELOPERS // 
+credits_developers_title==Desarrolladores 
+ 
+credits_moldy==Director del juego, Compositor Principal:linebreak:Chárter Principal, Programador  
+credits_rapparep==Director Creativo, Artista Principal:linebreak:GUI, Concepto  y Artista de Escenarios y Fondos:linebreak:Modelador Principal, Compositor Diverso, Escritor 
+credits_t5mpler==Lead Programador:linebreak:Compositor Diverso:linebreak:Artista Conceptual, Artista GUI 3D 
+credits_mtm101==Programador Principal, Escritor:linebreak:Diseñador de Sonido 
+credits_erizur==Programador Diverso, Artista GUI 
+credits_tb==Artista Diverso 
+credits_zmac==Artista de Escenarios 3D Principal 
+credits_pointy==Artista, Chárter 
+credits_longDonny==Artista 3D Principal:linebreak:Animador 3D, Modelador Principal  
+credits_fissh==Artista, Creador de Escenarios:linebreak:Principal y Artista Conceptual  
+
+// CONTRIBUTORS
+credits_contributors_title==Contribudores 
+ 
+credits_evdial==Artista Principal, Artista de Escenarios 
+credits_billy==Artista Conceptual  
+credits_steph==Programador  
+credits_alexander==Compositor  
+credits_magical==Compositor, Charter, Artista Conceptual  
+credits_cup==Compositor Adicional, Artista GUI 
+credits_sibottle==Compositor Invitado, Artista Invitado 
+credits_bubswest==Compositor, Chárter 
+credits_top10==Compositor, Artista  
+credits_inguf==Artista Adicional  
+credits_ztgds==Chárter 
+credits_yourMom==Compositor  
+credits_sk0rbias==Artista GUI 
+ 
+// TRANSLATORS // 
+credits_translators_title==Traductores
+credits_windspel==Traducción al español
+credits_aizakku==Traducción al portugués 
+credits_soulegal==Traducción al portugués
+ 
+// SPECIAL THANKS // 
+credits_specialThanks_title==Agradecimientos Especiales  
+
+credits_shifty==Creador el:linebreak:Chromatic de Bambi  
+credits_skyFactorial==Muestras Atonales de Bambi 
+credits_villezen==Creador de Freeplay SFX 
+credits_statictigers==Ayuda al Revisar el Diálogo 
+credits_ray==Artista del Teléfono Final 
+ 
+// MISC // 
+credits_menuBackground_title==Menu Artistas de Fondo 
+credits_playtesters_title==Jugadores de Prueba

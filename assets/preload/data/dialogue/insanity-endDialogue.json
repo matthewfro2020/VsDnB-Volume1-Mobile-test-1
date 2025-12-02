@@ -1,0 +1,22 @@
+{
+   "version": "1.0.0",
+   "music": "DaveDialogue",
+   "fadeInTime": 1,
+   "fadeOutTime": 1,
+   "dialogue": [
+      {
+         "expression": "shocked",
+         "side": "left",
+         "speaker": "dave",
+         "text": "insanity_end_1",
+         "typeSpeed": 0.06
+      },
+      {
+         "expression": "confused",
+         "side": "right",
+         "speaker": "bf",
+         "text": "insanity_end_2",
+         "typeSpeed": 0.04
+      }
+   ]
+}

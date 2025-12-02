@@ -1,0 +1,20 @@
+{
+   "version": "1.0.0",
+   "name": "Exbungo",
+   "scale": 1,
+   "danceSnap": 2,
+   "globalOffset": [0, -300],
+   "cameraOffsets": [0, 0],
+   "offsetFilePlayer": "exbungo",
+   "offsetFileOpponent": "exbungo",
+   "icon": "exbungo",
+   "singDuration": 4,
+   "color": "0xFD2721",
+   "nativelyPlayable": true,
+   "flipX": true,
+   "antialiasing": false,
+   "countdownData": {
+      "graphicPath": "evil",
+      "soundPath": "evil"
+   }
+}

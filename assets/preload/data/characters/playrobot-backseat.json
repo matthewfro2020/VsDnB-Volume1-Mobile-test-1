@@ -1,0 +1,19 @@
+{
+   "version": "1.0.0",
+   "name": "Playrobot Backseat",
+   "scale": 1,
+   "danceSnap": 2,
+   "globalOffset": [25, -60],
+   "cameraOffsets": [0, -100],
+   "offsetFilePlayer": "playrobot-backseat",
+   "offsetFileOpponent": "playrobot-backseat",
+   "icon": "playrobot",
+   "singDuration": 4,
+   "color": "0xFFC300",
+   "flipX": false,
+   "antialiasing": true,
+   "countdownData": {
+      "graphicPath": "normal",
+      "soundPath": "playrobot"
+   }
+}

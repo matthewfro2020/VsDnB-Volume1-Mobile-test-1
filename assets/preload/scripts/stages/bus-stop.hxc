@@ -1,0 +1,62 @@
+class AdventureBusStopStage extends Stage
+{
+    public override function new()
+    {
+        super('bus-stop');
+    }
+
+    public override function load():Void
+    {
+        PlayState.instance.gfOverride = 'gf-none';
+
+        var bg:BGSprite = new BGSprite('bg', -600, -880, Paths.image('backgrounds/shared/sky'), null, 0.5, 0.5);
+        bg.scale.set(1.5, 1.5);
+        bg.updateHitbox();
+        bg.zIndex = 0;
+        add(bg);
+        
+        var hill:BGSprite = new BGSprite('hill', -340, 152, Paths.image('backgrounds/adventure/busstop/hill3'), null, 0.7, 0.7);
+        hill.zIndex = 1;
+        add(hill);
+        
+        var neighborhood:BGSprite = new BGSprite('neighborhood', -800, -175, Paths.image('backgrounds/adventure/busstop/neighborhood'), null, 0.85, 0.95);
+        neighborhood.zIndex = 2;
+        add(neighborhood);
+        
+        var sidewalk:BGSprite = new BGSprite('sidewalk', -923, 756, Paths.image('backgrounds/adventure/busstop/sidewalk'), null, 1, 1);
+        sidewalk.zIndex = 3;
+        add(sidewalk);
+
+        marvin = new BGSprite('marvin', 171, 466, 'backgrounds/adventure/busstop/character_marvin', [
+            {name: 'start', prefix: 'character_marvin_loopstart0', loop: true},
+            {name: 'turn-transition', prefix: 'character_marvin_start0'},
+            {name: 'turn', prefix: 'character_marvin_loop0', loop: true},
+        ], 0.85, 0.95);
+        marvin.active = true;
+        playMarvinAnimation('start');
+        marvin.animation.onFinish.add((anim:String) -> 
+        {
+            switch (anim)
+            {
+                case 'turn-transition':
+                    playMarvinAnimation('turn');
+            }
+        });
+        marvin.zIndex = 4;
+        add(marvin);   
+    }
+
+    function playMarvinAnimation(anim:String)
+    {
+        switch (anim)
+        {
+            case 'start':
+                marvin.offset.set(0, 0);
+            case 'turn-transition':
+                marvin.offset.set(-3, 0);
+            case 'turn':
+                marvin.offset.set(-7, 0);
+        }
+        marvin.animation.play(anim, true);
+    }
+}

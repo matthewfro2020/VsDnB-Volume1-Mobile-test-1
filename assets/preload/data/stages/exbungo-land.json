@@ -1,0 +1,23 @@
+{
+   "version": "1.0.0",
+   "name": "Exbungo's Land",
+   "zoom": 0.7,
+   "player": {
+      "cameraOffsets": [0, 0],
+      "position": [1332, 513],
+      "scroll": [1, 1],
+      "zIndex": 102
+   },
+   "opponent": {
+      "cameraOffsets": [100, 0],
+      "position": [298, 131],
+      "scroll": [1, 1],
+      "zIndex": 101
+   },
+   "gf": {
+      "cameraOffsets": [0, 0],
+      "position": [756, 206],
+      "scroll": [1, 1],
+      "zIndex": 100
+   }
+}

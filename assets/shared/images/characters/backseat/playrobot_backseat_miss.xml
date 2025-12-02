@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="playrobot_backseat_miss.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="playrobotdownmiss0000" x="5" y="5" width="279" height="444" frameX="-5" frameY="-7" frameWidth="286" frameHeight="458"/>
+	<SubTexture name="playrobotdownmiss0001" x="5" y="5" width="279" height="444" frameX="-5" frameY="-7" frameWidth="286" frameHeight="458"/>
+	<SubTexture name="playrobotdownmiss0002" x="289" y="5" width="286" height="458"/>
+	<SubTexture name="playrobotdownmiss0003" x="580" y="5" width="277" height="442" frameX="-5" frameY="-12" frameWidth="286" frameHeight="458"/>
+	<SubTexture name="playrobotdownmiss0004" x="862" y="5" width="284" height="457" frameX="-1" frameY="0" frameWidth="286" frameHeight="458"/>
+	<SubTexture name="playrobotdownmiss0005" x="862" y="5" width="284" height="457" frameX="-1" frameY="0" frameWidth="286" frameHeight="458"/>
+	<SubTexture name="playrobotdownmiss0006" x="862" y="5" width="284" height="457" frameX="-1" frameY="0" frameWidth="286" frameHeight="458"/>
+	<SubTexture name="playrobotdownmiss0007" x="862" y="5" width="284" height="457" frameX="-1" frameY="0" frameWidth="286" frameHeight="458"/>
+	<SubTexture name="playrobotdownmiss0008" x="862" y="5" width="284" height="457" frameX="-1" frameY="0" frameWidth="286" frameHeight="458"/>
+	<SubTexture name="playrobotdownmiss0009" x="862" y="5" width="284" height="457" frameX="-1" frameY="0" frameWidth="286" frameHeight="458"/>
+	<SubTexture name="playrobotdownmiss0010" x="862" y="5" width="284" height="457" frameX="-1" frameY="0" frameWidth="286" frameHeight="458"/>
+	<SubTexture name="playrobotdownmiss0011" x="862" y="5" width="284" height="457" frameX="-1" frameY="0" frameWidth="286" frameHeight="458"/>
+	<SubTexture name="playrobotdownmiss0012" x="862" y="5" width="284" height="457" frameX="-1" frameY="0" frameWidth="286" frameHeight="458"/>
+	<SubTexture name="playrobotdownmiss0013" x="862" y="5" width="284" height="457" frameX="-1" frameY="0" frameWidth="286" frameHeight="458"/>
+	<SubTexture name="playrobotdownmiss0014" x="862" y="5" width="284" height="457" frameX="-1" frameY="0" frameWidth="286" frameHeight="458"/>
+	<SubTexture name="playrobotdownmiss0015" x="862" y="5" width="284" height="457" frameX="-1" frameY="0" frameWidth="286" frameHeight="458"/>
+	<SubTexture name="playrobotleftmiss0000" x="1151" y="5" width="421" height="465" frameX="0" frameY="0" frameWidth="434" frameHeight="465"/>
+	<SubTexture name="playrobotleftmiss0001" x="1151" y="5" width="421" height="465" frameX="0" frameY="0" frameWidth="434" frameHeight="465"/>
+	<SubTexture name="playrobotleftmiss0002" x="1577" y="5" width="418" height="464" frameX="-16" frameY="-1" frameWidth="434" frameHeight="465"/>
+	<SubTexture name="playrobotleftmiss0003" x="2000" y="5" width="401" height="445" frameX="-25" frameY="-16" frameWidth="434" frameHeight="465"/>
+	<SubTexture name="playrobotleftmiss0004" x="2406" y="5" width="413" height="462" frameX="-19" frameY="-2" frameWidth="434" frameHeight="465"/>
+	<SubTexture name="playrobotleftmiss0005" x="2406" y="5" width="413" height="462" frameX="-19" frameY="-2" frameWidth="434" frameHeight="465"/>
+	<SubTexture name="playrobotleftmiss0006" x="2406" y="5" width="413" height="462" frameX="-19" frameY="-2" frameWidth="434" frameHeight="465"/>
+	<SubTexture name="playrobotleftmiss0007" x="2406" y="5" width="413" height="462" frameX="-19" frameY="-2" frameWidth="434" frameHeight="465"/>
+	<SubTexture name="playrobotleftmiss0008" x="2406" y="5" width="413" height="462" frameX="-19" frameY="-2" frameWidth="434" frameHeight="465"/>
+	<SubTexture name="playrobotleftmiss0009" x="2406" y="5" width="413" height="462" frameX="-19" frameY="-2" frameWidth="434" frameHeight="465"/>
+	<SubTexture name="playrobotleftmiss0010" x="2406" y="5" width="413" height="462" frameX="-19" frameY="-2" frameWidth="434" frameHeight="465"/>
+	<SubTexture name="playrobotleftmiss0011" x="2406" y="5" width="413" height="462" frameX="-19" frameY="-2" frameWidth="434" frameHeight="465"/>
+	<SubTexture name="playrobotleftmiss0012" x="2406" y="5" width="413" height="462" frameX="-19" frameY="-2" frameWidth="434" frameHeight="465"/>
+	<SubTexture name="playrobotleftmiss0013" x="2406" y="5" width="413" height="462" frameX="-19" frameY="-2" frameWidth="434" frameHeight="465"/>
+	<SubTexture name="playrobotleftmiss0014" x="2406" y="5" width="413" height="462" frameX="-19" frameY="-2" frameWidth="434" frameHeight="465"/>
+	<SubTexture name="playrobotleftmiss0015" x="2406" y="5" width="413" height="462" frameX="-19" frameY="-2" frameWidth="434" frameHeight="465"/>
+	<SubTexture name="rightplayrobotmiss0000" x="5" y="475" width="332" height="456" frameX="-16" frameY="0" frameWidth="348" frameHeight="463"/>
+	<SubTexture name="rightplayrobotmiss0001" x="5" y="475" width="332" height="456" frameX="-16" frameY="0" frameWidth="348" frameHeight="463"/>
+	<SubTexture name="rightplayrobotmiss0002" x="342" y="475" width="331" height="454" frameX="0" frameY="-9" frameWidth="348" frameHeight="463"/>
+	<SubTexture name="rightplayrobotmiss0003" x="678" y="475" width="319" height="437" frameX="-5" frameY="-22" frameWidth="348" frameHeight="463"/>
+	<SubTexture name="rightplayrobotmiss0004" x="1002" y="475" width="326" height="455" frameX="-2" frameY="-7" frameWidth="348" frameHeight="463"/>
+	<SubTexture name="rightplayrobotmiss0005" x="1002" y="475" width="326" height="455" frameX="-2" frameY="-7" frameWidth="348" frameHeight="463"/>
+	<SubTexture name="rightplayrobotmiss0006" x="1002" y="475" width="326" height="455" frameX="-2" frameY="-7" frameWidth="348" frameHeight="463"/>
+	<SubTexture name="rightplayrobotmiss0007" x="1002" y="475" width="326" height="455" frameX="-2" frameY="-7" frameWidth="348" frameHeight="463"/>
+	<SubTexture name="rightplayrobotmiss0008" x="1002" y="475" width="326" height="455" frameX="-2" frameY="-7" frameWidth="348" frameHeight="463"/>
+	<SubTexture name="rightplayrobotmiss0009" x="1002" y="475" width="326" height="455" frameX="-2" frameY="-7" frameWidth="348" frameHeight="463"/>
+	<SubTexture name="rightplayrobotmiss0010" x="1002" y="475" width="326" height="455" frameX="-2" frameY="-7" frameWidth="348" frameHeight="463"/>
+	<SubTexture name="rightplayrobotmiss0011" x="1002" y="475" width="326" height="455" frameX="-2" frameY="-7" frameWidth="348" frameHeight="463"/>
+	<SubTexture name="rightplayrobotmiss0012" x="1002" y="475" width="326" height="455" frameX="-2" frameY="-7" frameWidth="348" frameHeight="463"/>
+	<SubTexture name="rightplayrobotmiss0013" x="1002" y="475" width="326" height="455" frameX="-2" frameY="-7" frameWidth="348" frameHeight="463"/>
+	<SubTexture name="rightplayrobotmiss0014" x="1002" y="475" width="326" height="455" frameX="-2" frameY="-7" frameWidth="348" frameHeight="463"/>
+	<SubTexture name="rightplayrobotmiss0015" x="1002" y="475" width="326" height="455" frameX="-2" frameY="-7" frameWidth="348" frameHeight="463"/>
+	<SubTexture name="upplayrobotmiss0000" x="1333" y="475" width="384" height="474" frameX="-5" frameY="0" frameWidth="407" frameHeight="478"/>
+	<SubTexture name="upplayrobotmiss0001" x="1333" y="475" width="384" height="474" frameX="-5" frameY="0" frameWidth="407" frameHeight="478"/>
+	<SubTexture name="upplayrobotmiss0002" x="1722" y="475" width="407" height="461" frameX="0" frameY="-17" frameWidth="407" frameHeight="478"/>
+	<SubTexture name="upplayrobotmiss0003" x="2134" y="475" width="394" height="445" frameX="-6" frameY="-29" frameWidth="407" frameHeight="478"/>
+	<SubTexture name="upplayrobotmiss0004" x="2533" y="475" width="402" height="457" frameX="-2" frameY="-19" frameWidth="407" frameHeight="478"/>
+	<SubTexture name="upplayrobotmiss0005" x="2533" y="475" width="402" height="457" frameX="-2" frameY="-19" frameWidth="407" frameHeight="478"/>
+	<SubTexture name="upplayrobotmiss0006" x="2533" y="475" width="402" height="457" frameX="-2" frameY="-19" frameWidth="407" frameHeight="478"/>
+	<SubTexture name="upplayrobotmiss0007" x="2533" y="475" width="402" height="457" frameX="-2" frameY="-19" frameWidth="407" frameHeight="478"/>
+	<SubTexture name="upplayrobotmiss0008" x="2533" y="475" width="402" height="457" frameX="-2" frameY="-19" frameWidth="407" frameHeight="478"/>
+	<SubTexture name="upplayrobotmiss0009" x="2533" y="475" width="402" height="457" frameX="-2" frameY="-19" frameWidth="407" frameHeight="478"/>
+	<SubTexture name="upplayrobotmiss0010" x="2533" y="475" width="402" height="457" frameX="-2" frameY="-19" frameWidth="407" frameHeight="478"/>
+	<SubTexture name="upplayrobotmiss0011" x="2533" y="475" width="402" height="457" frameX="-2" frameY="-19" frameWidth="407" frameHeight="478"/>
+	<SubTexture name="upplayrobotmiss0012" x="2533" y="475" width="402" height="457" frameX="-2" frameY="-19" frameWidth="407" frameHeight="478"/>
+	<SubTexture name="upplayrobotmiss0013" x="2533" y="475" width="402" height="457" frameX="-2" frameY="-19" frameWidth="407" frameHeight="478"/>
+	<SubTexture name="upplayrobotmiss0014" x="2533" y="475" width="402" height="457" frameX="-2" frameY="-19" frameWidth="407" frameHeight="478"/>
+	<SubTexture name="upplayrobotmiss0015" x="2533" y="475" width="402" height="457" frameX="-2" frameY="-19" frameWidth="407" frameHeight="478"/>
+</TextureAtlas>

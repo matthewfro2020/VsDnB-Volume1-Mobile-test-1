@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="freeplay_unlock.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="freeplay_unlock0000" x="5" y="5" width="160" height="159"/>
+	<SubTexture name="freeplay_unlock0001" x="5" y="5" width="160" height="159"/>
+	<SubTexture name="freeplay_unlock0002" x="170" y="5" width="160" height="159"/>
+	<SubTexture name="freeplay_unlock0003" x="170" y="5" width="160" height="159"/>
+	<SubTexture name="freeplay_unlock0004" x="335" y="5" width="160" height="159"/>
+	<SubTexture name="freeplay_unlock0005" x="335" y="5" width="160" height="159"/>
+	<SubTexture name="freeplay_unlock0006" x="5" y="169" width="160" height="159"/>
+	<SubTexture name="freeplay_unlock0007" x="5" y="169" width="160" height="159"/>
+	<SubTexture name="freeplay_unlock0008" x="170" y="169" width="160" height="159"/>
+	<SubTexture name="freeplay_unlock0009" x="170" y="169" width="160" height="159"/>
+</TextureAtlas>

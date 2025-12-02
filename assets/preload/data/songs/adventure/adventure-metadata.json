@@ -1,0 +1,21 @@
+{
+   "version": "2.0.0",
+   "songName": "Adventure",
+   "composers": ["MoldyGangstaHero"],
+   "artists": ["Rapparep", "fisshcakes"],
+   "charters": ["MoldyGangstaHero"],
+   "coders": ["T5mpler"],
+   "variations": [],
+   "stage": "tristanRoom",
+   "player": "bf",
+   "opponent": "tristan-opponent",
+   "gf": "gf-none",
+   "timeChanges": [
+      {
+         "time": 0,
+         "bpm": 160,
+         "numerator": 7,
+         "denominator": 4
+      }
+   ]
+}

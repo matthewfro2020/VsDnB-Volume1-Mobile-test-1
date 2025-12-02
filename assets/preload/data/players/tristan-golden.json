@@ -1,0 +1,31 @@
+{
+   "version": "1.0.0",
+   "name": "Golden Tristan",
+   "charId": "tristan-golden",
+   "variationId": "tristan-golden",
+   "charSelect": {
+      "gf": "playrobot-gf",
+      "page": 0,
+      "portraitFile": "tristan_golden_portrait",
+      "position": 4,
+      "selected": {
+         "loop": true,
+         "name": "idle_select",
+         "prefix": "selected_golden"
+      },
+      "selectedTransition": {
+         "name": "selected",
+         "prefix": "transitions_golden"
+      },
+      "unselected": {
+         "loop": true,
+         "name": "idle_unselect",
+         "prefix": "unselected_golden"
+      },
+      "unselectedTransition": {
+         "name": "idle",
+         "prefix": "transitionu_golden"
+      }
+   },
+   "unlocked": true
+}

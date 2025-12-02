@@ -1,0 +1,69 @@
+class PlayrobotMusicStudioStage extends Stage
+{
+    public var speakersLeft:BGSprite;
+    public var speakersRight:BGSprite;
+
+    public function new()
+    {
+        super('music-studio');
+    }
+
+    override function load():Void
+    {
+        PlayState.instance.gfOverride = 'gf-none';
+
+        var backWall:BGSprite = new BGSprite('backWall', -180, 100, Paths.image('backgrounds/playrobot/studio/backwall'), null, 0.8, 0.8);
+        backWall.scale.set(1.2, 1.2);
+        backWall.updateHitbox();
+        backWall.zIndex = 0;
+        add(backWall);
+
+        var micSetup:BGSprite = new BGSprite('micSetup', 750, 270, Paths.image('backgrounds/playrobot/studio/mic_setup'));
+        micSetup.scale.set(1.2, 1.2);
+        micSetup.updateHitbox();
+        micSetup.zIndex = 2;
+        add(micSetup);
+        
+        var studio:BGSprite = new BGSprite('room', -1080, -150, Paths.image('backgrounds/playrobot/studio/music_studio'));	
+        studio.scale.set(1.2, 1.2);
+        studio.updateHitbox();
+        studio.zIndex = 3;
+        add(studio);
+
+        speakersLeft = new BGSprite('speakersLeft', -380, 550, 'backgrounds/playrobot/studio/speaker', [
+            {name: 'idle', prefix: 'bgspeak'}
+        ]);
+        speakersLeft.active = true;
+        speakersLeft.flipX = true;
+        speakersLeft.zIndex = 3;
+        add(speakersLeft);
+
+        speakersRight = new BGSprite('speakersRight', 1440, 550, 'backgrounds/playrobot/studio/speaker', [
+            {name: 'idle', prefix: 'bgspeak'}
+        ]);
+        speakersRight.active = true;
+        speakersRight.zIndex = 4;
+        add(speakersRight);
+
+        var keyboard:BGSprite = new BGSprite('keyboard', 95, 750, Paths.image('backgrounds/playrobot/studio/blagdog'));
+        keyboard.scale.set(1.2, 1.2);
+        keyboard.updateHitbox();
+        keyboard.zIndex = 5;
+        add(keyboard);
+
+        var couch:BGSprite = new BGSprite('couch', 970, 950, Paths.image('backgrounds/playrobot/studio/foregroundcouch'));
+        couch.scale.set(1.2, 1.2);
+        couch.updateHitbox();
+        couch.zIndex = 7;
+        add(couch);
+    }
+
+    override function onBeatHit(e:ConductorScriptEvent)
+    {
+        if (e.beat % 2 == 0)
+        {
+            speakersLeft.animation.play('idle', true);
+            speakersRight.animation.play('idle', true);
+        }
+    }
+}

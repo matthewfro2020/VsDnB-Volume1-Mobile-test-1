@@ -1,0 +1,21 @@
+{
+   "version": "2.0.0",
+   "songName": "Warmup",
+   "composers": ["MoldyGangstaHero"],
+   "artists": ["Rapparep"],
+   "charters": ["MoldyGangstaHero"],
+   "coders": ["MoldyGangstaHero"],
+   "variations": [],
+   "stage": "house",
+   "player": "bf",
+   "opponent": "dave",
+   "gf": "gf",
+   "timeChanges": [
+      {
+         "time": 0,
+         "bpm": 90,
+         "numerator": 4,
+         "denominator": 4
+      }
+   ]
+}

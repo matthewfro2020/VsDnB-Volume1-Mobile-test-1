@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="tristan_golden_portrait.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="selected_golden0000" x="5" y="5" width="231" height="215"/>
+	<SubTexture name="selected_golden0001" x="5" y="5" width="231" height="215"/>
+	<SubTexture name="transitions_golden0000" x="241" y="5" width="231" height="215"/>
+	<SubTexture name="transitions_golden0001" x="241" y="5" width="231" height="215"/>
+	<SubTexture name="transitions_golden0002" x="477" y="5" width="231" height="215"/>
+	<SubTexture name="transitions_golden0003" x="477" y="5" width="231" height="215"/>
+	<SubTexture name="transitions_golden0004" x="713" y="5" width="231" height="215"/>
+	<SubTexture name="transitions_golden0005" x="713" y="5" width="231" height="215"/>
+	<SubTexture name="transitionu_golden0000" x="713" y="5" width="231" height="215"/>
+	<SubTexture name="transitionu_golden0001" x="713" y="5" width="231" height="215"/>
+	<SubTexture name="transitionu_golden0002" x="477" y="5" width="231" height="215"/>
+	<SubTexture name="transitionu_golden0003" x="477" y="5" width="231" height="215"/>
+	<SubTexture name="transitionu_golden0004" x="241" y="5" width="231" height="215"/>
+	<SubTexture name="transitionu_golden0005" x="241" y="5" width="231" height="215"/>
+	<SubTexture name="unselected_golden0000" x="949" y="5" width="231" height="215"/>
+	<SubTexture name="unselected_golden0001" x="949" y="5" width="231" height="215"/>
+</TextureAtlas>

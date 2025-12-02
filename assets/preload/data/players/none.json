@@ -1,0 +1,35 @@
+{
+   "version": "1.0.0",
+   "name": "None",
+   "charId": "none",
+   "variationId": "",
+   "charSelect": {
+      "gf": "question",
+      "page": 0,
+      "portraitFile": "temp_portrait",
+      "position": 0,
+      "selected": {
+         "loop": true,
+         "name": "idle_select",
+         "offsets": [0, 2],
+         "prefix": "selected_temp"
+      },
+      "selectedTransition": {
+         "name": "selected",
+         "offsets": [0, 2],
+         "prefix": "transitions_temp"
+      },
+      "unselected": {
+         "loop": true,
+         "name": "idle_unselect",
+         "offsets": [0, 2],
+         "prefix": "unselected_temp"
+      },
+      "unselectedTransition": {
+         "name": "idle",
+         "offsets": [0, 2],
+         "prefix": "transitionu_temp"
+      }
+   },
+   "unlocked": false
+}

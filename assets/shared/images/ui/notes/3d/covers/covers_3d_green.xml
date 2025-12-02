@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="covers_3d_green.png">
+	<!-- Created with Adobe Animate version 23.0.0.407 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="end0000" x="0" y="0" width="52" height="29" frameX="-43" frameY="-42" frameWidth="140" frameHeight="118"/>
+	<SubTexture name="end0001" x="57" y="0" width="56" height="55" frameX="-41" frameY="-27" frameWidth="140" frameHeight="118"/>
+	<SubTexture name="end0002" x="118" y="0" width="85" height="83" frameX="-25" frameY="-10" frameWidth="140" frameHeight="118"/>
+	<SubTexture name="end0003" x="208" y="0" width="125" height="110" frameX="-4" frameY="0" frameWidth="140" frameHeight="118"/>
+	<SubTexture name="end0004" x="338" y="0" width="140" height="118"/>
+	<SubTexture name="loop0000" x="0" y="123" width="76" height="16" frameX="0" frameY="-2" frameWidth="76" frameHeight="20"/>
+	<SubTexture name="loop0001" x="81" y="123" width="72" height="19" frameX="-3" frameY="0" frameWidth="76" frameHeight="20"/>
+	<SubTexture name="loop0002" x="158" y="123" width="70" height="20" frameX="-4" frameY="0" frameWidth="76" frameHeight="20"/>
+	<SubTexture name="loop0003" x="233" y="123" width="73" height="18" frameX="-2" frameY="-1" frameWidth="76" frameHeight="20"/>
+	<SubTexture name="start0000" x="311" y="123" width="94" height="84"/>
+</TextureAtlas>

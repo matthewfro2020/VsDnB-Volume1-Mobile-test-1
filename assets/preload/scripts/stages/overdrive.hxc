@@ -1,0 +1,47 @@
+class OverdriveStage extends Stage
+{
+    var miss:GameSound = new GameSound().load(Paths.sound('bad_disc'));
+
+    public function new()
+    {
+        super('overdrive');
+    }
+    
+    override function load():Void
+    {
+        PlayState.instance.gfOverride = 'gf-none';
+        PlayState.instance.healthBarOverride = Paths.image('ui/bars/fnfengine');
+        
+        var stfu:BGSprite = new BGSprite('stfu', -583, -383, Paths.image('backgrounds/stfu'), null, 1, 1);
+        add(stfu);
+    }
+
+    override function onNoteMiss(e:NoteScriptEvent)
+    {
+        super.onNoteMiss(e);
+
+        e.missSound = miss;
+        e.missSound.volume = FlxG.random.float(0.1, 0.2);
+    }
+
+    override function onCreateUI()
+    {
+        if (PlayState.instance.ratings != null)
+        {
+            PlayState.instance.ratings.x += 50;
+        }
+        
+        for (i in [PlayState.instance.timer])
+        {
+            if (i != null)
+            {
+                i.visible = false;
+                remove(i);
+            }
+        }
+        
+        PlayState.instance.missesDisplay.text.font = Paths.font('ariblk.ttf');
+        PlayState.instance.accuracyDisplay.text.font = Paths.font('ariblk.ttf');
+        PlayState.instance.scoreDisplay.text.font = Paths.font('ariblk.ttf');
+    }
+}

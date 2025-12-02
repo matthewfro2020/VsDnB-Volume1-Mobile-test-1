@@ -1,0 +1,31 @@
+{
+   "version": "1.0.0",
+   "name": "Playrobot",
+   "charId": "playrobot-player",
+   "variationId": "playrobot",
+   "charSelect": {
+      "gf": "tristan-gf",
+      "page": 0,
+      "portraitFile": "playrobot_portrait",
+      "position": 7,
+      "selected": {
+         "loop": true,
+         "name": "idle_select",
+         "prefix": "selected_playrobot"
+      },
+      "selectedTransition": {
+         "name": "selected",
+         "prefix": "transitions_playrobot"
+      },
+      "unselected": {
+         "loop": true,
+         "name": "idle_unselect",
+         "prefix": "unselected_playrobot"
+      },
+      "unselectedTransition": {
+         "name": "idle",
+         "prefix": "transitionu_playrobot"
+      }
+   },
+   "unlocked": true
+}

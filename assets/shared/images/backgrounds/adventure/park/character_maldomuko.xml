@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="character_maldomuko.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="character_mukomaldo0000" x="5" y="5" width="547" height="349" frameX="0" frameY="-4" frameWidth="547" frameHeight="353"/>
+	<SubTexture name="character_mukomaldo0001" x="5" y="5" width="547" height="349" frameX="0" frameY="-4" frameWidth="547" frameHeight="353"/>
+	<SubTexture name="character_mukomaldo0002" x="5" y="5" width="547" height="349" frameX="0" frameY="-4" frameWidth="547" frameHeight="353"/>
+	<SubTexture name="character_mukomaldo0003" x="5" y="5" width="547" height="349" frameX="0" frameY="-4" frameWidth="547" frameHeight="353"/>
+	<SubTexture name="character_mukomaldo0004" x="5" y="5" width="547" height="349" frameX="0" frameY="-4" frameWidth="547" frameHeight="353"/>
+	<SubTexture name="character_mukomaldo0005" x="5" y="5" width="547" height="349" frameX="0" frameY="-4" frameWidth="547" frameHeight="353"/>
+	<SubTexture name="character_mukomaldo0006" x="557" y="5" width="547" height="347" frameX="0" frameY="-2" frameWidth="547" frameHeight="353"/>
+	<SubTexture name="character_mukomaldo0007" x="557" y="5" width="547" height="347" frameX="0" frameY="-2" frameWidth="547" frameHeight="353"/>
+	<SubTexture name="character_mukomaldo0008" x="557" y="5" width="547" height="347" frameX="0" frameY="-2" frameWidth="547" frameHeight="353"/>
+	<SubTexture name="character_mukomaldo0009" x="557" y="5" width="547" height="347" frameX="0" frameY="-2" frameWidth="547" frameHeight="353"/>
+	<SubTexture name="character_mukomaldo0010" x="1109" y="5" width="547" height="348" frameX="0" frameY="0" frameWidth="547" frameHeight="353"/>
+	<SubTexture name="character_mukomaldo0011" x="1109" y="5" width="547" height="348" frameX="0" frameY="0" frameWidth="547" frameHeight="353"/>
+	<SubTexture name="character_mukomaldo0012" x="1661" y="5" width="547" height="347" frameX="0" frameY="-4" frameWidth="547" frameHeight="353"/>
+	<SubTexture name="character_mukomaldo0013" x="1661" y="5" width="547" height="347" frameX="0" frameY="-4" frameWidth="547" frameHeight="353"/>
+</TextureAtlas>

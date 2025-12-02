@@ -1,0 +1,79 @@
+class MatrixStage extends Stage
+{
+    var matrix:BGSprite;
+
+    var binaryVideo:FlxVideoSprite;
+
+    public function new()
+    {
+        super('matrix');
+    }
+
+    override function load():Void
+    {
+        matrix = new BGSprite('matrix', -180, 100, Paths.image('backgrounds/playrobot/matrix/matrix_bg'));
+        matrix.scale.set(1.5 * (1 / stageZoom), 1.5 * (1 / stageZoom));
+        matrix.updateHitbox();
+        matrix.scrollFactor.set();
+        matrix.screenCenter();
+        matrix.antialiasing = false;
+        matrix.color = FlxColor.GREEN;
+        matrix.active = false;
+        add(matrix);
+
+        binaryVideo = new FlxVideoSprite();
+        binaryVideo.antialiasing = false;
+        binaryVideo.scrollFactor.set();
+        binaryVideo.color = FlxColor.LIME;
+        binaryVideo.bitmap.onFormatSetup.add(onFormatChange);
+        binaryVideo.bitmap.onTimeChanged.add(onTimeChange);
+        add(binaryVideo);
+
+        binaryVideo.bitmap.load(Paths.video('binary'));
+        binaryVideo.play();
+    }
+
+    function onDestroy(e:ScriptEvent)
+    {
+        if (binaryVideo != null)
+        {
+            binaryVideo?.bitmap?.onFormatSetup.remove(onFormatChange);
+            binaryVideo?.bitmap?.onTimeChanged.remove(onTimeChange);
+        }
+    }
+
+    function onFormatChange():Void
+    {
+        binaryVideo.setGraphicSize(FlxG.width * (1 / PlayState.instance.defaultCamZoom), FlxG.height * (1 / PlayState.instance.defaultCamZoom));
+        binaryVideo.updateHitbox();
+        binaryVideo.screenCenter();
+    }
+
+    function onTimeChange():Void
+    {
+        if (binaryVideo.bitmap == null)
+            return;
+
+        if (binaryVideo.bitmap.time > 2700)
+        {
+            if (binaryVideo.bitmap != null)
+                binaryVideo.bitmap.time = 0;
+        }
+    }
+
+    public function switchColors(newColor:FlxColor)
+    {
+        matrix.color = newColor;
+        binaryVideo.color = newColor;
+    }
+
+    override function onPause(e:ScriptEvent)
+    {
+        binaryVideo.bitmap.pause();
+    }
+    
+    override function onResume(e:ScriptEvent)
+    {
+        binaryVideo.bitmap.resume();
+    }
+}

@@ -1,0 +1,18 @@
+class BambiHaystackCharacter extends Character 
+{
+	public function new()
+	{
+    	super('bambi-haystack');
+	}
+
+	override function load()
+	{
+	    frames = Paths.getSparrowAtlas('characters/shared/bambi_haystack', 'shared');
+		
+	    animation.addByPrefix('cheer', 'hay_cheer', 24, false);
+		animation.addByPrefix('sad', 'hay_miss', 24, false);
+		animation.addByPrefix('idle', 'hay_idle', 24, false);
+	
+	    playAnim('idle');
+	}
+}

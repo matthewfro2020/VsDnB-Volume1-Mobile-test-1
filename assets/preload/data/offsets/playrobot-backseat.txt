@@ -1,0 +1,16 @@
+danceLeft-transition 0 0
+scared 9 7
+danceRight-transition 0 0
+singRIGHTmiss -48 -5
+danceRight 0 0
+singDOWN -35 -2
+singLEFTmiss 59 -4
+danceLeft 0 0
+singUP 23 12
+scared2 53 16
+hey -21 12
+idle 0 0
+singDOWNmiss -33 -11
+singRIGHT -47 -4
+singUPmiss 22 11
+singLEFT 60 2

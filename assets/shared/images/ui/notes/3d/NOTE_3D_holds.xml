@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="NOTE_3D_holds.png">
+	<!-- Created with Adobe Animate version 23.0.0.407 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="blue hold end0000" x="0" y="0" width="49" height="78"/>
+	<SubTexture name="blue hold piece0000" x="54" y="0" width="49" height="40"/>
+	<SubTexture name="green hold end0000" x="108" y="0" width="49" height="78"/>
+	<SubTexture name="green hold piece0000" x="162" y="0" width="49" height="41"/>
+	<SubTexture name="pruple end hold0000" x="216" y="0" width="68" height="62"/>
+	<SubTexture name="purple hold piece0000" x="0" y="83" width="68" height="41"/>
+	<SubTexture name="red hold end0000" x="73" y="83" width="66" height="62"/>
+	<SubTexture name="red hold piece0000" x="144" y="83" width="66" height="41"/>
+</TextureAtlas>

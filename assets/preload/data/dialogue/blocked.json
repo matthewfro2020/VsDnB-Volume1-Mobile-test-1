@@ -1,0 +1,85 @@
+{
+   "version": "1.0.0",
+   "music": "DaveDialogue",
+   "fadeInTime": 1,
+   "fadeOutTime": 1,
+   "dialogue": [
+      {
+         "expression": "normal",
+         "side": "right",
+         "speaker": "gf",
+         "text": "blocked_1",
+         "typeSpeed": 0.03
+      },
+      {
+         "expression": "cheer",
+         "side": "right",
+         "speaker": "gf",
+         "text": "blocked_2",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "ready",
+         "side": "right",
+         "speaker": "bf",
+         "text": "blocked_3",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "normal",
+         "side": "right",
+         "speaker": "gf",
+         "text": "blocked_4",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "annoyed",
+         "side": "left",
+         "speaker": "bambi",
+         "text": "blocked_5",
+         "typeSpeed": 0.03
+      },
+      {
+         "expression": "confused",
+         "side": "right",
+         "speaker": "bf",
+         "text": "blocked_6",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "upset",
+         "side": "left",
+         "speaker": "bambi",
+         "text": "blocked_7",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "confused",
+         "side": "right",
+         "speaker": "bf",
+         "text": "blocked_8",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "angry",
+         "side": "left",
+         "speaker": "bambi",
+         "text": "blocked_9",
+         "typeSpeed": 0.02
+      },
+      {
+         "expression": "upset",
+         "side": "right",
+         "speaker": "bf",
+         "text": "blocked_10",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "what",
+         "side": "right",
+         "speaker": "gf",
+         "text": "blocked_11",
+         "typeSpeed": 0.03
+      }
+   ]
+}

@@ -1,0 +1,25 @@
+class TristanGoldenCharacter extends Character 
+{
+	public function new()
+	{
+    	super('tristan-golden');
+	}
+
+	override function load()
+	{
+	    frames = Paths.getSparrowAtlas('characters/tristan/tristan_golden', 'shared');
+	
+	    animation.addByPrefix('idle', 'idle', 24, false);
+	    for (anim in ['left', 'down', 'up', 'right'])
+	    {
+	        animation.addByPrefix('sing' + anim.toUpperCase(), anim + '0', 24, false);
+	        animation.addByPrefix('sing' + anim.toUpperCase() + 'miss', anim + 'miss', 24, false);
+	    }
+	    animation.addByPrefix('hey', 'hey', 24, false);
+			
+		skins.set('deathSkin', 'tristan-golden-death');
+		skins.set('gfSkin', 'playrobot-gf');
+	
+	    playAnim('idle');
+	}
+}

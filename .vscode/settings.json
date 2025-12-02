@@ -1,0 +1,19 @@
+{
+   "[json]": {
+      // Automatically keep JSON files formatted.
+      "editor.formatOnSave": true,
+      "editor.formatOnPaste": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+   },
+
+   "[jsonc]": {
+      // Automatically keep JSONC files formatted.
+      "editor.formatOnSave": true,
+      "editor.formatOnPaste": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+   },
+   "prettier.tabWidth": 3,
+   "prettier.bracketSpacing": true,
+   "prettier.configPath": "",
+   "prettier.semi": true
+}

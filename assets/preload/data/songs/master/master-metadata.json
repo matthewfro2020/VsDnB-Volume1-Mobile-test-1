@@ -1,0 +1,21 @@
+{
+   "version": "2.0.0",
+   "songName": "Master",
+   "composers": ["MoldyGangstaHero"],
+   "artists": ["Rapparep"],
+   "charters": ["MoldyGangstaHero"],
+   "coders": ["Rapparep"],
+   "variations": [],
+   "stage": "master",
+   "player": "bf",
+   "opponent": "bambi-joke-mad",
+   "gf": "gf",
+   "timeChanges": [
+      {
+         "time": 0,
+         "bpm": 240,
+         "numerator": 4,
+         "denominator": 4
+      }
+   ]
+}

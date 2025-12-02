@@ -1,0 +1,20 @@
+class AlexCharacter extends Character 
+{
+	public function new()
+	{
+    	super('alex');
+	}
+
+	override function load()
+	{
+	    frames = Paths.getSparrowAtlas('characters/shared/alex', 'shared');
+	    
+	    animation.addByPrefix('idle', 'idle', 24, false);
+	    animation.addByPrefix('singDOWN', 'idle', 24, false);
+	    animation.addByPrefix('singUP', 'idle', 24, false);
+	    animation.addByPrefix('singLEFT', 'idle', 24, false);
+	    animation.addByPrefix('singRIGHT', 'idle', 24, false);
+		
+	    playAnim('idle');
+	}
+}

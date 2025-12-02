@@ -1,0 +1,20 @@
+class JokeBambiCharacter extends Character 
+{
+	public function new()
+	{
+    	super('bambi-joke');
+	}
+
+	override function load()
+	{
+		frames = Paths.getSparrowAtlas('characters/joke/bambi-joke', 'shared');
+	
+	    animation.addByPrefix('idle', 'idle', 24, false);
+	    for (anim in ['left', 'down', 'up', 'right']) {
+			  animation.addByPrefix('sing' + anim.toUpperCase(), anim, 24, false);
+	    }
+	    animation.addByPrefix('hey', 'hey', 24, false);
+		
+	    playAnim('idle');
+	}
+}

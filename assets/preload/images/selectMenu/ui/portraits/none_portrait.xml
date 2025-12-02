@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="none_portrait.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="selected_none0000" x="5" y="5" width="241" height="216"/>
+	<SubTexture name="transitions_none0000" x="5" y="5" width="241" height="216"/>
+	<SubTexture name="transitionu_none0000" x="5" y="5" width="241" height="216"/>
+	<SubTexture name="unselected_none0000" x="5" y="5" width="241" height="216"/>
+</TextureAtlas>

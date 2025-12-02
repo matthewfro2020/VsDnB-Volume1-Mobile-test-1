@@ -1,0 +1,28 @@
+{
+   "version": "1.0.0",
+   "name": "Boyfriend",
+   "globalOffsets": [40, -10],
+   "sounds": ["dialogue/bfDialogue"],
+   "expressions": [
+      {
+         "assetPath": "bf/bf_ready",
+         "name": "ready",
+         "scale": 1
+      },
+      {
+         "assetPath": "bf/bf_confused",
+         "name": "confused",
+         "scale": 1
+      },
+      {
+         "assetPath": "bf/bf_upset",
+         "name": "upset",
+         "scale": 1
+      },
+      {
+         "assetPath": "bf/bf_happy",
+         "name": "normal",
+         "scale": 1
+      }
+   ]
+}

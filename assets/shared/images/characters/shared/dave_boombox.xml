@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="dave_boombox.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="boomboxcheer0000" x="5" y="5" width="358" height="295"/>
+	<SubTexture name="boomboxcheer0001" x="5" y="5" width="358" height="295"/>
+	<SubTexture name="boomboxcheer0002" x="368" y="5" width="358" height="295"/>
+	<SubTexture name="boomboxcheer0003" x="368" y="5" width="358" height="295"/>
+	<SubTexture name="boomboxcheer0004" x="731" y="5" width="358" height="295"/>
+	<SubTexture name="boomboxcheer0005" x="731" y="5" width="358" height="295"/>
+	<SubTexture name="boomboxcheer0006" x="368" y="5" width="358" height="295"/>
+	<SubTexture name="boomboxcheer0007" x="368" y="5" width="358" height="295"/>
+	<SubTexture name="boomboxcheer0008" x="731" y="5" width="358" height="295"/>
+	<SubTexture name="boomboxcheer0009" x="731" y="5" width="358" height="295"/>
+	<SubTexture name="boomboxcheer0010" x="368" y="5" width="358" height="295"/>
+	<SubTexture name="boomboxcheer0011" x="368" y="5" width="358" height="295"/>
+	<SubTexture name="boomboxcheer0012" x="731" y="5" width="358" height="295"/>
+	<SubTexture name="boomboxcheer0013" x="731" y="5" width="358" height="295"/>
+	<SubTexture name="boomboxcheer0014" x="368" y="5" width="358" height="295"/>
+	<SubTexture name="boomboxcheer0015" x="368" y="5" width="358" height="295"/>
+	<SubTexture name="boomboxidle0000" x="1094" y="5" width="365" height="263"/>
+	<SubTexture name="boomboxidle0001" x="1094" y="5" width="365" height="263"/>
+	<SubTexture name="boomboxidle0002" x="5" y="305" width="365" height="263"/>
+	<SubTexture name="boomboxidle0003" x="5" y="305" width="365" height="263"/>
+	<SubTexture name="boomboxidle0004" x="375" y="305" width="365" height="263"/>
+	<SubTexture name="boomboxidle0005" x="375" y="305" width="365" height="263"/>
+	<SubTexture name="boomboxidle0006" x="745" y="305" width="365" height="263"/>
+	<SubTexture name="boomboxidle0007" x="745" y="305" width="365" height="263"/>
+	<SubTexture name="boomboxidle0008" x="1115" y="305" width="365" height="263"/>
+	<SubTexture name="boomboxidle0009" x="1115" y="305" width="365" height="263"/>
+	<SubTexture name="boomboxidle0010" x="5" y="573" width="365" height="263"/>
+	<SubTexture name="boomboxidle0011" x="5" y="573" width="365" height="263"/>
+	<SubTexture name="boomboxidle0012" x="1115" y="305" width="365" height="263"/>
+	<SubTexture name="boomboxidle0013" x="1115" y="305" width="365" height="263"/>
+	<SubTexture name="boomboxidle0014" x="5" y="573" width="365" height="263"/>
+	<SubTexture name="boomboxidle0015" x="5" y="573" width="365" height="263"/>
+	<SubTexture name="boomboxmiss0000" x="375" y="573" width="353" height="298"/>
+	<SubTexture name="boomboxmiss0001" x="375" y="573" width="353" height="298"/>
+	<SubTexture name="boomboxmiss0002" x="733" y="573" width="353" height="298"/>
+	<SubTexture name="boomboxmiss0003" x="733" y="573" width="353" height="298"/>
+	<SubTexture name="boomboxmiss0004" x="1091" y="573" width="353" height="298"/>
+	<SubTexture name="boomboxmiss0005" x="1091" y="573" width="353" height="298"/>
+	<SubTexture name="boomboxmiss0006" x="733" y="573" width="353" height="298"/>
+	<SubTexture name="boomboxmiss0007" x="733" y="573" width="353" height="298"/>
+	<SubTexture name="boomboxmiss0008" x="1091" y="573" width="353" height="298"/>
+	<SubTexture name="boomboxmiss0009" x="1091" y="573" width="353" height="298"/>
+	<SubTexture name="boomboxmiss0010" x="733" y="573" width="353" height="298"/>
+	<SubTexture name="boomboxmiss0011" x="733" y="573" width="353" height="298"/>
+	<SubTexture name="boomboxmiss0012" x="1091" y="573" width="353" height="298"/>
+	<SubTexture name="boomboxmiss0013" x="1091" y="573" width="353" height="298"/>
+	<SubTexture name="boomboxmiss0014" x="733" y="573" width="353" height="298"/>
+	<SubTexture name="boomboxmiss0015" x="733" y="573" width="353" height="298"/>
+</TextureAtlas>

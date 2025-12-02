@@ -1,0 +1,21 @@
+{
+   "version": "2.0.0",
+   "songName": "Bonus Song",
+   "composers": ["MoldyGangstaHero"],
+   "artists": ["Rapparep"],
+   "charters": ["MoldyGangstaHero"],
+   "coders": ["T5mpler"],
+   "variations": [],
+   "stage": "inside-house",
+   "player": "bf",
+   "opponent": "dave",
+   "gf": "gf",
+   "timeChanges": [
+      {
+         "time": 0,
+         "bpm": 140,
+         "numerator": 4,
+         "denominator": 4
+      }
+   ]
+}

@@ -1,0 +1,83 @@
+class InsideHouseStage extends Stage
+{
+    var couch:BGSprite;
+
+    public function new()
+    {
+        super('inside-house');
+    }
+
+    override function load():Void
+    {
+        var couchData:Array<Dynamic> = [];
+
+        var defaultCouch:Array<Dynamic> = [
+            'backgrounds/insideHouse/couchbop_bg',
+            {name: 'idle', prefix: 'couchbopbf'},
+        ];
+        
+        var altCouch:Array<Dynamic> = [
+            'backgrounds/insideHouse/couchbop_bg_alt',
+            {name: 'idle', prefix: 'couchbopalt', loop: true},
+        ];
+
+        var hall1:BGSprite = new BGSprite('bg', -485, 200, Paths.image('backgrounds/insideHouse/hall1_bg'), null, 0.9, 0.9);
+        hall1.zIndex = 0;
+        add(hall1);
+        
+        var hall2:BGSprite = new BGSprite('bg', 1730, 170, Paths.image('backgrounds/insideHouse/hall2_bg'), null, 0.9, 0.9);
+        hall2.zIndex = 1;
+        add(hall2);
+        
+        var bg:BGSprite = new BGSprite('bg', -717, -286, Paths.image('backgrounds/insideHouse/inside_house'), null);
+        bg.zIndex = 3;
+        add(bg);
+        
+        var tv = new BGSprite('bg', -130, 206, Paths.image('backgrounds/insideHouse/tv_bg'), null);
+        tv.zIndex = 4;
+        add(tv);
+
+        // Switch the sprite based on the playable character.
+        if (CharacterSelect.selectedCharacter != null && ['playrobot-player', 'tristan', 'tristan-golden'].contains(CharacterSelect.selectedCharacter))
+        {
+            couchData = altCouch;
+        }
+        else
+        {
+            couchData = defaultCouch;
+        }
+
+        couch = new BGSprite('couch', 283, 305, couchData[0], [
+            couchData[1]
+        ]);
+        couch.active = true;
+        couch.animation.play('idle');
+        couch.zIndex = 5;
+        add(couch);
+    }
+
+    override function onCreateUI():Void
+    {
+        if (PlayState.instance.ratings != null)
+        {
+            PlayState.instance.ratings.x += 700;
+        }
+    }
+
+    override function onCountdownTick(e:CountdownScriptEvent)
+    {
+        couchDance();
+    }
+
+    override function onBeatHit(e:ConductorScriptEvent)
+    {
+        if (e.beat % 2 == 0) {
+            couchDance();
+        }
+    }
+
+    function couchDance()
+    {
+        couch.animation.play('idle', true);
+    }
+}

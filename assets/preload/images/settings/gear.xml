@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="settings_gear.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="settings_gear0000" x="5" y="5" width="56" height="58"/>
+	<SubTexture name="settings_gear0001" x="5" y="5" width="56" height="58"/>
+	<SubTexture name="settings_gear0002" x="66" y="5" width="56" height="58"/>
+	<SubTexture name="settings_gear0003" x="66" y="5" width="56" height="58"/>
+</TextureAtlas>

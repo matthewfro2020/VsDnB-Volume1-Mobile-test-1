@@ -1,0 +1,8 @@
+danceRight -82 -2
+confused -196 -2
+singDOWN -178 -29
+singRIGHT -86 -7
+game 5 21
+danceLeft 0 0
+singLEFT -115 -9
+singUP -20 20

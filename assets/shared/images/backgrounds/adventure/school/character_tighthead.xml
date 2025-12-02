@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="character_tighthead.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="TightHead0000" x="5" y="5" width="123" height="266"/>
+	<SubTexture name="TightHead0001" x="5" y="5" width="123" height="266"/>
+	<SubTexture name="TightHead0002" x="133" y="5" width="123" height="266"/>
+	<SubTexture name="TightHead0003" x="133" y="5" width="123" height="266"/>
+</TextureAtlas>

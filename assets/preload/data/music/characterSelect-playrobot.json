@@ -1,0 +1,15 @@
+{
+   "version": "1.0.0",
+   "name": "Character Select (Playrobot Mix)",
+   "musicPath": "characterSelect/charSelect-playrobot-player",
+   "composers": ["MoldyGangstaHero"],
+   "variations": [],
+   "timeChanges": [
+      {
+         "time": 0,
+         "bpm": 110,
+         "numerator": 4,
+         "denominator": 4
+      }
+   ]
+}

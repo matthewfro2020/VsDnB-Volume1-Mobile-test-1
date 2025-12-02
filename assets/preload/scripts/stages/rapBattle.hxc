@@ -1,0 +1,57 @@
+import audio.SoundType;
+
+class RapBattleStage extends Stage
+{
+    var blackScreen:FlxSprite;
+    var missSound:GameSound = new GameSound(SoundType.SFX).load(Paths.sound('deathbell'));
+
+    public function new()
+    {        
+        super('rapBattle');
+    }
+    
+    override function load():Void
+    {        
+        var bg:BGSprite = new BGSprite('rapBG', -640, -360, Paths.image('backgrounds/rapBattle'));
+        bg.zIndex = 0;
+        FlxG.state.add(bg);
+    }
+
+    override function onCreatePost()
+    {
+        blackScreen = new FlxSprite().makeGraphic(1, 1, FlxColor.BLACK);
+        blackScreen.scale.set(FlxG.width * 2, FlxG.height * 2);
+        blackScreen.updateHitbox();
+        blackScreen.scrollFactor.set();
+        blackScreen.screenCenter();
+        blackScreen.zIndex = 999;
+        add(blackScreen);
+        blackScreen.alpha = 0;
+    }
+
+    override function onSongStart()
+    {
+        FlxTween.tween(blackScreen, {alpha: 0}, 3, {onComplete: function(tween:FlxTween)
+        {
+            remove(blackScreen);
+        }});
+    }
+
+    override function onNoteMiss(e:NoteScriptEvent)
+    {
+        e.missSound = missSound;
+        e.missSound.volume = FlxG.random.float(0.1, 0.2);
+    }
+
+    override function onHoldNoteDrop(e:HoldNoteScriptEvent):Void
+    {
+        e.missSound = missSound;
+        e.missSound.volume = FlxG.random.float(0.1, 0.2);
+    }
+
+    override function onGhostNoteMiss(e:GhostNoteScriptEvent)
+    {
+        e.missSound = missSound;
+        e.missSound.volume = FlxG.random.float(0.1, 0.2);
+    }
+}

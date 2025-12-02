@@ -1,0 +1,21 @@
+{
+   "version": "2.0.0",
+   "songName": "Supernovae",
+   "composers": ["ArchWk", "MoldyGangstaHero"],
+   "artists": ["Rapparep"],
+   "charters": ["MoldyGangstaHero"],
+   "coders": ["Rapparep"],
+   "variations": [],
+   "stage": "house",
+   "player": "bf",
+   "opponent": "bambi-joke",
+   "gf": "gf",
+   "timeChanges": [
+      {
+         "time": 0,
+         "bpm": 160,
+         "numerator": 4,
+         "denominator": 4
+      }
+   ]
+}

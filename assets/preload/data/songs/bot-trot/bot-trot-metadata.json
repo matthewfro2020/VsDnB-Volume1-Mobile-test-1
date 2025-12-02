@@ -1,0 +1,27 @@
+{
+   "version": "2.0.0",
+   "songName": "Bot Trot",
+   "composers": ["MoldyGangstaHero"],
+   "artists": ["Rapparep", "fisshcakes"],
+   "charters": ["MoldyGangstaHero"],
+   "coders": ["T5mpler"],
+   "variations": [],
+   "stage": "playrobot-room",
+   "player": "bf",
+   "opponent": "playrobot",
+   "gf": "gf",
+   "timeChanges": [
+      {
+         "time": 0,
+         "bpm": 111,
+         "numerator": 4,
+         "denominator": 4
+      },
+      {
+         "time": 224864.864864865,
+         "bpm": 111,
+         "numerator": 5,
+         "denominator": 4
+      }
+   ]
+}

@@ -1,0 +1,3072 @@
+{
+   "version": "2.0.0",
+   "speed": 3.27,
+   "notes": [
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": [
+            {
+               "time": 129341.317365269,
+               "direction": 2,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 130059.880239521,
+               "direction": 3,
+               "length": 269.461077844311,
+               "style": "normal"
+            },
+            {
+               "time": 129790.419161677,
+               "direction": 1,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 129970.059880239,
+               "direction": 0,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 129700.598802395,
+               "direction": 3,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 129520.958083832,
+               "direction": 1,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 129610.778443114,
+               "direction": 2,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 130239.520958084,
+               "direction": 2,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 130419.161676647,
+               "direction": 0,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 130508.982035928,
+               "direction": 1,
+               "length": 178,
+               "style": "normal"
+            },
+            {
+               "time": 130598.802395209,
+               "direction": 3,
+               "length": 0,
+               "style": "normal"
+            }
+         ]
+      },
+      {
+         "mustHitSection": false,
+         "notes": [
+            {
+               "time": 131317.365269461,
+               "direction": 1,
+               "length": 179.640718562874,
+               "style": "normal"
+            },
+            {
+               "time": 132035.928143712,
+               "direction": 0,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 131676.646706587,
+               "direction": 0,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 131766.467065868,
+               "direction": 3,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 130778.443113772,
+               "direction": 0,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 130958.083832335,
+               "direction": 3,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 131047.904191617,
+               "direction": 0,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 131766.467065868,
+               "direction": 2,
+               "length": 178,
+               "style": "normal"
+            }
+         ]
+      },
+      {
+         "mustHitSection": false,
+         "notes": [
+            {
+               "time": 133293.413173653,
+               "direction": 1,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 133473.053892215,
+               "direction": 0,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 132215.568862275,
+               "direction": 0,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 132215.568862275,
+               "direction": 3,
+               "length": 89,
+               "style": "normal"
+            },
+            {
+               "time": 132395.209580838,
+               "direction": 1,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 132574.850299401,
+               "direction": 2,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 132754.491017964,
+               "direction": 0,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 132844.311377245,
+               "direction": 3,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 133113.77245509,
+               "direction": 2,
+               "length": 0,
+               "style": "normal"
+            }
+         ]
+      },
+      {
+         "mustHitSection": false,
+         "notes": [
+            {
+               "time": 133652.694610778,
+               "direction": 2,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 133832.335329341,
+               "direction": 1,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 134011.976047904,
+               "direction": 3,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 134101.796407186,
+               "direction": 2,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 134281.437125748,
+               "direction": 0,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 134461.077844311,
+               "direction": 2,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 134730.538922156,
+               "direction": 3,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 134820.359281437,
+               "direction": 2,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 134910.179640718,
+               "direction": 1,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 135000,
+               "direction": 0,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 133742.51497006,
+               "direction": 2,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 134550.898203593,
+               "direction": 0,
+               "length": 89,
+               "style": "normal"
+            },
+            {
+               "time": 134550.898203593,
+               "direction": 1,
+               "length": 0,
+               "style": "normal"
+            }
+         ]
+      },
+      {
+         "mustHitSection": true,
+         "notes": [
+            {
+               "time": 135808.383233533,
+               "direction": 6,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 135898.203592814,
+               "direction": 5,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 136257.48502994,
+               "direction": 4,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 136347.305389221,
+               "direction": 5,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 135988.023952096,
+               "direction": 4,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 136077.844311377,
+               "direction": 7,
+               "length": 0,
+               "style": "normal"
+            }
+         ]
+      },
+      {
+         "mustHitSection": true,
+         "notes": [
+            {
+               "time": 136526.946107784,
+               "direction": 6,
+               "length": 179.640718562874,
+               "style": "normal"
+            },
+            {
+               "time": 136886.22754491,
+               "direction": 5,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 136976.047904192,
+               "direction": 7,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 137155.688622754,
+               "direction": 6,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 137335.329341317,
+               "direction": 4,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 137425.149700599,
+               "direction": 7,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 137784.431137724,
+               "direction": 4,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 137874.251497006,
+               "direction": 6,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 137604.790419162,
+               "direction": 5,
+               "length": 0,
+               "style": "normal"
+            }
+         ]
+      },
+      {
+         "mustHitSection": true,
+         "notes": [
+            {
+               "time": 137964.071856287,
+               "direction": 4,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 138053.892215569,
+               "direction": 7,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 138952.095808383,
+               "direction": 4,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 139311.377245509,
+               "direction": 4,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 138143.71257485,
+               "direction": 4,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 138323.353293413,
+               "direction": 5,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 138413.173652695,
+               "direction": 6,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 138233.532934132,
+               "direction": 7,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 138502.994011976,
+               "direction": 5,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 138592.814371257,
+               "direction": 7,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 138772.45508982,
+               "direction": 5,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 139131.736526946,
+               "direction": 7,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 139221.556886227,
+               "direction": 6,
+               "length": 0,
+               "style": "normal"
+            }
+         ]
+      },
+      {
+         "mustHitSection": true,
+         "notes": [
+            {
+               "time": 139401.19760479,
+               "direction": 5,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 139670.658682635,
+               "direction": 5,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 139940.119760479,
+               "direction": 5,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 140479.041916168,
+               "direction": 4,
+               "length": 179.640718562874,
+               "style": "normal"
+            }
+         ]
+      },
+      {
+         "mustHitSection": false,
+         "notes": [
+            {
+               "time": 140838.323353293,
+               "direction": 2,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 141017.964071856,
+               "direction": 1,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 141646.706586826,
+               "direction": 1,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 141377.245508982,
+               "direction": 0,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 141467.065868263,
+               "direction": 3,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 141736.526946108,
+               "direction": 3,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 141916.167664671,
+               "direction": 2,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 142095.808383233,
+               "direction": 0,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 141197.604790419,
+               "direction": 2,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 141247.005988024,
+               "direction": 3,
+               "length": 0,
+               "style": "normal"
+            }
+         ]
+      },
+      {
+         "mustHitSection": false,
+         "notes": [
+            {
+               "time": 142275.449101796,
+               "direction": 2,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 142455.089820359,
+               "direction": 1,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 142814.371257485,
+               "direction": 0,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 142634.730538922,
+               "direction": 3,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 142904.191616766,
+               "direction": 0,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 143083.832335329,
+               "direction": 2,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 143173.652694611,
+               "direction": 1,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 143353.293413174,
+               "direction": 2,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 143532.934131736,
+               "direction": 0,
+               "length": 0,
+               "style": "normal"
+            }
+         ]
+      },
+      {
+         "mustHitSection": false,
+         "notes": [
+            {
+               "time": 143892.215568862,
+               "direction": 0,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 144071.856287425,
+               "direction": 2,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 144251.497005988,
+               "direction": 0,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 144341.317365269,
+               "direction": 3,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 144431.137724551,
+               "direction": 1,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 144520.958083832,
+               "direction": 2,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 144790.419161677,
+               "direction": 2,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 144610.778443114,
+               "direction": 0,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 143712.574850299,
+               "direction": 2,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 143739.520958084,
+               "direction": 1,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 144815.119760479,
+               "direction": 1,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 144970.059880239,
+               "direction": 1,
+               "length": 0,
+               "style": "normal"
+            }
+         ]
+      },
+      {
+         "mustHitSection": false,
+         "notes": [
+            {
+               "time": 145149.700598802,
+               "direction": 2,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 145239.520958084,
+               "direction": 0,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 145688.622754491,
+               "direction": 0,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 145329.341317365,
+               "direction": 3,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 145508.982035928,
+               "direction": 1,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 146317.365269461,
+               "direction": 0,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 146407.185628742,
+               "direction": 1,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 146137.724550898,
+               "direction": 2,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 145778.443113772,
+               "direction": 1,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 145958.083832335,
+               "direction": 3,
+               "length": 0,
+               "style": "normal"
+            }
+         ]
+      },
+      {
+         "mustHitSection": true,
+         "notes": [
+            {
+               "time": 146586.826347305,
+               "direction": 7,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 146633.982035928,
+               "direction": 6,
+               "length": 445,
+               "style": "normal"
+            }
+         ]
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": [
+            {
+               "time": 154850.299401197,
+               "direction": 2,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 155029.94011976,
+               "direction": 1,
+               "length": 0,
+               "style": "normal"
+            }
+         ]
+      },
+      {
+         "mustHitSection": false,
+         "notes": [
+            {
+               "time": 155209.580838323,
+               "direction": 2,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 155299.401197605,
+               "direction": 1,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 155479.041916168,
+               "direction": 3,
+               "length": 179.640718562874,
+               "style": "normal"
+            },
+            {
+               "time": 155748.502994012,
+               "direction": 0,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 155838.323353293,
+               "direction": 2,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 155928.143712575,
+               "direction": 1,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 156017.964071856,
+               "direction": 1,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 156107.784431138,
+               "direction": 3,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 156287.4251497,
+               "direction": 1,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 156467.065868263,
+               "direction": 0,
+               "length": 0,
+               "style": "normal"
+            }
+         ]
+      },
+      {
+         "mustHitSection": false,
+         "notes": [
+            {
+               "time": 156736.526946108,
+               "direction": 1,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 157095.808383233,
+               "direction": 2,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 157185.628742515,
+               "direction": 0,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 157455.089820359,
+               "direction": 0,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 157544.910179641,
+               "direction": 3,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 157634.730538922,
+               "direction": 2,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 157724.550898203,
+               "direction": 0,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 157904.191616766,
+               "direction": 0,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 157814.371257485,
+               "direction": 3,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 157994.011976048,
+               "direction": 1,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 156646.706586826,
+               "direction": 2,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 156916.167664671,
+               "direction": 0,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 157275.449101796,
+               "direction": 1,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 157365.269461078,
+               "direction": 3,
+               "length": 0,
+               "style": "normal"
+            }
+         ]
+      },
+      {
+         "mustHitSection": true,
+         "notes": [
+            {
+               "time": 158083.832335329,
+               "direction": 7,
+               "length": 445,
+               "style": "normal"
+            }
+         ]
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": [
+            {
+               "time": 163832.335329341,
+               "direction": 3,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 164011.976047904,
+               "direction": 0,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 164820.359281437,
+               "direction": 0,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 164101.796407186,
+               "direction": 3,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 164281.437125748,
+               "direction": 1,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 163832.335329341,
+               "direction": 2,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 164910.179640718,
+               "direction": 3,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 165089.820359281,
+               "direction": 1,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 164910.179640718,
+               "direction": 2,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 164461.077844311,
+               "direction": 0,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 164640.718562874,
+               "direction": 1,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 164730.538922156,
+               "direction": 2,
+               "length": 0,
+               "style": "normal"
+            }
+         ]
+      },
+      {
+         "mustHitSection": false,
+         "notes": [
+            {
+               "time": 165269.461077844,
+               "direction": 0,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 165359.281437126,
+               "direction": 3,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 165538.922155689,
+               "direction": 0,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 165628.74251497,
+               "direction": 3,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 166167.664670659,
+               "direction": 2,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 166526.946107784,
+               "direction": 3,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 165808.383233533,
+               "direction": 1,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 166347.305389221,
+               "direction": 0,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 165808.383233533,
+               "direction": 2,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 166077.844311377,
+               "direction": 3,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 166347.305389221,
+               "direction": 1,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 166526.946107784,
+               "direction": 2,
+               "length": 0,
+               "style": "normal"
+            }
+         ]
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": [
+            {
+               "time": 169580.838323353,
+               "direction": 1,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 170838.323353293,
+               "direction": 1,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 169670.658682635,
+               "direction": 0,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 169850.299401197,
+               "direction": 1,
+               "length": 178,
+               "style": "normal"
+            },
+            {
+               "time": 170119.760479042,
+               "direction": 3,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 170209.580838323,
+               "direction": 2,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 170299.401197605,
+               "direction": 1,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 170389.221556886,
+               "direction": 3,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 170479.041916168,
+               "direction": 0,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 170658.68263473,
+               "direction": 2,
+               "length": 0,
+               "style": "normal"
+            }
+         ]
+      },
+      {
+         "mustHitSection": false,
+         "notes": [
+            {
+               "time": 171107.784431138,
+               "direction": 0,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 171287.4251497,
+               "direction": 2,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 172095.808383233,
+               "direction": 2,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 172275.449101796,
+               "direction": 1,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 171556.886227545,
+               "direction": 2,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 171736.526946108,
+               "direction": 3,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 171826.347305389,
+               "direction": 2,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 171017.964071856,
+               "direction": 0,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 171467.065868263,
+               "direction": 0,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 171646.706586826,
+               "direction": 1,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 171916.167664671,
+               "direction": 0,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 172005.988023952,
+               "direction": 1,
+               "length": 0,
+               "style": "normal"
+            }
+         ]
+      },
+      {
+         "mustHitSection": false,
+         "notes": [
+            {
+               "time": 172455.089820359,
+               "direction": 0,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 172544.910179641,
+               "direction": 3,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 172634.730538922,
+               "direction": 1,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 173443.113772455,
+               "direction": 1,
+               "length": 178,
+               "style": "normal"
+            },
+            {
+               "time": 173173.652694611,
+               "direction": 2,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 173173.652694611,
+               "direction": 3,
+               "length": 178,
+               "style": "normal"
+            },
+            {
+               "time": 173712.574850299,
+               "direction": 0,
+               "length": 89,
+               "style": "normal"
+            },
+            {
+               "time": 172724.550898203,
+               "direction": 2,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 172994.011976048,
+               "direction": 1,
+               "length": 0,
+               "style": "normal"
+            }
+         ]
+      },
+      {
+         "mustHitSection": false,
+         "notes": [
+            {
+               "time": 173892.215568862,
+               "direction": 1,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 173982.035928144,
+               "direction": 2,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 174161.676646706,
+               "direction": 0,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 174431.137724551,
+               "direction": 3,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 174610.778443114,
+               "direction": 0,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 174700.598802395,
+               "direction": 1,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 174790.419161677,
+               "direction": 3,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 174880.239520958,
+               "direction": 2,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 174970.059880239,
+               "direction": 0,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 175059.880239521,
+               "direction": 1,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 175149.700598802,
+               "direction": 2,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 175239.520958084,
+               "direction": 3,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 174341.317365269,
+               "direction": 1,
+               "length": 0,
+               "style": "normal"
+            }
+         ]
+      },
+      {
+         "mustHitSection": true,
+         "notes": [
+            {
+               "time": 175329.341317365,
+               "direction": 5,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 175598.802395209,
+               "direction": 6,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 176047.904191617,
+               "direction": 7,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 176407.185628742,
+               "direction": 7,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 176407.185628742,
+               "direction": 5,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 175868.263473054,
+               "direction": 4,
+               "length": 0,
+               "style": "normal"
+            }
+         ]
+      },
+      {
+         "mustHitSection": true,
+         "notes": [
+            {
+               "time": 176766.467065868,
+               "direction": 4,
+               "length": 269.461077844311,
+               "style": "normal"
+            },
+            {
+               "time": 177125.748502994,
+               "direction": 6,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 177305.389221557,
+               "direction": 5,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 177485.02994012,
+               "direction": 7,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 177485.02994012,
+               "direction": 6,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 177844.311377245,
+               "direction": 4,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 177844.311377245,
+               "direction": 6,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 176766.467065868,
+               "direction": 6,
+               "length": 89.8203592814371,
+               "style": "normal"
+            }
+         ]
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": [
+            {
+               "time": 186826.347305389,
+               "direction": 0,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 187005.988023952,
+               "direction": 3,
+               "length": 89,
+               "style": "normal"
+            },
+            {
+               "time": 187005.988023952,
+               "direction": 2,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 187185.628742515,
+               "direction": 0,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 187455.089820359,
+               "direction": 3,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 187634.730538922,
+               "direction": 1,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 187724.550898203,
+               "direction": 2,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 187904.191616766,
+               "direction": 0,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 187994.011976048,
+               "direction": 1,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 188083.832335329,
+               "direction": 2,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 188173.652694611,
+               "direction": 3,
+               "length": 0,
+               "style": "normal"
+            }
+         ]
+      },
+      {
+         "mustHitSection": false,
+         "notes": [
+            {
+               "time": 188555.389221557,
+               "direction": 1,
+               "length": 0,
+               "style": "shape"
+            },
+            {
+               "time": 188263.473053892,
+               "direction": 0,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 188443.113772455,
+               "direction": 3,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 188353.293413174,
+               "direction": 3,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 188532.934131736,
+               "direction": 1,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 188622.754491018,
+               "direction": 0,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 188802.395209581,
+               "direction": 3,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 188982.035928144,
+               "direction": 0,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 189071.856287425,
+               "direction": 3,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 189251.497005988,
+               "direction": 2,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 189341.317365269,
+               "direction": 3,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 189431.137724551,
+               "direction": 1,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 189610.778443114,
+               "direction": 0,
+               "length": 0,
+               "style": "normal"
+            }
+         ]
+      },
+      {
+         "mustHitSection": false,
+         "notes": [
+            {
+               "time": 189904.94011976,
+               "direction": 1,
+               "length": 0,
+               "style": "shape"
+            },
+            {
+               "time": 189880.239520958,
+               "direction": 1,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 189700.598802395,
+               "direction": 3,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 189700.598802395,
+               "direction": 2,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 190059.880239521,
+               "direction": 0,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 190149.700598802,
+               "direction": 1,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 190329.341317365,
+               "direction": 2,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 190508.982035928,
+               "direction": 1,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 190598.802395209,
+               "direction": 3,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 190688.622754491,
+               "direction": 2,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 190778.443113772,
+               "direction": 1,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 190958.083832335,
+               "direction": 0,
+               "length": 0,
+               "style": "normal"
+            }
+         ]
+      },
+      {
+         "mustHitSection": false,
+         "notes": [
+            {
+               "time": 191137.724550898,
+               "direction": 3,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 191227.54491018,
+               "direction": 3,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 191317.365269461,
+               "direction": 2,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 191497.005988024,
+               "direction": 0,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 191887.724550898,
+               "direction": 2,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 192035.928143712,
+               "direction": 0,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 192215.568862275,
+               "direction": 1,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 192395.209580838,
+               "direction": 3,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 191856.28742515,
+               "direction": 3,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 191676.646706587,
+               "direction": 1,
+               "length": 0,
+               "style": "normal"
+            }
+         ]
+      },
+      {
+         "mustHitSection": true,
+         "notes": [
+            {
+               "time": 192574.850299401,
+               "direction": 4,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 192574.850299401,
+               "direction": 5,
+               "length": 534,
+               "style": "normal"
+            },
+            {
+               "time": 193293.413173653,
+               "direction": 6,
+               "length": 534,
+               "style": "normal"
+            }
+         ]
+      },
+      {
+         "mustHitSection": true,
+         "notes": [
+            {
+               "time": 194011.976047904,
+               "direction": 7,
+               "length": 178,
+               "style": "normal"
+            },
+            {
+               "time": 194281.437125748,
+               "direction": 4,
+               "length": 178,
+               "style": "normal"
+            },
+            {
+               "time": 194550.898203593,
+               "direction": 6,
+               "length": 178,
+               "style": "normal"
+            },
+            {
+               "time": 194820.359281437,
+               "direction": 5,
+               "length": 356,
+               "style": "normal"
+            },
+            {
+               "time": 195269.461077844,
+               "direction": 4,
+               "length": 89,
+               "style": "normal"
+            }
+         ]
+      },
+      {
+         "mustHitSection": true,
+         "notes": [
+            {
+               "time": 195628.74251497,
+               "direction": 6,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 195808.383233533,
+               "direction": 4,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 195988.023952096,
+               "direction": 7,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 196167.664670659,
+               "direction": 6,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 196347.305389221,
+               "direction": 4,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 196526.946107784,
+               "direction": 7,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 195808.383233533,
+               "direction": 5,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 196706.586826347,
+               "direction": 5,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 196796.407185629,
+               "direction": 6,
+               "length": 0,
+               "style": "normal"
+            }
+         ]
+      },
+      {
+         "mustHitSection": true,
+         "notes": [
+            {
+               "time": 196886.22754491,
+               "direction": 7,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 197065.868263473,
+               "direction": 4,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 197245.508982036,
+               "direction": 5,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 197425.149700599,
+               "direction": 7,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 197604.790419162,
+               "direction": 6,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 197784.431137724,
+               "direction": 4,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 197964.071856287,
+               "direction": 7,
+               "length": 0,
+               "style": "normal"
+            },
+            {
+               "time": 198143.71257485,
+               "direction": 5,
+               "length": 0,
+               "style": "normal"
+            }
+         ]
+      },
+      {
+         "mustHitSection": false,
+         "notes": [
+            {
+               "time": 198323.353293413,
+               "direction": 0,
+               "length": 534,
+               "style": "normal"
+            },
+            {
+               "time": 198343.562874251,
+               "direction": 1,
+               "length": 1068,
+               "style": "normal"
+            }
+         ]
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": false,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      },
+      {
+         "mustHitSection": true,
+         "notes": []
+      }
+   ]
+}

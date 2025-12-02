@@ -1,0 +1,15 @@
+{
+   "version": "1.0.0",
+   "name": "Character Select",
+   "musicPath": "characterSelect/charSelect-normal",
+   "composers": ["MoldyGangstaHero"],
+   "variations": ["bf-pixel", "bf-3d", "dave", "bambi", "tristan", "playrobot", "tristan-golden"],
+   "timeChanges": [
+      {
+         "time": 0,
+         "bpm": 110,
+         "numerator": 4,
+         "denominator": 4
+      }
+   ]
+}

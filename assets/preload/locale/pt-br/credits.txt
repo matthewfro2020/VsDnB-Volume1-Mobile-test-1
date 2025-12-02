@@ -1,0 +1,54 @@
+credits_version==(Volume 1)
+credits_createdBy==Criado Por
+
+// DEVELOPERS //
+credits_developers_title==Desenvolvedores
+
+credits_moldy==Diretor do Jogo, Compositor Principal:linebreak:Charter Principal, Programador
+credits_rapparep==Diretor Criativo, Artista Principal:linebreak:Artista de UI, Conceitos e Cenários:linebreak:Modelador Sênior, Compositor Miscelâneo, Escritor
+credits_t5mpler==Programador Principal:linebreak:Compositor Miscelâneo:linebreak:Artista Conceitual, Artista de UI em 3D
+credits_mtm101==Programador Principal, Escritor:linebreak:Designer de Som
+credits_erizur==Programador Sênior, Artista de UI
+credits_tb==Artista Sênior
+credits_zmac==Artista Principal de Cenários 3D
+credits_pointy==Artista, Charter
+credits_longDonny==Artista Principal de 3D, Animador 3D, Modelador Principal
+credits_fissh==Artista, Principal de Cenários, & Conceitual
+
+// CONTRIBUTORS
+credits_contributors_title==Contribuidores
+
+credits_evdial==Artista Principal e de Cenários
+credits_billy==Artista Conceitual
+credits_steph==Programador
+credits_alexander==Compositor
+credits_magical==Compositor, Charter, Artista Conceitual
+credits_cup==Compositor Adicional, Artista de UI
+credits_sibottle==Compositor e Artista Convidado
+credits_bubswest==Compositor, Charter
+credits_top10==Compositor
+credits_inguf==Artista Adicional
+credits_ztgds==Charter
+credits_yourMom==Compositora
+
+// TRANSLATORS //
+
+credits_translators_title==Tradutores
+credits_windspel==Tradutor Espanhol
+credits_aizakku==Tradutor Português (Brasileiro)
+credits_soulegal==Tradutor Português (Brasileiro)
+
+// SPECIAL THANKS //
+
+credits_specialThanks_title==Agradecimentos Especiais
+credits_sk0rbias==Artista de UI
+credits_ray==Artista do Final de Celular
+credits_statictigers==Ajudou Revisar Diálogo
+credits_villezen==Fez os Efeitos:linebreak:Sonoros do Freeplay
+
+credits_shifty==Fez a Chromatic do Bambi
+credits_skyFactorial==Models Atonais do Bambi
+
+// MISC //
+credits_menuBackground_title==Pessoal dos Menus de Fundo
+credits_playtesters_title==Testadores

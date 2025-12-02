@@ -1,0 +1,20 @@
+class BaldiCharacter extends Character
+{
+    public function new()
+    {
+        super('baldi');
+    }
+
+    override function load():Void
+    {
+        frames = Paths.getSparrowAtlas('characters/roofs/ROOFS', 'shared');
+        
+        animation.addByPrefix('idle', 'idle', 24, false);
+        for (anim in ['left', 'down', 'up', 'right']) {
+            animation.addByPrefix('sing' + anim.toUpperCase(), anim, 24, false);
+        }
+        animation.addByPrefix('talk', 'thingylol', 24);
+
+        playAnim('idle');
+    }
+}

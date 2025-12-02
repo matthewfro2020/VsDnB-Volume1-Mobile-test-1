@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="settings_davecry.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="settings_davecry0000" x="5" y="5" width="83" height="73"/>
+	<SubTexture name="settings_davecry0001" x="5" y="5" width="83" height="73"/>
+	<SubTexture name="settings_davecry0002" x="93" y="5" width="83" height="73"/>
+	<SubTexture name="settings_davecry0003" x="93" y="5" width="83" height="73"/>
+</TextureAtlas>

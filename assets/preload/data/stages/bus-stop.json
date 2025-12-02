@@ -1,0 +1,23 @@
+{
+   "version": "1.0.0",
+   "name": "Bus Stop (Adventure)",
+   "zoom": 0.55,
+   "player": {
+      "cameraOffsets": [-100, 0],
+      "position": [1100, 455],
+      "scroll": [1, 1],
+      "zIndex": 102
+   },
+   "opponent": {
+      "cameraOffsets": [100, 0],
+      "position": [550, 450],
+      "scroll": [1, 1],
+      "zIndex": 101
+   },
+   "gf": {
+      "cameraOffsets": [0, 0],
+      "position": [400, 130],
+      "scroll": [1, 1],
+      "zIndex": 100
+   }
+}

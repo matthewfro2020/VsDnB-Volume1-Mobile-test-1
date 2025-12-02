@@ -1,0 +1,20 @@
+class AwesomeDaveCharacter extends Character 
+{
+	public function new()
+	{
+    	super('dave-awesome');
+	}
+
+	override function load()
+	{
+	    frames = Paths.getSparrowAtlas('characters/dave/dave_awesome', 'shared');
+	
+	    animation.addByPrefix('idle', 'dave idle', 24, false);
+	    for (anim in ['left', 'down', 'up', 'right']) {
+	        animation.addByPrefix('sing' + anim.toUpperCase(), 'dave ' + anim, 24, false);
+	    }
+		skins.set('noteSkin', 'top10');
+		
+	    playAnim('idle');
+	}
+}

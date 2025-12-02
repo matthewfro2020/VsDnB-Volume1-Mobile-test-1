@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Dave_Dead.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="davegameoverend0000" x="5" y="5" width="361" height="623" frameX="0" frameY="-72" frameWidth="361" frameHeight="695"/>
+	<SubTexture name="davegameoverend0001" x="371" y="5" width="361" height="665" frameX="0" frameY="-30" frameWidth="361" frameHeight="695"/>
+	<SubTexture name="davegameoverend0002" x="737" y="5" width="361" height="695"/>
+	<SubTexture name="davegameoverend0003" x="1103" y="5" width="361" height="665" frameX="0" frameY="-30" frameWidth="361" frameHeight="695"/>
+	<SubTexture name="davegameoverend0004" x="1469" y="5" width="361" height="665" frameX="0" frameY="-30" frameWidth="361" frameHeight="695"/>
+	<SubTexture name="davegameoverend0005" x="1835" y="5" width="361" height="665" frameX="0" frameY="-30" frameWidth="361" frameHeight="695"/>
+	<SubTexture name="davegameoverend0006" x="2201" y="5" width="361" height="665" frameX="0" frameY="-30" frameWidth="361" frameHeight="695"/>
+	<SubTexture name="davegameoverend0007" x="2567" y="5" width="361" height="665" frameX="0" frameY="-30" frameWidth="361" frameHeight="695"/>
+	<SubTexture name="davegameoverend0008" x="2933" y="5" width="361" height="665" frameX="0" frameY="-30" frameWidth="361" frameHeight="695"/>
+	<SubTexture name="davegameoverend0009" x="5" y="705" width="361" height="665" frameX="0" frameY="-30" frameWidth="361" frameHeight="695"/>
+	<SubTexture name="davegameoverend0010" x="371" y="705" width="361" height="665" frameX="0" frameY="-30" frameWidth="361" frameHeight="695"/>
+	<SubTexture name="davegameoverend0011" x="737" y="705" width="361" height="665" frameX="0" frameY="-30" frameWidth="361" frameHeight="695"/>
+	<SubTexture name="davegameoverend0012" x="1103" y="705" width="361" height="665" frameX="0" frameY="-30" frameWidth="361" frameHeight="695"/>
+	<SubTexture name="davegameoverend0013" x="1469" y="705" width="361" height="665" frameX="0" frameY="-30" frameWidth="361" frameHeight="695"/>
+	<SubTexture name="davegameoverend0014" x="1835" y="705" width="361" height="665" frameX="0" frameY="-30" frameWidth="361" frameHeight="695"/>
+	<SubTexture name="davegameoverend0015" x="2201" y="705" width="361" height="665" frameX="0" frameY="-30" frameWidth="361" frameHeight="695"/>
+	<SubTexture name="davegameoverend0016" x="2567" y="705" width="361" height="665" frameX="0" frameY="-30" frameWidth="361" frameHeight="695"/>
+	<SubTexture name="davegameoverend0017" x="2933" y="705" width="361" height="665" frameX="0" frameY="-30" frameWidth="361" frameHeight="695"/>
+	<SubTexture name="davegameoverend0018" x="5" y="1375" width="361" height="665" frameX="0" frameY="-30" frameWidth="361" frameHeight="695"/>
+	<SubTexture name="davegameoverend0019" x="371" y="1375" width="361" height="665" frameX="0" frameY="-30" frameWidth="361" frameHeight="695"/>
+	<SubTexture name="davegameoverend0020" x="737" y="1375" width="361" height="665" frameX="0" frameY="-30" frameWidth="361" frameHeight="695"/>
+	<SubTexture name="davegameoverend0021" x="1103" y="1375" width="361" height="665" frameX="0" frameY="-30" frameWidth="361" frameHeight="695"/>
+	<SubTexture name="davegameoverend0022" x="1469" y="1375" width="361" height="665" frameX="0" frameY="-30" frameWidth="361" frameHeight="695"/>
+	<SubTexture name="davegameoverend0023" x="1469" y="1375" width="361" height="665" frameX="0" frameY="-30" frameWidth="361" frameHeight="695"/>
+	<SubTexture name="davegameoverend0024" x="1835" y="1375" width="361" height="665" frameX="0" frameY="-30" frameWidth="361" frameHeight="695"/>
+	<SubTexture name="davegameoverend0025" x="1835" y="1375" width="361" height="665" frameX="0" frameY="-30" frameWidth="361" frameHeight="695"/>
+	<SubTexture name="davegameoverend0026" x="1835" y="1375" width="361" height="665" frameX="0" frameY="-30" frameWidth="361" frameHeight="695"/>
+	<SubTexture name="davegameoverend0027" x="1835" y="1375" width="361" height="665" frameX="0" frameY="-30" frameWidth="361" frameHeight="695"/>
+	<SubTexture name="davegameoverend0028" x="1835" y="1375" width="361" height="665" frameX="0" frameY="-30" frameWidth="361" frameHeight="695"/>
+	<SubTexture name="davegameoverend0029" x="1835" y="1375" width="361" height="665" frameX="0" frameY="-30" frameWidth="361" frameHeight="695"/>
+	<SubTexture name="davegameoverend0030" x="1835" y="1375" width="361" height="665" frameX="0" frameY="-30" frameWidth="361" frameHeight="695"/>
+	<SubTexture name="davegameoverend0031" x="1835" y="1375" width="361" height="665" frameX="0" frameY="-30" frameWidth="361" frameHeight="695"/>
+	<SubTexture name="davegameoverend0032" x="1835" y="1375" width="361" height="665" frameX="0" frameY="-30" frameWidth="361" frameHeight="695"/>
+	<SubTexture name="davegameoverend0033" x="1835" y="1375" width="361" height="665" frameX="0" frameY="-30" frameWidth="361" frameHeight="695"/>
+	<SubTexture name="davegameoverloop0000" x="2201" y="1375" width="361" height="623"/>
+	<SubTexture name="davegameoverloop0001" x="2567" y="1375" width="361" height="623"/>
+	<SubTexture name="davegameoverloop0002" x="2567" y="1375" width="361" height="623"/>
+	<SubTexture name="davegameoverloop0003" x="2933" y="1375" width="361" height="623"/>
+	<SubTexture name="davegameoverloop0004" x="2933" y="1375" width="361" height="623"/>
+	<SubTexture name="davegameoverloop0005" x="5" y="2045" width="361" height="623"/>
+	<SubTexture name="davegameoverloop0006" x="5" y="2045" width="361" height="623"/>
+	<SubTexture name="davegameoverloop0007" x="371" y="2045" width="361" height="623"/>
+	<SubTexture name="davegameoverloop0008" x="737" y="2045" width="361" height="623"/>
+	<SubTexture name="davegameoverloop0009" x="737" y="2045" width="361" height="623"/>
+	<SubTexture name="davegameoverloop0010" x="737" y="2045" width="361" height="623"/>
+	<SubTexture name="davegameoverloop0011" x="737" y="2045" width="361" height="623"/>
+	<SubTexture name="davegameoverloop0012" x="737" y="2045" width="361" height="623"/>
+	<SubTexture name="davegameoverloop0013" x="737" y="2045" width="361" height="623"/>
+	<SubTexture name="davegameoverloop0014" x="737" y="2045" width="361" height="623"/>
+	<SubTexture name="davegameoverloop0015" x="737" y="2045" width="361" height="623"/>
+	<SubTexture name="davegameoverloop0016" x="737" y="2045" width="361" height="623"/>
+	<SubTexture name="davegameoverloop0017" x="2201" y="1375" width="361" height="623"/>
+	<SubTexture name="davegameoverloop0018" x="2567" y="1375" width="361" height="623"/>
+	<SubTexture name="davegameoverloop0019" x="2567" y="1375" width="361" height="623"/>
+	<SubTexture name="davegameoverloop0020" x="2933" y="1375" width="361" height="623"/>
+	<SubTexture name="davegameoverloop0021" x="2933" y="1375" width="361" height="623"/>
+	<SubTexture name="davegameoverloop0022" x="5" y="2045" width="361" height="623"/>
+	<SubTexture name="davegameoverloop0023" x="5" y="2045" width="361" height="623"/>
+	<SubTexture name="davegameoverloop0024" x="737" y="2045" width="361" height="623"/>
+	<SubTexture name="davegameoverloop0025" x="737" y="2045" width="361" height="623"/>
+	<SubTexture name="davegameoverloop0026" x="737" y="2045" width="361" height="623"/>
+	<SubTexture name="davegameoverloop0027" x="737" y="2045" width="361" height="623"/>
+	<SubTexture name="davegameoverloop0028" x="737" y="2045" width="361" height="623"/>
+	<SubTexture name="davegameoverloop0029" x="737" y="2045" width="361" height="623"/>
+	<SubTexture name="davegameoverloop0030" x="737" y="2045" width="361" height="623"/>
+	<SubTexture name="davegameoverloop0031" x="737" y="2045" width="361" height="623"/>
+	<SubTexture name="davegameoverloop0032" x="737" y="2045" width="361" height="623"/>
+	<SubTexture name="davegameoverloop0033" x="737" y="2045" width="361" height="623"/>
+	<SubTexture name="davegameoverstart0000" x="1103" y="2045" width="381" height="599" frameX="-73" frameY="0" frameWidth="510" frameHeight="625"/>
+	<SubTexture name="davegameoverstart0001" x="1489" y="2045" width="479" height="599" frameX="-7" frameY="0" frameWidth="510" frameHeight="625"/>
+	<SubTexture name="davegameoverstart0002" x="1973" y="2045" width="479" height="597" frameX="-7" frameY="-2" frameWidth="510" frameHeight="625"/>
+	<SubTexture name="davegameoverstart0003" x="2457" y="2045" width="509" height="597" frameX="-1" frameY="-2" frameWidth="510" frameHeight="625"/>
+	<SubTexture name="davegameoverstart0004" x="2457" y="2045" width="509" height="597" frameX="-1" frameY="-2" frameWidth="510" frameHeight="625"/>
+	<SubTexture name="davegameoverstart0005" x="2971" y="2045" width="510" height="597" frameX="0" frameY="-2" frameWidth="510" frameHeight="625"/>
+	<SubTexture name="davegameoverstart0006" x="5" y="2673" width="361" height="597" frameX="-87" frameY="-2" frameWidth="510" frameHeight="625"/>
+	<SubTexture name="davegameoverstart0007" x="5" y="2673" width="361" height="597" frameX="-87" frameY="-2" frameWidth="510" frameHeight="625"/>
+	<SubTexture name="davegameoverstart0008" x="5" y="2673" width="361" height="597" frameX="-87" frameY="-2" frameWidth="510" frameHeight="625"/>
+	<SubTexture name="davegameoverstart0009" x="5" y="2673" width="361" height="597" frameX="-87" frameY="-2" frameWidth="510" frameHeight="625"/>
+	<SubTexture name="davegameoverstart0010" x="5" y="2673" width="361" height="597" frameX="-87" frameY="-2" frameWidth="510" frameHeight="625"/>
+	<SubTexture name="davegameoverstart0011" x="5" y="2673" width="361" height="597" frameX="-87" frameY="-2" frameWidth="510" frameHeight="625"/>
+	<SubTexture name="davegameoverstart0012" x="5" y="2673" width="361" height="597" frameX="-87" frameY="-2" frameWidth="510" frameHeight="625"/>
+	<SubTexture name="davegameoverstart0013" x="5" y="2673" width="361" height="597" frameX="-87" frameY="-2" frameWidth="510" frameHeight="625"/>
+	<SubTexture name="davegameoverstart0014" x="5" y="2673" width="361" height="597" frameX="-87" frameY="-2" frameWidth="510" frameHeight="625"/>
+	<SubTexture name="davegameoverstart0015" x="371" y="2673" width="361" height="597" frameX="-87" frameY="-2" frameWidth="510" frameHeight="625"/>
+	<SubTexture name="davegameoverstart0016" x="371" y="2673" width="361" height="597" frameX="-87" frameY="-2" frameWidth="510" frameHeight="625"/>
+	<SubTexture name="davegameoverstart0017" x="371" y="2673" width="361" height="597" frameX="-87" frameY="-2" frameWidth="510" frameHeight="625"/>
+	<SubTexture name="davegameoverstart0018" x="737" y="2673" width="361" height="597" frameX="-87" frameY="-2" frameWidth="510" frameHeight="625"/>
+	<SubTexture name="davegameoverstart0019" x="737" y="2673" width="361" height="597" frameX="-87" frameY="-2" frameWidth="510" frameHeight="625"/>
+	<SubTexture name="davegameoverstart0020" x="1103" y="2673" width="361" height="597" frameX="-87" frameY="-2" frameWidth="510" frameHeight="625"/>
+	<SubTexture name="davegameoverstart0021" x="1103" y="2673" width="361" height="597" frameX="-87" frameY="-2" frameWidth="510" frameHeight="625"/>
+	<SubTexture name="davegameoverstart0022" x="1469" y="2673" width="361" height="597" frameX="-87" frameY="-2" frameWidth="510" frameHeight="625"/>
+	<SubTexture name="davegameoverstart0023" x="1469" y="2673" width="361" height="597" frameX="-87" frameY="-2" frameWidth="510" frameHeight="625"/>
+	<SubTexture name="davegameoverstart0024" x="1835" y="2673" width="361" height="597" frameX="-87" frameY="-2" frameWidth="510" frameHeight="625"/>
+	<SubTexture name="davegameoverstart0025" x="2201" y="2673" width="361" height="623" frameX="-87" frameY="-2" frameWidth="510" frameHeight="625"/>
+	<SubTexture name="davegameoverstart0026" x="2201" y="2673" width="361" height="623" frameX="-87" frameY="-2" frameWidth="510" frameHeight="625"/>
+	<SubTexture name="davegameoverstart0027" x="2567" y="2673" width="361" height="620" frameX="-87" frameY="-2" frameWidth="510" frameHeight="625"/>
+	<SubTexture name="davegameoverstart0028" x="2567" y="2673" width="361" height="620" frameX="-87" frameY="-2" frameWidth="510" frameHeight="625"/>
+	<SubTexture name="davegameoverstart0029" x="2933" y="2673" width="361" height="622" frameX="-87" frameY="-2" frameWidth="510" frameHeight="625"/>
+	<SubTexture name="davegameoverstart0030" x="2933" y="2673" width="361" height="622" frameX="-87" frameY="-2" frameWidth="510" frameHeight="625"/>
+	<SubTexture name="davegameoverstart0031" x="5" y="3301" width="361" height="622" frameX="-87" frameY="-2" frameWidth="510" frameHeight="625"/>
+	<SubTexture name="davegameoverstart0032" x="5" y="3301" width="361" height="622" frameX="-87" frameY="-2" frameWidth="510" frameHeight="625"/>
+	<SubTexture name="davegameoverstart0033" x="371" y="3301" width="361" height="623" frameX="-87" frameY="-2" frameWidth="510" frameHeight="625"/>
+	<SubTexture name="davegameoverstart0034" x="371" y="3301" width="361" height="623" frameX="-87" frameY="-2" frameWidth="510" frameHeight="625"/>
+	<SubTexture name="davegameoverstart0035" x="371" y="3301" width="361" height="623" frameX="-87" frameY="-2" frameWidth="510" frameHeight="625"/>
+	<SubTexture name="davegameoverstart0036" x="371" y="3301" width="361" height="623" frameX="-87" frameY="-2" frameWidth="510" frameHeight="625"/>
+	<SubTexture name="davegameoverstart0037" x="371" y="3301" width="361" height="623" frameX="-87" frameY="-2" frameWidth="510" frameHeight="625"/>
+	<SubTexture name="davegameoverstart0038" x="371" y="3301" width="361" height="623" frameX="-87" frameY="-2" frameWidth="510" frameHeight="625"/>
+	<SubTexture name="davegameoverstart0039" x="371" y="3301" width="361" height="623" frameX="-87" frameY="-2" frameWidth="510" frameHeight="625"/>
+	<SubTexture name="davegameoverstart0040" x="371" y="3301" width="361" height="623" frameX="-87" frameY="-2" frameWidth="510" frameHeight="625"/>
+	<SubTexture name="davegameoverstart0041" x="371" y="3301" width="361" height="623" frameX="-87" frameY="-2" frameWidth="510" frameHeight="625"/>
+	<SubTexture name="davegameoverstart0042" x="371" y="3301" width="361" height="623" frameX="-87" frameY="-2" frameWidth="510" frameHeight="625"/>
+	<SubTexture name="davegameoverstart0043" x="371" y="3301" width="361" height="623" frameX="-87" frameY="-2" frameWidth="510" frameHeight="625"/>
+	<SubTexture name="davegameoverstart0044" x="371" y="3301" width="361" height="623" frameX="-87" frameY="-2" frameWidth="510" frameHeight="625"/>
+	<SubTexture name="davegameoverstart0045" x="371" y="3301" width="361" height="623" frameX="-87" frameY="-2" frameWidth="510" frameHeight="625"/>
+	<SubTexture name="davegameoverstart0046" x="371" y="3301" width="361" height="623" frameX="-87" frameY="-2" frameWidth="510" frameHeight="625"/>
+	<SubTexture name="davegameoverstart0047" x="371" y="3301" width="361" height="623" frameX="-87" frameY="-2" frameWidth="510" frameHeight="625"/>
+	<SubTexture name="davegameoverstart0048" x="371" y="3301" width="361" height="623" frameX="-87" frameY="-2" frameWidth="510" frameHeight="625"/>
+	<SubTexture name="davegameoverstart0049" x="371" y="3301" width="361" height="623" frameX="-87" frameY="-2" frameWidth="510" frameHeight="625"/>
+	<SubTexture name="davegameoverstart0050" x="371" y="3301" width="361" height="623" frameX="-87" frameY="-2" frameWidth="510" frameHeight="625"/>
+	<SubTexture name="davegameoverstart0051" x="371" y="3301" width="361" height="623" frameX="-87" frameY="-2" frameWidth="510" frameHeight="625"/>
+	<SubTexture name="davegameoverstart0052" x="371" y="3301" width="361" height="623" frameX="-87" frameY="-2" frameWidth="510" frameHeight="625"/>
+	<SubTexture name="davegameoverstart0053" x="737" y="3301" width="361" height="623" frameX="-87" frameY="-2" frameWidth="510" frameHeight="625"/>
+	<SubTexture name="davegameoverstart0054" x="1103" y="3301" width="361" height="623" frameX="-87" frameY="-2" frameWidth="510" frameHeight="625"/>
+	<SubTexture name="davegameoverstart0055" x="1103" y="3301" width="361" height="623" frameX="-87" frameY="-2" frameWidth="510" frameHeight="625"/>
+	<SubTexture name="davegameoverstart0056" x="1469" y="3301" width="361" height="623" frameX="-87" frameY="-2" frameWidth="510" frameHeight="625"/>
+	<SubTexture name="davegameoverstart0057" x="1469" y="3301" width="361" height="623" frameX="-87" frameY="-2" frameWidth="510" frameHeight="625"/>
+</TextureAtlas>

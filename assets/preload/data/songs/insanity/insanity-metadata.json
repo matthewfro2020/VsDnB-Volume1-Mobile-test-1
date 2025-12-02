@@ -1,0 +1,21 @@
+{
+   "version": "2.0.0",
+   "songName": "Insanity",
+   "composers": ["MoldyGangstaHero"],
+   "artists": ["Rapparep", "LongDonny", "Zmac"],
+   "charters": ["MoldyGangstaHero"],
+   "coders": ["MissingTextureMan101", "T5mpler"],
+   "variations": [],
+   "stage": "house",
+   "player": "bf",
+   "opponent": "dave-annoyed",
+   "gf": "gf",
+   "timeChanges": [
+      {
+         "time": 0,
+         "bpm": 160,
+         "numerator": 4,
+         "denominator": 4
+      }
+   ]
+}

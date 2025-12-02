@@ -1,0 +1,52 @@
+credits_version==(Volume 1)
+credits_createdBy==Created By
+
+// DEVELOPERS //
+credits_developers_title==Developers
+
+credits_moldy==Game Director, Lead Composer:linebreak:Lead Charter, Programmer
+credits_rapparep==Creative Director, Lead Artist:linebreak:UI, Concept, & Background Artist:linebreak:Senior Modeler, Miscellaneous Composer, Writer
+credits_t5mpler==Lead Programmer:linebreak:Miscellaneous Composer:linebreak:Concept Artist, 3D UI Artist
+credits_mtm101==Lead Programmer, Writer:linebreak:Sound Designer
+credits_erizur==Senior Programmer, UI Artist
+credits_tb==Senior Artist
+credits_zmac==Lead 3D Background Artist
+credits_pointy==Artist, Charter
+credits_longDonny==Lead 3D Artist, 3D Animator, Lead Modeler
+credits_fissh==Artist, Lead Background, & Concept Artist
+
+// CONTRIBUTORS
+credits_contributors_title==Contributors
+
+credits_evdial==Lead Artist, Background Artist
+credits_billy==Concept Artist
+credits_steph==Programmer
+credits_alexander==Composer
+credits_magical==Composer, Charter, Concept Artist
+credits_cup==Additional Composer, UI Artist
+credits_sibottle==Guest Composer, Guest Artist
+credits_bubswest==Composer, Charter
+credits_top10==Composer, Artist
+credits_inguf==Additional Artist
+credits_ztgds==Charter
+credits_yourMom==Composer
+credits_sk0rbias==UI Artist
+
+// TRANSLATORS //
+credits_translators_title==Translators
+credits_windspel==Spanish Translator
+credits_aizakku==Portuguese-Brazilian Translator
+credits_soulegal==Portuguese-Brazilian Translator
+
+// SPECIAL THANKS //
+credits_specialThanks_title==Special Thanks
+
+credits_shifty==Made the Bambi Chromatic
+credits_skyFactorial==Bambi Atonal Samples
+credits_villezen==Made Freeplay SFX
+credits_statictigers==Helped Revise Dialogue
+credits_ray==Phone Ending Artist
+
+// MISC //
+credits_menuBackground_title==Menu Background Artists
+credits_playtesters_title==Playtesters

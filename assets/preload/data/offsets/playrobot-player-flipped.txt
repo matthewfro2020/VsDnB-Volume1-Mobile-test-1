@@ -1,0 +1,13 @@
+singRIGHTmiss -6 -13
+singDOWN -96 -26
+confused -196 -2
+danceRight 83 4
+singLEFTmiss -31 -14
+singUP 62 22
+danceLeft 0 0
+game 5 21
+hey 72 6
+singDOWNmiss -95 -47
+singRIGHT -4 -4
+singUPmiss 62 22
+singLEFT -33 -6

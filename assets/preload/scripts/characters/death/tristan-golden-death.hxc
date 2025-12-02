@@ -1,0 +1,25 @@
+class GoldenTristanDeathCharacter extends Character 
+{
+	public function new()
+	{
+    	super('tristan-golden-death');
+	}
+
+	override function onCreate(e:ScriptEvent)
+	{
+		super.onCreate(e);
+		
+		GameOverSubstate.deathSuffix = '-tristan';
+	}
+
+	override function load()
+	{
+	    frames = Paths.getSparrowAtlas('characters/tristan/tristan_golden_death', 'shared');
+	
+	    animation.addByPrefix('firstDeath', "tristangameoverstart", 24, false);
+	    animation.addByPrefix('deathLoop', "tristangameoverloop", 24, true);
+	    animation.addByPrefix('deathConfirm', "tristangameoverend", 24, false);
+	
+	    playAnim('firstDeath');
+	}
+}

@@ -1,0 +1,19 @@
+{
+   "version": "1.0.0",
+   "name": "Girlfriend (Pixel)",
+   "scale": 6,
+   "danceSnap": 1,
+   "globalOffset": [0, 20],
+   "cameraOffsets": [0, 0],
+   "offsetFilePlayer": "gf-pixel",
+   "offsetFileOpponent": "gf-pixel",
+   "icon": "gf-pixel",
+   "singDuration": 4,
+   "color": "0x000000",
+   "flipX": false,
+   "antialiasing": false,
+   "countdownData": {
+      "graphicPath": "pixel",
+      "soundPath": "pixel"
+   }
+}

@@ -1,0 +1,20 @@
+{
+   "version": "1.0.0",
+   "name": "Boyfriend (Cool)",
+   "scale": 1,
+   "danceSnap": 2,
+   "globalOffset": [],
+   "cameraOffsets": [-100, -150],
+   "offsetFilePlayer": "bf-cool",
+   "offsetFileOpponent": "bf-cool",
+   "icon": "bf",
+   "singDuration": 4,
+   "color": "0x31B0D1",
+   "flipX": true,
+   "nativelyPlayable": true,
+   "antialiasing": true,
+   "countdownData": {
+      "graphicPath": "normal",
+      "soundPath": "default"
+   }
+}

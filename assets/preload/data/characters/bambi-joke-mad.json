@@ -1,0 +1,20 @@
+{
+   "version": "1.0.0",
+   "name": "Joke Bambi (Mad)",
+   "scale": 1,
+   "danceSnap": 2,
+   "globalOffset": [],
+   "cameraOffsets": [50, -100],
+   "offsetFilePlayer": "bambi-joke-mad",
+   "offsetFileOpponent": "bambi-joke-mad",
+   "icon": "bambi-joke",
+   "singDuration": 4,
+   "color": "0x0CB500",
+   "flipX": true,
+   "antialiasing": true,
+   "nativelyPlayable": true,
+   "countdownData": {
+      "graphicPath": "normal",
+      "soundPath": "bambi"
+   }
+}

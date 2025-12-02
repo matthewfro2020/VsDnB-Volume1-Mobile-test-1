@@ -1,0 +1,120 @@
+{
+   "version": "1.0.0",
+   "music": "scaryAmbience",
+   "fadeInTime": 1,
+   "fadeOutTime": 1,
+   "dialogue": [
+      {
+         "expression": "bevelmad",
+         "side": "left",
+         "speaker": "bambi",
+         "text": "master_1",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "bevelmad",
+         "side": "left",
+         "speaker": "bambi",
+         "text": "master_2",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "bevelmad",
+         "side": "left",
+         "speaker": "bambi",
+         "text": "master_3",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "bevelmad",
+         "side": "left",
+         "speaker": "bambi",
+         "text": "master_4",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "bevelmad",
+         "side": "left",
+         "speaker": "bambi",
+         "text": "master_5",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "bevelmad",
+         "side": "left",
+         "speaker": "bambi",
+         "text": "master_6",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "bevelmad",
+         "side": "left",
+         "speaker": "bambi",
+         "text": "master_7",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "bevelmad",
+         "side": "left",
+         "speaker": "bambi",
+         "text": "master_8",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "bevelmad",
+         "side": "left",
+         "speaker": "bambi",
+         "text": "master_9",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "bevelmad",
+         "side": "left",
+         "speaker": "bambi",
+         "text": "master_10",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "bevelmad",
+         "side": "left",
+         "speaker": "bambi",
+         "text": "master_11",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "confused",
+         "side": "right",
+         "speaker": "bf",
+         "text": "master_12",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "bevelmad",
+         "side": "left",
+         "speaker": "bambi",
+         "text": "master_13",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "bevelmad",
+         "side": "left",
+         "speaker": "bambi",
+         "text": "master_14",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "confused",
+         "side": "right",
+         "speaker": "bf",
+         "text": "master_15",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "bevelmad",
+         "side": "left",
+         "speaker": "bambi",
+         "text": "master_16",
+         "typeSpeed": 0.04
+      }
+   ]
+}

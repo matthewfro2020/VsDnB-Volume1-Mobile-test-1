@@ -1,0 +1,21 @@
+{
+   "version": "2.0.0",
+   "songName": "Glitch",
+   "composers": ["DeadShadow", "PixelGH", "MoldyGangstaHero"],
+   "artists": ["Rapparep"],
+   "charters": ["MoldyGangstaHero"],
+   "coders": ["Rapparep", "T5mpler"],
+   "variations": [],
+   "stage": "house-night",
+   "player": "bf",
+   "opponent": "bambi-joke",
+   "gf": "gf",
+   "timeChanges": [
+      {
+         "time": 0,
+         "bpm": 110,
+         "numerator": 4,
+         "denominator": 4
+      }
+   ]
+}

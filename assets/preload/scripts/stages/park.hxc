@@ -1,0 +1,108 @@
+class AdventureParkStage extends Stage
+{
+    public function new()
+    {
+        super('park');
+    }
+
+    override function load():Void
+    {
+        PlayState.instance.gfOverride = 'gf-none';
+        
+        var bg:BGSprite = new BGSprite('bg', -600, -880, Paths.image('backgrounds/shared/sky_sunset'), null, 0.5, 0.5);
+        bg.scale.set(1.5, 1.5);
+        bg.zIndex = 0;
+        add(bg);
+        
+        var buildings:BGSprite = new BGSprite('buildings', -370, -180, Paths.image('backgrounds/adventure/park/buildingsback'), null, 0.7, 0.9);
+        buildings.zIndex = 1;
+        add(buildings);
+        
+        var hill:BGSprite = new BGSprite('hill', -425, 300, Paths.image('backgrounds/adventure/park/hill4'), null, 0.8, 0.9);
+        hill.zIndex = 2;
+        add(hill);
+        
+        var park:BGSprite = new BGSprite('park', -556, -534, Paths.image('backgrounds/adventure/park/bgpark'), null, 1, 1);
+        park.zIndex = 3;
+        add(park);
+        
+        var fountain = new BGSprite('fountain', 786, 413, 'backgrounds/adventure/park/fountain',
+        [
+            {name: 'loop', prefix: 'fountainfull', loop: true}
+        ]);
+        fountain.active = true;
+        fountain.animation.play('loop');
+        fountain.zIndex = 4;
+        add(fountain);
+
+        var memesKid:BGSprite = new BGSprite('memesKid', 800, 581, 'backgrounds/adventure/park/character_memeskidshander', [
+            {name: 'idle', prefix: 'character_memeskidshander', loop: true}
+        ]);
+        memesKid.active = true;
+        memesKid.animation.play('idle', true);
+        memesKid.zIndex = 5;
+        add(memesKid);
+
+        var david:BGSprite = new BGSprite('david', 1592, 516, 'backgrounds/adventure/park/character_davidjanett', [
+            {name: 'idle', prefix: 'character_davidjanett', loop: true}
+        ]);
+        david.active = true;
+        david.animation.play('idle', true);
+        david.zIndex = 6;
+        add(david);
+
+        var dane:BGSprite = new BGSprite('dane', 1711, 331, 'backgrounds/adventure/park/character_dane', [
+            {name: 'idle', prefix: 'character_dane', loop: true}
+        ]);
+        dane.active = true;
+        dane.animation.play('idle', true);
+        dane.zIndex = 7;
+        add(dane);
+
+        createMovingChars();
+    }
+
+    function createMovingChars():Void
+    {
+        // Set the characters far away so they spawn in the middle of the song.
+        movingChars = new FlxTypedSpriteGroup();
+        movingChars.alpha = 0.7;
+        movingChars.y = 700;
+        movingChars.zIndex = 20;
+        add(movingChars);
+
+        var maldoMuko = new BGSprite('maldo', 0, 0, 'backgrounds/adventure/park/character_maldomuko', [
+            {name: 'idle', prefix: 'character_mukomaldo', loop: true}
+        ]);
+        maldoMuko.scale.set(2, 2);
+        maldoMuko.updateHitbox();
+        maldoMuko.active = true;
+        maldoMuko.animation.play('idle', true);
+        movingChars.add(maldoMuko);
+
+        var juanCarl = new BGSprite('juan', 3000, 0, 'backgrounds/adventure/park/character_juancarl', [
+            {name: 'idle', prefix: 'character_juancarl', loop: true}
+        ]);
+        juanCarl.scale.set(2, 2);
+        juanCarl.updateHitbox();
+        juanCarl.active = true;
+        juanCarl.animation.play('idle', true);
+        movingChars.add(juanCarl);
+        
+        var diamondRuby = new BGSprite('diamond', 6000, 0, 'backgrounds/adventure/park/character_diamondrubyman', [
+            {name: 'idle', prefix: 'character_diamondrubyman', loop: true}
+        ]);
+        diamondRuby.scale.set(2, 2);
+        diamondRuby.updateHitbox();
+        diamondRuby.active = true;
+        diamondRuby.animation.play('idle', true);
+        movingChars.add(diamondRuby);
+    }
+
+    function initalizeMovingChars()
+    {
+        // Set the characters far away so they spawn in the middle of the song.
+        movingChars.x = 2000;
+        movingChars.velocity.x = -200;
+    }
+}

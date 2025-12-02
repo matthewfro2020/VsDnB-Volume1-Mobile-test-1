@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="playrobot_ost.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="playbot_selected0000" x="5" y="5" width="86" height="92"/>
+	<SubTexture name="playbot_selected0001" x="5" y="5" width="86" height="92"/>
+	<SubTexture name="playbot_transitions0000" x="96" y="5" width="88" height="87" frameX="0" frameY="-6" frameWidth="88" frameHeight="94"/>
+	<SubTexture name="playbot_transitions0001" x="96" y="5" width="88" height="87" frameX="0" frameY="-6" frameWidth="88" frameHeight="94"/>
+	<SubTexture name="playbot_transitions0002" x="189" y="5" width="86" height="94" frameX="-1" frameY="0" frameWidth="88" frameHeight="94"/>
+	<SubTexture name="playbot_transitions0003" x="189" y="5" width="86" height="94" frameX="-1" frameY="0" frameWidth="88" frameHeight="94"/>
+	<SubTexture name="playbot_transitions0004" x="280" y="5" width="86" height="92" frameX="-1" frameY="-2" frameWidth="88" frameHeight="94"/>
+	<SubTexture name="playbot_transitions0005" x="280" y="5" width="86" height="92" frameX="-1" frameY="-2" frameWidth="88" frameHeight="94"/>
+	<SubTexture name="playbot_transitionu0000" x="96" y="5" width="88" height="87" frameX="0" frameY="0" frameWidth="88" frameHeight="94"/>
+	<SubTexture name="playbot_transitionu0001" x="96" y="5" width="88" height="87" frameX="0" frameY="0" frameWidth="88" frameHeight="94"/>
+	<SubTexture name="playbot_transitionu0002" x="5" y="104" width="89" height="82" frameX="-1" frameY="-10" frameWidth="90" frameHeight="92"/>
+	<SubTexture name="playbot_transitionu0003" x="5" y="104" width="89" height="82" frameX="-1" frameY="-10" frameWidth="90" frameHeight="92"/>
+	<SubTexture name="playbot_transitionu0004" x="99" y="104" width="89" height="85" frameX="-1" frameY="-7" frameWidth="90" frameHeight="92"/>
+	<SubTexture name="playbot_transitionu0005" x="99" y="104" width="89" height="85" frameX="-1" frameY="-7" frameWidth="90" frameHeight="92"/>
+	<SubTexture name="playbot_unselected0000" x="193" y="104" width="89" height="85"/>
+	<SubTexture name="playbot_unselected0001" x="193" y="104" width="89" height="85"/>
+</TextureAtlas>

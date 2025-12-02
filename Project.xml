@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+
+	<!-- Global Nil Fix -->
+	<haxedef name="HXCPP_NO_NIL"/>
+	<haxedef name="HXCPP_NO_PCH"/>
+
+	<!-- App Info -->
+	<app title="VS. Dave and Bambi"
+		 file="VsDave"
+		 packageName="dnbteam.daveandbambi"
+		 package="dnbteam.daveandbambi"
+		 main="Main"
+		 version="1.0.7"
+		 company="dnbteam"/>
+
+	<app preloader="flixel.system.FlxPreloader"/>
+	<set name="SWF_VERSION" value="11.8"/>
+
+	<!-- Window -->
+	<window width="1280" height="720" fps="120" hardware="true" vsync="true"/>
+
+	<window if="desktop" allow-shaders="true" require-shaders="true" resizable="true"/>
+	<window if="mac" allow-high-dpi="true"/>
+	<window if="mobile" fullscreen="true" resizable="false" allow-high-dpi="true"/>
+
+	<!-- Paths -->
+	<classpath name="source"/>
+
+	<!-- Assets -->
+	<assets path="assets/preload" rename="assets"/>
+	<assets path="assets/preload/videos" rename="assets/videos" embed="false" include="*.mp4"/>
+	<assets path="assets/songs"  library="songs"/>
+	<assets path="assets/shared" library="shared"/>
+	<assets path="assets/fonts" embed="true"/>
+	<assets path="art/icons" rename="icons" embed="true"/>
+
+	<!-- Haxelibs -->
+	<haxelib name="lime"/>
+	<haxelib name="openfl"/>
+	<haxelib name="flixel"/>
+	<haxelib name="flixel-ui"/>
+	<haxelib name="flixel-addons"/>
+	<haxelib name="flxanimate"/>
+	<haxelib name="hxvlc" if="desktop || android"/>
+	<haxelib name="polymod"/>
+	<haxelib name="json2object"/>
+	<haxelib name="hscript"/>
+	<haxelib name="hxdiscord_rpc" if="desktop"/>
+
+	<!-- HMM-installed libs (do NOT add as haxelib) -->
+	<haxedef name="USE_GRIG_AUDIO"/>
+	<haxedef name="USE_FUNKIN_VIS"/>
+
+	<!-- Safety -->
+	<haxedef name="HXCPP_STACK_TRACE"/>
+	<haxedef name="HXCPP_STACK_LINE"/>
+	<haxedef name="HXCPP_CHECK_POINTER"/>
+	<haxedef name="HXCPP_GC_BIG_BLOCKS"/>
+	<haxeflag name="-dce no"/>
+
+	<!-- Macros -->
+	<haxeflag name="--macro" value="include('api')"/>
+	<haxeflag name="--macro" value="include('backend')"/>
+	<haxeflag name="--macro" value="include('util')"/>
+	<haxeflag name="--macro" value="include('data')"/>
+	<haxeflag name="--macro" value="include('controls')"/>
+	<haxeflag name="--macro" value="include('graphics')"/>
+	<haxeflag name="--macro" value="include('audio')"/>
+	<haxeflag name="--macro" value="include('play')"/>
+	<haxeflag name="--macro" value="include('ui')"/>
+	<haxeflag name="--macro" value="include('modding')"/>
+
+	<!-- Android -->
+	<section if="android">
+		<config>
+			<android gradle-version="7.4.2" gradle-plugin="7.3.1"/>
+			<android platform="android-35"/>
+			<android min-sdk-version="16" target-sdk-version="30" max-sdk-version="33"/>
+			<android abi="armeabi-v7a"/>
+			<android bundle="false"/>
+		</config>
+	</section>
+
+	<!-- iOS -->
+	<section if="ios">
+		<define name="objc"/>
+		<ios linker-flags="-ObjC"/>
+	</section>
+
+	<!-- Icons -->
+	<icon path="art/icons/dave16.png" size="16"/>
+	<icon path="art/icons/dave32.png" size="32"/>
+	<icon path="art/icons/dave64.png" size="64"/>
+	<icon path="art/icons/dave.png"/>
+
+</project>

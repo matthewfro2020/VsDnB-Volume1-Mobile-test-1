@@ -1,0 +1,7 @@
+class BonusSongEvents extends SongModule
+{
+    public function new()
+    {
+        super('bonus-songEvents', 0, 'bonus-song');
+    }
+}

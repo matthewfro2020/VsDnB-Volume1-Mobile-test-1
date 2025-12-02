@@ -1,0 +1,19 @@
+class OpponentTristanCharacter extends Character 
+{
+	public function new()
+	{
+    	super('tristan-opponent');
+	}
+
+	override function load()
+	{
+	    frames = Paths.getSparrowAtlas('characters/tristan/tristan_opponent', 'shared');
+	
+	    animation.addByPrefix('idle', 'idle', 24, false);
+	    for (anim in ['left', 'down', 'up', 'right']) {
+	        animation.addByPrefix('sing' + anim.toUpperCase(), anim + '0', 24, false);
+	    }
+	
+	    playAnim('idle');
+	}
+}

@@ -1,0 +1,78 @@
+{
+   "version": "1.0.0",
+   "music": "dooDooFeces",
+   "fadeInTime": 1,
+   "fadeOutTime": 1,
+   "dialogue": [
+      {
+         "expression": "bevel",
+         "side": "left",
+         "speaker": "bambi",
+         "text": "glitch_1",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "confused",
+         "side": "right",
+         "speaker": "bf",
+         "text": "glitch_2",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "bevel",
+         "side": "left",
+         "speaker": "bambi",
+         "text": "glitch_3",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "bevel",
+         "side": "left",
+         "speaker": "bambi",
+         "text": "glitch_4",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "confused",
+         "side": "right",
+         "speaker": "bf",
+         "text": "glitch_5",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "bevel",
+         "side": "left",
+         "speaker": "bambi",
+         "text": "glitch_6",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "confused",
+         "side": "right",
+         "speaker": "bf",
+         "text": "glitch_7",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "bevel",
+         "side": "left",
+         "speaker": "bambi",
+         "text": "glitch_8",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "bevel",
+         "side": "left",
+         "speaker": "bambi",
+         "text": "glitch_9",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "bevel",
+         "side": "left",
+         "speaker": "bambi",
+         "text": "glitch_10",
+         "typeSpeed": 0.04
+      }
+   ]
+}

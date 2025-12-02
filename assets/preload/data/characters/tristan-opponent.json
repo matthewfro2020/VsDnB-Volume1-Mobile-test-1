@@ -1,0 +1,19 @@
+{
+   "version": "1.0.0",
+   "name": "Tristan Opponent",
+   "scale": 1,
+   "danceSnap": 2,
+   "globalOffset": [40, -34],
+   "cameraOffsets": [0, -100],
+   "offsetFilePlayer": "tristan",
+   "offsetFileOpponent": "tristan-opponent",
+   "icon": "tristan-opponent",
+   "singDuration": 4,
+   "color": "0xFF130F",
+   "flipX": true,
+   "antialiasing": true,
+   "countdownData": {
+      "graphicPath": "normal",
+      "soundPath": "default"
+   }
+}

@@ -1,0 +1,33 @@
+{
+   "version": "2.0.0",
+   "songName": "Splitathon",
+   "composers": ["MoldyGangstaHero"],
+   "artists": ["Rapparep", "evdial", "fissh"],
+   "charters": ["MoldyGangstaHero"],
+   "coders": ["MissingTextureMan101", "T5mpler"],
+   "variations": [],
+   "stage": "farm-splitathon",
+   "player": "bf",
+   "opponent": "dave-splitathon",
+   "gf": "gf",
+   "timeChanges": [
+      {
+         "time": 0,
+         "bpm": 130,
+         "numerator": 4,
+         "denominator": 4
+      },
+      {
+         "time": 44307.6923076923,
+         "bpm": 230,
+         "numerator": 4,
+         "denominator": 4
+      },
+      {
+         "time": 556655.518394648,
+         "bpm": 130,
+         "numerator": 4,
+         "denominator": 4
+      }
+   ]
+}

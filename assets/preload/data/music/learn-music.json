@@ -1,0 +1,15 @@
+{
+   "version": "1.0.0",
+   "name": "Learn Music",
+   "musicPath": "math/learn/learn_1",
+   "composers": ["Mystman12"],
+   "variations": [],
+   "timeChanges": [
+      {
+         "time": 0,
+         "bpm": 120.0,
+         "numerator": 4,
+         "denominator": 4
+      }
+   ]
+}

@@ -1,0 +1,50 @@
+{
+   "version": "1.0.0",
+   "music": "DaveDialogue",
+   "fadeInTime": 1,
+   "fadeOutTime": 1,
+   "dialogue": [
+      {
+         "expression": "thinking",
+         "side": "left",
+         "speaker": "dave",
+         "text": "insanity_1",
+         "typeSpeed": 0.06
+      },
+      {
+         "expression": "confused",
+         "side": "right",
+         "speaker": "bf",
+         "text": "insanity_2",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "thought",
+         "side": "left",
+         "speaker": "dave",
+         "text": "insanity_3",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "annoyed",
+         "side": "left",
+         "speaker": "dave",
+         "text": "insanity_4",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "ready",
+         "side": "right",
+         "speaker": "bf",
+         "text": "insanity_5",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "splitathon",
+         "side": "left",
+         "speaker": "dave",
+         "text": "insanity_6",
+         "typeSpeed": 0.04
+      }
+   ]
+}

@@ -1,0 +1,78 @@
+class TristanRoomBackseatStage extends Stage
+{
+    public function new()
+    {
+        super('tristanRoom-backseat');
+    }
+
+    override function load():Void
+    {
+        var void:VoidBGSprite = new VoidBGSprite('void', -250, -200, Paths.image('backgrounds/void/redsky', 'shared'), null, {frequency: 4, amplitude: 0.15});
+        void.scale.set(0.7, 0.7);
+        void.updateHitbox();
+        void.alpha = 0.001;
+        void.zIndex = -1;
+        add(void);
+
+        // DAVE STAGE // 
+
+        var daveBg:BGSprite = new BGSprite('daveBg', -600, -400, Paths.image('backgrounds/shared/sky'), null, 0.2, 0);
+        daveBg.scale.set(0.4, 0.4);
+        daveBg.zIndex = 10;
+        add(daveBg);
+
+        var stageHills:BGSprite = new BGSprite('stageHills', -834, -159, Paths.image('backgrounds/daveHouse/normal/hills'), null, 0.35, 0.3);
+        stageHills.scale.set(0.4, 0.4);
+        stageHills.zIndex = 20;
+        add(stageHills);
+
+        var grassbg:BGSprite = new BGSprite('grassbg', -1205, 230, Paths.image('backgrounds/daveHouse/normal/grass bg'), null, 0.65, 0.5);
+        grassbg.scale.set(0.4, 0.4);
+        grassbg.zIndex = 30;
+        add(grassbg);
+
+        var gate:BGSprite = new BGSprite('gate', -655, 225, Paths.image('backgrounds/daveHouse/normal/gate'), null, 0.65, 0.75);
+        gate.scale.set(0.4, 0.4);
+        gate.zIndex = 40;
+        add(gate);
+
+        var stageFront:BGSprite = new BGSprite('stageFront', -932, 345, Paths.image('backgrounds/daveHouse/normal/grass'), null, 0.8, 1);
+        stageFront.scale.set(0.3, 0.3);
+        stageFront.zIndex = 50;
+        add(stageFront);
+
+        // ROOM //
+        
+        var bg:BGSprite = new BGSprite('bg', -550, -25, Paths.image('backgrounds/tristanBackseat/backseat_bg'));
+        bg.zIndex = 60;
+        add(bg);
+
+        var tv:BGSprite = new BGSprite('tv', 0, 825, Paths.image('backgrounds/tristanBackseat/tv_bg'));
+        tv.zIndex = 200;
+        add(tv);
+    }
+    
+    override function onCameraMove(e:CameraScriptEvent)
+    {
+        PlayState.instance.camGame.setFollow(PlayState.instance.camGame.followPoint.x, PlayState.instance.boyfriend.cameraFocusPoint.y + 25);
+    }
+    
+    override function onCreateUI():Void
+    {
+        if (PlayState.instance.ratings != null)
+        {
+            PlayState.instance.ratings.x += 50;
+        }
+    }
+
+    function getDaveStage()
+    {
+        var bg = getProp('daveBg');
+        var hills = getProp('stageHills');
+        var grass = getProp('grassbg');
+        var gate = getProp('gate');
+        var front = getProp('stageFront');
+
+        return [bg, hills, grass, gate, front];
+    }
+}

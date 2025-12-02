@@ -1,0 +1,21 @@
+{
+   "version": "2.0.0",
+   "songName": "Corn Theft",
+   "composers": ["MoldyGangstaHero"],
+   "artists": ["evdial"],
+   "charters": ["MoldyGangstaHero"],
+   "coders": ["T5mpler"],
+   "variations": [],
+   "stage": "farm",
+   "player": "bf",
+   "opponent": "bambi-new",
+   "gf": "gf",
+   "timeChanges": [
+      {
+         "time": 0,
+         "bpm": 105,
+         "numerator": 4,
+         "denominator": 4
+      }
+   ]
+}

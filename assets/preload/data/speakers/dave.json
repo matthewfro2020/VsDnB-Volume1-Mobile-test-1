@@ -1,0 +1,88 @@
+{
+   "version": "1.0.0",
+   "name": "Dave",
+   "globalOffsets": [-20, -75],
+   "sounds": ["dialogue/daveDialogue"],
+   "expressions": [
+      {
+         "assetPath": "dave/dave_annoyed",
+         "name": "annoyed",
+         "scale": 1
+      },
+      {
+         "assetPath": "dave/dave_thinking",
+         "name": "thinking",
+         "scale": 1
+      },
+      {
+         "assetPath": "dave/dave_thought",
+         "name": "thought",
+         "scale": 1
+      },
+      {
+         "assetPath": "dave/dave_phone",
+         "name": "phone",
+         "scale": 1
+      },
+      {
+         "assetPath": "dave/dave_phoneb",
+         "name": "phoneb",
+         "scale": 1
+      },
+      {
+         "assetPath": "dave/dave_phonec",
+         "name": "phonec",
+         "scale": 1
+      },
+      {
+         "assetPath": "dave/dave_ahh",
+         "name": "ahh",
+         "scale": 1
+      },
+      {
+         "assetPath": "dave/dave_3d_scared",
+         "name": "3d-scared",
+         "scale": 1
+      },
+      {
+         "assetPath": "dave/dave_postMaze",
+         "name": "post-maze",
+         "scale": 1
+      },
+      {
+         "assetPath": "dave/dave_splitathon",
+         "name": "splitathon",
+         "scale": 1
+      },
+      {
+         "assetPath": "dave/dave_shocked",
+         "name": "shocked",
+         "scale": 1
+      },
+      {
+         "assetPath": "dave/dave_erm",
+         "name": "erm",
+         "scale": 1
+      },
+      {
+         "assetPath": "dave/dave_furious",
+         "name": "furious",
+         "scale": 1
+      },
+      {
+         "assetPath": "dave/dave_confident",
+         "name": "confident",
+         "scale": 1
+      },
+      {
+         "assetPath": "dave/dave_happyarms",
+         "name": "happyarms",
+         "scale": 1
+      },
+      {
+         "assetPath": "dave/dave_happy",
+         "name": "normal",
+         "scale": 1
+      }
+   ]
+}

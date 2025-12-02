@@ -1,0 +1,15 @@
+{
+   "version": "1.0.0",
+   "name": "Game Over (Pixel)",
+   "musicPath": "gameOver/gameOver-pixel-full",
+   "composers": ["T5mpler"],
+   "variations": [],
+   "timeChanges": [
+      {
+         "time": 0,
+         "bpm": 105,
+         "numerator": 4,
+         "denominator": 4
+      }
+   ]
+}

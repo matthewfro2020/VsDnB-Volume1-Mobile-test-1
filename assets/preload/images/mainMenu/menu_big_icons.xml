@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="menu_big_icons.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="credits0000" x="5" y="5" width="1165" height="850"/>
+	<SubTexture name="freeplay0000" x="1175" y="5" width="1165" height="850"/>
+	<SubTexture name="glitch0000" x="2345" y="5" width="1165" height="850"/>
+	<SubTexture name="options0000" x="5" y="860" width="1165" height="850"/>
+	<SubTexture name="ost0000" x="1175" y="860" width="1165" height="850"/>
+	<SubTexture name="story mode0000" x="2345" y="860" width="1165" height="850"/>
+</TextureAtlas>

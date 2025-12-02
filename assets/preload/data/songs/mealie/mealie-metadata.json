@@ -1,0 +1,21 @@
+{
+   "version": "2.0.0",
+   "songName": "Mealie",
+   "composers": ["Alexander Cooper 19", "CupTheMug"],
+   "artists": ["evdial", "Rapparep", "fisshcakes"],
+   "charters": ["ztgds"],
+   "coders": ["T5mpler"],
+   "variations": [],
+   "stage": "barn",
+   "player": "bf",
+   "opponent": "bambi-new",
+   "gf": "gf",
+   "timeChanges": [
+      {
+         "time": 0,
+         "bpm": 167,
+         "numerator": 4,
+         "denominator": 4
+      }
+   ]
+}

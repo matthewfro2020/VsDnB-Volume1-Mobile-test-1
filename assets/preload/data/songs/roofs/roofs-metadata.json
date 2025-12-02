@@ -1,0 +1,21 @@
+{
+   "version": "2.0.0",
+   "songName": "Roofs",
+   "composers": ["Sibottle"],
+   "artists": ["Rapparep", "magical", "Sibottle"],
+   "charters": ["magical"],
+   "coders": ["T5mpler"],
+   "variations": [],
+   "stage": "roof",
+   "player": "bf",
+   "opponent": "baldi",
+   "gf": "gf",
+   "timeChanges": [
+      {
+         "time": 0,
+         "bpm": 120,
+         "numerator": 4,
+         "denominator": 4
+      }
+   ]
+}

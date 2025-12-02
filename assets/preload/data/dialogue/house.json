@@ -1,0 +1,64 @@
+{
+   "version": "1.0.0",
+   "music": "DaveDialogue",
+   "fadeInTime": 1,
+   "fadeOutTime": 1,
+   "dialogue": [
+      {
+         "expression": "normal",
+         "side": "right",
+         "speaker": "bf",
+         "text": "house_1",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "normal",
+         "side": "left",
+         "speaker": "dave",
+         "text": "house_2",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "ready",
+         "side": "right",
+         "speaker": "bf",
+         "text": "house_3",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "normal",
+         "side": "right",
+         "speaker": "bf",
+         "text": "house_4",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "normal",
+         "side": "left",
+         "speaker": "dave",
+         "text": "house_5",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "confident",
+         "side": "left",
+         "speaker": "dave",
+         "text": "house_6",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "normal",
+         "side": "right",
+         "speaker": "bf",
+         "text": "house_7",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "happyarms",
+         "side": "left",
+         "speaker": "dave",
+         "text": "house_8",
+         "typeSpeed": 0.04
+      }
+   ]
+}

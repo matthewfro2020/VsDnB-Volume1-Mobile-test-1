@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Tristan_Dead.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="tristangameoverend0000" x="5" y="5" width="339" height="484" frameX="0" frameY="-41" frameWidth="368" frameHeight="525"/>
+	<SubTexture name="tristangameoverend0001" x="349" y="5" width="348" height="495" frameX="0" frameY="-30" frameWidth="368" frameHeight="525"/>
+	<SubTexture name="tristangameoverend0002" x="702" y="5" width="348" height="525" frameX="0" frameY="0" frameWidth="368" frameHeight="525"/>
+	<SubTexture name="tristangameoverend0003" x="1055" y="5" width="348" height="495" frameX="0" frameY="-30" frameWidth="368" frameHeight="525"/>
+	<SubTexture name="tristangameoverend0004" x="1408" y="5" width="348" height="495" frameX="0" frameY="-30" frameWidth="368" frameHeight="525"/>
+	<SubTexture name="tristangameoverend0005" x="1761" y="5" width="348" height="495" frameX="0" frameY="-30" frameWidth="368" frameHeight="525"/>
+	<SubTexture name="tristangameoverend0006" x="2114" y="5" width="348" height="495" frameX="0" frameY="-30" frameWidth="368" frameHeight="525"/>
+	<SubTexture name="tristangameoverend0007" x="2467" y="5" width="348" height="495" frameX="0" frameY="-30" frameWidth="368" frameHeight="525"/>
+	<SubTexture name="tristangameoverend0008" x="2820" y="5" width="348" height="495" frameX="0" frameY="-30" frameWidth="368" frameHeight="525"/>
+	<SubTexture name="tristangameoverend0009" x="3173" y="5" width="348" height="495" frameX="0" frameY="-30" frameWidth="368" frameHeight="525"/>
+	<SubTexture name="tristangameoverend0010" x="5" y="535" width="348" height="495" frameX="0" frameY="-30" frameWidth="368" frameHeight="525"/>
+	<SubTexture name="tristangameoverend0011" x="358" y="535" width="348" height="495" frameX="0" frameY="-30" frameWidth="368" frameHeight="525"/>
+	<SubTexture name="tristangameoverend0012" x="711" y="535" width="349" height="495" frameX="0" frameY="-30" frameWidth="368" frameHeight="525"/>
+	<SubTexture name="tristangameoverend0013" x="1065" y="535" width="351" height="495" frameX="0" frameY="-30" frameWidth="368" frameHeight="525"/>
+	<SubTexture name="tristangameoverend0014" x="1421" y="535" width="354" height="495" frameX="0" frameY="-30" frameWidth="368" frameHeight="525"/>
+	<SubTexture name="tristangameoverend0015" x="1780" y="535" width="356" height="495" frameX="0" frameY="-30" frameWidth="368" frameHeight="525"/>
+	<SubTexture name="tristangameoverend0016" x="2141" y="535" width="359" height="495" frameX="0" frameY="-30" frameWidth="368" frameHeight="525"/>
+	<SubTexture name="tristangameoverend0017" x="2505" y="535" width="360" height="495" frameX="0" frameY="-30" frameWidth="368" frameHeight="525"/>
+	<SubTexture name="tristangameoverend0018" x="2870" y="535" width="362" height="495" frameX="0" frameY="-30" frameWidth="368" frameHeight="525"/>
+	<SubTexture name="tristangameoverend0019" x="3237" y="535" width="364" height="495" frameX="0" frameY="-30" frameWidth="368" frameHeight="525"/>
+	<SubTexture name="tristangameoverend0020" x="5" y="1035" width="365" height="495" frameX="0" frameY="-30" frameWidth="368" frameHeight="525"/>
+	<SubTexture name="tristangameoverend0021" x="375" y="1035" width="366" height="495" frameX="0" frameY="-30" frameWidth="368" frameHeight="525"/>
+	<SubTexture name="tristangameoverend0022" x="746" y="1035" width="367" height="495" frameX="0" frameY="-30" frameWidth="368" frameHeight="525"/>
+	<SubTexture name="tristangameoverend0023" x="746" y="1035" width="367" height="495" frameX="0" frameY="-30" frameWidth="368" frameHeight="525"/>
+	<SubTexture name="tristangameoverend0024" x="1118" y="1035" width="368" height="495" frameX="0" frameY="-30" frameWidth="368" frameHeight="525"/>
+	<SubTexture name="tristangameoverend0025" x="1118" y="1035" width="368" height="495" frameX="0" frameY="-30" frameWidth="368" frameHeight="525"/>
+	<SubTexture name="tristangameoverend0026" x="1118" y="1035" width="368" height="495" frameX="0" frameY="-30" frameWidth="368" frameHeight="525"/>
+	<SubTexture name="tristangameoverend0027" x="1118" y="1035" width="368" height="495" frameX="0" frameY="-30" frameWidth="368" frameHeight="525"/>
+	<SubTexture name="tristangameoverend0028" x="1118" y="1035" width="368" height="495" frameX="0" frameY="-30" frameWidth="368" frameHeight="525"/>
+	<SubTexture name="tristangameoverend0029" x="1118" y="1035" width="368" height="495" frameX="0" frameY="-30" frameWidth="368" frameHeight="525"/>
+	<SubTexture name="tristangameoverend0030" x="1118" y="1035" width="368" height="495" frameX="0" frameY="-30" frameWidth="368" frameHeight="525"/>
+	<SubTexture name="tristangameoverend0031" x="1118" y="1035" width="368" height="495" frameX="0" frameY="-30" frameWidth="368" frameHeight="525"/>
+	<SubTexture name="tristangameoverend0032" x="1118" y="1035" width="368" height="495" frameX="0" frameY="-30" frameWidth="368" frameHeight="525"/>
+	<SubTexture name="tristangameoverend0033" x="1118" y="1035" width="368" height="495" frameX="0" frameY="-30" frameWidth="368" frameHeight="525"/>
+	<SubTexture name="tristangameoverloop0000" x="1491" y="1035" width="339" height="484"/>
+	<SubTexture name="tristangameoverloop0001" x="1835" y="1035" width="339" height="484"/>
+	<SubTexture name="tristangameoverloop0002" x="1835" y="1035" width="339" height="484"/>
+	<SubTexture name="tristangameoverloop0003" x="2179" y="1035" width="339" height="484"/>
+	<SubTexture name="tristangameoverloop0004" x="2179" y="1035" width="339" height="484"/>
+	<SubTexture name="tristangameoverloop0005" x="2523" y="1035" width="339" height="484"/>
+	<SubTexture name="tristangameoverloop0006" x="2523" y="1035" width="339" height="484"/>
+	<SubTexture name="tristangameoverloop0007" x="2867" y="1035" width="339" height="484"/>
+	<SubTexture name="tristangameoverloop0008" x="3211" y="1035" width="339" height="484"/>
+	<SubTexture name="tristangameoverloop0009" x="3211" y="1035" width="339" height="484"/>
+	<SubTexture name="tristangameoverloop0010" x="3211" y="1035" width="339" height="484"/>
+	<SubTexture name="tristangameoverloop0011" x="3211" y="1035" width="339" height="484"/>
+	<SubTexture name="tristangameoverloop0012" x="3211" y="1035" width="339" height="484"/>
+	<SubTexture name="tristangameoverloop0013" x="3211" y="1035" width="339" height="484"/>
+	<SubTexture name="tristangameoverloop0014" x="3211" y="1035" width="339" height="484"/>
+	<SubTexture name="tristangameoverloop0015" x="3211" y="1035" width="339" height="484"/>
+	<SubTexture name="tristangameoverloop0016" x="3211" y="1035" width="339" height="484"/>
+	<SubTexture name="tristangameoverloop0017" x="1491" y="1035" width="339" height="484"/>
+	<SubTexture name="tristangameoverloop0018" x="1835" y="1035" width="339" height="484"/>
+	<SubTexture name="tristangameoverloop0019" x="1835" y="1035" width="339" height="484"/>
+	<SubTexture name="tristangameoverloop0020" x="2179" y="1035" width="339" height="484"/>
+	<SubTexture name="tristangameoverloop0021" x="2179" y="1035" width="339" height="484"/>
+	<SubTexture name="tristangameoverloop0022" x="2523" y="1035" width="339" height="484"/>
+	<SubTexture name="tristangameoverloop0023" x="2523" y="1035" width="339" height="484"/>
+	<SubTexture name="tristangameoverloop0024" x="3211" y="1035" width="339" height="484"/>
+	<SubTexture name="tristangameoverloop0025" x="3211" y="1035" width="339" height="484"/>
+	<SubTexture name="tristangameoverloop0026" x="3211" y="1035" width="339" height="484"/>
+	<SubTexture name="tristangameoverloop0027" x="3211" y="1035" width="339" height="484"/>
+	<SubTexture name="tristangameoverloop0028" x="3211" y="1035" width="339" height="484"/>
+	<SubTexture name="tristangameoverloop0029" x="3211" y="1035" width="339" height="484"/>
+	<SubTexture name="tristangameoverloop0030" x="3211" y="1035" width="339" height="484"/>
+	<SubTexture name="tristangameoverloop0031" x="3211" y="1035" width="339" height="484"/>
+	<SubTexture name="tristangameoverloop0032" x="3211" y="1035" width="339" height="484"/>
+	<SubTexture name="tristangameoverloop0033" x="3211" y="1035" width="339" height="484"/>
+	<SubTexture name="tristangameoverstart0000" x="5" y="1535" width="337" height="478" frameX="-39" frameY="0" frameWidth="418" frameHeight="486"/>
+	<SubTexture name="tristangameoverstart0001" x="347" y="1535" width="366" height="478" frameX="-34" frameY="0" frameWidth="418" frameHeight="486"/>
+	<SubTexture name="tristangameoverstart0002" x="718" y="1535" width="366" height="478" frameX="-34" frameY="0" frameWidth="418" frameHeight="486"/>
+	<SubTexture name="tristangameoverstart0003" x="1089" y="1535" width="389" height="478" frameX="-29" frameY="0" frameWidth="418" frameHeight="486"/>
+	<SubTexture name="tristangameoverstart0004" x="1089" y="1535" width="389" height="478" frameX="-29" frameY="0" frameWidth="418" frameHeight="486"/>
+	<SubTexture name="tristangameoverstart0005" x="1483" y="1535" width="389" height="478" frameX="-29" frameY="0" frameWidth="418" frameHeight="486"/>
+	<SubTexture name="tristangameoverstart0006" x="1877" y="1535" width="293" height="478" frameX="-46" frameY="0" frameWidth="418" frameHeight="486"/>
+	<SubTexture name="tristangameoverstart0007" x="1877" y="1535" width="293" height="478" frameX="-46" frameY="0" frameWidth="418" frameHeight="486"/>
+	<SubTexture name="tristangameoverstart0008" x="1877" y="1535" width="293" height="478" frameX="-46" frameY="0" frameWidth="418" frameHeight="486"/>
+	<SubTexture name="tristangameoverstart0009" x="1877" y="1535" width="293" height="478" frameX="-46" frameY="0" frameWidth="418" frameHeight="486"/>
+	<SubTexture name="tristangameoverstart0010" x="1877" y="1535" width="293" height="478" frameX="-46" frameY="0" frameWidth="418" frameHeight="486"/>
+	<SubTexture name="tristangameoverstart0011" x="1877" y="1535" width="293" height="478" frameX="-46" frameY="0" frameWidth="418" frameHeight="486"/>
+	<SubTexture name="tristangameoverstart0012" x="1877" y="1535" width="293" height="478" frameX="-46" frameY="0" frameWidth="418" frameHeight="486"/>
+	<SubTexture name="tristangameoverstart0013" x="1877" y="1535" width="293" height="478" frameX="-46" frameY="0" frameWidth="418" frameHeight="486"/>
+	<SubTexture name="tristangameoverstart0014" x="1877" y="1535" width="293" height="478" frameX="-46" frameY="0" frameWidth="418" frameHeight="486"/>
+	<SubTexture name="tristangameoverstart0015" x="2175" y="1535" width="293" height="478" frameX="-46" frameY="0" frameWidth="418" frameHeight="486"/>
+	<SubTexture name="tristangameoverstart0016" x="2175" y="1535" width="293" height="478" frameX="-46" frameY="0" frameWidth="418" frameHeight="486"/>
+	<SubTexture name="tristangameoverstart0017" x="2175" y="1535" width="293" height="478" frameX="-46" frameY="0" frameWidth="418" frameHeight="486"/>
+	<SubTexture name="tristangameoverstart0018" x="2473" y="1535" width="293" height="478" frameX="-46" frameY="0" frameWidth="418" frameHeight="486"/>
+	<SubTexture name="tristangameoverstart0019" x="2473" y="1535" width="293" height="478" frameX="-46" frameY="0" frameWidth="418" frameHeight="486"/>
+	<SubTexture name="tristangameoverstart0020" x="2771" y="1535" width="293" height="478" frameX="-46" frameY="0" frameWidth="418" frameHeight="486"/>
+	<SubTexture name="tristangameoverstart0021" x="2771" y="1535" width="293" height="478" frameX="-46" frameY="0" frameWidth="418" frameHeight="486"/>
+	<SubTexture name="tristangameoverstart0022" x="3069" y="1535" width="293" height="478" frameX="-46" frameY="0" frameWidth="418" frameHeight="486"/>
+	<SubTexture name="tristangameoverstart0023" x="3069" y="1535" width="293" height="478" frameX="-46" frameY="0" frameWidth="418" frameHeight="486"/>
+	<SubTexture name="tristangameoverstart0024" x="5" y="2018" width="293" height="478" frameX="-46" frameY="0" frameWidth="418" frameHeight="486"/>
+	<SubTexture name="tristangameoverstart0025" x="303" y="2018" width="331" height="486" frameX="-8" frameY="0" frameWidth="418" frameHeight="486"/>
+	<SubTexture name="tristangameoverstart0026" x="303" y="2018" width="331" height="486" frameX="-8" frameY="0" frameWidth="418" frameHeight="486"/>
+	<SubTexture name="tristangameoverstart0027" x="639" y="2018" width="334" height="479" frameX="-5" frameY="0" frameWidth="418" frameHeight="486"/>
+	<SubTexture name="tristangameoverstart0028" x="639" y="2018" width="334" height="479" frameX="-5" frameY="0" frameWidth="418" frameHeight="486"/>
+	<SubTexture name="tristangameoverstart0029" x="978" y="2018" width="338" height="485" frameX="-1" frameY="0" frameWidth="418" frameHeight="486"/>
+	<SubTexture name="tristangameoverstart0030" x="978" y="2018" width="338" height="485" frameX="-1" frameY="0" frameWidth="418" frameHeight="486"/>
+	<SubTexture name="tristangameoverstart0031" x="1321" y="2018" width="339" height="484" frameX="0" frameY="0" frameWidth="418" frameHeight="486"/>
+	<SubTexture name="tristangameoverstart0032" x="1321" y="2018" width="339" height="484" frameX="0" frameY="0" frameWidth="418" frameHeight="486"/>
+	<SubTexture name="tristangameoverstart0033" x="1321" y="2018" width="339" height="484" frameX="0" frameY="0" frameWidth="418" frameHeight="486"/>
+	<SubTexture name="tristangameoverstart0034" x="1321" y="2018" width="339" height="484" frameX="0" frameY="0" frameWidth="418" frameHeight="486"/>
+	<SubTexture name="tristangameoverstart0035" x="1321" y="2018" width="339" height="484" frameX="0" frameY="0" frameWidth="418" frameHeight="486"/>
+	<SubTexture name="tristangameoverstart0036" x="1321" y="2018" width="339" height="484" frameX="0" frameY="0" frameWidth="418" frameHeight="486"/>
+	<SubTexture name="tristangameoverstart0037" x="1321" y="2018" width="339" height="484" frameX="0" frameY="0" frameWidth="418" frameHeight="486"/>
+	<SubTexture name="tristangameoverstart0038" x="1321" y="2018" width="339" height="484" frameX="0" frameY="0" frameWidth="418" frameHeight="486"/>
+	<SubTexture name="tristangameoverstart0039" x="1321" y="2018" width="339" height="484" frameX="0" frameY="0" frameWidth="418" frameHeight="486"/>
+	<SubTexture name="tristangameoverstart0040" x="1321" y="2018" width="339" height="484" frameX="0" frameY="0" frameWidth="418" frameHeight="486"/>
+	<SubTexture name="tristangameoverstart0041" x="1321" y="2018" width="339" height="484" frameX="0" frameY="0" frameWidth="418" frameHeight="486"/>
+	<SubTexture name="tristangameoverstart0042" x="1321" y="2018" width="339" height="484" frameX="0" frameY="0" frameWidth="418" frameHeight="486"/>
+	<SubTexture name="tristangameoverstart0043" x="1321" y="2018" width="339" height="484" frameX="0" frameY="0" frameWidth="418" frameHeight="486"/>
+	<SubTexture name="tristangameoverstart0044" x="1321" y="2018" width="339" height="484" frameX="0" frameY="0" frameWidth="418" frameHeight="486"/>
+	<SubTexture name="tristangameoverstart0045" x="1321" y="2018" width="339" height="484" frameX="0" frameY="0" frameWidth="418" frameHeight="486"/>
+	<SubTexture name="tristangameoverstart0046" x="1321" y="2018" width="339" height="484" frameX="0" frameY="0" frameWidth="418" frameHeight="486"/>
+	<SubTexture name="tristangameoverstart0047" x="1321" y="2018" width="339" height="484" frameX="0" frameY="0" frameWidth="418" frameHeight="486"/>
+	<SubTexture name="tristangameoverstart0048" x="1321" y="2018" width="339" height="484" frameX="0" frameY="0" frameWidth="418" frameHeight="486"/>
+	<SubTexture name="tristangameoverstart0049" x="1321" y="2018" width="339" height="484" frameX="0" frameY="0" frameWidth="418" frameHeight="486"/>
+	<SubTexture name="tristangameoverstart0050" x="1321" y="2018" width="339" height="484" frameX="0" frameY="0" frameWidth="418" frameHeight="486"/>
+	<SubTexture name="tristangameoverstart0051" x="1665" y="2018" width="339" height="484" frameX="0" frameY="0" frameWidth="418" frameHeight="486"/>
+	<SubTexture name="tristangameoverstart0052" x="2009" y="2018" width="339" height="484" frameX="0" frameY="0" frameWidth="418" frameHeight="486"/>
+	<SubTexture name="tristangameoverstart0053" x="2009" y="2018" width="339" height="484" frameX="0" frameY="0" frameWidth="418" frameHeight="486"/>
+	<SubTexture name="tristangameoverstart0054" x="2353" y="2018" width="339" height="484" frameX="0" frameY="0" frameWidth="418" frameHeight="486"/>
+	<SubTexture name="tristangameoverstart0055" x="2353" y="2018" width="339" height="484" frameX="0" frameY="0" frameWidth="418" frameHeight="486"/>
+	<SubTexture name="tristangameoverstart0056" x="2697" y="2018" width="339" height="484" frameX="0" frameY="0" frameWidth="418" frameHeight="486"/>
+	<SubTexture name="tristangameoverstart0057" x="2697" y="2018" width="339" height="484" frameX="0" frameY="0" frameWidth="418" frameHeight="486"/>
+</TextureAtlas>

@@ -1,0 +1,33 @@
+{
+   "version": "1.0.0",
+   "name": "Boyfriend",
+   "charId": "bf",
+   "variationId": "",
+   "charSelect": {
+      "gf": "gf",
+      "page": 0,
+      "portraitFile": "bf_portrait",
+      "position": 0,
+      "selected": {
+         "loop": true,
+         "name": "idle_select",
+         "offsets": [0, 2],
+         "prefix": "selected_bf"
+      },
+      "selectedTransition": {
+         "name": "selected",
+         "prefix": "transitions_bf"
+      },
+      "unselected": {
+         "loop": true,
+         "name": "idle_unselect",
+         "prefix": "unselected_bf"
+      },
+      "unselectedTransition": {
+         "name": "idle",
+         "offsets": [0, 2],
+         "prefix": "transitionu_bf"
+      }
+   },
+   "unlocked": true
+}

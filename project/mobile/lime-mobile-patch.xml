@@ -1,0 +1,15 @@
+<project>
+
+    <!-- FIX for Android NDK 25.x -->
+    <haxedef name="HXCPP_NO_PCH"/>
+
+    <!-- Fix thx.Nil issues -->
+    <haxedef name="HXCPP_NO_NIL"/>
+
+    <!-- Force landscape on all platforms -->
+    <window orientation="landscape"/>
+
+    <!-- Ensure Lime uses correct Android toolchain -->
+    <setenv name="ANDROID_SETUP">true</setenv>
+
+</project>

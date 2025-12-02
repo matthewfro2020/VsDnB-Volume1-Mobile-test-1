@@ -1,0 +1,21 @@
+{
+   "version": "2.0.0",
+   "songName": "Blocked",
+   "composers": ["MoldyGangstaHero"],
+   "artists": ["evdial"],
+   "charters": ["MoldyGangstaHero"],
+   "coders": ["T5mpler"],
+   "variations": [],
+   "stage": "farm",
+   "player": "bf",
+   "opponent": "bambi-new",
+   "gf": "gf",
+   "timeChanges": [
+      {
+         "time": 0,
+         "bpm": 188,
+         "numerator": 4,
+         "denominator": 4
+      }
+   ]
+}

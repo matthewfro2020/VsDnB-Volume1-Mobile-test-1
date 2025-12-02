@@ -1,0 +1,53 @@
+class SplitathonDaveCharacter extends Character
+{
+    public function new()
+    {
+        super('dave-splitathon');
+    }
+
+    override function load():Void
+    {
+        frames = Paths.getSparrowAtlas('characters/splitathon/Splitathon_Dave', 'shared');
+        
+        animation.addByPrefix('idle', 'idle', 24, false);
+        for (i in ['left', 'down', 'up', 'right']) {
+            animation.addByPrefix('sing' + i.toUpperCase(), i, 24, false);
+        }
+        animation.addByPrefix('interrupted', 'interrupted', 24, true);
+        animation.addByPrefix('toDisappointed', 'interrupt2dissapoint', 24, false);
+        animation.addByPrefix('toAmused', 'dissapoint2amuse', 24, false);
+        animation.addByPrefix('toHappy', 'amuse2happy', 24, false);
+        
+        animation.addByPrefix('idle-dissapointed', 'dissapointedidle', 24, true);
+        for (i in ['amused', 'happy']) {
+            animation.addByPrefix('idle-' + i, i + 'idle', 24, false);
+        }
+        
+        addCharAtlas('characters/splitathon/Splitathon_Dave_Calm', [
+            {name: 'idle-alt', prefix: 'alt-idle'},
+            {name: 'singLEFT-alt', prefix: 'alt-left'},
+            {name: 'singDOWN-alt', prefix: 'alt-down'},
+            {name: 'singUP-alt', prefix: 'alt-up'},
+            {name: 'singRIGHT-alt', prefix: 'alt-right'}
+        ], null);
+        
+        playAnim('idle');
+    }
+
+    override function dance(force:Bool)
+    {
+        if (!canDance || (!force && isSinging()))
+        {
+            return;
+        }
+
+        if (this.altDanceSuffix == '-dissapointed')
+        {
+            playAnim('idle', force);
+        }
+        else
+        {
+            super.dance(force);
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+   "version": "1.0.0",
+   "name": "Dave (Splitathon)",
+   "scale": 1,
+   "danceSnap": 2,
+   "globalOffset": [0, -180],
+   "cameraOffsets": [50, -100],
+   "offsetFilePlayer": "dave-splitathon",
+   "offsetFileOpponent": "dave-splitathon",
+   "icon": "dave-splitathon",
+   "singDuration": 4,
+   "color": "0x0F5FFF",
+   "flipX": false,
+   "antialiasing": true,
+   "countdownData": {
+      "graphicPath": "normal",
+      "soundPath": "dave"
+   }
+}

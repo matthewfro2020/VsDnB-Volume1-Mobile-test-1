@@ -1,0 +1,20 @@
+class OuterSpaceStage extends Stage
+{
+    public function new()
+    {
+        super('master');
+    }
+    
+    override function load():Void
+    {
+        var space:BGSprite = new BGSprite('space', -1724, -971, Paths.image('backgrounds/shared/sky_space'), null, 0.8, 0.8);
+        space.setGraphicSize(Std.int(space.width * 10));
+        space.antialiasing = false;
+        space.zIndex = 0;
+        add(space);
+        
+        var land:BGSprite = new BGSprite('land', 675, 555, Paths.image('backgrounds/daveHouse/land'), null);
+        land.zIndex = 0;
+        add(land);
+    }
+}

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="icon_confetti.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="icon_confetti0000" x="5" y="5" width="166" height="158" frameX="-10" frameY="-10" frameWidth="186" frameHeight="178"/>
+	<SubTexture name="icon_confetti0001" x="5" y="5" width="166" height="158" frameX="-10" frameY="-10" frameWidth="186" frameHeight="178"/>
+	<SubTexture name="icon_confetti0002" x="176" y="5" width="186" height="178"/>
+	<SubTexture name="icon_confetti0003" x="176" y="5" width="186" height="178"/>
+	<SubTexture name="icon_confetti0004" x="367" y="5" width="186" height="178"/>
+	<SubTexture name="icon_confetti0005" x="367" y="5" width="186" height="178"/>
+	<SubTexture name="icon_confetti0006" x="558" y="5" width="182" height="174" frameX="-2" frameY="-2" frameWidth="186" frameHeight="178"/>
+	<SubTexture name="icon_confetti0007" x="558" y="5" width="182" height="174" frameX="-2" frameY="-2" frameWidth="186" frameHeight="178"/>
+	<SubTexture name="icon_confetti0008" x="5" y="188" width="175" height="166" frameX="-6" frameY="-6" frameWidth="186" frameHeight="178"/>
+	<SubTexture name="icon_confetti0009" x="5" y="188" width="175" height="166" frameX="-6" frameY="-6" frameWidth="186" frameHeight="178"/>
+	<SubTexture name="icon_confetti0010" x="185" y="188" width="174" height="165" frameX="-6" frameY="-7" frameWidth="186" frameHeight="178"/>
+	<SubTexture name="icon_confetti0011" x="185" y="188" width="174" height="165" frameX="-6" frameY="-7" frameWidth="186" frameHeight="178"/>
+	<SubTexture name="icon_confetti0012" x="364" y="188" width="176" height="167" frameX="-5" frameY="-6" frameWidth="186" frameHeight="178"/>
+	<SubTexture name="icon_confetti0013" x="364" y="188" width="176" height="167" frameX="-5" frameY="-6" frameWidth="186" frameHeight="178"/>
+	<SubTexture name="icon_confetti0014" x="545" y="188" width="176" height="167" frameX="-5" frameY="-6" frameWidth="186" frameHeight="178"/>
+	<SubTexture name="icon_confetti0015" x="545" y="188" width="176" height="167" frameX="-5" frameY="-6" frameWidth="186" frameHeight="178"/>
+	<SubTexture name="icon_confetti0016" x="726" y="188" width="0" height="0" frameX="0" frameY="0" frameWidth="186" frameHeight="178"/>
+</TextureAtlas>

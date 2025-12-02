@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="playrobot_portrait.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="selected_playrobot0000" x="5" y="5" width="231" height="215"/>
+	<SubTexture name="selected_playrobot0001" x="5" y="5" width="231" height="215"/>
+	<SubTexture name="transitions_playrobot0000" x="241" y="5" width="231" height="215"/>
+	<SubTexture name="transitions_playrobot0001" x="241" y="5" width="231" height="215"/>
+	<SubTexture name="transitions_playrobot0002" x="477" y="5" width="231" height="215"/>
+	<SubTexture name="transitions_playrobot0003" x="477" y="5" width="231" height="215"/>
+	<SubTexture name="transitions_playrobot0004" x="713" y="5" width="231" height="215"/>
+	<SubTexture name="transitions_playrobot0005" x="713" y="5" width="231" height="215"/>
+	<SubTexture name="transitionu_playrobot0000" x="949" y="5" width="231" height="215"/>
+	<SubTexture name="transitionu_playrobot0001" x="949" y="5" width="231" height="215"/>
+	<SubTexture name="transitionu_playrobot0002" x="1185" y="5" width="231" height="215"/>
+	<SubTexture name="transitionu_playrobot0003" x="1185" y="5" width="231" height="215"/>
+	<SubTexture name="transitionu_playrobot0004" x="1421" y="5" width="231" height="215"/>
+	<SubTexture name="transitionu_playrobot0005" x="1421" y="5" width="231" height="215"/>
+	<SubTexture name="unselected_playrobot0000" x="1657" y="5" width="231" height="215"/>
+	<SubTexture name="unselected_playrobot0001" x="1657" y="5" width="231" height="215"/>
+</TextureAtlas>

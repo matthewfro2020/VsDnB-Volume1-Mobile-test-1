@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="speech_bubble_talking.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="chatboxnone0000" x="5" y="5" width="1183" height="314"/>
+	<SubTexture name="chatboxnone0001" x="5" y="5" width="1183" height="314"/>
+	<SubTexture name="chatboxnone0002" x="1193" y="5" width="1183" height="314"/>
+	<SubTexture name="chatboxnone0003" x="1193" y="5" width="1183" height="314"/>
+	<SubTexture name="chatboxnorm0000" x="5" y="324" width="1183" height="365"/>
+	<SubTexture name="chatboxnorm0001" x="5" y="324" width="1183" height="365"/>
+	<SubTexture name="chatboxnorm0002" x="1193" y="324" width="1183" height="364" frameX="0" frameY="-1" frameWidth="1183" frameHeight="365"/>
+	<SubTexture name="chatboxnorm0003" x="1193" y="324" width="1183" height="364" frameX="0" frameY="-1" frameWidth="1183" frameHeight="365"/>
+</TextureAtlas>

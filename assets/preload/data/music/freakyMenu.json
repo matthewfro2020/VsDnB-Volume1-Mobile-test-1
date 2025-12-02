@@ -1,0 +1,15 @@
+{
+   "version": "1.0.0",
+   "name": "Main Menu Theme",
+   "musicPath": "freakyMenu",
+   "composers": ["Alexander Cooper 19"],
+   "variations": [],
+   "timeChanges": [
+      {
+         "time": 0,
+         "bpm": 148,
+         "numerator": 4,
+         "denominator": 4
+      }
+   ]
+}

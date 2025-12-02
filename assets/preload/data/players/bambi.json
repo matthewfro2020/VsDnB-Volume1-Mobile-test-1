@@ -1,0 +1,31 @@
+{
+   "version": "1.0.0",
+   "name": "Bambi",
+   "charId": "bambi-new",
+   "variationId": "bambi",
+   "charSelect": {
+      "gf": "bambi-haystack",
+      "page": 0,
+      "portraitFile": "bambi_portrait",
+      "position": 5,
+      "selected": {
+         "loop": true,
+         "name": "idle_select",
+         "prefix": "selected_bambi"
+      },
+      "selectedTransition": {
+         "name": "selected",
+         "prefix": "transitions_bambi"
+      },
+      "unselected": {
+         "loop": true,
+         "name": "idle_unselect",
+         "prefix": "unselected_bambi"
+      },
+      "unselectedTransition": {
+         "name": "idle",
+         "prefix": "transitionu_bambi"
+      }
+   },
+   "unlocked": true
+}

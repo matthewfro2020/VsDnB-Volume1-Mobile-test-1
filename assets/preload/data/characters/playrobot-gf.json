@@ -1,0 +1,19 @@
+{
+   "version": "1.0.0",
+   "name": "Playrobot Gf",
+   "scale": 1,
+   "danceSnap": 2,
+   "globalOffset": [37, 155],
+   "cameraOffsets": [0, 0],
+   "offsetFilePlayer": "playrobot-gf",
+   "offsetFileOpponent": "playrobot-gf",
+   "icon": "playrobot-gf",
+   "singDuration": 4,
+   "color": "0x33DE39",
+   "flipX": false,
+   "antialiasing": true,
+   "countdownData": {
+      "graphicPath": "normal",
+      "soundPath": "default"
+   }
+}

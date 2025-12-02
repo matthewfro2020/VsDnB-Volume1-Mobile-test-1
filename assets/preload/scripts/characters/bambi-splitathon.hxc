@@ -1,0 +1,46 @@
+class SplitathonBambiCharacter extends Character
+{
+    public function new()
+    {
+        super('bambi-splitathon');
+    }
+
+    override function load():Void
+    {
+        frames = Paths.getSparrowAtlas('characters/splitathon/Splitathon_Bambi', 'shared');
+
+        animation.addByPrefix('idle', 'splitathon idle0', 24);
+        animation.addByPrefix('idle-confused', 'splitathon confused', 24, false);
+        animation.addByPrefix('idle-corn', 'splitathon corn', 24, false);
+        animation.addByPrefix('singSmash', 'splitathon phone', 24, false);
+        
+        for (anim in ['left', 'down', 'up', 'right']) {
+            animation.addByPrefix('sing' + anim.toUpperCase(), 'splitathon ' + anim, 24, false);
+        }
+        animation.addByPrefix('singLEFT-alt', 'splitathon ALT L', 24, false);
+        animation.addByPrefix('singRIGHT-alt', 'splitathon ALT R', 24, false);
+
+        danceTypes = ['idle-ease'];
+
+        playAnim('idle');
+    }
+
+    override function dance(force:Bool)
+    {
+        // If the idle animation that's to be played is the regular idle, completely disable any dance logic.
+        // We want this idle animation to loop. This character has multiple idles though so we need to make sure only the normal idle loops while the others go on beat.
+        if (!canDance || (!force && isSinging()))
+        {
+            return;
+        }
+
+        if (this.altDanceSuffix == '')
+        {
+            playAnim('idle', force);
+        }
+        else
+        {
+            super.dance(force);
+        }
+    }
+}

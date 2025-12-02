@@ -1,0 +1,40 @@
+class BarnStage extends Stage
+{
+    public function new()
+    {
+        super('barn');   
+    }
+    
+    override function load():Void
+    {
+        var bg:BGSprite = new BGSprite('barn', -1380, -235, Paths.image('backgrounds/barn/bg'));
+        bg.scale.set(0.9, 0.9);
+        bg.updateHitbox();
+        bg.zIndex = 0;
+        add(bg);
+
+        var pole:BGSprite = new BGSprite('pole', -1450, -400, Paths.image('backgrounds/barn/pole'), null, 1.3, 1);
+        pole.zIndex = 40;
+        add(pole);
+
+        var hay:BGSprite = new BGSprite('hay', 1300, 800, Paths.image('backgrounds/barn/bghayfront'));
+        hay.zIndex = 41;
+        add(hay);
+        
+        var light:BGSprite = new BGSprite('light', -250, 175, Paths.image('backgrounds/barn/barnlight'), null, 1.1, 1.1);
+        light.scale.set(3, 3);
+        light.updateHitbox();
+        light.screenCenter();
+        light.zIndex = 42;
+        add(light);
+    }
+
+    override function onCreateUI():Void
+    {
+        if (PlayState.instance.ratings != null)
+        {
+            PlayState.instance.ratings.x += 100;
+            PlayState.instance.ratings.y += 200;
+        }
+    }
+}

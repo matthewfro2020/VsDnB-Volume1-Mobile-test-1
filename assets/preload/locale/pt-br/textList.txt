@@ -1,0 +1,248 @@
+en-US==Inglês
+es-US==Espanhol
+pt-br==Português Brasileiro
+
+intro_warning==AVISO!:linebreak:Esse mod contém shaders e outros efeitos que podem causar convulsões, tremores ou problemas similares..:linebreak::linebreak:Faça certeza de ir para o menu de opções(localizado no menu principal e menu de pausa) para opções de acessibilidade.:linebreak::linebreak:Opções de linguagem também estão disponíveis.:linebreak::linebreak:(Pressione ENTER para continuar.)
+
+// TITLE STATE
+title_pressEnter==Pressione Enter para Jogar
+title_pressEnter_mobile==Toque na tela para Jogar
+
+// Main Menu State //
+main_story==Modo História
+main_freeplay==Modo Livre
+main_credits==Créditos
+main_ost==OST
+main_options==Opções
+
+// Main Menu Descriptions //
+desc_story==Jogue o Modo História para desbloquear personagens novos, e entender a história!
+desc_freeplay==Jogue qualquer música como quiser e conquiste novos recordes!
+desc_credits==Dê uma olhada no pessoal que trabalhou ou contribuiu para o mod!
+desc_ost==Ouça as músicas do mod.
+desc_options==Ajuste as configurações do jogo e teclas.
+
+// Freeplay State //
+freeplay_dave==História
+freeplay_joke==Piada
+freeplay_extra==Extra
+
+freeplay_score==Score
+freeplay_altInstrumental==Pressione Alt Para Ouvir O Instrumental Da Música Atual
+freeplay_skipChar==Segure CTRL Para Pular A Seleção De Personagens
+
+supernovae_hint==Você é um pro no Dave e Bambi? Aperte 7 em algum lugar e vença meu desafio para ganhar.
+glitch_hint==Você é um pro no Dave e Bambi? Aperte 7 em algum lugar e vença meu desafio para ganhar.
+master_hint==Você é um pro no Dave e Bambi? Aperte 7 em algum lugar e vença meu desafio para ganhar. Sou professor.
+kabunga_hint==Música errada cara.
+roofs_hint==Um certo professor careca está escondido no labirinto do Bambi.:linebreak:Ache e encontre-o para saber mais...
+rapTwo_hint==Eu sou Dave e eu tenho um mod.
+
+// Pause State //
+pause_Resume==Resumir
+pause_Restart Song==Reiniciar Música
+pause_Change Character==Trocar Personagem
+pause_Change Player==Trocar Jogador
+pause_Options==Opções
+pause_Exit to menu==Sair para o Menu
+pause_No Miss Mode==Modo Sem Falhas
+pause_Skip Dialogue==Pular Diálogo
+
+pause_composersText==Compositores
+pause_artistsText==Artistas
+pause_chartersText==Charters
+pause_codersText==Programadores
+
+// Story Mode State //
+story_track==Faixas
+story_weekScore==PONTUAÇÃO DA SEMANA:
+story_tutorial==A Aula Musical do Dave
+story_daveWeek==A Batalha de Rap Divertida do Dave!
+story_bambiWeek==O Labirinto de Milho Legal do Bambi!
+story_finale==O Final
+story_festivalWeek==O Festival de Milho do Bambi!
+story_masterWeek==A Semana Mestre Do Bambi!
+story_masterWeekToPlay==?????????
+
+// Credits Words //
+supernovae_credit==Música original feita por ArchWk!
+glitch_credit==Música original feita por DeadShadow e PixelGH!
+kabunga_credit==MEU DEUS EU MURCHEI
+
+// ENDINGS //
+
+ending_title_good==Good Ending
+ending_title_bad==Bad Ending
+ending_title_worst==Worst Ending
+ending_title_phone==Phone Ending
+ending_title_rtx==RTX Ending
+ending_title_unknown==Unknown Ending
+
+ending_dave_good==Você ajudou o Dave a escapar da terceira dimensão!:linebreak:Em retorno, Dave oferece a você e sua namorada um convite...
+ending_dave_bad==Você ajudou o Dave a escapar da terceira dimensão:linebreak:e recebeu um convite do Dave!:linebreak:Porém, seu zíper tava aberto...
+ending_dave_worst==Você ajudou o Dave a escapar da terceira dimensão:linebreak:e recebeu um convite do Dave!:linebreak:Porém, você desmaiou de exaustão.
+ending_dave_rtx==dave transformou o mundo em 3d e basicamente:linebreak:é o fim do mundo porque agora:linebreak:tudo roda em 1 fps
+ending_bambi_good==Você tem um ótimo piquenique com seus amigos na Fazenda do Bambi.:linebreak:Tudo foi ótimo!:linebreak:Mas o Dave tem um desafio para você...
+ending_bambi_bad==Você tem um ótimo piquenique com seus amigos na Fazenda do Bambi.:linebreak:Porém a Girlfriend se esqueceu de trazer comida...:linebreak:Mas o Dave tem um desafio para você!
+ending_bambi_worst==Você tem um ótimo piquenique com seus amigos na Fazenda do Bambi.:linebreak:Porém alguém enfiou uma rocha no seu sanduíche. Ai.:linebreak:Mas o Dave tem um desafio para você!
+ending_bambi_phone==Bambi jogou o celular dele em você.:linebreak:Mas você não desviou dele.:linebreak:E você morreu.
+
+backseat_start_title==Enquanto isso...
+backseat_start_description==Durante a semana do Dave.
+
+ending_splitathon==Continua
+
+// SETTINGS MENU //
+
+// KEYBIND MENU 
+settings_keybinds_Left==Esq.
+settings_keybinds_Down==Bai.
+settings_keybinds_Up==Cima
+settings_keybinds_Right==Dir.
+settings_keybinds_Accept==Aceitar
+settings_keybinds_Back==Voltar
+settings_keybinds_Reset==Reset
+settings_keybinds_Key5==Key5
+
+settings_keybinds_preset_arrowKeys==Setas
+settings_keybinds_preset_wasd==WASD
+settings_keybinds_preset_dfjk==DFJK
+settings_keybinds_preset_askl==ASKL
+settings_keybinds_preset_zx,.==ZX,.
+
+settings_keybinds_preset_tutorial==Selecione um Preset
+
+// GENERAL
+settings_category_general==Geral
+
+settings_general_downscroll==Downscroll
+settings_general_downscroll_description==Muda a direção das setas.
+
+settings_general_ghostTapping==Ghost Tapping
+settings_general_ghostTapping_description==Altera a maneira em que misinputs são processados.
+
+settings_general_cutscenes==Cutscenes
+settings_general_cutscenes_description==Liga ou desliga cutscenes e diálogos no Modo História.
+
+settings_general_keybinds==Configurar Teclas
+settings_general_keybinds_description==Atribua e configure teclas para os inputs.
+
+
+// ACCESSABILITY
+settings_category_accessibility==Acessibilidade
+
+settings_accessibility_flashingLights==Luzes Piscantes
+settings_accessibility_flashingLights_description==Para aqueles que são sensíveis a luzes piscantes.:linebreak:Liga ou desliga luzes piscantes, usadas em vários eventos.
+
+settings_accessibility_cameraShaking==Tremor na Câmera
+settings_accessibility_cameraShaking_description==Para aqueles com problemas cardíacos.:linebreak:Liga ou desliga eventos de câmera intensos ou súbitos (Tremores/Jumpscares). 
+
+settings_accessibility_selfAware==Autoconsciência
+settings_accessibility_selfAware_description==Desligar isso vai desabilitar o uso de qualquer componente no sistema:linebreak:que possa ser escondido por questões de privacidade. Usado em vários eventos.
+
+settings_accessibility_camNoteMove==Movimento de Câmera com Notas
+settings_accessibility_camNoteMove_description==Para aqueles com problemas cardíacos:linebreak:Liga ou desliga movimentos súbitos de câmera quando um personagem toca uma nota.
+
+
+// AUDIO
+settings_category_audio==Áudio
+
+settings_audio_masterVolume==Volume Principal
+settings_audio_masterVolume_description==Altera o volume principal do jogo.
+
+settings_audio_musicVolume==Volume de Música
+settings_audio_musicVolume_description==Altera o volume de qualquer música e instrumentais tocando.
+
+settings_audio_voices==Volume de Vozes
+settings_audio_voices_description==Altera o volume de qualquer voz tocando.
+
+settings_audio_sfx==Volume de Sons
+settings_audio_sfx_description==Altera o volume de qualquer som tocando.
+
+settings_audio_hitsounds==Hitsounds Volume
+settings_audio_hitsounds_description==Altera o volume dos sons quando você pressiona uma nota.
+
+// MISC
+settings_category_misc==Miscelâneo
+
+settings_misc_restart==Por favor reinicie seu jogo para as mudanças terem efeito.
+
+settings_misc_hitsounds==Hitsounds
+settings_misc_hitsounds_description==Liga ou desliga o som que toca ao pressionar uma nota.
+
+settings_misc_latencyOffsets==Offsets de Latência
+settings_misc_latencyOffsets_description==Útil caso seus fones tenham áudio adiado por problemas de latência.
+
+settings_misc_language==Idioma
+settings_misc_language_description==Altera o idioma do mod
+
+settings_misc_resetData==Resetar Dados
+settings_misc_resetData_description==Reseta pontuações e desbloqueáveis.
+
+// UI
+settings_category_ui==Interface
+
+settings_ui_minimalUI==UI Mínima
+settings_ui_minimalUI_description==Liga ou desliga elementos como Precisão, Erros, ou o Timer.
+
+settings_ui_debugUI==UI Debug
+settings_ui_debugUI_description==Liga ou desliga textos debug como os contadores de FPS e Memória.
+
+settings_ui_timerType==Tipo de Timer
+settings_ui_timerType_description==Altera a informação que o Timer exibe.
+
+settings_ui_timerType_timeLeft==Tempo Restante
+settings_ui_timerType_timeElapsed==Tempo Decorrido
+settings_ui_timerType_timeElapsedLeft==Decorrido + Restante
+
+settings_ui_warnings==Avisos de Mecânicas
+settings_ui_warnings_description==Liga ou desliga avisos em músicas com mecânicas.
+
+// WINDOW
+settings_category_window==Interface
+
+settings_window_darkMode==Modo Escuro
+settings_window_darkMode_description==Reverte a borda da janela para que fique no modo escuro.
+
+settings_window_fps==FPS
+settings_window_fps_description==A quantidade de frames que o jogo roda por segundo. O máximo é 240.
+
+settings_window_borderless==Janela sem Bordas
+settings_window_borderless_description==Mostra ou esconde a borda no topo da janela.
+
+settings_window_VSync==VSync
+settings_window_VSync_description==Ajuda a eliminar o efeito de "rasgo na tela" sincronizando o:linebreak:jogo à taxa de atualização do monitor.
+
+// OST MENU //
+
+ost_remixMode_speed==Modo de Remix: Velocidade
+ost_remixMode_bpm==Modo de Remix: BPM
+ost_speedLabel==Velocidade
+
+ost_manual_playrobot==O clique do mouse liga ou desliga a barra de seleção.:linebreak:Ao desligar, o toca-discos se centraliza.
+
+ost_manual_selectBarCategory==Use as setas de Esquerda/Direita:linebreak:para trocar categorias
+ost_manual_selectBarSong==Cima/Baixo - Troca entre músicas para selecionar:linebreak:Esquerda/Direita - Troca a variação da música (se houver):linebreak::linebreak:Enter - Seleciona, e carrega a música no toca-discos
+
+ost_manual_playButton==Toca a música atual:linebreak:carregada no toca-discos
+ost_manual_pauseButton==Pausa a música atual:linebreak:carregada no toca-discos.
+ost_manual_speedButton==Se o Modo de Remix for::linebreak:BPM - Acrescenta o BPM por 1:linebreak:Velocidade - Acrescenta velocidade por 0.05x
+ost_manual_slowButton==Se o Modo de Remix for::linebreak:BPM - Reduz o BPM por 1:linebreak:Velocidade - Reduz velocidade por 0.05x
+ost_manual_timeMonitor==Exibe informações:linebreak:sobre o tempo da música:linebreak::linebreak:Clicar no monitor trocará:linebreak:entre o tempo restante ou:linebreak:o tempo decorrido.
+ost_manual_vocals==Liga ou desliga as vocais:linebreak:tocando na música
+ost_manual_inst==Liga ou desliga o instrumental:linebreak:tocando na música
+ost_manual_remix==Troca o modo de Remix para:linebreak:BPM ou Velocidade
+ost_manual_manualButton==Mostra esse manual
+ost_manual_audio==Mostra um espectograma:linebreak:da música tocando atualmente
+
+// GITAROO //
+gitaroo_text==Bem Vindo Ao Espaço Na Cabeça Do Dave. Seja se estiver aqui por consequência, ou por conta própria, não importa. O que importa é que estás aqui.
+
+// MATH GAME //
+math_solveMath==RESOLVA MATEMÁTICA
+math_wrongHintText_1==EU OUÇO MATEMÁTICA RUIM
+math_wrongHintText_2==EU OUÇO CADA PORTA QUE VOCÊ ABRE
+math_correctHintText_1==UAU! VOCÊ EXISTE!
+
+// CHARACTER SELECT //
+charSelect_page==Página

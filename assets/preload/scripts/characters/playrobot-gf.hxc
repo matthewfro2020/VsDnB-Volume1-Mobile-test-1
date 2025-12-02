@@ -1,0 +1,21 @@
+class PlayrobotGfCharacter extends Character 
+{
+	public function new()
+	{
+    	super('playrobot-gf');
+	}
+
+	override function load()
+	{
+	    frames = Paths.getSparrowAtlas('characters/playrobot/playrobotgf', 'shared');
+	
+	    animation.addByPrefix('danceLeft', 'playrobotleft', 24, false);
+	    animation.addByPrefix('danceRight', 'playrobotright', 24, false);
+	    animation.addByPrefix('cheer', 'playrobotcheer', 24, false);
+	    animation.addByPrefix('sad', 'playrobotmiss', 24, false);
+		
+		danceTypes = ['alternate'];
+	
+	    playAnim('idle');
+	}
+}

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bfselect.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="selected_bf0000" x="5" y="5" width="231" height="221"/>
+	<SubTexture name="transitions_bf0000" x="241" y="5" width="231" height="216"/>
+	<SubTexture name="transitions_bf0001" x="241" y="5" width="231" height="216"/>
+	<SubTexture name="transitions_bf0002" x="477" y="5" width="231" height="216"/>
+	<SubTexture name="transitions_bf0003" x="477" y="5" width="231" height="216"/>
+	<SubTexture name="transitions_bf0004" x="713" y="5" width="231" height="216"/>
+	<SubTexture name="transitions_bf0005" x="713" y="5" width="231" height="216"/>
+	<SubTexture name="transitionu_bf0000" x="949" y="5" width="231" height="219"/>
+	<SubTexture name="transitionu_bf0001" x="949" y="5" width="231" height="219"/>
+	<SubTexture name="transitionu_bf0002" x="1185" y="5" width="231" height="220"/>
+	<SubTexture name="transitionu_bf0003" x="1185" y="5" width="231" height="220"/>
+	<SubTexture name="transitionu_bf0004" x="1421" y="5" width="231" height="220"/>
+	<SubTexture name="transitionu_bf0005" x="1421" y="5" width="231" height="220"/>
+	<SubTexture name="unselected_bf0000" x="1657" y="5" width="231" height="216"/>
+</TextureAtlas>

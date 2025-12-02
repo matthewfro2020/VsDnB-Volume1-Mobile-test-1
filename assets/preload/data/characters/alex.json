@@ -1,0 +1,19 @@
+{
+   "version": "1.0.0",
+   "name": "Alex",
+   "scale": 1,
+   "danceSnap": 2,
+   "globalOffset": [],
+   "cameraOffsets": [0, 150],
+   "offsetFilePlayer": "alex",
+   "offsetFileOpponent": "alex",
+   "icon": "alex",
+   "singDuration": 4,
+   "color": "0x000000",
+   "flipX": false,
+   "antialiasing": true,
+   "countdownData": {
+      "graphicPath": "normal",
+      "soundPath": "default"
+   }
+}

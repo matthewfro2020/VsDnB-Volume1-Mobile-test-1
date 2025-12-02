@@ -1,0 +1,56 @@
+{
+   "version": "2.0.0",
+   "subtitles": [
+      {
+         "key": "sub_maze_1",
+         "time": 61.858407079646
+      },
+      {
+         "key": "sub_maze_2",
+         "time": 63.1858407079646
+      },
+      {
+         "key": "sub_maze_3",
+         "time": 64.2477876106195
+      },
+      {
+         "key": "sub_maze_4",
+         "time": 66.1061946902655
+      },
+      {
+         "subtitleSize": 60,
+         "key": "sub_maze_5",
+         "time": 67.6991150442478
+      },
+      {
+         "key": "sub_maze_6",
+         "time": 111.238938053097
+      },
+      {
+         "key": "sub_maze_7",
+         "time": 112.433628318584
+      },
+      {
+         "key": "sub_maze_8",
+         "time": 113.628318584071
+      },
+      {
+         "subtitleSize": 40,
+         "key": "sub_maze_9",
+         "time": 115.088495575221
+      },
+      {
+         "key": "sub_maze_10",
+         "time": 116.681415929204
+      },
+      {
+         "key": "sub_maze_11",
+         "time": 118.141592920354
+      },
+      {
+         "subtitleSize": 60,
+         "key": "sub_maze_12",
+         "time": 119.734513274336
+      }
+   ]
+}

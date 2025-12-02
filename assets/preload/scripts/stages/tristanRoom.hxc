@@ -1,0 +1,40 @@
+class TristanRoomStage extends Stage
+{
+    public override function new()
+    {
+        super('tristanRoom');
+    }
+
+    public override function load():Void
+    {
+        PlayState.instance.gfOverride = 'gf-none';
+        
+        var bg:BGSprite = new BGSprite('bg', 1300, 0, Paths.image('backgrounds/shared/sky'), null, 0.5, 0.5);
+        bg.scale.set(0.25, 0.25);
+        bg.updateHitbox();
+        bg.zIndex = 0;
+        add(bg);
+        
+        var hill:BGSprite = new BGSprite('hill', 1305, 380, Paths.image('backgrounds/adventure/room/hill2'), null, 1.1, 1.1);
+        hill.zIndex = 1;
+        add(hill);
+        
+        var room:BGSprite = new BGSprite('room', -200, -35, Paths.image('backgrounds/adventure/room/tristanroom'), null, 1, 1);
+        room.zIndex = 2;
+        add(room);
+
+        tv = new BGSprite('tv', 1600, 1425, Paths.image('backgrounds/tristanBackseat/tv_bg'), null, 1.5, 1.5);
+        tv.zIndex = 10;
+        add(tv);
+    }
+
+    override function onCreateUI():Void
+    {
+        if (PlayState.instance.ratings != null)
+        {
+            PlayState.instance.ratings.x += 425;
+            PlayState.instance.ratings.y += 150;
+        }
+    }
+
+}

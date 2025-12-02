@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="festivalrender.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="festival0000" x="5" y="5" width="1222" height="411"/>
+	<SubTexture name="festival0001" x="5" y="5" width="1222" height="411"/>
+	<SubTexture name="festival0002" x="5" y="5" width="1222" height="411"/>
+	<SubTexture name="festival0003" x="5" y="5" width="1222" height="411"/>
+	<SubTexture name="festival0004" x="5" y="421" width="1222" height="411"/>
+	<SubTexture name="festival0005" x="5" y="421" width="1222" height="411"/>
+	<SubTexture name="festival0006" x="5" y="421" width="1222" height="411"/>
+	<SubTexture name="festival0007" x="5" y="421" width="1222" height="411"/>
+</TextureAtlas>

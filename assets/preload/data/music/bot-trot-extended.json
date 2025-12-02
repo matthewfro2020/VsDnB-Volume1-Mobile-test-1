@@ -1,0 +1,15 @@
+{
+   "version": "1.0.0",
+   "name": "Bot Trot (Extended Mix)",
+   "musicPath": "bot-trot-extended",
+   "composers": ["MoldyGangstaHero"],
+   "variations": [],
+   "timeChanges": [
+      {
+         "time": 0,
+         "bpm": 111,
+         "numerator": 4,
+         "denominator": 4
+      }
+   ]
+}

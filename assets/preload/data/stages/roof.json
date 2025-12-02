@@ -1,0 +1,23 @@
+{
+   "version": "1.0.0",
+   "name": "Roof",
+   "zoom": 0.6,
+   "player": {
+      "cameraOffsets": [-100, 0],
+      "position": [1300, 250],
+      "scroll": [1, 1],
+      "zIndex": 102
+   },
+   "opponent": {
+      "cameraOffsets": [100, 0],
+      "position": [200, 250],
+      "scroll": [1, 1],
+      "zIndex": 101
+   },
+   "gf": {
+      "cameraOffsets": [0, 0],
+      "position": [600, -200],
+      "scroll": [1, 1],
+      "zIndex": 100
+   }
+}

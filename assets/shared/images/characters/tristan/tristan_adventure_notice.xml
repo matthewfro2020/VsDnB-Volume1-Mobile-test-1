@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="tristan_adventure_notice.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="notice0000" x="5" y="5" width="431" height="407" frameX="-6" frameY="-26" frameWidth="438" frameHeight="433"/>
+	<SubTexture name="notice0001" x="5" y="5" width="431" height="407" frameX="-6" frameY="-26" frameWidth="438" frameHeight="433"/>
+	<SubTexture name="notice0002" x="441" y="5" width="429" height="412" frameX="-6" frameY="-20" frameWidth="438" frameHeight="433"/>
+	<SubTexture name="notice0003" x="441" y="5" width="429" height="412" frameX="-6" frameY="-20" frameWidth="438" frameHeight="433"/>
+	<SubTexture name="notice0004" x="875" y="5" width="432" height="410" frameX="-6" frameY="-22" frameWidth="438" frameHeight="433"/>
+	<SubTexture name="notice0005" x="875" y="5" width="432" height="410" frameX="-6" frameY="-22" frameWidth="438" frameHeight="433"/>
+	<SubTexture name="notice0006" x="5" y="422" width="432" height="410" frameX="-6" frameY="-22" frameWidth="438" frameHeight="433"/>
+	<SubTexture name="notice0007" x="5" y="422" width="432" height="410" frameX="-6" frameY="-22" frameWidth="438" frameHeight="433"/>
+	<SubTexture name="notice0008" x="875" y="5" width="432" height="410" frameX="-6" frameY="-22" frameWidth="438" frameHeight="433"/>
+	<SubTexture name="notice0009" x="875" y="5" width="432" height="410" frameX="-6" frameY="-22" frameWidth="438" frameHeight="433"/>
+	<SubTexture name="notice0010" x="5" y="422" width="432" height="410" frameX="-6" frameY="-22" frameWidth="438" frameHeight="433"/>
+	<SubTexture name="notice0011" x="5" y="422" width="432" height="410" frameX="-6" frameY="-22" frameWidth="438" frameHeight="433"/>
+	<SubTexture name="notice0012" x="875" y="5" width="432" height="410" frameX="-6" frameY="-22" frameWidth="438" frameHeight="433"/>
+	<SubTexture name="notice0013" x="875" y="5" width="432" height="410" frameX="-6" frameY="-22" frameWidth="438" frameHeight="433"/>
+	<SubTexture name="notice0014" x="5" y="422" width="432" height="410" frameX="-6" frameY="-22" frameWidth="438" frameHeight="433"/>
+	<SubTexture name="notice0015" x="5" y="422" width="432" height="410" frameX="-6" frameY="-22" frameWidth="438" frameHeight="433"/>
+	<SubTexture name="notice0016" x="875" y="5" width="432" height="410" frameX="-6" frameY="-22" frameWidth="438" frameHeight="433"/>
+	<SubTexture name="notice0017" x="875" y="5" width="432" height="410" frameX="-6" frameY="-22" frameWidth="438" frameHeight="433"/>
+	<SubTexture name="notice0018" x="5" y="422" width="432" height="410" frameX="-6" frameY="-22" frameWidth="438" frameHeight="433"/>
+	<SubTexture name="notice0019" x="5" y="422" width="432" height="410" frameX="-6" frameY="-22" frameWidth="438" frameHeight="433"/>
+	<SubTexture name="notice0020" x="875" y="5" width="432" height="410" frameX="-6" frameY="-22" frameWidth="438" frameHeight="433"/>
+	<SubTexture name="notice0021" x="875" y="5" width="432" height="410" frameX="-6" frameY="-22" frameWidth="438" frameHeight="433"/>
+	<SubTexture name="notice0022" x="442" y="422" width="434" height="422" frameX="-4" frameY="-10" frameWidth="438" frameHeight="433"/>
+	<SubTexture name="notice0023" x="442" y="422" width="434" height="422" frameX="-4" frameY="-10" frameWidth="438" frameHeight="433"/>
+	<SubTexture name="notice0024" x="881" y="422" width="436" height="431" frameX="-1" frameY="-1" frameWidth="438" frameHeight="433"/>
+	<SubTexture name="notice0025" x="881" y="422" width="436" height="431" frameX="-1" frameY="-1" frameWidth="438" frameHeight="433"/>
+	<SubTexture name="notice0026" x="5" y="858" width="437" height="432" frameX="0" frameY="0" frameWidth="438" frameHeight="433"/>
+	<SubTexture name="notice0027" x="5" y="858" width="437" height="432" frameX="0" frameY="0" frameWidth="438" frameHeight="433"/>
+</TextureAtlas>

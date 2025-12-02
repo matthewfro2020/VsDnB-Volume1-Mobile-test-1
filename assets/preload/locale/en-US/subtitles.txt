@@ -1,0 +1,82 @@
+// BLOCKED //
+
+subtitles_blocked_1==I block you...
+subtitles_blocked_2==You are monster...
+subtitles_blocked_3==You ruined my life!
+subtitles_blocked_4==Moldy I swear to god I'll block you
+subtitles_blocked_5==FOREVER.
+subtitles_blocked_6==I'm trying to...
+subtitles_blocked_7==No I'm not trying help you...
+subtitles_blocked_8==Because you go watch me...
+subtitles_blocked_9==Because...
+subtitles_blocked_10==go watch me scribe me
+subtitles_blocked_11==Whatever.
+
+// CORN THEFT //
+
+sub_ctheft_1==Because he add me...
+sub_ctheft_2==Why you add me...
+sub_ctheft_3==I-
+sub_ctheft_4==I don't care...
+sub_ctheft_5==You want to
+sub_ctheft_6==I'll block you
+sub_ctheft_7==I'm never coming back again.
+sub_ctheft_8==Bye Baa!
+
+// MAZE //
+
+sub_maze_1==I mean...
+sub_maze_2==You can
+sub_maze_3==Play me...
+sub_maze_4==You don't?
+sub_maze_5==Never come back again.
+sub_maze_6==Fine!
+sub_maze_7==Anything you want
+sub_maze_8==You play me?
+sub_maze_9==Sure.
+sub_maze_10==What you want to play?
+sub_maze_11==You are bully me?
+sub_maze_12==Never come back again.
+
+// MEALIE //
+
+sub_mealie_1==I gonna block you!
+sub_mealie_2==Is you want the fucking phone?
+sub_mealie_3==Holy shit!
+sub_mealie_4==You fucking liar Moldy!
+
+// BOT TROT //
+
+sub_botTrot_1==Hey you! Let's play a game!
+sub_botTrot_2==Looks like you messed up... let's try again!
+
+// VS DAVE RAP 1 & 2 //
+
+sub_rap1_1==VS Dave, is kinda poopoo
+sub_rap1_2==It reminds me of doodoo
+sub_rap1_3==Oooooh!
+sub_rap1_4==When I think of Obama
+sub_rap1_5==Fortnite
+sub_rap1_6==It makes me farty sharty
+sub_rap1_7==Yeah!
+sub_rap1_8==Slipped on a banana
+sub_rap1_9==Ow!
+sub_rap1_10==We drivin' the Jalopy
+sub_rap1_11==Hell yeah!
+sub_rap1_12==Gordon Freeman is green
+sub_rap1_13==Sub to Stats45
+sub_rap1_14==Yeah!
+sub_rap1_15==My dick itch, it burn like Baldi sick
+
+sub_rap2_1==Dave is the name
+sub_rap2_2==Play my game
+sub_rap2_3==I am Dave and I have a mod
+sub_rap2_4==I am Dave and I am god
+sub_rap2_5==My weewee itches (yum)
+sub_rap2_6==3.0
+sub_rap2_7==Vs Dave, I am gay
+sub_rap2_8==Mr. Bambi loves break the phone (ha)
+sub_rap2_9==Dive going gamestop with buy game Xbox
+sub_rap2_10==Go play the mod Vs Dave and Bambi 3.0
+sub_rap2_11==Out now on GameBanana!
+sub_rap2_12==Yum.

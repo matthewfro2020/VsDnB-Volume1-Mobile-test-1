@@ -1,0 +1,25 @@
+class DaveDeathCharacter extends Character 
+{
+	public function new()
+	{
+    	super('dave-death');
+	}
+
+	override function onCreate(e:ScriptEvent)
+	{
+		super.onCreate(e);
+		
+		GameOverSubstate.deathSuffix = '-dave';
+	}
+
+	override function load()
+	{
+	    frames = Paths.getSparrowAtlas('characters/dave/Dave_Dead', 'shared');
+	
+	    animation.addByPrefix('firstDeath', 'davegameoverstart', 24, false);
+	    animation.addByPrefix('deathLoop', 'davegameoverloop', 24, true);
+	    animation.addByPrefix('deathConfirm', 'davegameoverend', 24, false);
+	
+		playAnim('firstDeath');
+	}
+}

@@ -1,0 +1,86 @@
+class BambiFarmSplitathonStage extends Stage
+{
+    public function new()
+    {
+        super('farm-splitathon');    
+    }
+
+    override function load():Void
+    {
+        var bagType:String = FlxG.random.int(0, 1000) == 0 ? 'popeye' : 'cornbag';
+		
+        var bg:BGSprite = new BGSprite('bg', -600, -200, Paths.image('backgrounds/shared/sky_night'), null, 0.3, 0.3);
+        bg.zIndex = 0;
+        add(bg);
+        
+        var flatgrass:BGSprite = new BGSprite('flatgrass', 350, 55, Paths.image('backgrounds/farm/gm_flatgrass'), null, 0.55, 0.55);
+        flatgrass.setGraphicSize(Std.int(flatgrass.width * 0.34));
+        flatgrass.updateHitbox();
+        flatgrass.zIndex = 10;
+        flatgrass.color = Stage.nightColor;
+        add(flatgrass);
+
+        var hills:BGSprite = new BGSprite('hills', -473, 100, Paths.image('backgrounds/farm/orangey hills'), null, 0.65, 0.65);
+        hills.zIndex = 20;
+        hills.color = Stage.nightColor;
+        add(hills);
+
+        var farmHouse:BGSprite = new BGSprite('farmHouse', 100, 125, Paths.image('backgrounds/farm/funfarmhouse', 'shared'), null, 0.7, 0.7);
+        farmHouse.setGraphicSize(Std.int(farmHouse.width * 0.9));
+        farmHouse.updateHitbox();
+        farmHouse.zIndex = 30;
+        farmHouse.color = Stage.nightColor;
+        add(farmHouse);
+        
+        var grassLand:BGSprite = new BGSprite('grassLand', -600, 500, Paths.image('backgrounds/farm/grass lands', 'shared'), null);
+        grassLand.zIndex = 40;
+        grassLand.color = Stage.nightColor;
+        add(grassLand);
+
+        var cornFence:BGSprite = new BGSprite('cornFence', -700, 200, Paths.image('backgrounds/farm/cornFence', 'shared'), null);
+        cornFence.zIndex = 50;
+        cornFence.color = Stage.nightColor;
+        add(cornFence);
+
+        var cornFence2:BGSprite = new BGSprite('cornFence2', 1100, 250, Paths.image('backgrounds/farm/cornFence2', 'shared'), null);
+        cornFence2.zIndex = 60;
+        cornFence2.color = Stage.nightColor;
+        add(cornFence2);
+
+        var sign:BGSprite = new BGSprite('sign', 0, 350, Paths.image('backgrounds/farm/sign', 'shared'), null);
+        sign.zIndex = 80;
+        sign.color = Stage.nightColor;
+        add(sign);
+
+        var tristan:BGSprite = new BGSprite('tristan', 1355, 435, 'backgrounds/farm/cornbag_splitathon', 
+        [
+            {name: 'idle', prefix: 'cornbag_tristan', loop: true}
+        ]);
+        tristan.scale.set(0.9, 0.9);
+        tristan.updateHitbox();
+        tristan.animation.play('idle', true);
+        tristan.active = true;
+        tristan.zIndex = 90;
+        tristan.color = Stage.nightColor;
+        add(tristan);
+
+        var picnic:BGSprite = new BGSprite('picnic', 1350, 650, Paths.image('backgrounds/farm/picnic_towel_thing', 'shared'), null);
+        picnic.zIndex = 100;
+        picnic.color = Stage.nightColor;
+        add(picnic);
+    }
+
+    override function onCharacterAdd(e:AddCharacterScriptEvent)
+    {
+        e.character.color = Stage.nightColor;
+    }
+
+    override function onCreateUI():Void
+    {
+        if (PlayState.instance.ratings != null)
+        {
+            PlayState.instance.ratings.x += 150;
+            PlayState.instance.ratings.y += 250;
+        }
+    }
+}

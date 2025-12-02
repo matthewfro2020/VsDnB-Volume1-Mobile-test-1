@@ -1,0 +1,19 @@
+{
+   "version": "1.0.0",
+   "name": "Dave Awesome",
+   "scale": 1,
+   "danceSnap": 2,
+   "globalOffset": [0, 40],
+   "cameraOffsets": [0, -100],
+   "offsetFilePlayer": "dave-awesome",
+   "offsetFileOpponent": "dave-awesome",
+   "icon": "dave-awesome",
+   "singDuration": 4,
+   "color": "0x005EFF",
+   "flipX": false,
+   "antialiasing": true,
+   "countdownData": {
+      "graphicPath": "top10",
+      "soundPath": "dave"
+   }
+}

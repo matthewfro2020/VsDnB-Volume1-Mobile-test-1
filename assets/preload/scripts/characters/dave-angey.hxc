@@ -1,0 +1,28 @@
+class Dave3DCharacter extends Character
+{
+    public function new()
+    {
+        super('dave-angey');
+    }
+
+    override function update(elapsed:Float)
+    {
+        super.update(elapsed);
+
+        // Note to self: DON'T do `this.y` it causes a memory leak.
+        y += (Math.sin(PlayState.instance.elapsedtime) * 0.2);
+    }
+
+    override function load():Void
+    {
+        frames = Paths.getSparrowAtlas('characters/dave/Dave_3D', 'shared');
+
+        animation.addByPrefix('idle', 'idle instance 1', 24, false);
+        for (anim in ['left', 'down', 'up', 'right']) {
+            animation.addByPrefix('sing' + anim.toUpperCase(), anim + ' instance 1', 24, false);
+        }        
+        skins.set('noteSkin', '3d');
+
+        playAnim('idle');
+    }
+}

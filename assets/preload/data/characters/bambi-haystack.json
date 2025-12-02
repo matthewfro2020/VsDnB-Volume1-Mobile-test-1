@@ -1,0 +1,19 @@
+{
+   "version": "1.0.0",
+   "name": "Bambi's Haystack",
+   "scale": 1,
+   "danceSnap": 2,
+   "globalOffset": [177, 376],
+   "cameraOffsets": [0, 0],
+   "offsetFilePlayer": "bambi-haystack",
+   "offsetFileOpponent": "bambi-haystack",
+   "icon": "bambi-haystack",
+   "singDuration": 4,
+   "color": "0x000000",
+   "flipX": false,
+   "antialiasing": true,
+   "countdownData": {
+      "graphicPath": "normal",
+      "soundPath": "default"
+   }
+}

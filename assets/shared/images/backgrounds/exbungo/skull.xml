@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="skull.png">
+	<!-- Created with Adobe Animate version 23.0.0.407 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="moving0000" x="0" y="0" width="182" height="157"/>
+	<SubTexture name="moving0001" x="0" y="0" width="182" height="157"/>
+	<SubTexture name="moving0002" x="0" y="0" width="182" height="157"/>
+	<SubTexture name="moving0003" x="187" y="0" width="182" height="157"/>
+	<SubTexture name="moving0004" x="187" y="0" width="182" height="157"/>
+	<SubTexture name="moving0005" x="187" y="0" width="182" height="157"/>
+	<SubTexture name="moving0006" x="374" y="0" width="182" height="157"/>
+	<SubTexture name="moving0007" x="374" y="0" width="182" height="157"/>
+	<SubTexture name="moving0008" x="374" y="0" width="182" height="157"/>
+	<SubTexture name="moving0009" x="561" y="0" width="182" height="157"/>
+	<SubTexture name="moving0010" x="561" y="0" width="182" height="157"/>
+	<SubTexture name="moving0011" x="561" y="0" width="182" height="157"/>
+	<SubTexture name="moving0012" x="0" y="162" width="182" height="157"/>
+	<SubTexture name="moving0013" x="0" y="162" width="182" height="157"/>
+	<SubTexture name="moving0014" x="0" y="162" width="182" height="157"/>
+	<SubTexture name="moving0015" x="187" y="162" width="182" height="157"/>
+	<SubTexture name="moving0016" x="187" y="162" width="182" height="157"/>
+	<SubTexture name="moving0017" x="187" y="162" width="182" height="157"/>
+	<SubTexture name="moving0018" x="374" y="162" width="182" height="157"/>
+	<SubTexture name="moving0019" x="374" y="162" width="182" height="157"/>
+	<SubTexture name="moving0020" x="374" y="162" width="182" height="157"/>
+	<SubTexture name="moving0021" x="561" y="162" width="182" height="157"/>
+	<SubTexture name="moving0022" x="561" y="162" width="182" height="157"/>
+	<SubTexture name="moving0023" x="561" y="162" width="182" height="157"/>
+	<SubTexture name="moving0024" x="0" y="324" width="182" height="157"/>
+	<SubTexture name="moving0025" x="0" y="324" width="182" height="157"/>
+	<SubTexture name="moving0026" x="0" y="324" width="182" height="157"/>
+	<SubTexture name="moving0027" x="187" y="324" width="182" height="157"/>
+	<SubTexture name="moving0028" x="187" y="324" width="182" height="157"/>
+	<SubTexture name="moving0029" x="187" y="324" width="182" height="157"/>
+	<SubTexture name="moving0030" x="374" y="324" width="182" height="157"/>
+	<SubTexture name="moving0031" x="374" y="324" width="182" height="157"/>
+	<SubTexture name="moving0032" x="374" y="324" width="182" height="157"/>
+	<SubTexture name="moving0033" x="561" y="324" width="182" height="157"/>
+	<SubTexture name="moving0034" x="561" y="324" width="182" height="157"/>
+	<SubTexture name="moving0035" x="561" y="324" width="182" height="157"/>
+	<SubTexture name="moving0036" x="0" y="486" width="182" height="157"/>
+	<SubTexture name="moving0037" x="0" y="486" width="182" height="157"/>
+	<SubTexture name="moving0038" x="0" y="486" width="182" height="157"/>
+	<SubTexture name="moving0039" x="187" y="486" width="182" height="157"/>
+	<SubTexture name="moving0040" x="187" y="486" width="182" height="157"/>
+	<SubTexture name="moving0041" x="187" y="486" width="182" height="157"/>
+	<SubTexture name="moving0042" x="374" y="486" width="182" height="157"/>
+	<SubTexture name="moving0043" x="374" y="486" width="182" height="157"/>
+	<SubTexture name="moving0044" x="374" y="486" width="182" height="157"/>
+	<SubTexture name="moving0045" x="374" y="486" width="182" height="157"/>
+	<SubTexture name="moving0046" x="374" y="486" width="182" height="157"/>
+	<SubTexture name="moving0047" x="374" y="486" width="182" height="157"/>
+	<SubTexture name="moving0048" x="561" y="486" width="182" height="157"/>
+	<SubTexture name="moving0049" x="561" y="486" width="182" height="157"/>
+	<SubTexture name="moving0050" x="561" y="486" width="182" height="157"/>
+	<SubTexture name="moving0051" x="0" y="648" width="182" height="157"/>
+	<SubTexture name="moving0052" x="0" y="648" width="182" height="157"/>
+	<SubTexture name="moving0053" x="0" y="648" width="182" height="157"/>
+</TextureAtlas>

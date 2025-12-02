@@ -1,0 +1,22 @@
+class PlayrobotStudioCharacter extends Character 
+{
+	public function new()
+	{
+    	super('playrobot-studio');
+	}
+
+	override function load()
+	{
+		frames = Paths.getSparrowAtlas('characters/playrobot/playrobot_studio_sheet', 'shared');
+		
+		animation.addByPrefix('danceLeft', 'idle2', 24, false);
+		animation.addByPrefix('danceRight', 'Idle1', 24, false);
+		animation.addByPrefix('messedUp', 'youmessedup', 24, false);
+		for (i in ['left', 'down', 'right', 'up']) {
+			animation.addByPrefix('sing' + i.toUpperCase(), i + '0', 24, false);
+		}	
+		danceTypes = ['alternate'];
+		
+		playAnim('danceLeft');
+	}
+}

@@ -1,0 +1,21 @@
+{
+   "version": "2.0.0",
+   "songName": "Backseat",
+   "composers": ["magical"],
+   "artists": ["Rapparep", "fisshcakes", "LongDonny"],
+   "charters": ["magical"],
+   "coders": ["T5mpler"],
+   "variations": [],
+   "stage": "tristanRoom-backseat",
+   "player": "tristan-backseat",
+   "opponent": "playrobot-backseat",
+   "gf": "gf",
+   "timeChanges": [
+      {
+         "time": 0,
+         "bpm": 164,
+         "numerator": 4,
+         "denominator": 4
+      }
+   ]
+}

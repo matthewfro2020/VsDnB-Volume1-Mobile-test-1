@@ -1,0 +1,145 @@
+{
+   "version": "1.0.0",
+   "music": "DaveDialogue",
+   "fadeInTime": 1,
+   "fadeOutTime": 1,
+   "dialogue": [
+      {
+         "side": "right",
+         "speaker": "generic",
+         "text": "splitathon_1",
+         "typeSpeed": 0.02
+      },
+      {
+         "expression": "thought",
+         "side": "left",
+         "speaker": "dave",
+         "text": "splitathon_2",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "confused",
+         "side": "right",
+         "speaker": "bf",
+         "text": "splitathon_3",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "erm",
+         "side": "left",
+         "speaker": "dave",
+         "text": "splitathon_4",
+         "typeSpeed": 0.03
+      },
+      {
+         "expression": "confused",
+         "side": "right",
+         "speaker": "bf",
+         "text": "splitathon_5",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "happyarms",
+         "side": "left",
+         "speaker": "dave",
+         "text": "splitathon_6",
+         "typeSpeed": 0.03
+      },
+      {
+         "side": "right",
+         "speaker": "bf",
+         "text": "splitathon_7",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "cheer",
+         "side": "right",
+         "speaker": "gf",
+         "text": "splitathon_8",
+         "typeSpeed": 0.03
+      },
+      {
+         "expression": "splitathon",
+         "side": "left",
+         "speaker": "dave",
+         "text": "splitathon_9",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "confident",
+         "side": "left",
+         "speaker": "dave",
+         "text": "splitathon_10",
+         "typeSpeed": 0.03
+      },
+      {
+         "expression": "happy",
+         "side": "right",
+         "speaker": "gf",
+         "text": "splitathon_11",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "splitathon",
+         "side": "left",
+         "speaker": "dave",
+         "text": "splitathon_12",
+         "typeSpeed": 0.03
+      },
+      {
+         "expression": "ready",
+         "side": "right",
+         "speaker": "bf",
+         "text": "splitathon_13",
+         "typeSpeed": 0.02
+      },
+      {
+         "expression": "annoyed",
+         "side": "left",
+         "speaker": "dave",
+         "text": "splitathon_14",
+         "typeSpeed": 0.03
+      },
+      {
+         "expression": "bewilderedb",
+         "side": "left",
+         "speaker": "bambi",
+         "text": "splitathon_15",
+         "typeSpeed": 0.02
+      },
+      {
+         "expression": "confident",
+         "side": "left",
+         "speaker": "dave",
+         "text": "splitathon_16",
+         "typeSpeed": 0.03
+      },
+      {
+         "expression": "angryb",
+         "side": "left",
+         "speaker": "bambi",
+         "text": "splitathon_17",
+         "typeSpeed": 0.1
+      },
+      {
+         "side": "right",
+         "speaker": "generic",
+         "text": "splitathon_18",
+         "typeSpeed": 0.02
+      },
+      {
+         "expression": "splitathon",
+         "side": "left",
+         "speaker": "dave",
+         "text": "splitathon_19",
+         "typeSpeed": 0.03
+      },
+      {
+         "expression": "ready",
+         "side": "right",
+         "speaker": "bf",
+         "text": "splitathon_20",
+         "typeSpeed": 0.02
+      }
+   ]
+}

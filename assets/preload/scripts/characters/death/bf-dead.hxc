@@ -1,0 +1,19 @@
+class BoyfriendDeathCharacter extends Character
+{
+    public function new()
+    {
+        super('bf-dead');
+    }
+
+    override function load():Void
+    {
+        frames = Paths.getSparrowAtlas('characters/shared/BOYFRIEND_DEAD', 'shared');
+        
+        animation.addByPrefix('firstDeath', "BF dies", 24, false);
+        animation.addByPrefix('deathLoop', "BF Dead Loop", 24, true);
+        animation.addByPrefix('deathConfirm', "BF Dead confirm", 24, false);
+
+        skins.set('gfSkin', 'gf');
+        skins.set('3d', 'bf-3d');
+    }
+}

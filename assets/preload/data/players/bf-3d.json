@@ -1,0 +1,31 @@
+{
+   "version": "1.0.0",
+   "name": "3D Boyfriend",
+   "charId": "bf-3d",
+   "variationId": "bf-3d",
+   "charSelect": {
+      "gf": "gf-3d",
+      "page": 0,
+      "portraitFile": "bf_3d_portrait",
+      "position": 2,
+      "selected": {
+         "loop": true,
+         "name": "idle_select",
+         "prefix": "selected_3d"
+      },
+      "selectedTransition": {
+         "name": "selected",
+         "prefix": "transitions_3d"
+      },
+      "unselected": {
+         "loop": true,
+         "name": "idle_unselect",
+         "prefix": "unselected_3d"
+      },
+      "unselectedTransition": {
+         "name": "idle",
+         "prefix": "transitionu_3d"
+      }
+   },
+   "unlocked": true
+}

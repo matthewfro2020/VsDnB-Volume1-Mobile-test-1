@@ -1,0 +1,19 @@
+{
+   "version": "1.0.0",
+   "name": "Girlfriend (3D)",
+   "scale": 1,
+   "danceSnap": 1,
+   "globalOffset": [-52, -119],
+   "cameraOffsets": [0, 0],
+   "offsetFilePlayer": "gf-3d",
+   "offsetFileOpponent": "gf-3d",
+   "icon": "gf-3d",
+   "singDuration": 4,
+   "color": "0x33DE39",
+   "flipX": false,
+   "antialiasing": false,
+   "countdownData": {
+      "graphicPath": "normal",
+      "soundPath": "default"
+   }
+}

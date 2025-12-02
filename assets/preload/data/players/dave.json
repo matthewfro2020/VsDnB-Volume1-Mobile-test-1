@@ -1,0 +1,31 @@
+{
+   "version": "1.0.0",
+   "name": "Dave",
+   "charId": "dave",
+   "variationId": "dave",
+   "charSelect": {
+      "gf": "dave-boombox",
+      "page": 0,
+      "portraitFile": "dave_portrait",
+      "position": 3,
+      "selected": {
+         "loop": true,
+         "name": "idle_select",
+         "prefix": "selected_dave"
+      },
+      "selectedTransition": {
+         "name": "selected",
+         "prefix": "transitions_dave"
+      },
+      "unselected": {
+         "loop": true,
+         "name": "idle_unselect",
+         "prefix": "unselected_dave"
+      },
+      "unselectedTransition": {
+         "name": "idle",
+         "prefix": "transitionu_dave"
+      }
+   },
+   "unlocked": true
+}

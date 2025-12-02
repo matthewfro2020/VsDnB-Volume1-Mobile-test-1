@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bambirender.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bambiweek0000" x="5" y="5" width="464" height="373"/>
+	<SubTexture name="bambiweek0001" x="5" y="5" width="464" height="373"/>
+	<SubTexture name="bambiweek0002" x="5" y="5" width="464" height="373"/>
+	<SubTexture name="bambiweek0003" x="5" y="5" width="464" height="373"/>
+	<SubTexture name="bambiweek0004" x="474" y="5" width="464" height="373"/>
+	<SubTexture name="bambiweek0005" x="474" y="5" width="464" height="373"/>
+	<SubTexture name="bambiweek0006" x="474" y="5" width="464" height="373"/>
+	<SubTexture name="bambiweek0007" x="474" y="5" width="464" height="373"/>
+</TextureAtlas>

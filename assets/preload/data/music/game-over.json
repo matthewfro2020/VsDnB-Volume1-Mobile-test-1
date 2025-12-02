@@ -1,0 +1,15 @@
+{
+   "version": "1.0.0",
+   "name": "Game Over",
+   "musicPath": "gameOver/gameOver-full",
+   "composers": ["MoldyGangstaHero"],
+   "variations": ["pixel"],
+   "timeChanges": [
+      {
+         "time": 0,
+         "bpm": 105,
+         "numerator": 4,
+         "denominator": 4
+      }
+   ]
+}

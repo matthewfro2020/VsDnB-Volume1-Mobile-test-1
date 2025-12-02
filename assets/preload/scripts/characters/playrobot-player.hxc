@@ -1,0 +1,26 @@
+class PlayrobotPlayerCharacter extends Character 
+{
+	public function new()
+	{
+    	super('playrobot-player');
+	}
+
+	override function load()
+	{
+		frames = Paths.getSparrowAtlas('characters/playrobot/playrobot_sheet_playable', 'shared');
+		
+		animation.addByPrefix('danceLeft', 'Idle1', 24, false);
+		animation.addByPrefix('danceRight', 'idle2', 24, false);
+		animation.addByPrefix('hey', 'hey', 24, false);
+		for (i in ['left', 'down', 'right', 'up']) {
+			animation.addByPrefix('sing' + i.toUpperCase(), i + '0', 24, false);
+			animation.addByPrefix('sing' + i.toUpperCase() + 'miss', i + 'miss', 24, false);
+		}
+		skins.set('deathSkin', 'playrobot-death');
+		skins.set('gfSkin', 'tristan-gf');
+		
+		danceTypes = ['alternate'];
+
+		playAnim('danceLeft');
+	}
+}

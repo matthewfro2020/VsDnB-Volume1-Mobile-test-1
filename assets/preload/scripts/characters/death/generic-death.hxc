@@ -1,0 +1,24 @@
+class GenericDeathCharacter extends Character 
+{
+	public function new()
+	{
+    	super('generic-death');
+	}
+
+	override function onCreate(e:ScriptEvent)
+	{
+		super.onCreate(e);
+		
+		GameOverSubstate.deathSuffix = '-generic';
+	}
+
+	override function load()
+	{
+	    frames = Paths.getSparrowAtlas('characters/shared/lose', 'shared');
+	    animation.addByPrefix('firstDeath', "lose... instance 1", 24, false);
+	    animation.addByPrefix('deathLoop', "still", 24, true);
+	    animation.addByPrefix('deathConfirm', "still", 24, false);
+				
+	    playAnim('firstDeath');
+	}
+}

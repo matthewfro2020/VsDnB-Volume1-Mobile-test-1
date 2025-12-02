@@ -1,0 +1,22 @@
+class GirlfriendCharacter extends Character
+{
+    public function new()
+    {
+        super('gf');
+    }
+
+    override function load():Void
+    {
+        frames = Paths.getSparrowAtlas('characters/shared/GF_assets', 'shared');
+
+        animation.addByPrefix('cheer', 'GF Cheer', 24, false);
+        animation.addByIndices('sad', 'gf sad', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], "", 24, false);
+        animation.addByIndices('danceLeft', 'GF Dancing Beat', [30, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "", 24, false);
+        animation.addByIndices('danceRight', 'GF Dancing Beat', [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], "", 24, false);
+
+        skins.set('3d', 'gf-3d');
+        danceTypes = ['alternate'];
+
+        playAnim('danceRight');
+    }
+}

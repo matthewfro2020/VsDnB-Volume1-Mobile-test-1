@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="temp_portrait.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="selected_temp0000" x="5" y="5" width="231" height="216"/>
+	<SubTexture name="transitions_temp0000" x="5" y="5" width="231" height="216"/>
+	<SubTexture name="transitionu_temp0000" x="5" y="5" width="231" height="216"/>
+	<SubTexture name="unselected_temp0000" x="5" y="5" width="231" height="216"/>
+</TextureAtlas>

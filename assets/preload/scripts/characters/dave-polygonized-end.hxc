@@ -1,0 +1,16 @@
+class DavePolygonizedEnding extends Character
+{
+    public function new()
+    {
+        super('dave-polygonized-end');
+    }
+
+    override function load():Void
+    {
+        frames = Paths.getSparrowAtlas('characters/dave/dave_polygonizedend', 'shared');
+        
+        animation.addByPrefix('event', 'polygonevent', 24, false);
+
+        playAnim('event');
+    }
+}

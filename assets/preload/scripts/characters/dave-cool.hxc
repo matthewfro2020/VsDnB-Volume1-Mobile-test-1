@@ -1,0 +1,19 @@
+class DaveCoolCharacter extends Character 
+{
+	public function new()
+	{
+    	super('dave-cool');
+	}
+
+	override function load()
+	{
+	    frames = Paths.getSparrowAtlas('characters/rapBattle/thecoolerdave', 'shared');
+
+	    animation.addByPrefix('idle', 'idle', 24, false);
+	    for (anim in ['left', 'down', 'up', 'right']) {
+	        animation.addByPrefix('sing' + anim.toUpperCase(), anim, 24, false);
+	    }
+
+	    playAnim('idle');
+	}
+}

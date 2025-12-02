@@ -1,0 +1,19 @@
+{
+   "version": "1.0.0",
+   "name": "Tristan Golden Death",
+   "scale": 1,
+   "danceSnap": 2,
+   "globalOffset": [],
+   "cameraOffsets": [0, 0],
+   "offsetFilePlayer": "tristan-golden-death",
+   "offsetFileOpponent": "tristan-golden-death",
+   "icon": "tristan-golden-death",
+   "singDuration": 4,
+   "color": "0x000000",
+   "flipX": true,
+   "antialiasing": true,
+   "countdownData": {
+      "graphicPath": "normal",
+      "soundPath": "default"
+   }
+}

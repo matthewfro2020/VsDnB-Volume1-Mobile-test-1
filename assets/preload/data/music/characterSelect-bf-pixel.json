@@ -1,0 +1,15 @@
+{
+   "version": "1.0.0",
+   "name": "Character Select (Pixel BF Mix)",
+   "musicPath": "characterSelect/charSelect-bf-pixel",
+   "composers": ["T5mpler"],
+   "variations": [],
+   "timeChanges": [
+      {
+         "time": 0,
+         "bpm": 110,
+         "numerator": 4,
+         "denominator": 4
+      }
+   ]
+}

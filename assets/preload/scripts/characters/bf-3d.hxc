@@ -1,0 +1,25 @@
+class Boyfriend3DCharacter extends Character
+{
+    public function new()
+    {
+        super('bf-3d');
+    }
+
+    override function load():Void
+    {
+        frames = Paths.getSparrowAtlas('characters/shared/3d_bf', 'shared');
+
+        animation.addByPrefix('idle', 'idle', 24, false);
+        for (anim in ['left', 'down', 'up', 'right']) {
+            animation.addByPrefix('sing' + anim.toUpperCase(), anim, 24, false);
+            animation.addByPrefix('sing' + anim.toUpperCase() + 'miss', 'miss' + anim, 24, false);
+        }
+        animation.addByPrefix('hey', 'hey', 24, false);
+
+        skins.set('deathSkin', 'bf-3d-death');
+        skins.set('noteSkin', '3d');
+        skins.set('gfSkin', 'gf-3d');
+
+        playAnim('idle');
+    }
+}

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="character_memeskidshander.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="character_memeskidshander0000" x="5" y="5" width="224" height="178"/>
+	<SubTexture name="character_memeskidshander0001" x="5" y="5" width="224" height="178"/>
+	<SubTexture name="character_memeskidshander0002" x="5" y="5" width="224" height="178"/>
+	<SubTexture name="character_memeskidshander0003" x="5" y="5" width="224" height="178"/>
+	<SubTexture name="character_memeskidshander0004" x="234" y="5" width="224" height="178"/>
+	<SubTexture name="character_memeskidshander0005" x="234" y="5" width="224" height="178"/>
+	<SubTexture name="character_memeskidshander0006" x="234" y="5" width="224" height="178"/>
+	<SubTexture name="character_memeskidshander0007" x="234" y="5" width="224" height="178"/>
+</TextureAtlas>

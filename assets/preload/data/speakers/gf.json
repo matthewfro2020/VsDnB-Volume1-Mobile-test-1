@@ -1,0 +1,28 @@
+{
+   "version": "1.0.0",
+   "name": "Girlfriend",
+   "globalOffsets": [5, -50],
+   "sounds": ["dialogue/gfDialogue"],
+   "expressions": [
+      {
+         "assetPath": "gf/gf_confused",
+         "name": "confused",
+         "scale": 1
+      },
+      {
+         "assetPath": "gf/gf_what",
+         "name": "what",
+         "scale": 1
+      },
+      {
+         "assetPath": "gf/gf_cheer",
+         "name": "cheer",
+         "scale": 1
+      },
+      {
+         "assetPath": "gf/gf_happy",
+         "name": "normal",
+         "scale": 1
+      }
+   ]
+}

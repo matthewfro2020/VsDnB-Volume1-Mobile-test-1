@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bambi_portrait.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="selected_bambi0000" x="5" y="5" width="231" height="215"/>
+	<SubTexture name="selected_bambi0001" x="5" y="5" width="231" height="215"/>
+	<SubTexture name="transitions_bambi0000" x="241" y="5" width="231" height="215"/>
+	<SubTexture name="transitions_bambi0001" x="241" y="5" width="231" height="215"/>
+	<SubTexture name="transitions_bambi0002" x="477" y="5" width="231" height="215"/>
+	<SubTexture name="transitions_bambi0003" x="477" y="5" width="231" height="215"/>
+	<SubTexture name="transitions_bambi0004" x="713" y="5" width="231" height="215"/>
+	<SubTexture name="transitions_bambi0005" x="713" y="5" width="231" height="215"/>
+	<SubTexture name="transitionu_bambi0000" x="713" y="5" width="231" height="215"/>
+	<SubTexture name="transitionu_bambi0001" x="713" y="5" width="231" height="215"/>
+	<SubTexture name="transitionu_bambi0002" x="477" y="5" width="231" height="215"/>
+	<SubTexture name="transitionu_bambi0003" x="477" y="5" width="231" height="215"/>
+	<SubTexture name="transitionu_bambi0004" x="241" y="5" width="231" height="215"/>
+	<SubTexture name="transitionu_bambi0005" x="241" y="5" width="231" height="215"/>
+	<SubTexture name="unselected_bambi0000" x="949" y="5" width="231" height="215"/>
+	<SubTexture name="unselected_bambi0001" x="949" y="5" width="231" height="215"/>
+</TextureAtlas>

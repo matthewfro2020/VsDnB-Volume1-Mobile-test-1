@@ -1,0 +1,25 @@
+class PlayrobotDeathCharacter extends Character 
+{
+	public function new()
+	{
+    	super('playrobot-death');
+	}
+
+	override function onCreate(e:ScriptEvent)
+	{
+		super.onCreate(e);
+		
+		GameOverSubstate.deathSuffix = '-playrobot';
+	}
+
+	override function load()
+	{
+		frames = Paths.getSparrowAtlas('characters/playrobot/playrobot_sheet_death', 'shared');
+		
+		animation.addByPrefix('firstDeath', 'deathstart', 24, false);
+		animation.addByPrefix('deathLoop', 'deathloop', 24, true);
+		animation.addByPrefix('deathConfirm', 'deathconfirm', 24, false);
+		
+		playAnim('firstDeath');
+	}
+}

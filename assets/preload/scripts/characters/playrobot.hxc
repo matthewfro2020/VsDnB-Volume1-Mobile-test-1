@@ -1,0 +1,24 @@
+class PlayrobotCharacter extends Character 
+{
+	public function new()
+	{
+    	super('playrobot');
+	}
+
+	override function load()
+	{
+		frames = Paths.getSparrowAtlas('characters/playrobot/playrobot_sheet', 'shared');
+		
+		animation.addByPrefix('danceLeft', 'idle2', 24, false);
+		animation.addByPrefix('danceRight', 'Idle1', 24, false);
+		animation.addByPrefix('game', 'playagame', 24, false);
+		animation.addByPrefix('confused', 'confusedloop', 24, true);
+
+		for (i in ['left', 'down', 'right', 'up']) {
+			animation.addByPrefix('sing' + i.toUpperCase(), i + '0', 24, false);
+		}
+		danceTypes = ['alternate'];
+		
+		playAnim('danceLeft');
+	}
+}

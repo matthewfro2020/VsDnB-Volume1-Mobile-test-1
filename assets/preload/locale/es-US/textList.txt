@@ -1,0 +1,245 @@
+﻿
+en-US==Ingles
+es-US==Español
+pt-br==Portugués Brasil 
+
+intro_warning==¡ADVERTENCIA!:linebreak:Este mod contiene shaders y efectos que pueden causar ataque epilépticos, mareos o cualquier discapacidad similar. :linebreak::linebreak:Asegúrese  de ir al menú de opciones (localizado en el menú principal y el menú de pausa) para acceder a las opciones. :linebreak::linebreak:El idioma está disponible en las mismas opciones.:linebreak::linebreak:(Presiona ENTER para continuar.) 
+intro_warning_mobile==¡ADVERTENCIA!:linebreak:Este mod contiene shaders y efectos que pueden causar ataque epilépticos, mareos o cualquier discapacidad similar. :linebreak::linebreak:Asegúrese  de ir al menú de opciones (localizado en el menú principal y el menú de pausa) para acceder a las opciones. :linebreak::linebreak:El idioma está disponible en las mismas opciones.:linebreak::linebreak:(Toque na tela para continuar.) 
+ 
+// TITLE STATE 
+title_pressEnter==Presiona Enter para Continuar 
+title_pressEnter_mobile==Toca la pantalla para Continuar
+
+// Main Menu State // 
+main_story==Modo historia 
+main_freeplay==Juego Libre 
+main_credits==Créditos  
+main_ost==OST 
+main_options==Opciones  
+ 
+// Main Menu Descriptions // 
+desc_story==¡Juega el modo Historia para desbloquear más personajes y entender la historia del mod! 
+desc_freeplay==¡Juega cualquier canción cuanto quieras y consigue nuevos altos puntajes! 
+desc_credits==¡Conoce a los desarrolladores y gente que ayudó a crear este mod!
+desc_ost==Galería de Audio 
+desc_options==Ajusta opciones de juego y Keybinds. 
+ 
+// Freeplay State // 
+freeplay_dave==Historia 
+freeplay_joke==Chiste 
+freeplay_extra==Extra 
+
+freeplay_score==Score
+freeplay_altInstrumental==Presiona Alt para reproducir el instrumental de la canción actual. 
+freeplay_skipChar==Mantén CTRL para saltar el selector de personaje 
+ 
+supernovae_hint==¿Te crees bien vergas con Dave and Bambi? Presiona 7 en cualquier momento y derrota mi challenge para ganar. 
+glitch_hint==¿Te crees bien vergas con Dave and Bambi? Presiona 7 en cualquier momento y derrota mi challenge para ganar. 
+master_hint==¿Te crees bien vergas con Dave and Bambi? Presiona 7 en cualquier momento y derrota mi challenge para ganar. Soy un maestro. 
+kabunga_hint==Canción equivocada w. 
+roofs_hint==Cierto profesor calvo está escondido en algún lugar en el maizal de Bambi.:linebreak:Encuéntralo y dale Clic para descubrir más… 
+rapTwo_hint==Soy Dave y tengo un mod. 
+ 
+// Pause State // 
+pause_Resume==Continuar 
+pause_Restart Song==Reiniciar Canción 
+pause_Change Character==Selector de personaje  
+pause_Change Player==Cambiar jugador  
+pause_Options==Opciones  
+pause_Exit to menu==Regresar al Menú 
+pause_No Miss Mode==No Miss modo 
+pause_Skip Dialogue==Saltar dialogo 
+
+pause_composersText==Compositores
+pause_artistsText==Artistas 
+pause_chartersText==Chárters
+pause_codersText==Programadores
+ 
+// Story Mode State // 
+story_track==Pistas 
+story_weekScore==PUNTUACION PERSONAL: 
+story_tutorial==Dave te enseña hablar o eso creo
+story_daveWeek==Grandes Papeadas de Dave 
+story_bambiWeek==Maizal sin fin de Bambi  
+story_finale==El gran final  
+story_festivalWeek==¡Festival Maizal de Bambi! 
+story_masterWeek==El prime de Bambi 
+story_masterWeekToPlay==????????? 
+
+// Credits Words // 
+supernovae_credit==¡Cancion original por ArchWk! 
+glitch_credit==¡Cancion original po4 DeadShadow y PixelGH! 
+kabunga_credit==ACABAN DE FILTRAR EL SERVER 
+ 
+// ENDINGS // 
+
+ending_title_good==Final Bueno
+ending_title_bad==Final Malo
+ending_title_worst==Sos una mierda jugando esto
+ending_title_phone==Alcatel Ending
+ending_title_rtx==Final RTX
+ending_title_unknown==Final Desconocido 
+
+ending_dave_good==¡Ayudaste a Dave escapar de la tercera dimensión!:linebreak: En Agradecimiento, Dave te entrega a ti y a tu novia una invitación… 
+ending_dave_bad==¡Ayudaste a Dave escapar de la tercera dimensión!:linebreak:¡Y recibes una invitación de él!:linebreak:Como sea… Dave no está impresionado…  
+ending_dave_worst==Ayudatse a dave a escapar de la tercera dimensión:linebreak:¡Y recibes una invitación de el!:linebreak:Como sea, te desmayaste del cansancio…Generación de cristal 
+ending_dave_rtx==Dave convirtió todo el mundo en 3D y básicamente:linebreak:es el fin del mundo y no puedes hacer nada al respecto, jaja.:linebreak:"pero mira esos graficasos tio" 
+ending_bambi_good==¡Disfrutas de un buen picnic con tus amigos en la granja de bambi!:linebreak:¡Todo parece ir bien!:linebreak:Pero Dave tiene un reto esperándote... 
+ending_bambi_bad==Disfrutas de un buen picnic con tus amigos.:linebreak:aunque Girlfriend olvido traer comida...:linebreak:¡Como sea, Dave tiene un reto para ti! 
+ending_bambi_worst==Disfrutas de un buen picnic con tus amigos.:linebreak:Aunque Alguien puso una roca en tu sándwich, Ouch.:linebreak:¡Pero Dave tiene un reto para ti! 
+ending_bambi_phone==Bambi lanzó su celular hacia ti.:linebreak:Aunque no lo esquivaste, idiota:linebreak:Mueres al instante (skill issue). 
+ 
+backseat_start_title==En otro lado.... 
+backseat_start_description==Durante la semana de Dave. 
+ 
+ending_splitathon==Continuara  
+ 
+// SETTINGS MENU // 
+ 
+// KEYBIND MENU  
+settings_keybinds_Left==Izquierda 
+settings_keybinds_Down==Abajo  
+settings_keybinds_Up==Arriba 
+settings_keybinds_Right==Derecha
+settings_keybinds_Accept==Aceptar
+settings_keybinds_Back==Reversa
+settings_keybinds_Reset==Reiniciar
+settings_keybinds_Key5==5Notas
+ 
+settings_keybinds_preset_arrowKeys==Teclas De las flechas 
+settings_keybinds_preset_wasd==WASD 
+settings_keybinds_preset_dfjk==DFJK 
+settings_keybinds_preset_askl==ASKL 
+settings_keybinds_preset_zx,.==ZX,. 
+ 
+settings_keybinds_preset_tutorial==Selecciona uno prestablecido con A 
+ 
+// GENERAL 
+
+settings_category_general==General 
+ 
+settings_general_downscroll==Downscroll 
+settings_general_downscroll_description==Las flechas ahora irán de arriba para abajo.
+ 
+settings_general_ghostTapping==Ghost Tapping
+settings_general_ghostTapping_description==Deshabilita las teclas al tocarlas fuera del chart.
+ 
+settings_general_cutscenes==Cutscenes 
+settings_general_cutscenes_description==Habilita las cutscenes y diálogos.
+
+settings_general_keybinds==Configuración de Keybinds 
+settings_general_keybinds_description==Asigna y Configura a tu gusto las Keybinds atte. las teclas de las notas.
+ 
+ 
+// Accessibility 
+settings_category_accessibility==Accesibilidad 
+settings_accessibility_flashingLights==Luces Brillantes 
+settings_accessibility_flashingLights_description==Para aquellos que NO le gustan que les quemen los ojos.:linebreak:Habilita las luces brillantes hechos para ciertos eventos. 
+ 
+settings_accessibility_cameraShaking==Movimiento de la cámara 
+settings_accessibility_cameraShaking_description==Para aquellos con problemas cardiacos.:linebreak:Habilita el movimiento repentino de la cámara / Jumpscares.
+settings_accessibility_selfAware==Auto Conciencia  
+settings_accessibility_selfAware_description==Deshabilitándolo evitará usar cualquier componente del sistema. :linebreak:Protege tu privacidad en varios eventos. 
+settings_accessibility_camNoteMove==Movimiento de cámara al tocar las flechas 
+settings_accessibility_camNoteMove_description==Para aquellos con problemas al corazón :linebreak:Habilita el movimiento de cámara al tocar una nota.
+ 
+// AUDIO
+settings_category_audio==Audio 
+ 
+settings_audio_masterVolume==Volumen modo master 
+settings_audio_masterVolume_description==Cambia el volumen del modo master de las canciones.
+settings_audio_musicVolume==Volumen de la música 
+settings_audio_musicVolume_description==Sube o baja el volumen de las canciones o instrumentales.
+settings_audio_voices==Volumen de Voces 
+settings_audio_voices_description==Sube o baja el volumen de las voces cantando.
+ 
+settings_audio_sfx==Efectos de sonido 
+settings_audio_sfx_description==Sube o baja el volumen de cualquier efecto de sonido.
+ 
+settings_audio_hitsounds==Volumen del Hitsound 
+settings_audio_hitsounds_description==Sube o baja el volumen del sonido al tocar sucesivamente una nota.
+ 
+// MISC 
+settings_category_misc==Más Opciones 
+
+settings_misc_restart==Por favor reinicia el juego para que los cambios sean visibles. 
+ 
+settings_misc_hitsounds==Hitsounds 
+settings_misc_hitsounds_description==Habilita un sonido al tocar sucesivamente una nota.
+
+settings_misc_latencyOffsets==Componedor de Latencia
+settings_misc_latencyOffsets_description==Útil si tus audífonos tiene audio retrasado debido a problemas de latencia.
+
+settings_misc_language==Idioma 
+settings_misc_language_description==Cambia el idioma del mod.
+ 
+settings_misc_resetData==Reiniciar Data 
+settings_misc_resetData_description==Reiniciara todo puntaje alto y contenido desbloqueado. 
+ 
+// UI 
+settings_category_ui==UI 
+ 
+settings_ui_minimalUI==minimal UI 
+settings_ui_minimalUI_description==Habilita el UI de pequeños eventos como Accuracy, Misses, and Timer.
+ 
+settings_ui_debugUI==Debug UI 
+settings_ui_debugUI_description==Habilita el contador de FPS y Memoria utilizada.
+ 
+settings_ui_timerType==Tipo de temporizador 
+settings_ui_timerType_description==Cambia lo que el timer de UI muestra.
+ 
+settings_ui_timerType_timeLeft==Tiempo restante 
+settings_ui_timerType_timeElapsed==Tiempo pasado 
+settings_ui_timerType_timeElapsedLeft==Tiempo pasado y Restante 
+ 
+settings_ui_warnings==Muestra de Trucos 
+settings_ui_warnings_description==Habilita la muestra de trucos de ciertas canciones.
+
+// WINDOW 
+settings_category_window==Ventana
+ 
+settings_window_darkMode==Modo obscuro 
+settings_window_darkMode_description==Revierte el borde de la ventana a modo obscuro.
+ 
+settings_window_fps==FPS 
+settings_window_fps_description==La cantidad de frames se mueven por segundo. Limite Máximo a 240. 
+ 
+settings_window_borderless==Ventana sin Borde 
+settings_window_borderless_description==Habilita el borde en la parte superior de la ventana.
+ 
+settings_window_VSync==VSync 
+settings_window_VSync_description==Ayuda eliminar el desgarro de pantalla con sync:linebreak:Reinicia los monitores. 
+ 
+// OST MENU // 
+
+ost_remixMode_speed==Modo Remix: RAPIDO 
+ost_remixMode_bpm==Modo Remix: BPM 
+ost_speedLabel==Velocidad
+ 
+ost_manual_playrobot==Al clickear el mouse habilitara la barra de selección.:linebreak:Cuando la barra de selección este desactivada, el turntable se centrara por su cuenta. 
+ 
+ost_manual_selectBarCategory==Usa las teclas Derecha/Izquierda:linebreak:Para cambiar categorías 
+ost_manual_selectBarSong==Teclas Arriba/Abajo - Cambiar entre canciones para selecionar:linebreak:Izquierda/Derecha- Cambia variaciones de la canción (si es aplicable):linebreak::linebreak:Enter - Selecciona y carga la canción al turntable 
+ 
+ost_manual_playButton==Reproduce la canción actual :linebreak: cargada en la turntable 
+ost_manual_pauseButton==Pausa la canción actual:linebreak:cargada en la turntable 
+ost_manual_speedButton==Si el modo remix está:linebreak:BPM - incrementa el BPM a 1:linebreak:Velocidad - Incrementa la velocidad a 0.05x 
+ost_manual_slowButton==Si el modo remix esta:linebreak:BPM - Decrementa el BPM a 1:linebreak:Velocidad - Decrementa la.velocidad a 0.05x 
+ost_manual_timeMonitor==Muestra Informacion:linebreak:Sobre la duración de la cancion:linebreak::linebreak:Clickeando el monitor :linebreak:Posicionado en el lado izquierdo:linebreak:o el tiempo pasado 
+ost_manual_vocals==Habilita on/off cualquier:linebreak:vocales reproduciendo en:linebreak:la canción. 
+ost_manual_inst==Habilita on/off cualquier:linebreak:instrumental reproduciendo en:linebreak:la canción  
+ost_manual_remix==Cambia el modo remix a BPM o:linebreak:Velocidad 
+ost_manual_manualButton==Abre este manual 
+ost_manual_audio==Muestra un espectrograma:linebreak:de la canción reproduciendo actualmente  
+ 
+// GITAROO // 
+gitaroo_text==Bienvenido al mundo de Dave en su cabeza, sea por lo que sea que estés aquí o cualquier cosa que decidas no importa, Lo que importa es que estás aquí. 
+
+// MATH GAME // 
+math_solveMath==RESUELVE LAS MATEMATICAS
+math_wrongHintText_1==ESCUCHO MATEMATICAS ASI DE MALAS 
+math_wrongHintText_2==ESCUCHO CUALQUIER PUERTA QUE ABRES 
+math_correctHintText_1==¡WOW! ¡REALMENTE EXISTES!
+
+// CHARACTER SELECT //
+charSelect_page==Pagina

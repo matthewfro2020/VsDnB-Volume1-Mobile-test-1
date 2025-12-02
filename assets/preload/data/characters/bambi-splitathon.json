@@ -1,0 +1,19 @@
+{
+   "version": "1.0.0",
+   "name": "Bambi (Splitathon)",
+   "scale": 1,
+   "danceSnap": 2,
+   "globalOffset": [30, 85],
+   "cameraOffsets": [150, -100],
+   "offsetFilePlayer": "bambi-splitathon",
+   "offsetFileOpponent": "bambi-splitathon",
+   "icon": "bambi-new",
+   "singDuration": 6,
+   "color": "0x25BF37",
+   "flipX": false,
+   "antialiasing": true,
+   "countdownData": {
+      "graphicPath": "normal",
+      "soundPath": "bambi"
+   }
+}

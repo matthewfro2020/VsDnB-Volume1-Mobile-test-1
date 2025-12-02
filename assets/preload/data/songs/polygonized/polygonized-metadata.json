@@ -1,0 +1,21 @@
+{
+   "version": "2.0.0",
+   "songName": "Polygonized",
+   "composers": ["MoldyGangstaHero"],
+   "artists": ["Rapparep", "LongDonny", "Zmac"],
+   "charters": ["MoldyGangstaHero"],
+   "coders": ["MissingTextureMan101", "T5mpler"],
+   "variations": [],
+   "stage": "red-void",
+   "player": "bf",
+   "opponent": "dave-angey",
+   "gf": "gf",
+   "timeChanges": [
+      {
+         "time": 0,
+         "bpm": 180,
+         "numerator": 4,
+         "denominator": 4
+      }
+   ]
+}

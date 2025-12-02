@@ -1,0 +1,21 @@
+{
+   "version": "2.0.0",
+   "songName": "Vs Dave Rap 2",
+   "composers": ["Your Mom"],
+   "artists": ["Rapparep", "Jukebox"],
+   "charters": ["MoldyGangstaHero"],
+   "coders": ["MoldyGangstaHero"],
+   "variations": [],
+   "stage": "rapBattle",
+   "player": "bf-cool",
+   "opponent": "dave-cool",
+   "gf": "gf",
+   "timeChanges": [
+      {
+         "time": 0,
+         "bpm": 171,
+         "numerator": 4,
+         "denominator": 4
+      }
+   ]
+}

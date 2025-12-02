@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="good_bambi.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="good_bambi0000" x="5" y="5" width="578" height="397"/>
+	<SubTexture name="good_bambi0001" x="5" y="5" width="578" height="397"/>
+	<SubTexture name="good_bambi0002" x="588" y="5" width="578" height="397"/>
+	<SubTexture name="good_bambi0003" x="588" y="5" width="578" height="397"/>
+</TextureAtlas>

@@ -1,0 +1,20 @@
+class GirlfriendCoolCharacter extends Character 
+{
+	public function new()
+	{
+    	super('gf-cool');
+	}
+
+	override function load()
+	{
+	    this.frames = Paths.getSparrowAtlas('characters/rapBattle/Cool_GF', 'shared');
+	    this.animation.addByPrefix('danceLeft', 'left', 24, true);
+	    this.animation.addByPrefix('danceRight', 'right', 24, true);
+	    this.animation.addByPrefix('sad', 'f', 24, false);
+	
+	    this.skins.set('3d', 'gf-3d');
+	    this.danceTypes = ['alternate'];
+	
+	    playAnim('danceRight');
+	}
+}

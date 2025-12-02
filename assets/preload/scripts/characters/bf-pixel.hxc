@@ -1,0 +1,25 @@
+class BoyfriendPixelCharacter extends Character 
+{
+	public function new()
+	{
+    	super('bf-pixel');
+	}
+
+	override function load()
+	{
+	    frames = Paths.getSparrowAtlas('characters/shared/bfPixel', 'shared');
+	    
+		animation.addByPrefix('idle', 'BF IDLE', 24, false);
+	    animation.addByPrefix('hey', 'BF HEY', 24, false);
+	    for (anim in ['left', 'down', 'up', 'right']){
+	        animation.addByPrefix('sing' + anim.toUpperCase(), 'BF ' + anim.toUpperCase() + ' NOTE', 24, false);
+	        animation.addByPrefix('sing' + anim.toUpperCase() + 'miss', 'BF ' + anim.toUpperCase() + ' MISS', 24, false);
+	    }
+	    skins.set('gfSkin', 'gf-pixel');
+	    skins.set('3d', 'bf-3d');
+	    skins.set('noteSkin', 'pixel');
+		skins.set('deathSkin', 'bf-pixel-dead');
+
+	    playAnim('idle');
+	}
+}

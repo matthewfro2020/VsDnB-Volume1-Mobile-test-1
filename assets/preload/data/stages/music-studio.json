@@ -1,0 +1,23 @@
+{
+   "version": "1.0.0",
+   "name": "Playrobot's Music Studio",
+   "zoom": 0.7,
+   "player": {
+      "cameraOffsets": [-100, 100],
+      "position": [900, 445],
+      "scroll": [1, 1],
+      "zIndex": 1
+   },
+   "opponent": {
+      "cameraOffsets": [150, 0],
+      "position": [200, 625],
+      "scroll": [1, 1],
+      "zIndex": 6
+   },
+   "gf": {
+      "cameraOffsets": [0, 0],
+      "position": [0, 0],
+      "scroll": [1, 1],
+      "zIndex": 4
+   }
+}

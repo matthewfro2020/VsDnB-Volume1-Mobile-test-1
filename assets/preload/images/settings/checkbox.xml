@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="settings_boxicons.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="settings_box_check0000" x="5" y="5" width="68" height="85"/>
+	<SubTexture name="settings_box_check0001" x="5" y="5" width="68" height="85"/>
+	<SubTexture name="settings_box_check0002" x="78" y="5" width="68" height="85"/>
+	<SubTexture name="settings_box_check0003" x="78" y="5" width="68" height="85"/>
+	<SubTexture name="settings_box_check0004" x="151" y="5" width="68" height="85"/>
+	<SubTexture name="settings_box_check0005" x="151" y="5" width="68" height="85"/>
+	<SubTexture name="settings_box_check0006" x="224" y="5" width="68" height="85"/>
+	<SubTexture name="settings_box_check0007" x="224" y="5" width="68" height="85"/>
+	<SubTexture name="settings_box_check0008" x="297" y="5" width="68" height="85"/>
+	<SubTexture name="settings_box_check0009" x="297" y="5" width="68" height="85"/>
+	<SubTexture name="settings_box_check_static0000" x="370" y="5" width="66" height="71"/>
+	<SubTexture name="settings_box_check_static0001" x="370" y="5" width="66" height="71"/>
+	<SubTexture name="settings_box_check_static0002" x="5" y="95" width="66" height="71"/>
+	<SubTexture name="settings_box_check_static0003" x="5" y="95" width="66" height="71"/>
+	<SubTexture name="settings_box_none_static0000" x="76" y="95" width="66" height="67"/>
+	<SubTexture name="settings_box_none_static0001" x="76" y="95" width="66" height="67"/>
+	<SubTexture name="settings_box_none_static0002" x="147" y="95" width="66" height="67"/>
+	<SubTexture name="settings_box_none_static0003" x="147" y="95" width="66" height="67"/>
+	<SubTexture name="settings_box_unavailable0000" x="218" y="95" width="66" height="67"/>
+	<SubTexture name="settings_box_unavailable0001" x="218" y="95" width="66" height="67"/>
+	<SubTexture name="settings_box_unavailable0002" x="289" y="95" width="66" height="67"/>
+	<SubTexture name="settings_box_unavailable0003" x="289" y="95" width="66" height="67"/>
+</TextureAtlas>

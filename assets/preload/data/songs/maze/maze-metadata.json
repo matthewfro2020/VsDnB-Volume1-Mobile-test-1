@@ -1,0 +1,27 @@
+{
+   "version": "2.0.0",
+   "songName": "Maze",
+   "composers": ["MoldyGangstaHero"],
+   "artists": ["evdial"],
+   "charters": ["Erizur"],
+   "coders": ["T5mpler"],
+   "variations": [],
+   "stage": "farm",
+   "player": "bf",
+   "opponent": "bambi-new",
+   "gf": "gf",
+   "timeChanges": [
+      {
+         "time": 0,
+         "bpm": 113,
+         "numerator": 4,
+         "denominator": 4
+      },
+      {
+         "time": 155044.247787611,
+         "bpm": 98,
+         "numerator": 4,
+         "denominator": 4
+      }
+   ]
+}

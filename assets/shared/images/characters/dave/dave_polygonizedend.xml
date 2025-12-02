@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="dave_polygonizedend.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="polygonevent0000" x="5" y="5" width="532" height="573" frameX="0" frameY="-30" frameWidth="532" frameHeight="603"/>
+	<SubTexture name="polygonevent0001" x="5" y="5" width="532" height="573" frameX="0" frameY="-30" frameWidth="532" frameHeight="603"/>
+	<SubTexture name="polygonevent0002" x="542" y="5" width="486" height="592" frameX="-17" frameY="-11" frameWidth="532" frameHeight="603"/>
+	<SubTexture name="polygonevent0003" x="542" y="5" width="486" height="592" frameX="-17" frameY="-11" frameWidth="532" frameHeight="603"/>
+	<SubTexture name="polygonevent0004" x="1033" y="5" width="493" height="585" frameX="-15" frameY="-18" frameWidth="532" frameHeight="603"/>
+	<SubTexture name="polygonevent0005" x="1033" y="5" width="493" height="585" frameX="-15" frameY="-18" frameWidth="532" frameHeight="603"/>
+	<SubTexture name="polygonevent0006" x="1531" y="5" width="493" height="585" frameX="-15" frameY="-18" frameWidth="532" frameHeight="603"/>
+	<SubTexture name="polygonevent0007" x="1531" y="5" width="493" height="585" frameX="-15" frameY="-18" frameWidth="532" frameHeight="603"/>
+	<SubTexture name="polygonevent0008" x="1033" y="5" width="493" height="585" frameX="-15" frameY="-18" frameWidth="532" frameHeight="603"/>
+	<SubTexture name="polygonevent0009" x="1033" y="5" width="493" height="585" frameX="-15" frameY="-18" frameWidth="532" frameHeight="603"/>
+	<SubTexture name="polygonevent0010" x="1531" y="5" width="493" height="585" frameX="-15" frameY="-18" frameWidth="532" frameHeight="603"/>
+	<SubTexture name="polygonevent0011" x="1531" y="5" width="493" height="585" frameX="-15" frameY="-18" frameWidth="532" frameHeight="603"/>
+	<SubTexture name="polygonevent0012" x="1033" y="5" width="493" height="585" frameX="-15" frameY="-18" frameWidth="532" frameHeight="603"/>
+	<SubTexture name="polygonevent0013" x="1033" y="5" width="493" height="585" frameX="-15" frameY="-18" frameWidth="532" frameHeight="603"/>
+	<SubTexture name="polygonevent0014" x="1531" y="5" width="493" height="585" frameX="-15" frameY="-18" frameWidth="532" frameHeight="603"/>
+	<SubTexture name="polygonevent0015" x="1531" y="5" width="493" height="585" frameX="-15" frameY="-18" frameWidth="532" frameHeight="603"/>
+	<SubTexture name="polygonevent0016" x="1033" y="5" width="493" height="585" frameX="-15" frameY="-18" frameWidth="532" frameHeight="603"/>
+	<SubTexture name="polygonevent0017" x="1033" y="5" width="493" height="585" frameX="-15" frameY="-18" frameWidth="532" frameHeight="603"/>
+	<SubTexture name="polygonevent0018" x="1531" y="5" width="493" height="585" frameX="-15" frameY="-18" frameWidth="532" frameHeight="603"/>
+	<SubTexture name="polygonevent0019" x="2029" y="5" width="492" height="590" frameX="-11" frameY="-13" frameWidth="532" frameHeight="603"/>
+	<SubTexture name="polygonevent0020" x="2029" y="5" width="492" height="590" frameX="-11" frameY="-13" frameWidth="532" frameHeight="603"/>
+	<SubTexture name="polygonevent0021" x="5" y="602" width="490" height="592" frameX="-9" frameY="-11" frameWidth="532" frameHeight="603"/>
+	<SubTexture name="polygonevent0022" x="5" y="602" width="490" height="592" frameX="-9" frameY="-11" frameWidth="532" frameHeight="603"/>
+	<SubTexture name="polygonevent0023" x="500" y="602" width="489" height="593" frameX="-9" frameY="-10" frameWidth="532" frameHeight="603"/>
+	<SubTexture name="polygonevent0024" x="500" y="602" width="489" height="593" frameX="-9" frameY="-10" frameWidth="532" frameHeight="603"/>
+	<SubTexture name="polygonevent0025" x="500" y="602" width="489" height="593" frameX="-9" frameY="-10" frameWidth="532" frameHeight="603"/>
+	<SubTexture name="polygonevent0026" x="500" y="602" width="489" height="593" frameX="-9" frameY="-10" frameWidth="532" frameHeight="603"/>
+	<SubTexture name="polygonevent0027" x="500" y="602" width="489" height="593" frameX="-9" frameY="-10" frameWidth="532" frameHeight="603"/>
+	<SubTexture name="polygonevent0028" x="500" y="602" width="489" height="593" frameX="-9" frameY="-10" frameWidth="532" frameHeight="603"/>
+	<SubTexture name="polygonevent0029" x="500" y="602" width="489" height="593" frameX="-9" frameY="-10" frameWidth="532" frameHeight="603"/>
+	<SubTexture name="polygonevent0030" x="500" y="602" width="489" height="593" frameX="-9" frameY="-10" frameWidth="532" frameHeight="603"/>
+	<SubTexture name="polygonevent0031" x="500" y="602" width="489" height="593" frameX="-9" frameY="-10" frameWidth="532" frameHeight="603"/>
+	<SubTexture name="polygonevent0032" x="500" y="602" width="489" height="593" frameX="-9" frameY="-10" frameWidth="532" frameHeight="603"/>
+	<SubTexture name="polygonevent0033" x="500" y="602" width="489" height="593" frameX="-9" frameY="-10" frameWidth="532" frameHeight="603"/>
+	<SubTexture name="polygonevent0034" x="500" y="602" width="489" height="593" frameX="-9" frameY="-10" frameWidth="532" frameHeight="603"/>
+	<SubTexture name="polygonevent0035" x="500" y="602" width="489" height="593" frameX="-9" frameY="-10" frameWidth="532" frameHeight="603"/>
+	<SubTexture name="polygonevent0036" x="500" y="602" width="489" height="593" frameX="-9" frameY="-10" frameWidth="532" frameHeight="603"/>
+	<SubTexture name="polygonevent0037" x="500" y="602" width="489" height="593" frameX="-9" frameY="-10" frameWidth="532" frameHeight="603"/>
+	<SubTexture name="polygonevent0038" x="500" y="602" width="489" height="593" frameX="-9" frameY="-10" frameWidth="532" frameHeight="603"/>
+	<SubTexture name="polygonevent0039" x="994" y="602" width="403" height="597" frameX="-63" frameY="-6" frameWidth="532" frameHeight="603"/>
+	<SubTexture name="polygonevent0040" x="994" y="602" width="403" height="597" frameX="-63" frameY="-6" frameWidth="532" frameHeight="603"/>
+	<SubTexture name="polygonevent0041" x="1402" y="602" width="370" height="603" frameX="-93" frameY="0" frameWidth="532" frameHeight="603"/>
+	<SubTexture name="polygonevent0042" x="1402" y="602" width="370" height="603" frameX="-93" frameY="0" frameWidth="532" frameHeight="603"/>
+	<SubTexture name="polygonevent0043" x="1777" y="602" width="363" height="597" frameX="-98" frameY="-6" frameWidth="532" frameHeight="603"/>
+	<SubTexture name="polygonevent0044" x="1777" y="602" width="363" height="597" frameX="-98" frameY="-6" frameWidth="532" frameHeight="603"/>
+	<SubTexture name="polygonevent0045" x="2145" y="602" width="362" height="597" frameX="-99" frameY="-6" frameWidth="532" frameHeight="603"/>
+	<SubTexture name="polygonevent0046" x="2145" y="602" width="362" height="597" frameX="-99" frameY="-6" frameWidth="532" frameHeight="603"/>
+	<SubTexture name="polygonevent0047" x="2145" y="602" width="362" height="597" frameX="-99" frameY="-6" frameWidth="532" frameHeight="603"/>
+	<SubTexture name="polygonevent0048" x="2145" y="602" width="362" height="597" frameX="-99" frameY="-6" frameWidth="532" frameHeight="603"/>
+	<SubTexture name="polygonevent0049" x="2145" y="602" width="362" height="597" frameX="-99" frameY="-6" frameWidth="532" frameHeight="603"/>
+	<SubTexture name="polygonevent0050" x="2145" y="602" width="362" height="597" frameX="-99" frameY="-6" frameWidth="532" frameHeight="603"/>
+	<SubTexture name="polygonevent0051" x="2145" y="602" width="362" height="597" frameX="-99" frameY="-6" frameWidth="532" frameHeight="603"/>
+	<SubTexture name="polygonevent0052" x="2145" y="602" width="362" height="597" frameX="-99" frameY="-6" frameWidth="532" frameHeight="603"/>
+	<SubTexture name="polygonevent0053" x="2145" y="602" width="362" height="597" frameX="-99" frameY="-6" frameWidth="532" frameHeight="603"/>
+	<SubTexture name="polygonevent0054" x="2145" y="602" width="362" height="597" frameX="-99" frameY="-6" frameWidth="532" frameHeight="603"/>
+	<SubTexture name="polygonevent0055" x="2145" y="602" width="362" height="597" frameX="-99" frameY="-6" frameWidth="532" frameHeight="603"/>
+	<SubTexture name="polygonevent0056" x="2145" y="602" width="362" height="597" frameX="-99" frameY="-6" frameWidth="532" frameHeight="603"/>
+</TextureAtlas>

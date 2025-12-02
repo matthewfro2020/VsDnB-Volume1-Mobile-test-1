@@ -1,0 +1,54 @@
+{
+   "version": "1.0.0",
+   "music": "scaryAmbience",
+   "fadeInTime": 1,
+   "fadeOutTime": 1,
+   "dialogue": [
+      {
+         "expression": "3d-scared",
+         "modifier": "setfont_code",
+         "side": "left",
+         "speaker": "dave",
+         "text": "polygonized_1",
+         "typeSpeed": 0.01
+      },
+      {
+         "expression": "3d-scared",
+         "side": "left",
+         "speaker": "dave",
+         "text": "polygonized_2",
+         "typeSpeed": 0.02
+      },
+      {
+         "expression": "3d-scared",
+         "modifier": "distort",
+         "side": "left",
+         "speaker": "dave",
+         "text": "polygonized_3",
+         "typeSpeed": 0.01
+      },
+      {
+         "expression": "3d-scared",
+         "modifier": "undistort",
+         "side": "left",
+         "speaker": "dave",
+         "text": "polygonized_4",
+         "typeSpeed": 0.01
+      },
+      {
+         "expression": "3d-scared",
+         "side": "left",
+         "speaker": "dave",
+         "text": "polygonized_5",
+         "typeSpeed": 0.01
+      },
+      {
+         "expression": "upset",
+         "modifier": "setfont_normal",
+         "side": "right",
+         "speaker": "bf",
+         "text": "polygonized_6",
+         "typeSpeed": 0.03
+      }
+   ]
+}

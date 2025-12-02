@@ -1,0 +1,22 @@
+class ExbungoCharacter extends Character 
+{
+	public function new()
+	{
+    	super('exbungo');
+	}
+
+	override function load()
+	{
+	    frames = Paths.getSparrowAtlas('characters/exbungo', 'shared');
+	
+	    animation.addByPrefix('idle', 'idle', 24, false);
+	    animation.addByPrefix('singUP', 'up', 24, false);
+	    animation.addByPrefix('singLEFT', 'left', 24, false);
+	    animation.addByPrefix('singRIGHT', 'right', 24, false);
+	    animation.addByPrefix('singDOWN', 'down', 24, false);
+
+	    skins.set('noteSkin', '3d');
+
+	    playAnim('idle');
+	}
+}

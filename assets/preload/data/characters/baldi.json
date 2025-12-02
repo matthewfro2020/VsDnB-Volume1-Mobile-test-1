@@ -1,0 +1,19 @@
+{
+   "version": "1.0.0",
+   "name": "Baldi",
+   "scale": 1,
+   "danceSnap": 2,
+   "globalOffset": [60, 103],
+   "cameraOffsets": [0, -150],
+   "offsetFilePlayer": "baldi",
+   "offsetFileOpponent": "baldi",
+   "icon": "baldi",
+   "singDuration": 4,
+   "color": "0x0EAE2C",
+   "flipX": false,
+   "antialiasing": true,
+   "countdownData": {
+      "graphicPath": "normal",
+      "soundPath": "baldi"
+   }
+}

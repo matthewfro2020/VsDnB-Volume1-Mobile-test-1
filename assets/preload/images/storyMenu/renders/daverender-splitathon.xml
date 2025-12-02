@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="daverender-splitathon.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="davesplitathon0000" x="5" y="5" width="505" height="366"/>
+	<SubTexture name="davesplitathon0001" x="5" y="5" width="505" height="366"/>
+	<SubTexture name="davesplitathon0002" x="5" y="5" width="505" height="366"/>
+	<SubTexture name="davesplitathon0003" x="5" y="5" width="505" height="366"/>
+	<SubTexture name="davesplitathon0004" x="515" y="5" width="504" height="366" frameX="-1" frameY="0" frameWidth="505" frameHeight="366"/>
+	<SubTexture name="davesplitathon0005" x="515" y="5" width="504" height="366" frameX="-1" frameY="0" frameWidth="505" frameHeight="366"/>
+	<SubTexture name="davesplitathon0006" x="515" y="5" width="504" height="366" frameX="-1" frameY="0" frameWidth="505" frameHeight="366"/>
+	<SubTexture name="davesplitathon0007" x="515" y="5" width="504" height="366" frameX="-1" frameY="0" frameWidth="505" frameHeight="366"/>
+</TextureAtlas>

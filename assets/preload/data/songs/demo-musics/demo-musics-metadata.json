@@ -1,0 +1,21 @@
+{
+   "version": "2.0.0",
+   "songName": "Demo Musics",
+   "composers": ["meltingRED3"],
+   "artists": ["meltingRED3"],
+   "charters": ["MoldyGangstaHero"],
+   "coders": ["MoldyGangstaHero"],
+   "variations": [],
+   "stage": "gf",
+   "player": "bf",
+   "opponent": "alex",
+   "gf": "gf",
+   "timeChanges": [
+      {
+         "time": 0,
+         "bpm": 130,
+         "numerator": 4,
+         "denominator": 4
+      }
+   ]
+}

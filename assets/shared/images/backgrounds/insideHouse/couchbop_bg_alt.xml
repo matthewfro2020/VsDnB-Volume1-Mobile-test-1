@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="couchbop_bg_alt.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="couchbopalt0000" x="5" y="5" width="871" height="576"/>
+	<SubTexture name="couchbopalt0001" x="5" y="5" width="871" height="576"/>
+	<SubTexture name="couchbopalt0002" x="881" y="5" width="871" height="576"/>
+	<SubTexture name="couchbopalt0003" x="881" y="5" width="871" height="576"/>
+	<SubTexture name="couchbopalt0004" x="5" y="586" width="871" height="576"/>
+	<SubTexture name="couchbopalt0005" x="5" y="586" width="871" height="576"/>
+	<SubTexture name="couchbopalt0006" x="881" y="586" width="871" height="576"/>
+	<SubTexture name="couchbopalt0007" x="881" y="586" width="871" height="576"/>
+	<SubTexture name="couchbopalt0008" x="881" y="5" width="871" height="576"/>
+	<SubTexture name="couchbopalt0009" x="881" y="5" width="871" height="576"/>
+	<SubTexture name="couchbopalt0010" x="5" y="1167" width="871" height="576"/>
+	<SubTexture name="couchbopalt0011" x="5" y="1167" width="871" height="576"/>
+	<SubTexture name="couchbopalt0012" x="881" y="5" width="871" height="576"/>
+	<SubTexture name="couchbopalt0013" x="881" y="5" width="871" height="576"/>
+</TextureAtlas>

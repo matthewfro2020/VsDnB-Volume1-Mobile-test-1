@@ -1,0 +1,109 @@
+{
+   "dependencies": [
+      {
+         "name": "flixel",
+         "type": "haxelib",
+         "version": "6.1.0"
+      },
+      {
+         "name": "flixel-addons",
+         "type": "haxelib",
+         "version": "3.3.2"
+      },
+      {
+         "name": "flixel-ui",
+         "type": "haxelib",
+         "version": "2.6.4"
+      },
+      {
+         "name": "openfl",
+         "type": "haxelib",
+         "version": "9.4.1"
+      },
+      {
+         "name": "lime",
+         "type": "haxelib",
+         "version": "8.2.2"
+      },
+
+      {
+         "name": "hxvlc",
+         "type": "haxelib",
+         "version": "2.2.2"
+      },
+      {
+         "name": "hxdiscord_rpc",
+         "type": "haxelib",
+         "version": "1.3.0"
+      },
+      {
+         "name": "hxcpp",
+         "type": "haxelib",
+         "version": "4.3.2"
+      },
+      {
+         "name": "grig.audio",
+         "type": "git",
+         "dir": "src",
+         "ref": "main",
+         "url": "https://gitlab.com/haxe-grig/grig.audio.git"
+      },
+      {
+         "name": "funkin.vis",
+         "type": "git",
+         "dir": null,
+         "ref": "main",
+         "url": "https://github.com/T5mpler/funkVis-dnb.git"
+      },
+      {
+         "name": "flxanimate",
+         "type": "git",
+         "dir": null,
+         "ref": "b8970d2e4d875c743abe28e356a15413b1774d94",
+         "url": "https://github.com/Dot-Stuff/flxanimate.git"
+      },
+      {
+         "name": "hscript",
+         "type": "git",
+         "dir": null,
+         "ref": "dfa1f291224942a585e412fd0a2d3b14e1370980",
+         "url": "https://github.com/T5mpler/hscript-dnb.git"
+      },
+      {
+         "name": "polymod",
+         "type": "git",
+         "dir": null,
+         "ref": "experimental",
+         "url": "https://github.com/T5mpler/polymod-dnb.git"
+      },
+      {
+         "name": "json2object",
+         "type": "git",
+         "dir": null,
+         "ref": "a8c26f18463c98da32f744c214fe02273e1823fa",
+         "url": "https://github.com/FunkinCrew/json2object"
+      },
+
+      {
+         "name": "thx.core",
+         "type": "git",
+         "dir": null,
+         "ref": "master",
+         "url": "https://github.com/fponticelli/thx.core.git"
+      },
+      {
+         "name": "jsonpatch",
+         "type": "git",
+         "dir": null,
+         "ref": "f9b83215acd586dc28754b4ae7f69d4c06c3b4d3",
+         "url": "https://github.com/EliteMasterEric/jsonpatch"
+      },
+      {
+         "name": "jsonpath",
+         "type": "git",
+         "dir": null,
+         "ref": "7a24193717b36393458c15c0435bb7c4470ecdda",
+         "url": "https://github.com/EliteMasterEric/jsonpath"
+      }
+   ]
+}

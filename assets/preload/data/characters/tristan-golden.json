@@ -1,0 +1,20 @@
+{
+   "version": "1.0.0",
+   "name": "Tristan Golden",
+   "scale": 1,
+   "danceSnap": 2,
+   "globalOffset": [40, -58],
+   "cameraOffsets": [0, -100],
+   "offsetFilePlayer": "tristan-golden",
+   "offsetFileOpponent": "tristan-golden-flipped",
+   "icon": "tristan-golden",
+   "singDuration": 4,
+   "color": "0xFFDE00",
+   "flipX": true,
+   "nativelyPlayable": true,
+   "antialiasing": true,
+   "countdownData": {
+      "graphicPath": "normal",
+      "soundPath": "default"
+   }
+}

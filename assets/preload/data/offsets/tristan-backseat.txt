@@ -1,0 +1,14 @@
+scared 99 23
+scared2 5 5
+scared-idle 28 17
+singDOWN 10 6
+danceRight 0 0
+singRIGHTmiss 2 2
+singUP -3 13
+danceLeft 0 0
+singLEFTmiss 5 0
+idle 0 0
+singRIGHT 3 8
+singDOWNmiss 10 -5
+singLEFT 1 0
+singUPmiss -1 12

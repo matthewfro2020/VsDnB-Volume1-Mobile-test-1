@@ -1,0 +1,51 @@
+{
+   "version": "2.0.0",
+   "subtitles": [
+      {
+         "key": "subtitles_blocked_1",
+         "time": 10.2127659574468
+      },
+      {
+         "key": "subtitles_blocked_2",
+         "time": 13.1648936170213
+      },
+      {
+         "key": "subtitles_blocked_3",
+         "time": 15.0
+      },
+      {
+         "key": "subtitles_blocked_4",
+         "time": 17.8723404255319
+      },
+      {
+         "subtitleSize": 60,
+         "key": "subtitles_blocked_5",
+         "time": 19.7872340425532
+      },
+      {
+         "key": "subtitles_blocked_6",
+         "time": 82.0212765957447
+      },
+      {
+         "key": "subtitles_blocked_7",
+         "time": 84.2553191489362
+      },
+      {
+         "key": "subtitles_blocked_8",
+         "time": 86.4893617021277
+      },
+      {
+         "key": "subtitles_blocked_9",
+         "time": 88.0851063829787
+      },
+      {
+         "key": "subtitles_blocked_10",
+         "time": 89.2021276595745
+      },
+      {
+         "subtitleSize": 45,
+         "key": "subtitles_blocked_11",
+         "time": 91.1968085106383
+      }
+   ]
+}

@@ -1,0 +1,24 @@
+package assets.preload.scripts.modules;
+
+class JokeBambiWindowModule extends Module
+{
+    public function new()
+    {
+        super('jokeBambiModule');
+    }
+
+    var banbiWindowNames:Array<String> = ['when you realize you have school this monday', 'industrial society and its future', 'my ears burn', 'i got that weed card', 'my ass itch', 'bruh', 'alright instagram its shoutout time'];
+    var songs:Array<String> = ['supernovae', 'glitch', 'master'];
+    
+    override function onCreatePost(event:ScriptEvent)
+    {
+        if (songs.contains(PlayState.instance.currentSong.id.toLowerCase())) {
+            FlxG.stage.application.window.title = banbiWindowNames[FlxG.random.int(0, banbiWindowNames.length - 1)];
+        }
+    }
+
+    function onSongEnd(event:SongScriptEvent)
+    {
+        FlxG.stage.application.window.title = Main.applicationName;
+    }
+}

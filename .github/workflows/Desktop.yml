@@ -1,0 +1,123 @@
+name: Desktop Builds
+
+on:
+  push:
+    tags:
+      - "v*.*.*"     # ← Release builds only when a version tag is pushed
+    branches:
+      - main          # allow dev builds on main
+  workflow_dispatch:
+
+jobs:
+  Build-Desktop:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [windows-latest, ubuntu-latest, macos-latest]
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0     # Required for Git tags
+
+      - name: Determine Version
+        id: ver
+        shell: bash
+        run: |
+          if git describe --tags --exact-match >/dev/null 2>&1; then
+            TAG=$(git describe --tags --exact-match)
+            echo "version=$TAG" >> $GITHUB_OUTPUT
+          else
+            VERSION=dev-$(date +'%Y%m%d-%H%M')
+            echo "version=$VERSION" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Install Haxe
+        uses: krdlab/setup-haxe@master
+        with:
+          haxe-version: 4.3.6
+
+      # Linux VLC (required for hxvlc)
+      - name: Install VLC (Linux)
+        if: startsWith(matrix.os, 'ubuntu')
+        run: |
+          sudo apt update
+          sudo apt install -y libvlc-dev libvlccore-dev
+
+      - name: Install Haxelib Dependencies
+        run: |
+          haxelib install hxcpp
+          haxelib install lime
+          haxelib install openfl
+          haxelib install flixel
+          haxelib install flixel-ui
+          haxelib install flixel-addons
+          haxelib install flxanimate
+          haxelib install json2object
+          haxelib install polymod
+          haxelib install hscript
+          haxelib install hxvlc
+          haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
+          haxelib install hmm
+          haxelib run hmm install
+
+      # ------------------------ #
+      #        BUILD JOBS        #
+      # ------------------------ #
+
+      - name: Build Windows
+        if: startsWith(matrix.os, 'windows')
+        run: haxelib run lime build windows -D officialBuild
+
+      - name: Build Linux
+        if: startsWith(matrix.os, 'ubuntu')
+        run: haxelib run lime build linux -D officialBuild
+
+      - name: Build macOS
+        if: startsWith(matrix.os, 'macos')
+        run: haxelib run lime build mac -D officialBuild
+
+      # ------------------------ #
+      #     ZIP OUTPUT BUILDS    #
+      # ------------------------ #
+
+      - name: Zip Desktop Build
+        run: |
+          mkdir -p build
+          zip -r build/desktop-${{ steps.ver.outputs.version }}-${{ matrix.os }}.zip export/release/*/*
+
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: desktop-${{ matrix.os }}
+          path: build/*.zip
+
+  # -------------------------------------------------------------
+  #                   AUTOMATIC RELEASE JOB
+  # -------------------------------------------------------------
+  Release:
+    # Only run when a tag push triggers the workflow
+    if: startsWith(github.ref, 'refs/tags/')
+    needs: Build-Desktop
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download Artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: release
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ github.ref_name }}
+          name: "VsDave ${{ github.ref_name }}"
+          body: |
+            🎉 **Automated Desktop Release**
+            Built from commit `${{ github.sha }}`
+
+          files: |
+            release/**/*.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

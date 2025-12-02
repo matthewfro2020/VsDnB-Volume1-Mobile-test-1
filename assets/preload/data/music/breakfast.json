@@ -1,0 +1,15 @@
+{
+   "version": "1.0.0",
+   "name": "Pause Theme",
+   "musicPath": "breakfast",
+   "composers": ["MoldyGangstaHero"],
+   "variations": [],
+   "timeChanges": [
+      {
+         "time": 0,
+         "bpm": 130,
+         "numerator": 4,
+         "denominator": 4
+      }
+   ]
+}

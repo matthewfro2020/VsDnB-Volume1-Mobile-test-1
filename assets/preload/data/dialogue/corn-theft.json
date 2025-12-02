@@ -1,0 +1,220 @@
+{
+   "version": "1.0.0",
+   "music": "DaveDialogue",
+   "fadeInTime": 1,
+   "fadeOutTime": 1,
+   "dialogue": [
+      {
+         "side": "right",
+         "speaker": "generic",
+         "text": "corn_theft_1",
+         "typeSpeed": 0.02
+      },
+      {
+         "expression": "annoyed",
+         "side": "left",
+         "speaker": "bambi",
+         "text": "corn_theft_2",
+         "typeSpeed": 0.02
+      },
+      {
+         "expression": "phone",
+         "side": "left",
+         "speaker": "dave",
+         "text": "corn_theft_3",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "angry",
+         "side": "left",
+         "speaker": "bambi",
+         "text": "corn_theft_4",
+         "typeSpeed": 0.03
+      },
+      {
+         "expression": "phone",
+         "side": "left",
+         "speaker": "dave",
+         "text": "corn_theft_5",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "bewildered",
+         "side": "left",
+         "speaker": "bambi",
+         "text": "corn_theft_6",
+         "typeSpeed": 0.05
+      },
+      {
+         "expression": "phonec",
+         "side": "left",
+         "speaker": "dave",
+         "text": "corn_theft_7",
+         "typeSpeed": 0.02
+      },
+      {
+         "expression": "phone",
+         "side": "left",
+         "speaker": "dave",
+         "text": "corn_theft_8",
+         "typeSpeed": 0.03
+      },
+      {
+         "expression": "bewildered",
+         "side": "left",
+         "speaker": "bambi",
+         "text": "corn_theft_9",
+         "typeSpeed": 0.02
+      },
+      {
+         "expression": "phoneb",
+         "side": "left",
+         "speaker": "dave",
+         "text": "corn_theft_10",
+         "typeSpeed": 0.03
+      },
+      {
+         "side": "left",
+         "speaker": "bambi",
+         "text": "corn_theft_11",
+         "typeSpeed": 0.03
+      },
+      {
+         "expression": "phoneb",
+         "side": "left",
+         "speaker": "dave",
+         "text": "corn_theft_12",
+         "typeSpeed": 0.03
+      },
+      {
+         "expression": "annoyed",
+         "side": "left",
+         "speaker": "bambi",
+         "text": "corn_theft_13",
+         "typeSpeed": 0.04
+      },
+      {
+         "side": "left",
+         "speaker": "bambi",
+         "text": "corn_theft_14",
+         "typeSpeed": 0.03
+      },
+      {
+         "expression": "phone",
+         "side": "left",
+         "speaker": "dave",
+         "text": "corn_theft_15",
+         "typeSpeed": 0.03
+      },
+      {
+         "side": "right",
+         "speaker": "generic",
+         "text": "corn_theft_16",
+         "typeSpeed": 0.02
+      },
+      {
+         "expression": "annoyed",
+         "side": "left",
+         "speaker": "bambi",
+         "text": "corn_theft_17",
+         "typeSpeed": 0.03
+      },
+      {
+         "expression": "angry",
+         "side": "left",
+         "speaker": "bambi",
+         "text": "corn_theft_18",
+         "typeSpeed": 0.02
+      },
+      {
+         "expression": "confused",
+         "side": "right",
+         "speaker": "gf",
+         "text": "corn_theft_19",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "bewildered",
+         "side": "left",
+         "speaker": "bambi",
+         "text": "corn_theft_20",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "normal",
+         "side": "right",
+         "speaker": "gf",
+         "text": "corn_theft_21",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "bewildered",
+         "side": "left",
+         "speaker": "bambi",
+         "text": "corn_theft_22",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "what",
+         "side": "right",
+         "speaker": "gf",
+         "text": "corn_theft_23",
+         "typeSpeed": 0.03
+      },
+      {
+         "expression": "confused",
+         "side": "right",
+         "speaker": "gf",
+         "text": "corn_theft_24",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "upset",
+         "side": "left",
+         "speaker": "bambi",
+         "text": "corn_theft_25",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "normal",
+         "side": "right",
+         "speaker": "gf",
+         "text": "corn_theft_26",
+         "typeSpeed": 0.04
+      },
+      {
+         "side": "left",
+         "speaker": "bambi",
+         "text": "corn_theft_27",
+         "typeSpeed": 0.03
+      },
+      {
+         "expression": "confused",
+         "side": "right",
+         "speaker": "gf",
+         "text": "corn_theft_28",
+         "typeSpeed": 0.03
+      },
+      {
+         "expression": "annoyed",
+         "side": "left",
+         "speaker": "bambi",
+         "text": "corn_theft_29",
+         "typeSpeed": 0.05
+      },
+      {
+         "expression": "what",
+         "side": "right",
+         "speaker": "gf",
+         "text": "corn_theft_30",
+         "typeSpeed": 0.04
+      },
+      {
+         "expression": "confused",
+         "side": "right",
+         "speaker": "bf",
+         "text": "corn_theft_31",
+         "typeSpeed": 0.04
+      }
+   ]
+}

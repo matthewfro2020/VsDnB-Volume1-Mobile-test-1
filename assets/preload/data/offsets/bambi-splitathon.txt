@@ -1,0 +1,13 @@
+confusedToIdle -36 0
+singDOWN -39 -23
+singRIGHT-alt -95 4
+idle-corn -34 7
+singUP -24 42
+umWhatIsHappening -32 1
+singLEFT-alt 58 -5
+idle-confused -36 0
+yummyCornLol -29 7
+idle 0 0
+singRIGHT -90 3
+singSmash 143 92
+singLEFT 42 -7

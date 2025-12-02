@@ -1,0 +1,61 @@
+class BambiFarmStage extends Stage
+{
+    public function new()
+    {
+        super('farm');    
+    }
+
+    override function load():Void
+    {
+        var bagType:String = FlxG.random.int(0, 1000) == 0 ? 'popeye' : 'cornbag';
+		
+        var bg:BGSprite = new BGSprite('bg', -600, -200, Paths.image('backgrounds/shared/sky'), null, 0.3, 0.3);
+        bg.zIndex = 0;
+        add(bg);
+        
+        var flatgrass:BGSprite = new BGSprite('flatgrass', 350, 55, Paths.image('backgrounds/farm/gm_flatgrass'), null, 0.55, 0.55);
+        flatgrass.setGraphicSize(Std.int(flatgrass.width * 0.34));
+        flatgrass.updateHitbox();
+        flatgrass.zIndex = 10;
+        add(flatgrass);
+
+        var hills:BGSprite = new BGSprite('hills', -473, 100, Paths.image('backgrounds/farm/orangey hills'), null, 0.65, 0.65);
+        hills.zIndex = 20;
+        add(hills);
+
+        var farmHouse:BGSprite = new BGSprite('farmHouse', 100, 125, Paths.image('backgrounds/farm/funfarmhouse', 'shared'), null, 0.7, 0.7);
+        farmHouse.setGraphicSize(Std.int(farmHouse.width * 0.9));
+        farmHouse.updateHitbox();
+        farmHouse.zIndex = 30;
+        add(farmHouse);
+        
+        var grassLand:BGSprite = new BGSprite('grassLand', -600, 500, Paths.image('backgrounds/farm/grass lands', 'shared'), null);
+        grassLand.zIndex = 40;
+        add(grassLand);
+
+        var cornFence:BGSprite = new BGSprite('cornFence', -700, 200, Paths.image('backgrounds/farm/cornFence', 'shared'), null);
+        cornFence.zIndex = 50;
+        add(cornFence);
+
+        var cornFence2:BGSprite = new BGSprite('cornFence2', 1100, 250, Paths.image('backgrounds/farm/cornFence2', 'shared'), null);
+        cornFence2.zIndex = 60;
+        add(cornFence2);
+
+        var cornBag:BGSprite = new BGSprite('cornBag', 1200, 550, Paths.image('backgrounds/farm/' + bagType, 'shared'), null);
+        cornBag.zIndex = 70;
+        add(cornBag);
+
+        var sign:BGSprite = new BGSprite('sign', 0, 350, Paths.image('backgrounds/farm/sign', 'shared'), null);
+        sign.zIndex = 80;
+        add(sign);
+    }
+
+    override function onCreateUI():Void
+    {
+        if (PlayState.instance.ratings != null)
+        {
+            PlayState.instance.ratings.x += 150;
+            PlayState.instance.ratings.y += 250;
+        }
+    }
+}

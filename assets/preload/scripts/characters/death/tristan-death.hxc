@@ -1,0 +1,25 @@
+class TristanDeathCharacter extends Character 
+{
+	public function new()
+	{
+    	super('tristan-death');
+	}
+
+	override function onCreate(e:ScriptEvent)
+	{
+		super.onCreate(e);
+		
+		GameOverSubstate.deathSuffix = '-tristan';
+	}
+
+	override function load()
+	{
+	    frames = Paths.getSparrowAtlas('characters/tristan/Tristan_Dead', 'shared');
+	
+	    animation.addByPrefix('firstDeath', "tristangameoverstart", 24, false);
+	    animation.addByPrefix('deathLoop', "tristangameoverloop", 24, true);
+	    animation.addByPrefix('deathConfirm', "tristangameoverend", 24, false);
+
+	    playAnim('firstDeath');
+	}
+}

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="character_davidjanett.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="character_davidjanett0000" x="5" y="5" width="220" height="191" frameX="0" frameY="0" frameWidth="221" frameHeight="191"/>
+	<SubTexture name="character_davidjanett0001" x="5" y="5" width="220" height="191" frameX="0" frameY="0" frameWidth="221" frameHeight="191"/>
+	<SubTexture name="character_davidjanett0002" x="5" y="5" width="220" height="191" frameX="0" frameY="0" frameWidth="221" frameHeight="191"/>
+	<SubTexture name="character_davidjanett0003" x="5" y="5" width="220" height="191" frameX="0" frameY="0" frameWidth="221" frameHeight="191"/>
+	<SubTexture name="character_davidjanett0004" x="230" y="5" width="221" height="191"/>
+	<SubTexture name="character_davidjanett0005" x="230" y="5" width="221" height="191"/>
+	<SubTexture name="character_davidjanett0006" x="230" y="5" width="221" height="191"/>
+	<SubTexture name="character_davidjanett0007" x="230" y="5" width="221" height="191"/>
+</TextureAtlas>

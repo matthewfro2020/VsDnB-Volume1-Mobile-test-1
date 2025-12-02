@@ -1,0 +1,19 @@
+{
+   "version": "1.0.0",
+   "name": "Tristan Gf",
+   "scale": 1,
+   "danceSnap": 2,
+   "globalOffset": [-24, 301],
+   "cameraOffsets": [0, 0],
+   "offsetFilePlayer": "tristan-gf",
+   "offsetFileOpponent": "tristan-gf",
+   "icon": "tristan-gf",
+   "singDuration": 4,
+   "color": "0x33DE39",
+   "flipX": false,
+   "antialiasing": true,
+   "countdownData": {
+      "graphicPath": "normal",
+      "soundPath": "default"
+   }
+}

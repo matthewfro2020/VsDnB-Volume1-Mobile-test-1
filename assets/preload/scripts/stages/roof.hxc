@@ -1,0 +1,36 @@
+class RoofStage extends Stage
+{
+    public function new()
+    {
+        super('roof');
+    }
+    
+    override function load():Void
+    {
+        var sky:BGSprite = new BGSprite('sky', -355, -170, Paths.image('backgrounds/roofs/gmsky', 'shared'), null, 0.7, 0.7, true);
+        sky.setGraphicSize(Std.int(sky.width * 2));
+        sky.antialiasing = false;
+        sky.zIndex = 0;
+        add(sky);
+        
+        var trees:BGSprite = new BGSprite('trees', -355, -170, Paths.image('backgrounds/roofs/backtrees', 'shared'), null, 0.8, 0.8, true);
+        trees.setGraphicSize(Std.int(trees.width * 1.5));
+        trees.antialiasing = false;
+        trees.zIndex = 1;
+        add(trees);
+
+        var roof:BGSprite = new BGSprite('roof', -216, 381, Paths.image('backgrounds/roofs/gm_house5', 'shared'), null, 1, 1, true);
+        roof.setGraphicSize(Std.int(roof.width * 1.5));
+        roof.antialiasing = false;
+        roof.zIndex = 2;
+        add(roof);
+    }
+
+    override function onCreateUI():Void
+    {
+        if (PlayState.instance.ratings != null)
+        {
+            PlayState.instance.ratings.x += 350;
+        }
+    }
+}

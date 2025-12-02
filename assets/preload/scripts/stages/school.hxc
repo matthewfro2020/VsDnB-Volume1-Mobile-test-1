@@ -1,0 +1,89 @@
+class AdventureSchoolStage extends Stage
+{
+    var spike:BGSprite;
+    var tighthead:BGSprite;
+
+    var bullyBoy:BGSprite;
+    
+    var kevin:BGSprite;
+    var ezekiel:BGSprite;
+    
+    public function new()
+    {
+        super('school');
+    }
+
+    public override function load():Void
+    {
+        PlayState.instance.gfOverride = 'gf-none';
+        
+        var school:BGSprite = new BGSprite('school', -650, -420, Paths.image('backgrounds/adventure/school/bgschool'), null, 1, 1);
+        school.zIndex = 0;
+        add(school);
+        
+        spike = new BGSprite('spike', 711.7, 396.15, 'backgrounds/adventure/school/character_spike', 
+        [
+            {name: 'idle', prefix: 'spikebro'}
+        ]);
+        spike.active = true;
+        spike.animation.play('idle');
+        spike.zIndex = 1;
+        add(spike);
+        
+        tighthead = new BGSprite('tighthead', 1621, 522, 'backgrounds/adventure/school/character_tighthead', 
+        [
+            {name: 'idle', prefix: 'TightHead', loop: true}
+        ]);
+        tighthead.active = true;
+        tighthead.animation.play('idle');
+        tighthead.zIndex = 2;
+        add(tighthead);
+
+        bullyBoy = new BGSprite('bullyBoy', 843, 285, 'backgrounds/adventure/school/character_bullyboy', 
+        [
+            {name: 'mad', prefix: 'bullyboymad', loop: true}
+        ]);
+        bullyBoy.active = true;
+        bullyBoy.animation.play('mad');
+        bullyBoy.alpha = 0.001;
+        bullyBoy.zIndex = 3;
+        add(bullyBoy);
+
+        kevin = new BGSprite('kevin', 54, 579, 'backgrounds/adventure/school/character_kevin', 
+        [
+            {name: 'idle', prefix: 'kevin'}
+        ]);
+        kevin.active = true;
+        kevin.zIndex = 10;
+        kevin.animation.play('idle');
+        add(kevin);
+        
+        ezekiel = new BGSprite('ezekiel', 1939, 575, 'backgrounds/adventure/school/character_ezekiel', 
+        [
+            {name: 'idle', prefix: 'ezekielbg', loop: true}
+        ]);
+        ezekiel.active = true;
+        ezekiel.scale.set(2, 2);
+        ezekiel.updateHitbox();
+        ezekiel.animation.play('idle');
+        ezekiel.zIndex = 11;
+        add(ezekiel);
+    }
+
+    override function onBeatHit(e:ConductorScriptEvent)
+    {
+        if (e.beat % 2 == 0)
+        {
+            spike.animation.play('idle', true);
+            kevin.animation.play('idle', true);
+        }
+    }
+
+    function playBullyboySlide()
+    {
+        bullyBoy.visible = true;
+        bullyBoy.alpha = 0.001;
+
+        FlxTween.tween(bullyBoy, {alpha: 1}, 0.5);
+    }
+}

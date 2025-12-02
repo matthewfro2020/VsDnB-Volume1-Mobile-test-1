@@ -1,0 +1,20 @@
+{
+   "version": "1.0.0",
+   "name": "Boyfriend (3D)",
+   "scale": 1,
+   "danceSnap": 2,
+   "globalOffset": [-81, -163],
+   "cameraOffsets": [25, -50],
+   "offsetFilePlayer": "bf-3d",
+   "offsetFileOpponent": "bf-3d-flipped",
+   "icon": "bf-3d",
+   "singDuration": 4,
+   "color": "0x31B0D1",
+   "nativelyPlayable": true,
+   "flipX": true,
+   "antialiasing": false,
+   "countdownData": {
+      "graphicPath": "normal",
+      "soundPath": "default"
+   }
+}

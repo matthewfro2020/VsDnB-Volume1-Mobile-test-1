@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="character_juancarl.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="character_juancarl0000" x="5" y="5" width="520" height="355" frameX="0" frameY="-4" frameWidth="520" frameHeight="359"/>
+	<SubTexture name="character_juancarl0001" x="5" y="5" width="520" height="355" frameX="0" frameY="-4" frameWidth="520" frameHeight="359"/>
+	<SubTexture name="character_juancarl0002" x="5" y="5" width="520" height="355" frameX="0" frameY="-4" frameWidth="520" frameHeight="359"/>
+	<SubTexture name="character_juancarl0003" x="5" y="5" width="520" height="355" frameX="0" frameY="-4" frameWidth="520" frameHeight="359"/>
+	<SubTexture name="character_juancarl0004" x="5" y="5" width="520" height="355" frameX="0" frameY="-4" frameWidth="520" frameHeight="359"/>
+	<SubTexture name="character_juancarl0005" x="5" y="5" width="520" height="355" frameX="0" frameY="-4" frameWidth="520" frameHeight="359"/>
+	<SubTexture name="character_juancarl0006" x="5" y="5" width="520" height="355" frameX="0" frameY="-1" frameWidth="520" frameHeight="359"/>
+	<SubTexture name="character_juancarl0007" x="5" y="5" width="520" height="355" frameX="0" frameY="-1" frameWidth="520" frameHeight="359"/>
+	<SubTexture name="character_juancarl0008" x="5" y="5" width="520" height="355" frameX="0" frameY="-1" frameWidth="520" frameHeight="359"/>
+	<SubTexture name="character_juancarl0009" x="5" y="5" width="520" height="355" frameX="0" frameY="-1" frameWidth="520" frameHeight="359"/>
+	<SubTexture name="character_juancarl0010" x="530" y="5" width="520" height="355" frameX="0" frameY="0" frameWidth="520" frameHeight="359"/>
+	<SubTexture name="character_juancarl0011" x="530" y="5" width="520" height="355" frameX="0" frameY="0" frameWidth="520" frameHeight="359"/>
+	<SubTexture name="character_juancarl0012" x="5" y="5" width="520" height="355" frameX="0" frameY="-3" frameWidth="520" frameHeight="359"/>
+	<SubTexture name="character_juancarl0013" x="5" y="5" width="520" height="355" frameX="0" frameY="-3" frameWidth="520" frameHeight="359"/>
+</TextureAtlas>

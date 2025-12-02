@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="cornbag_splitathon.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="cornbag_tristan0000" x="5" y="5" width="342" height="394"/>
+	<SubTexture name="cornbag_tristan0001" x="5" y="5" width="342" height="394"/>
+	<SubTexture name="cornbag_tristan0002" x="352" y="5" width="342" height="394"/>
+	<SubTexture name="cornbag_tristan0003" x="352" y="5" width="342" height="394"/>
+</TextureAtlas>

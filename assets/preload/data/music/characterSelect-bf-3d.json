@@ -1,0 +1,15 @@
+{
+   "version": "1.0.0",
+   "name": "Character Select (3D BF Mix)",
+   "musicPath": "characterSelect/charSelect-bf-3d",
+   "composers": ["Rapparep"],
+   "variations": [],
+   "timeChanges": [
+      {
+         "time": 0,
+         "bpm": 110,
+         "numerator": 4,
+         "denominator": 4
+      }
+   ]
+}

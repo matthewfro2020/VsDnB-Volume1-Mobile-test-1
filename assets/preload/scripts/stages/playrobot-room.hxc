@@ -1,0 +1,22 @@
+class PlayrobotRoomStage extends Stage
+{
+    public function new()
+    {
+        super('playrobot-room');
+    }
+    
+    public override function load():Void
+    {
+        var room = new BGSprite('playrobot_room', -950, -500, Paths.image('backgrounds/playrobot/room/playrobot_room'));
+        add(room);
+    }
+    
+    override function onCreateUI():Void
+    {
+        if (PlayState.instance.ratings != null)
+        {
+            PlayState.instance.ratings.x += 150;
+            PlayState.instance.ratings.y += 250;
+        }
+    }
+}

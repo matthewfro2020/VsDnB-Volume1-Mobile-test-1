@@ -1,0 +1,17 @@
+class CornTheftDialogue extends Dialogue
+{
+    public function new()
+    {
+        super('corn-theft');
+    }
+
+    override function buildMusic():Void
+    {
+        if (FlxG.random.int(0, 50) == 50)
+        {
+            // Change the music path to the seeeecret song...
+            dialogueMusicPath = 'secret';
+        }
+        super.buildMusic();
+    }
+}

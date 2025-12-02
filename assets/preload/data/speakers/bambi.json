@@ -1,0 +1,78 @@
+{
+   "version": "1.0.0",
+   "name": "Bambi",
+   "globalOffsets": [80, 20],
+   "sounds": ["dialogue/bambDialogue1", "dialogue/bambDialogue2", "dialogue/bambDialogue3"],
+   "expressions": [
+      {
+         "assetPath": "bambi/bambi_annoyed",
+         "name": "annoyed",
+         "scale": 1
+      },
+      {
+         "assetPath": "bambi/bambi_upset",
+         "name": "upset",
+         "scale": 1
+      },
+      {
+         "assetPath": "bambi/bambi_upsetb",
+         "name": "upsetb",
+         "scale": 1
+      },
+      {
+         "assetPath": "bambi/bambi_angry",
+         "name": "angry",
+         "scale": 1
+      },
+      {
+         "assetPath": "bambi/bambi_angryb",
+         "name": "angryb",
+         "scale": 1
+      },
+      {
+         "assetPath": "bambi/bambi_splitathon",
+         "name": "splitathon",
+         "scale": 1
+      },
+      {
+         "assetPath": "bambi/bambi_bewildered",
+         "name": "bewildered",
+         "scale": 1
+      },
+      {
+         "assetPath": "bambi/bambi_bewilderedb",
+         "name": "bewilderedb",
+         "scale": 1
+      },
+      {
+         "assetPath": "bambi/bambi_sad",
+         "name": "sad",
+         "scale": 1
+      },
+      {
+         "assetPath": "bambi/bambi_surprised",
+         "name": "surprised",
+         "scale": 1
+      },
+      {
+         "assetPath": "bambi/bambi_think",
+         "name": "think",
+         "scale": 1
+      },
+      {
+         "assetPath": "bambi/bambi_bevel",
+         "name": "bevel",
+         "scale": 1
+      },
+      {
+         "assetPath": "bambi/bambi_bevel_mad",
+         "name": "bevelmad",
+         "scale": 1
+      },
+      {
+         "assetPath": "bambi/bambi_normal",
+         "name": "normal",
+         "scale": 1
+      }
+   ]
+}

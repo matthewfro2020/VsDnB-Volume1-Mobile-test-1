@@ -1,0 +1,3 @@
+sad -7 33
+idle 0 0
+cheer -2 30

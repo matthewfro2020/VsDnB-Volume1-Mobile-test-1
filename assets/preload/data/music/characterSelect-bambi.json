@@ -1,0 +1,15 @@
+{
+   "version": "1.0.0",
+   "name": "Character Select (Bambi Mix)",
+   "musicPath": "characterSelect/charSelect-bambi-new",
+   "composers": ["bubswest"],
+   "variations": [],
+   "timeChanges": [
+      {
+         "time": 0,
+         "bpm": 110,
+         "numerator": 4,
+         "denominator": 4
+      }
+   ]
+}

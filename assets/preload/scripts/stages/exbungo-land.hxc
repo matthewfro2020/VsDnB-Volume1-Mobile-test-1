@@ -1,0 +1,52 @@
+import flixel.addons.display.FlxBackdrop;
+
+class ExbungoLandStage extends Stage
+{
+    var place:BGSprite;
+    var skull:FlxBackdrop;
+
+    public function new()
+    {
+        super('exbungo-land');
+    }
+    
+    override function load():Void
+    {
+        var bg:BGSprite = new VoidBGSprite('bg', -320, -160, Paths.image('backgrounds/exbungo/Exbongo'));
+        bg.setGraphicSize(Std.int(bg.width * 1.5));
+        bg.zIndex = 0;
+        add(bg);
+        
+        var circle:BGSprite = new BGSprite('circle', -30, 550, Paths.image('backgrounds/exbungo/Circle'), null);
+        circle.zIndex = 1;
+        add(circle);
+        
+        place = new BGSprite('place', 860, -15, Paths.image('backgrounds/exbungo/Place'), null);
+        place.zIndex = 2;
+        add(place);
+
+        var hell = new BGSprite('hell', 0, 0, Paths.image('backgrounds/exbungo/HELL'), null, 0, 0);
+        hell.scale.set(1.5, 1.5);
+        hell.updateHitbox();
+        hell.screenCenter();
+        hell.zIndex = -2;
+        add(hell);
+        
+        skull = new FlxBackdrop(Paths.imagePath('backgrounds/exbungo/skull'));
+        skull.frames = Paths.getSparrowAtlas('backgrounds/exbungo/skull', 'shared');
+        skull.animation.addByPrefix('idle', 'moving', 24);
+        skull.animation.play('idle', true);
+        skull.scrollFactor.set();
+        skull.velocity.y = 200;
+        skull.alpha = 0.0001;
+        skull.zIndex = -1;
+        add(skull);
+    }
+
+    override function update(elapsed:Float)
+    {
+        super.update(elapsed);
+        
+        place.y -= (Math.sin(PlayState.instance.elapsedtime) * 0.4);
+    }
+}

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="daverender.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="davestuff0000" x="5" y="5" width="457" height="361"/>
+	<SubTexture name="davestuff0001" x="5" y="5" width="457" height="361"/>
+	<SubTexture name="davestuff0002" x="5" y="5" width="457" height="361"/>
+	<SubTexture name="davestuff0003" x="5" y="5" width="457" height="361"/>
+	<SubTexture name="davestuff0004" x="467" y="5" width="457" height="361"/>
+	<SubTexture name="davestuff0005" x="467" y="5" width="457" height="361"/>
+	<SubTexture name="davestuff0006" x="467" y="5" width="457" height="361"/>
+	<SubTexture name="davestuff0007" x="467" y="5" width="457" height="361"/>
+</TextureAtlas>

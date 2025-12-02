@@ -1,0 +1,19 @@
+{
+   "version": "1.0.0",
+   "name": "Bambi",
+   "scale": 1,
+   "danceSnap": 2,
+   "globalOffset": [37, 90],
+   "cameraOffsets": [0, -100],
+   "offsetFilePlayer": "bambi-new-playable",
+   "offsetFileOpponent": "bambi-new",
+   "icon": "bambi-new",
+   "singDuration": 4,
+   "color": "0x25BF37",
+   "flipX": false,
+   "antialiasing": true,
+   "countdownData": {
+      "graphicPath": "normal",
+      "soundPath": "bambi"
+   }
+}

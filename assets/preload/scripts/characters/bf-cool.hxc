@@ -1,0 +1,24 @@
+class BoyfriendCoolCharacter extends Character 
+{
+	public function new()
+	{
+    	super('bf-cool');
+	}
+
+	override function load()
+	{
+	    frames = Paths.getSparrowAtlas('characters/rapBattle/Cool_BF', 'shared');
+	
+	    animation.addByPrefix('idle', 'BFIdle', 24, false);
+	    for (anim in ['Left', 'Down', 'Up', 'Right'])
+	    {
+	        animation.addByPrefix('sing' + anim.toUpperCase(), 'BF' + anim, 24, false);
+	        animation.addByPrefix('sing' + anim.toUpperCase() + 'miss', 'Dead', 24, false);
+	    }
+
+	    skins.set('gfSkin', 'gf-cool');
+	    skins.set('3d', 'bf-3d');
+
+	    playAnim('idle');
+	}
+}

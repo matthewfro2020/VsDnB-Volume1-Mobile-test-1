@@ -1,0 +1,22 @@
+class DaveAnnoyedCharacter extends Character
+{
+    public function new()
+    {
+        super('dave-annoyed');
+    }
+    
+    override function load():Void
+    {
+        frames = Paths.getSparrowAtlas('characters/dave/Dave_insanity_lol', 'shared');
+        
+        animation.addByPrefix('idle', 'idle', 24, false);
+        for (anim in ['left', 'down', 'up', 'right']) {
+            animation.addByPrefix('sing' + anim.toUpperCase(), anim, 24, false);
+        }
+        animation.addByPrefix('um', 'event1', 24, true);
+        animation.addByPrefix('scared', 'event20', 24, false);
+        animation.addByPrefix('scaredLoop', 'event2loop', 24, true);
+
+        playAnim('idle');
+    }
+}
