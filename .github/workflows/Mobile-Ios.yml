@@ -38,7 +38,7 @@ jobs:
           haxelib install flixel-addons
           haxelib install flxanimate
           haxelib install json2object
-          haxelib git polymod https://github.com/FunkinCrew/polymod-fork.git
+          haxelib git polymod https://github.com/PabloelproxD210/Polymod.git
           haxelib git hscript https://github.com/T5mpler/hscript-dnb
           haxelib install hxvlc
           haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
@@ -46,7 +46,7 @@ jobs:
           haxelib run hmm install
 
       - name: Install Polymod
-        run: haxelib git polymod https://github.com/FunkinCrew/polymod-fork.git
+        run: haxelib git polymod https://github.com/PabloelproxD210/Polymod.git
 
       - name: Fix thx.core crash on iOS
         run: |
