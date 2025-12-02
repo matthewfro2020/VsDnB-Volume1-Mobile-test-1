@@ -13,7 +13,6 @@ import flixel.group.FlxSpriteGroup;
 import flixel.addons.text.FlxTypeText;
 import flixel.sound.FlxSound;
 import flixel.tweens.FlxTween;
-import flixel.util.FlxTimer;
 import flixel.math.FlxPoint;
 
 import scripting.events.ScriptEvent;
@@ -38,35 +37,36 @@ class Dialogue extends FlxSpriteGroup implements IDialogueScriptedClass implemen
     public final id:String;
     var _data:DialogueData;
 
-    final DEFAULT_DIALOGUE_SOUND:FlxSound = SoundController.load(Paths.sound('dialogue/pixelText'));
+    final DEFAULT_DIALOGUE_SOUND:FlxSound =
+        SoundController.load(Paths.sound('dialogue/pixelText'));
 
     var dialogueMusicPath:Null<String>;
 
     final boxOffsets:Map<String, FlxPoint> =
     [
         "normal" => FlxPoint.get(0, 0),
-        "none" => FlxPoint.get(0, -51)
+        "none"   => FlxPoint.get(0, -51)
     ];
 
     var dialogueList(get, never):Array<DialogueEntryData>;
-    inline function get_dialogueList():Array<DialogueEntryData>
+    inline function get_dialogueList()
         return _data?.dialogue ?? [];
 
     var state:DialogueState = Opening;
 
     var music:GameSound = null;
 
+    // ALL UI ELEMENTS MUST BE FlxZSprite
     var background:FlxZSprite;
     var dialogueBox:FlxZSprite;
+    var textHolder:FlxZSprite;
+    var textWrapper:FlxZSprite;
 
     var dialogueText:FlxTypeText;
-    var textHolder:FlxZSprite;
-
     var speaker:Speaker;
     var outroTween:FlxTween;
 
     public var onFinish:Void->Void;
-
     var currentDialogueLine:Int = 0;
 
     var currentDialogueEntry(get, never):DialogueEntryData;
@@ -74,13 +74,16 @@ class Dialogue extends FlxSpriteGroup implements IDialogueScriptedClass implemen
         return dialogueList[currentDialogueLine];
 
     var dialogueEntryCount(get, never):Int;
-    inline function get_dialogueEntryCount():Int
+    inline function get_dialogueEntryCount()
         return dialogueList.length - 1;
 
     public var isDialogueEnding(get, never):Bool;
     inline function get_isDialogueEnding()
         return outroTween != null;
 
+    // -------------------------
+    //  Constructor
+    // -------------------------
     public function new(id:String)
     {
         super();
@@ -88,6 +91,9 @@ class Dialogue extends FlxSpriteGroup implements IDialogueScriptedClass implemen
         _data = fetchData(id);
     }
 
+    // -------------------------
+    //  CREATE
+    // -------------------------
     public function onCreate(event:ScriptEvent):Void
     {
         currentDialogueLine = 0;
@@ -95,27 +101,27 @@ class Dialogue extends FlxSpriteGroup implements IDialogueScriptedClass implemen
 
         buildMusic();
         buildBackground();
-        createDialogueBox();
+        buildDialogueBox();
+        buildText();
 
         refresh();
     }
 
+    // -------------------------
+    //  UPDATE
+    // -------------------------
     public function onUpdate(event:UpdateScriptEvent):Void
     {
-        switch (state)
-        {
-            case Typing:
-                if (FlxG.keys.justPressed.ENTER)
-                    advanceDialogue();
+        if (state == Typing && FlxG.keys.justPressed.ENTER)
+            advanceDialogue();
 
-            case Idle:
-                if (FlxG.keys.justPressed.ENTER)
-                    advanceDialogue();
-
-            default:
-        }
+        if (state == Idle && FlxG.keys.justPressed.ENTER)
+            advanceDialogue();
     }
 
+    // -------------------------
+    //  DESTROY
+    // -------------------------
     public function onDestroy(event:ScriptEvent):Void
     {
         dispatchToChildren(event);
@@ -127,46 +133,24 @@ class Dialogue extends FlxSpriteGroup implements IDialogueScriptedClass implemen
             outroTween = null;
         }
 
-        if (music != null)
+        // Clean UI
+        for (obj in [background, dialogueBox, textHolder, textWrapper])
         {
-            SoundController.remove(music);
-            music.stop();
-            music = null;
-        }
-
-        if (speaker != null)
-            killSpeaker();
-
-        if (dialogueBox != null)
-        {
-            FlxTween.cancelTweensOf(dialogueBox);
-            dialogueBox.destroy();
-            remove(dialogueBox);
-            dialogueBox = null;
-        }
-
-        if (background != null)
-        {
-            FlxTween.cancelTweensOf(background);
-            background.destroy();
-            remove(background);
-            background = null;
+            if (obj != null)
+            {
+                remove(obj);
+                obj.destroy();
+            }
         }
 
         if (dialogueText != null)
-        {
             dialogueText.destroy();
-            dialogueText = null;
-        }
 
-        if (textHolder != null)
-        {
-            textHolder.destroy();
-            remove(textHolder);
-            textHolder = null;
-        }
+        // Speaker
+        if (speaker != null)
+            killSpeaker();
 
-        this.clear();
+        clear();
     }
 
     override function kill():Void
@@ -177,55 +161,49 @@ class Dialogue extends FlxSpriteGroup implements IDialogueScriptedClass implemen
         {
             outroTween.cancel();
             outroTween.destroy();
-            outroTween = null;
         }
     }
 
     public function refresh():Void
         sort(SortUtil.byZIndex);
 
+    // -------------------------
+    //  MUSIC
+    // -------------------------
     function buildMusic():Void
     {
-        if (dialogueMusicPath != null)
-        {
-            music = new GameSound().load(Paths.music(dialogueMusicPath));
-            music.looped = true;
-            SoundController.add(music);
+        if (dialogueMusicPath == null) return;
 
-            startMusicFadeIn();
-            music.play();
-        }
-    }
+        music = new GameSound().load(Paths.music(dialogueMusicPath));
+        music.looped = true;
+        SoundController.add(music);
 
-    function startMusicFadeIn():Void
-    {
         if (_data.fadeInTime > 0)
         {
             music.volume = 0;
             FlxTween.tween(music, {volume: 0.8}, _data.fadeInTime);
         }
+
+        music.play();
     }
 
-    function fadeOutMusic():Void
-    {
-        if (music != null && _data.fadeOutTime > 0)
-        {
-            FlxTween.cancelTweensOf(music);
-            FlxTween.tween(music, {volume: 0.0}, _data.fadeOutTime);
-        }
-    }
-
+    // -------------------------
+    //  BACKGROUND
+    // -------------------------
     function buildBackground():Void
     {
         background = new FlxZSprite().makeGraphic(1, 1, 0xFF8A9AF5);
         background.scale.set(FlxG.width * 2, FlxG.height * 2);
         background.scrollFactor.set();
-        background.alpha = 0.0;
+        background.alpha = 0;
         background.zIndex = 0;
         add(background);
     }
 
-    function createDialogueBox():Void
+    // -------------------------
+    //  DIALOGUE BOX
+    // -------------------------
+    function buildDialogueBox():Void
     {
         dialogueBox = new FlxZSprite(0, 325);
         dialogueBox.frames = Paths.getSparrowAtlas("ui/dialogue/speech_bubble_talking");
@@ -239,31 +217,34 @@ class Dialogue extends FlxSpriteGroup implements IDialogueScriptedClass implemen
         add(dialogueBox);
 
         playBoxAnimation("none");
-
-        buildText();
     }
 
-function buildText():Void
-{
-    textHolder = new FlxZSprite();
-    textHolder.zIndex = 30;
-    add(textHolder);
+    // -------------------------
+    //  TEXT
+    // -------------------------
+    function buildText():Void
+    {
+        textHolder = new FlxZSprite();
+        textHolder.zIndex = 30;
+        add(textHolder);
 
-    // Create a separate ZSprite container for dialogue text
-    var textWrapper = new FlxZSprite();
-    textWrapper.zIndex = 31; // ensure above bg + box
-    textHolder.add(textWrapper);
+        textWrapper = new FlxZSprite();
+        textWrapper.zIndex = 31;
 
-    dialogueText = new FlxTypeText(140, 425, Std.int(FlxG.width * 0.8), "", 32);
-    dialogueText.font = Paths.font('comic.ttf');
-    dialogueText.color = 0xFF000000;
-    dialogueText.antialiasing = true;
-    dialogueText.completeCallback = onTypingComplete;
+        textHolder.add(textWrapper);
 
-    // Add text INSIDE wrapper (FlxSpriteGroup)
-    textWrapper.add(dialogueText);
-}
+        dialogueText = new FlxTypeText(140, 425, Std.int(FlxG.width * 0.8), "", 32);
+        dialogueText.font = Paths.font("comic.ttf");
+        dialogueText.color = 0xFF000000;
+        dialogueText.antialiasing = true;
+        dialogueText.completeCallback = onTypingComplete;
 
+        textWrapper.add(dialogueText);
+    }
+
+    // -------------------------
+    //  BEGIN DIALOGUE
+    // -------------------------
     function beginDialogue():Void
     {
         FlxTween.tween(dialogueBox, {alpha: 1}, 1, {
@@ -273,182 +254,92 @@ function buildText():Void
             }
         });
 
-        FlxTween.tween(background, {alpha: 0.7}, 4.0);
+        FlxTween.tween(background, {alpha: 0.7}, 4);
     }
 
-    public function start():Void
-        dispatchEvent(new DialogueScriptEvent(DIALOGUE_START, this, false));
-
-    public function skipDialogue():Void
-        dispatchEvent(new DialogueScriptEvent(DIALOGUE_SKIP, this, true));
-
+    // -------------------------
+    //  ADVANCE DIALOGUE
+    // -------------------------
     function advanceDialogue():Void
     {
-        var event:DialogueScriptEvent = null;
-
-        switch (state)
+        var event:DialogueScriptEvent = switch (state)
         {
-            case Typing:
-                event = new DialogueScriptEvent(DIALOGUE_LINE_COMPLETE, this, true);
-            case Idle:
-                event = new DialogueScriptEvent(DIALOGUE_LINE, this, true);
-            case Ending:
-                event = new DialogueScriptEvent(DIALOGUE_END, this, false);
-            default:
-        }
+            case Typing: new DialogueScriptEvent(DIALOGUE_LINE_COMPLETE, this, true);
+            case Idle:   new DialogueScriptEvent(DIALOGUE_LINE, this, true);
+            case Ending: new DialogueScriptEvent(DIALOGUE_END, this, false);
+            default:     null;
+        };
 
         if (event != null)
             dispatchEvent(event);
     }
 
-    public function onDialogueStart(event:DialogueScriptEvent):Void
-    {
-        dispatchToChildren(event);
-
-        if (!event.eventCanceled)
-            beginDialogue();
-    }
-
-    public function onDialogueLine(event:DialogueScriptEvent):Void
-    {
-        dispatchToChildren(event);
-
-        currentDialogueLine++;
-
-        state = Typing;
-
-        if (currentDialogueLine > dialogueEntryCount)
-        {
-            state = Ending;
-            advanceDialogue();
-        }
-        else
-            updateDialogueToEntry();
-    }
-
-    public function onDialogueLineComplete(event:DialogueScriptEvent):Void
-    {
-        dispatchToChildren(event);
-        if (!event.eventCanceled)
-            dialogueText.skip();
-    }
-
-    public function onDialogueSkip(event:DialogueScriptEvent):Void
-    {
-        dispatchToChildren(event);
-        if (!event.eventCanceled)
-            dispatchEvent(new DialogueScriptEvent(DIALOGUE_END, this, false));
-    }
-
-    public function onDialogueEnd(event:DialogueScriptEvent):Void
-    {
-        dispatchToChildren(event);
-        playOutro();
-    }
-
-    public function onScriptEvent(event:ScriptEvent):Void
-        dispatchToChildren(event);
-
-    public function dispatchEvent(event:ScriptEvent):Void
-    {
-        var handler:IEventDispatcher = cast FlxG.state;
-        if (handler != null) handler.dispatchEvent(event);
-    }
-
-    function dispatchToChildren(event:ScriptEvent):Void
-    {
-        if (speaker != null)
-            ScriptEventDispatcher.callEvent(speaker, event);
-    }
-
-    function updateDialogueToEntry():Void
-    {
-        updateDialogueBox();
-        updateSpeaker();
-        updateDialogueText();
-
-        if (currentDialogueEntry.modifier != null)
-            applyModifier(currentDialogueEntry.modifier);
-    }
-
-    function updateDialogueBox():Void
+    // -------------------------
+    //  SPEAKER HANDLING
+    // -------------------------
+    function updateSpeaker():Void
     {
         var speakerId = currentDialogueEntry.speaker;
+        var expressionId = currentDialogueEntry.expression;
         var side = currentDialogueEntry.side;
 
-        if (speakerId == "generic" || side == "middle")
-            playBoxAnimation("none");
-        else
+        killSpeaker();
+
+        var entry = SpeakerRegistry.instance.fetchEntry(speakerId);
+        if (entry == null || speakerId == "generic") return;
+
+        speaker = entry;
+        speaker.revive();
+        speaker.zIndex = 10;
+
+        add(speaker);
+        refresh();
+
+        switch (side)
         {
-            playBoxAnimation("normal");
-            dialogueBox.flipX = (side == "right");
+            case "left": speaker.setPosition(100, 100);
+            case "middle": speaker.setPosition(dialogueBox.x + dialogueBox.width / 2, 100);
+            case "right": speaker.setPosition(800, 100);
         }
+
+        if (expressionId != null)
+            speaker.switchToExpression(expressionId);
+
+        if (side == "middle")
+            speaker.x -= speaker.width / 2;
+
+        speaker.x += speaker.globalOffsets[0];
+        speaker.y += speaker.globalOffsets[1];
+
+        if (currentDialogueEntry.offsets != null)
+        {
+            speaker.x += currentDialogueEntry.offsets[0];
+            speaker.y += currentDialogueEntry.offsets[1];
+        }
+
+        fadeInSpeaker(side);
+
+        ScriptEventDispatcher.callEvent(speaker, new ScriptEvent(CREATE, false));
     }
-
-function updateSpeaker():Void
-{
-    var speakerId = currentDialogueEntry.speaker;
-    var expressionId = currentDialogueEntry.expression;
-    var side = currentDialogueEntry.side;
-
-    killSpeaker();
-
-    // CORRECT CAST — cast to Speaker, which is a FlxZSprite subclass
-    speaker = cast SpeakerRegistry.instance.fetchEntry(speakerId);
-
-    // Handle generic speakers
-    if (speaker == null || speakerId == "generic")
-        return;
-
-    speaker.revive();
-    speaker.zIndex = 10;
-
-    add(speaker);
-    refresh();
-
-    switch (side)
-    {
-        case "left":   speaker.setPosition(100, 100);
-        case "middle": speaker.setPosition(dialogueBox.x + dialogueBox.width / 2, 100);
-        case "right":  speaker.setPosition(800, 100);
-    }
-
-    if (expressionId != null)
-        speaker.switchToExpression(expressionId);
-
-    if (side == "middle")
-        speaker.x -= speaker.width / 2;
-
-    speaker.x += speaker.globalOffsets[0];
-    speaker.y += speaker.globalOffsets[1];
-
-    speaker.x += currentDialogueEntry?.offsets[0] ?? 0;
-    speaker.y += currentDialogueEntry?.offsets[1] ?? 0;
-
-    fadeInSpeaker(side);
-
-    ScriptEventDispatcher.callEvent(speaker, new ScriptEvent(CREATE, false));
-}
 
     function killSpeaker():Void
     {
         if (speaker != null)
         {
-            speaker.kill();
             remove(speaker);
+            speaker.kill();
             speaker = null;
         }
     }
 
     function fadeInSpeaker(side:String):Void
     {
-        var push:Float =
-            switch (side)
-            {
-                case "left": -100;
-                case "right": 100;
-                default: -50;
-            };
+        var push = switch (side)
+        {
+            case "left": -100;
+            case "right": 100;
+            default: -50;
+        };
 
         speaker.x += push;
         speaker.alpha = 0;
@@ -457,13 +348,13 @@ function updateSpeaker():Void
         FlxTween.tween(speaker, {x: speaker.x - push, alpha: 1}, 0.2);
     }
 
+    // -------------------------
+    //  TEXT UPDATE
+    // -------------------------
     function updateDialogueText():Void
     {
-        var typingSpeed = currentDialogueEntry.typeSpeed;
-        var text = LanguageManager.getTextString(
-            currentDialogueEntry.text,
-            LanguageManager.currentDialogueList
-        );
+        var speed = currentDialogueEntry.typeSpeed;
+        var text = LanguageManager.getTextString(currentDialogueEntry.text, LanguageManager.currentDialogueList);
 
         var sounds = (speaker != null) ? speaker.dialogueSounds : [DEFAULT_DIALOGUE_SOUND];
 
@@ -476,24 +367,26 @@ function updateSpeaker():Void
         {
             dialogueText.sounds = (sounds.length == 0) ? null : sounds;
             dialogueText.resetText(text);
-            dialogueText.start(typingSpeed, true);
+            dialogueText.start(speed, true);
         }
     }
-
-    function onTypingComplete():Void
-        state = Idle;
-
-    function applyModifier(modifier:String) {}
 
     function playBoxAnimation(anim:String):Void
     {
         dialogueBox.updateHitbox();
         dialogueBox.animation.play(anim, true);
 
-        dialogueBox.offset.x += boxOffsets.get(anim)?.x ?? 0;
-        dialogueBox.offset.y += boxOffsets.get(anim)?.y ?? 0;
+        var off = boxOffsets.get(anim);
+        if (off != null)
+        {
+            dialogueBox.offset.x += off.x;
+            dialogueBox.offset.y += off.y;
+        }
     }
 
+    // -------------------------
+    //  OUTRO
+    // -------------------------
     public function playOutro():Void
     {
         if (isDialogueEnding)
@@ -503,12 +396,11 @@ function updateSpeaker():Void
         {
             TweenUtil.completeTweensOf(background);
             TweenUtil.completeTweensOf(dialogueBox);
+
             if (speaker != null)
                 TweenUtil.completeTweensOf(speaker);
 
-            fadeOutMusic();
-
-            outroTween = FlxTween.tween(this, {alpha: 0}, _data.fadeOutTime, {
+            FlxTween.tween(this, {alpha: 0}, _data.fadeOutTime, {
                 onComplete: function(_) onOutroComplete()
             });
         }
@@ -519,12 +411,67 @@ function updateSpeaker():Void
     function onOutroComplete():Void
     {
         ScriptEventDispatcher.callEvent(this, new ScriptEvent(DESTROY, false));
-        if (onFinish != null) onFinish();
+        if (onFinish != null)
+            onFinish();
     }
 
+    // -------------------------
+    //  REGISTRY
+    // -------------------------
     public function fetchData(id:String):DialogueData
         return DialogueRegistry.instance.parseEntryDataWithMigration(id);
 
-    public function onScriptEventPost(event:ScriptEvent):Void {}
-    public function onPreferenceChanged(event:PreferenceScriptEvent):Void {}
+    public function onDialogueStart(e:DialogueScriptEvent):Void
+    {
+        dispatchToChildren(e);
+        if (!e.eventCanceled)
+            beginDialogue();
+    }
+
+    public function onDialogueLine(e:DialogueScriptEvent):Void
+    {
+        dispatchToChildren(e);
+
+        currentDialogueLine++;
+        state = Typing;
+
+        if (currentDialogueLine > dialogueEntryCount)
+        {
+            state = Ending;
+            advanceDialogue();
+        }
+        else
+            updateDialogueToEntry();
+    }
+
+    public function onDialogueLineComplete(e:DialogueScriptEvent):Void
+    {
+        dispatchToChildren(e);
+        if (!e.eventCanceled)
+            dialogueText.skip();
+    }
+
+    public function onDialogueEnd(e:DialogueScriptEvent):Void
+    {
+        dispatchToChildren(e);
+        playOutro();
+    }
+
+    public function onDialogueSkip(e:DialogueScriptEvent):Void
+    {
+        dispatchToChildren(e);
+        if (!e.eventCanceled)
+            dispatchEvent(new DialogueScriptEvent(DIALOGUE_END, this, false));
+    }
+
+    function dispatchToChildren(e:ScriptEvent):Void
+    {
+        if (speaker != null)
+            ScriptEventDispatcher.callEvent(speaker, e);
+    }
+
+    public function onScriptEvent(e:ScriptEvent):Void {}
+
+    public function onScriptEventPost(e:ScriptEvent):Void {}
+    public function onPreferenceChanged(e:PreferenceScriptEvent):Void {}
 }
