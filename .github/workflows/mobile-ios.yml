@@ -42,6 +42,7 @@ jobs:
           haxelib install flixel-addons
           haxelib install flxanimate
           haxelib install json2object
+          haxelib install thx.core
           haxelib install polymod
           haxelib install hscript
           haxelib install hxvlc
@@ -51,8 +52,6 @@ jobs:
 
       - name: Remove thx (fix iOS Nil conflict)
         run: |
-          haxelib remove thx.core    || true
-          haxelib remove thx.semver  || true
           haxelib remove thx.error   || true
           haxelib remove thx.languages || true
 
