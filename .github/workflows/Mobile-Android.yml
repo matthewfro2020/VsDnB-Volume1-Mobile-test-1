@@ -37,7 +37,6 @@ jobs:
         run: |
           haxelib install hxcpp
           haxelib install thx.core
-          haxelib install thx.tuple
           haxelib install lime
           haxelib install openfl
           haxelib install flixel
