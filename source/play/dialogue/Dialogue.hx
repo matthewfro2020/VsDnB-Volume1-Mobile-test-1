@@ -386,49 +386,50 @@ function buildText():Void
         }
     }
 
-    function updateSpeaker():Void
+function updateSpeaker():Void
+{
+    var speakerId = currentDialogueEntry.speaker;
+    var expressionId = currentDialogueEntry.expression;
+    var side = currentDialogueEntry.side;
+
+    killSpeaker();
+
+    // CORRECT CAST — cast to Speaker, which is a FlxZSprite subclass
+    speaker = cast SpeakerRegistry.instance.fetchEntry(speakerId);
+
+    // Handle generic speakers
+    if (speaker == null || speakerId == "generic")
+        return;
+
+    speaker.revive();
+    speaker.zIndex = 10;
+
+    add(speaker);
+    refresh();
+
+    switch (side)
     {
-        var speakerId = currentDialogueEntry.speaker;
-        var expressionId = currentDialogueEntry.expression;
-        var side = currentDialogueEntry.side;
-
-        killSpeaker();
-
-        speaker = cast (SpeakerRegistry.instance.fetchEntry(speakerId), FlxZSprite);
-
-        if (speaker == null || speakerId == "generic")
-            return;
-
-        speaker = cast speaker;
-        speaker.revive();
-        speaker.zIndex = 10;
-
-        add(speaker);
-        refresh();
-
-        switch (side)
-        {
-            case "left":   speaker.setPosition(100, 100);
-            case "middle": speaker.setPosition(dialogueBox.x + dialogueBox.width / 2, 100);
-            case "right":  speaker.setPosition(800, 100);
-        }
-
-        if (expressionId != null)
-            speaker.switchToExpression(expressionId);
-
-        if (side == "middle")
-            speaker.x -= speaker.width / 2;
-
-        speaker.x += speaker.globalOffsets[0];
-        speaker.y += speaker.globalOffsets[1];
-
-        speaker.x += currentDialogueEntry?.offsets[0] ?? 0;
-        speaker.y += currentDialogueEntry?.offsets[1] ?? 0;
-
-        fadeInSpeaker(side);
-
-        ScriptEventDispatcher.callEvent(speaker, new ScriptEvent(CREATE, false));
+        case "left":   speaker.setPosition(100, 100);
+        case "middle": speaker.setPosition(dialogueBox.x + dialogueBox.width / 2, 100);
+        case "right":  speaker.setPosition(800, 100);
     }
+
+    if (expressionId != null)
+        speaker.switchToExpression(expressionId);
+
+    if (side == "middle")
+        speaker.x -= speaker.width / 2;
+
+    speaker.x += speaker.globalOffsets[0];
+    speaker.y += speaker.globalOffsets[1];
+
+    speaker.x += currentDialogueEntry?.offsets[0] ?? 0;
+    speaker.y += currentDialogueEntry?.offsets[1] ?? 0;
+
+    fadeInSpeaker(side);
+
+    ScriptEventDispatcher.callEvent(speaker, new ScriptEvent(CREATE, false));
+}
 
     function killSpeaker():Void
     {
