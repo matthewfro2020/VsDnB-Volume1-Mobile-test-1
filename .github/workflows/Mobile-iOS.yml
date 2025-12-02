@@ -1,73 +1,112 @@
 name: Mobile-iOS
 
 on:
-  workflow_dispatch:
   push:
     branches: [ main ]
   pull_request:
     branches: [ main ]
+    tags:
+      - "v*.*.*"
+  workflow_dispatch:
 
 jobs:
-  build-ios:
+  Build-iOS:
     runs-on: macos-latest
 
     steps:
-    - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-    - name: Install Haxe
-      uses: krdlab/setup-haxe@master
-      with:
-        haxe-version: 4.3.6
+      - name: Determine Version
+        id: ver
+        shell: bash
+        run: |
+          if git describe --tags --exact-match >/dev/null 2>&1; then
+            echo "version=$(git describe --tags --exact-match)" >> $GITHUB_OUTPUT
+          else
+            echo "version=dev-$(date +'%Y%m%d-%H%M')" >> $GITHUB_OUTPUT
+          fi
 
-    - name: Install Required Haxelibs
-      run: |
-        haxelib install hxcpp
-        haxelib install lime
-        haxelib install openfl
-        haxelib install flixel
-        haxelib install flixel-ui
-        haxelib install flixel-addons
-        haxelib install flxanimate
-        haxelib install json2object
-        haxelib install hscript
-        haxelib install polymod
-        haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
+      - uses: krdlab/setup-haxe@master
+        with:
+          haxe-version: 4.3.6
 
-        # DO NOT INSTALL thx.core (breaks iOS Nil)
-        haxelib remove thx.core || true
-        haxelib remove thx.error || true
-        haxelib remove thx.languages || true
+      # ------------------------------------------
+      # INSTALL ALL LIBS + iOS PATCHES
+      # ------------------------------------------
+      - name: Install Haxelibs
+        run: |
+          haxelib install hxcpp
+          haxelib install lime
+          haxelib install openfl
+          haxelib install flixel
+          haxelib install flixel-ui
+          haxelib install flixel-addons
+          haxelib install flxanimate
+          haxelib install json2object
+          haxelib install hscript
+          haxelib install hxvlc
+          haxelib install thx.core
+          haxelib git polymod https://github.com/growtopiaguru/polymod-ios-patch
+          haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
+          haxelib install hmm
+          haxelib run hmm install
 
-        haxelib install hmm
-        haxelib run hmm install
+      # ==========================================
+      # POLYMOD iOS FIXES — required for IPA build
+      # ==========================================
+      - name: Patch Polymod for iOS
+        run: |
+          POLYMOD_DIR="$(haxelib path polymod | head -n 1)/polymod"
+          echo "Patching: $POLYMOD_DIR"
 
-    - name: Patch Polymod for iOS
-      run: |
-        mkdir -p patched
-        cp -r $(haxelib path polymod | head -1)/src/polymod patched/
-        rm -rf patched/polymod/hscript/_internal/PolymodInterpEx.hx
-        curl -L https://raw.githubusercontent.com/growtopiaguru/polymod-ios-patch/master/PolymodInterpEx.hx -o patched/polymod/hscript/_internal/PolymodInterpEx.hx
-        haxelib dev polymod patched/polymod
+          # Objective-C NIL Conflict
+          sed -i '' '1s;^;#if ios\n@:keep\n@:structAccess\n#end\n;' "$POLYMOD_DIR/Polymod.hx"
 
-    - name: Build iOS (No Signing)
-      run: |
-        haxelib run lime build ios -nosign \
-          -D officialBuild \
-          -D HXCPP_NO_NIL \
-          -D HXCPP_OVERRIDE_NIL \
-          -D HXCPP_CPP11 \
-          -D ios
+          # Remove deprecated ThxNil (causes iOS error)
+          sed -i '' 's/import thx\.Nil;//g' "$POLYMOD_DIR/format/JsonHelp.hx" || true
+          sed -i '' 's/ThxNil/Null<Dynamic>/g' "$POLYMOD_DIR/format/JsonHelp.hx" || true
 
-    - name: Package IPA
-      run: |
-        cd export/release/ios/build/*-iphoneos
-        mkdir Payload
-        mv *.app Payload/
-        zip -r build.ipa Payload
-        mv build.ipa $GITHUB_WORKSPACE/
+      # ==========================================
+      # HXCPP FIX (fixes: unknown option -stdlib)
+      # ==========================================
+      - name: Patch HXCPP for iOS
+        run: |
+          mkdir -p ~/.hxcpp_config.xml
+          cat <<EOF > ~/.hxcpp_config.xml
+<xml>
+  <section name="vars">
+    <var name="HXCPP_CPP11" value="1" />
+    <var name="HXCPP_CLANG" value="1" />
+    <var name="HXCPP_NO_RTTI" value="1" />
+    <var name="HXCPP_NO_NIL" value="1" />
+  </section>
+</xml>
+EOF
 
-    - name: Upload IPA
-      uses: actions/upload-artifact@v4
-      with:
-        name: ios-ipa
-        path: build.ipa
+      # ==========================================
+      # BUILD iOS (NO SIGNING)
+      # ==========================================
+      - name: Build iOS (nosign)
+        run: haxelib run lime build ios -nosign -D officialBuild -DMOBILE_BUILD
+
+      # ==========================================
+      # PACKAGE IPA
+      # ==========================================
+      - name: Package IPA
+        run: |
+          cd export/release/ios/build/*-iphoneos
+          mkdir Payload
+          mv *.app Payload/
+          zip -r ~/ios-${{ steps.ver.outputs.version }}.ipa Payload
+
+      - name: Collect IPA
+        run: |
+          mkdir build
+          mv ~/ios-${{ steps.ver.outputs.version }}.ipa build/
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ios-ipa
+          path: build/*
