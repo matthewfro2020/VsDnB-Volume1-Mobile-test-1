@@ -105,6 +105,7 @@
     <haxeflag name="--macro" value="include('play')"/>
     <haxeflag name="--macro" value="include('ui')"/>
     <haxeflag name="--macro" value="include('modding')"/>
+    <haxeflag name="--macro" value="thx._NilCompat.FixNil.run()" if="ios"/>
 
     <!-- ============================= -->
     <!--           ANDROID             -->
