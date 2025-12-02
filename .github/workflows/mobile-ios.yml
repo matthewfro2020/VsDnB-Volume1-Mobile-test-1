@@ -49,6 +49,13 @@ jobs:
           haxelib install hmm
           haxelib run hmm install
 
+      - name: Remove thx (fix iOS Nil conflict)
+        run: |
+          haxelib remove thx.core    || true
+          haxelib remove thx.semver  || true
+          haxelib remove thx.error   || true
+          haxelib remove thx.languages || true
+
       - name: Build iOS (nosign)
         run: haxelib run lime build ios -nosign -D officialBuild -DMOBILE_BUILD
 
