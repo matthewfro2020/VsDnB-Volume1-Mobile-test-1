@@ -48,7 +48,7 @@ jobs:
           haxelib install flixel-addons --quiet
           haxelib install flxanimate --quiet
           haxelib install json2object --quiet
-          haxelib install polymod --quiet
+          haxelib git polymod https://github.com/T5mpler/polymod-dnb
           haxelib install hscript --quiet
           haxelib install hxvlc --quiet
           haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc --quiet
