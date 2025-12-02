@@ -1,140 +1,139 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project>
 
-    <!-- ============================= -->
-    <!--   GLOBAL iOS / polymod FIXES  -->
-    <!-- ============================= -->
+	<!-- ============================= -->
+	<!--   GLOBAL iOS / polymod FIXES  -->
+	<!-- ============================= -->
 
-    <!-- Prevent Objective-C Nil conflict -->
-    <haxedef name="HXCPP_NO_NIL"/>
-    <haxedef name="HXCPP_OVERRIDE_NIL"/>
+	<!-- Prevent Objective-C Nil conflict -->
+	<haxedef name="HXCPP_NO_NIL"/>
+	<haxedef name="HXCPP_OVERRIDE_NIL"/>
 
-    <!-- Prevent PCH <typeinfo> fatal errors -->
-    <haxedef name="HXCPP_NO_PCH"/>
+	<!-- Disable precompiled headers (fixes typeinfo and libc++ errors) -->
+	<haxedef name="HXCPP_NO_PCH"/>
 
-    <!-- Improve iOS stability -->
-    <haxedef name="HXCPP_CPP11"/>
+	<!-- Modern C++ mode (safe for iOS) -->
+	<haxedef name="HXCPP_CPP11"/>
 
-    <!-- ============================= -->
-    <!--         APP METADATA          -->
-    <!-- ============================= -->
-    <app title="VS. Dave and Bambi"
-         file="VsDave"
-         packageName="dnbteam.daveandbambi"
-         package="dnbteam.daveandbambi"
-         main="Main"
-         version="1.0.7"
-         company="dnbteam"/>
+	<!-- ============================= -->
+	<!--         APP METADATA          -->
+	<!-- ============================= -->
+	<app title="VS. Dave and Bambi"
+		 file="VsDave"
+		 packageName="dnbteam.daveandbambi"
+		 package="dnbteam.daveandbambi"
+		 main="Main"
+		 version="1.0.7"
+		 company="dnbteam"/>
 
-    <app preloader="flixel.system.FlxPreloader"/>
-    <set name="SWF_VERSION" value="11.8"/>
+	<app preloader="flixel.system.FlxPreloader"/>
+	<set name="SWF_VERSION" value="11.8"/>
 
-    <!-- ============================= -->
-    <!--           WINDOW              -->
-    <!-- ============================= -->
-    <window width="1280" height="720" fps="120" hardware="true" vsync="true"/>
+	<!-- ============================= -->
+	<!--           WINDOW              -->
+	<!-- ============================= -->
+	<window width="1280" height="720" fps="120" hardware="true" vsync="true"/>
 
-    <window if="desktop" allow-shaders="true" require-shaders="true" resizable="true"/>
-    <window if="mac" allow-high-dpi="true"/>
-    <window if="mobile" fullscreen="true" resizable="false" allow-high-dpi="true"/>
+	<window if="desktop" allow-shaders="true" require-shaders="true" resizable="true"/>
+	<window if="mac" allow-high-dpi="true"/>
+	<window if="mobile" fullscreen="true" resizable="false" allow-high-dpi="true"/>
 
-    <!-- ============================= -->
-    <!--           PATHS               -->
-    <!-- ============================= -->
-    <classpath name="source"/>
+	<!-- ============================= -->
+	<!--           PATHS               -->
+	<!-- ============================= -->
+	<classpath name="source"/>
 
-    <!-- ============================= -->
-    <!--           ASSETS              -->
-    <!-- ============================= -->
-    <assets path="assets/preload" rename="assets"/>
-    <assets path="assets/preload/videos" rename="assets/videos" embed="false" include="*.mp4"/>
-    <assets path="assets/songs"  library="songs"/>
-    <assets path="assets/shared" library="shared"/>
-    <assets path="assets/fonts" embed="true"/>
-    <assets path="art/icons" rename="icons" embed="true"/>
+	<!-- ============================= -->
+	<!--           ASSETS              -->
+	<!-- ============================= -->
+	<assets path="assets/preload" rename="assets"/>
+	<assets path="assets/preload/videos" rename="assets/videos" embed="false" include="*.mp4"/>
+	<assets path="assets/songs"  library="songs"/>
+	<assets path="assets/shared" library="shared"/>
+	<assets path="assets/fonts" embed="true"/>
+	<assets path="art/icons" rename="icons" embed="true"/>
 
-    <!-- ============================= -->
-    <!--          HAXELIBS             -->
-    <!-- ============================= -->
+	<!-- ============================= -->
+	<!--          HAXELIBS             -->
+	<!-- ============================= -->
+	<haxelib name="lime"/>
+	<haxelib name="openfl"/>
+	<haxelib name="flixel"/>
+	<haxelib name="flixel-ui"/>
+	<haxelib name="flixel-addons"/>
+	<haxelib name="flxanimate"/>
 
-    <haxelib name="lime"/>
-    <haxelib name="openfl"/>
-    <haxelib name="flixel"/>
-    <haxelib name="flixel-ui"/>
-    <haxelib name="flixel-addons"/>
-    <haxelib name="flxanimate"/>
-    <haxelib name="json2object"/>
-    <haxelib name="hscript"/>
-    <haxelib name="polymod"/>
-    <haxelib name="thx.core"/> <!-- Needed for polymod -->
-    <haxelib name="hxvlc" if="desktop || android"/>
-    <haxelib name="hxdiscord_rpc" if="desktop"/>
+	<!-- Required for polymod -->
+	<haxelib name="json2object"/>
+	<haxelib name="polymod"/>
+	<haxelib name="thx.core"/>
 
-    <!-- HMM libs -->
-    <haxedef name="USE_GRIG_AUDIO"/>
-    <haxedef name="USE_FUNKIN_VIS"/>
+	<haxelib name="hscript"/>
+	<haxelib name="hxvlc" if="desktop || android"/>
+	<haxelib name="hxdiscord_rpc" if="desktop"/>
 
-    <!-- ============================= -->
-    <!--           SAFETY              -->
-    <!-- ============================= -->
+	<!-- ============================= -->
+	<!--       OPTIONAL HMM LIBS       -->
+	<!-- ============================= -->
+	<haxedef name="USE_GRIG_AUDIO"/>
+	<haxedef name="USE_FUNKIN_VIS"/>
 
-    <haxedef name="HXCPP_STACK_TRACE"/>
-    <haxedef name="HXCPP_STACK_LINE"/>
-    <haxedef name="HXCPP_CHECK_POINTER"/>
-    <haxedef name="HXCPP_GC_BIG_BLOCKS"/>
-    <haxeflag name="-dce no"/>
+	<!-- ============================= -->
+	<!--           SAFETY              -->
+	<!-- ============================= -->
+	<haxedef name="HXCPP_STACK_TRACE"/>
+	<haxedef name="HXCPP_STACK_LINE"/>
+	<haxedef name="HXCPP_CHECK_POINTER"/>
+	<haxedef name="HXCPP_GC_BIG_BLOCKS"/>
+	<haxeflag name="-dce no"/>
 
-    <haxedef name="HXCPP_NAMESPACES" />
-    <haxedef name="HXCPP_API_LEVEL" value="400" />
-    <haxedef name="HXCPP_EXTERN_CLASS" />
-    <haxedef name="HXCPP_M32" if="ios" />
+	<!-- ============================= -->
+	<!--           MACROS              -->
+	<!-- ============================= -->
+	<haxeflag name="--macro" value="include('api')"/>
+	<haxeflag name="--macro" value="include('backend')"/>
+	<haxeflag name="--macro" value="include('util')"/>
+	<haxeflag name="--macro" value="include('data')"/>
+	<haxeflag name="--macro" value="include('controls')"/>
+	<haxeflag name="--macro" value="include('graphics')"/>
+	<haxeflag name="--macro" value="include('audio')"/>
+	<haxeflag name="--macro" value="include('play')"/>
+	<haxeflag name="--macro" value="include('ui')"/>
+	<haxeflag name="--macro" value="include('modding')"/>
 
-    <haxedef name="HXCPP_NO_NIL" if="ios"/>
+	<!-- polymod iOS nil fix macro -->
+	<haxeflag name="--macro" value="thx._NilCompat.FixNil.run()" if="ios"/>
 
-    <!-- ============================= -->
-    <!--           MACROS              -->
-    <!-- ============================= -->
+	<!-- ============================= -->
+	<!--           ANDROID             -->
+	<!-- ============================= -->
+	<section if="android">
+		<config>
+			<android gradle-version="7.4.2" gradle-plugin="7.3.1"/>
+			<android platform="android-35"/>
+			<android min-sdk-version="16" target-sdk-version="30" max-sdk-version="33"/>
+			<android abi="armeabi-v7a"/>
+			<android bundle="false"/>
+		</config>
+	</section>
 
-    <haxeflag name="--macro" value="include('api')"/>
-    <haxeflag name="--macro" value="include('backend')"/>
-    <haxeflag name="--macro" value="include('util')"/>
-    <haxeflag name="--macro" value="include('data')"/>
-    <haxeflag name="--macro" value="include('controls')"/>
-    <haxeflag name="--macro" value="include('graphics')"/>
-    <haxeflag name="--macro" value="include('audio')"/>
-    <haxeflag name="--macro" value="include('play')"/>
-    <haxeflag name="--macro" value="include('ui')"/>
-    <haxeflag name="--macro" value="include('modding')"/>
-    <haxeflag name="--macro" value="thx._NilCompat.FixNil.run()" if="ios"/>
+	<!-- ============================= -->
+	<!--             iOS               -->
+	<!-- ============================= -->
+	<section if="ios">
+		<define name="objc"/>
+		<ios linker-flags="-ObjC"/>
 
-    <!-- ============================= -->
-    <!--           ANDROID             -->
-    <!-- ============================= -->
-    <section if="android">
-        <config>
-            <android gradle-version="7.4.2" gradle-plugin="7.3.1"/>
-            <android platform="android-35"/>
-            <android min-sdk-version="16" target-sdk-version="30" max-sdk-version="33"/>
-            <android abi="armeabi-v7a"/>
-            <android bundle="false"/>
-        </config>
-    </section>
+		<!-- Correct modern flag (NO -stdlib!!) -->
+		<ios extra-compiler-flags="-std=c++11"/>
+	</section>
 
-    <!-- ============================= -->
-    <!--            iOS                -->
-    <!-- ============================= -->
-    <section if="ios">
-        <define name="objc"/>
-        <ios linker-flags="-ObjC"/>
-        <ios extra-compiler-flags="-std=c++11"/>
-    </section>
-
-    <!-- ============================= -->
-    <!--            ICONS              -->
-    <!-- ============================= -->
-    <icon path="art/icons/dave16.png" size="16"/>
-    <icon path="art/icons/dave32.png" size="32"/>
-    <icon path="art/icons/dave64.png" size="64"/>
-    <icon path="art/icons/dave.png"/>
+	<!-- ============================= -->
+	<!--            ICONS              -->
+	<!-- ============================= -->
+	<icon path="art/icons/dave16.png" size="16"/>
+	<icon path="art/icons/dave32.png" size="32"/>
+	<icon path="art/icons/dave64.png" size="64"/>
+	<icon path="art/icons/dave.png"/>
 
 </project>
