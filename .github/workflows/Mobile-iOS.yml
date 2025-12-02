@@ -27,9 +27,11 @@ jobs:
         with:
           haxe-version: 4.3.6
 
-      - name: Install Haxelibs
+      - name: Install Haxelib Dependencies
         run: |
           haxelib install hxcpp
+          haxelib install thx.core
+          haxelib install thx.tuple
           haxelib install lime
           haxelib install openfl
           haxelib install flixel
@@ -37,11 +39,13 @@ jobs:
           haxelib install flixel-addons
           haxelib install flxanimate
           haxelib install json2object
-          haxelib git polymod https://github.com/larsiusprime/polymod
+          haxelib git polymod https://github.com/T5mpler/polymod-dnb
           haxelib install hscript
+          haxelib install hxvlc
           haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
           haxelib install hmm
           haxelib run hmm install
+
 
       - name: Fix thx.core crash on iOS
         run: |
