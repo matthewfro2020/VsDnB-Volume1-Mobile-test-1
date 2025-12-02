@@ -10,7 +10,7 @@ jobs:
     runs-on: macos-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@main
         with:
           fetch-depth: 0
 
@@ -63,7 +63,7 @@ jobs:
           mv *.app Payload/
           zip -r ~/ios-${{ steps.ver.outputs.version }}.ipa Payload
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@main
         with:
           name: ios-ipa
           path: ~/ios-*.ipa
