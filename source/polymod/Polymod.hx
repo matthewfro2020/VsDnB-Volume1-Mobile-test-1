@@ -1,9 +1,5 @@
 package polymod;
 
-#if ios
-@:keep
-@:structAccess
-#end
 import haxe.Json;
 import haxe.io.Bytes;
 import polymod.backends.IBackend;
