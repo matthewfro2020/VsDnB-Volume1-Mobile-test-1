@@ -49,10 +49,6 @@ jobs:
           haxelib remove thx.error || true
           haxelib remove thx.languages || true
 
-      - name: Create valid hxcpp config
-        run: |
-          cat > ~/.hxcpp_config.xml <<'EOF'<?xml version="1.0" encoding="utf-8"?><xml><section id="vars"><set name="HXCPP_CPP11" value="1"/><set name="HXCPP_CLANG" value="1"/><set name="HXCPP_NO_NIL" value="1"/><set name="HXCPP_NO_RTTI" value="1"/></section></xml>EOF
-
       - name: Build iOS (nosign)
         run: haxelib run lime build ios -nosign -D officialBuild -DMOBILE_BUILD -D HXCPP_CPP11
 
